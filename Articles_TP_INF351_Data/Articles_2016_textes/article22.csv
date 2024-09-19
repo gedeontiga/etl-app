@@ -1,0 +1,25 @@
+Behaviorism is Not Enough: Better Recommendations through Listening to Users
+Michael D. Ekstrand, Texas State University, TX, USA|Martijn C. Willemsen, Eindhoven University of Technology, Eindhoven, Netherlands
+Behaviorism is the currently-dominant paradigm for building and evaluating recommender systems. Both the operation and the evaluation of recommender system applications are most often driven by analyzing the behavior of users. In this paper, we argue that listening to what users say about the items and recommendations they like, the control they wish to exert on the output, and the ways in which they perceive the system and not just observing what they do will enable important developments in the future of recommender systems. We provide both philosophical and pragmatic motivations for this idea, describe the various points in the recommendation and evaluation processes where explicit user input may be considered, and discuss benefits that may result from considered incorporation of user preferences at each of these points. In particular, we envision recommender applications that aim to support users' better selves: helping them live the life that they desire to lead. For example, recommender-assisted behavior change requires algorithms to predict not what users choose or do now, inferable from behavioral data, but what they should choose or do in the future to become healthier, fitter, more sustainable, or culturally aware. We hope that our work will spur useful discussion and many new ideas for recommenders that empower their users.
+recommender systems, user studies, participatory design, algorithmic filtering, information filtering
+Anand S.S., Mobasher B.|Contextual Recommendation|Discovering and Deploying User and Content Profiles|2007
+Cialdini R.B.|Influence: Science and Practice|Allyn and Bacon|2001
+Ekstrand M.D., Harper F.M., Willemsen M.C., Konstan J.A.|User Perception of Differences in Recommender Algorithms|ACM RecSys|2014
+Ekstrand M.D., Kluver D., Harper F.M., Konstan J.A.|Letting Users Choose Recommender Algorithms: An Experimental Study|ACM RecSys|2015
+Evans J.|Twitter's Huge Mistake|TechCrunch|2014
+Franklin U.M.|The Real World of Technology|House of Anansi Press|2004
+Harper F.M., Xu F., Kaur H., Condiff K., Chang S. Terveen L.|Putting Users in Control of Their Recommendations|ACM RecSys|2015
+Hill W., Stead L., Rosenstein M., Furnas G.|Recommending and evaluating choices in a virtual community of use|CHI|1995
+Kapoor K., Kumar V., Terveen L., Konstan J.A., Schrater P.|"I Like to Explore Sometimes": Adapting to Dynamic User Novelty Preferences|ACM RecSys|2015
+Kaptein M., Markopoulos P., de Ruyter B., Aarts E.|Personalizing persuasive technologies: Explicit and implicit personalization using persuasion profiles| International Journal of Human-Computer Studies|2015
+Knijnenburg B., Willemsen M., Gantner Z., Soncu H., Newell C.|Explaining the user experience of recommender systems|User Modeling and User-Adapted Interaction|2012
+McNee S., Kapoor N., Konstan J.A.|Don't Look Stupid: Avoiding Pitfalls When Recommending Research Papers|ACM CSCW|2006
+McNee S., Riedl J., Konstan J.A.|Making recommendations better: an analytic model for human-recommender interaction|CHI|2006
+Pariser E.|The Filter Bubble: How the New Personalized Web Is Changing What We Read and How We Think|Penguin|2011
+Phelan O., McCarthy K., Bennett M., Smyth B.|Terms of a Feather: Content-Based News Recommendation and Discovery Using Twitter|Advances in Information Retrieval|2011
+Prochaska J.O., DiClemente C.C.|The trans-theoretical approach: crossing traditional boundaries of therapy|Dow Jones-Irwin|1984
+Prochaska J.O., Norcross J.C.|Stages of change| Psychotherapy: Theory, Research, Practice, Training|2001
+Rutjes H., Willemsen M.C., IJsselsteijn W.A.|Understanding Effective Coaching on Healthy Lifestyle by Combining Theory- and Data-Driven Approaches|Personalization in Persuasive Technology at Persuasive|2016
+Starke A., Willemsen M.C., Snijders C.|Saving Energy in 1-D: Tailoring Energy-saving Advice Using a Rasch-based Energy Recommender System|Int. Workshop on Decision Making and Rec. Sys.|2015
+Suchman L.|Foreword. Participatory Design: Principles and Practices|D. Schuler and A. Namioka|1993
+Ziegler C.-N., McNee S., Konstan J.A., Lausen G.|Improving Recommendation Lists through Topic Diversification|WWW|2005

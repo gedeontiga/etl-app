@@ -1,0 +1,26 @@
+Recommending Fair Payments for Large-Scale Social Ridesharing
+Filippo Bistaffa, University of Verona, Verona, Italy|Alessandro Farinelli, University of Verona, Verona, Italy|Georgios Chalkiadakis, Technical University of Crete, Crete, Greece|Sarvapali Dyanand Ramchurn, University of Southampton, Southampton, United Kingdom
+We perform recommendations for the Social Ridesharing scenario, in which a set of commuters, connected through a social network, arrange one-time rides at short notice. In particular, we focus on how much one should pay for taking a ride with friends. More formally, we propose the first approach that can compute fair coalitional payments that are also stable according to the game-theoretic concept of the kernel for systems with thousands of agents in real-world scenarios. Our tests, based on real datasets for both spatial (GeoLife) and social data (Twitter), show that our approach is significantly faster than the state-of-the-art (up to 84 times), allowing us to compute stable payments for 2000 agents in 50 minutes. We also develop a parallel version of our approach, which achieves a near-optimal speed-up in the number of processors used. Finally, our empirical analysis reveals new insights into the relationship between payments incurred by a user by virtue of its position in its social network and its role (rider or driver).
+algorithm scalability, coalition formation, ridesharing, innovative applications, social networks
+G. M. Amdahl|Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities|Spring Joint Computer Conference|1967
+F. Bistaffa, A. Farinelli, J. Cerquides, J. Rodriguez-Aguilar, and S. D. Ramchurn|Anytime Coalition Structure Generation on Synergy Graphs|AAMAS|2014
+F. Bistaffa, A. Farinelli, S. D. Ramchurn|Sharing Rides with Friends: a Coalition Formation Algorithm for Ridesharing|AAAI|2015
+G. Chalkiadakis, E. Markakis, N. R. Jennings|Coalitional stability in structured environments|AAMAS|2012
+G. Chalkiadakis, E. Elkind, M. Wooldridge|Computational Aspects of Cooperative Game Theory|Synthesis Lectures on Artificial Intelligence and Machine Learning|2011
+M. Davis, M. Maschler|The kernel of a cooperative game|Naval Research Logistics Quarterly|1965
+G. Greco, E. Malizia, L. Palopoli, F. Scarcello|On the complexity of the core over coalition structures|IJCAI|2011
+E. Kamar, E. Horvitz|Collaboration and Shared Plans in the Open World: Studies of Ridesharing|IJCAI|2009
+A. Kleiner, B. Nebel, V. A. Ziparo|A mechanism for dynamic ride sharing based on parallel auctions|IJCAI|2011
+M. Klusch, O. Shehory|A Polynomial Kernel-Oriented Coalition Algorithm for Rational Information Agents| International Conference on Multi-Agent Systems|1996
+H. Kwak, C. Lee, H. Park, S. Moon|What is Twitter, a Social Network or a News Media?|WWW|2010
+J. K. Lenstra, A. Kan|Complexity of vehicle routing and scheduling problems|Networks|1981
+R. B. Myerson|Game Theory: Analysis of Conflict|Harvard University Press|1997
+A. Papadimitriou, P. Symeonidis, Y. Manolopoulos|Geo-social recommendations|RecSys|2011
+T. Sandholm, K. Larson, M. Andersson, O. Shehory, F. Tohme|Coalition structure generation with worst case guarantees|AIJ|1999
+O. Shehory, S. Kraus|Feasible Formation of Coalitions Among Autonomous Agents in Non-Super-Additive Environments| Computational Intelligence|1999
+R. E. Stearns|Convergent Transfer Schemes for N-Person Games|Transactions of the American Mathematical Society|1968
+T. Voice, S. Ramchurn, N. Jennings|On coalition formation with sparse synergies|AAMAS|2012
+X. Yang, H. Steck, Y. Guo, Y. Liu|On top-k recommendation using social networks|RecSys|2012
+N. J. Yuan, Y. Zheng, L. Zhang, X. Xie|T-finder: A recommender system for finding passengers and vacant taxis|TKDE|2013
+X. Zheng, X. Liang, K. Xu|Where to Wait for a Taxi?|ACM SIGKDD International Workshop on Urban Computing|2012
+Y. Zheng, L. Zhang, X. Xie, W.-Y. Ma|Mining interesting locations and travel sequences from GPS trajectories|WWW|2009

@@ -1,0 +1,26 @@
+Beyond "Hitting the Hits": Generating Coherent Music Playlist Continuations with the Right Tracks
+Dietmar Jannach, TU Dortmund, Dortmund, Germany|Lukas Lerche, TU Dortmund, Dortmund, Germany|Iman Kamehkhosh, TU Dortmund, Dortmund, Germany
+Automated playlist generation is a special form of music recommendation and a common feature of digital music playing applications. A particular challenge of the task is that the recommended items should not only match the general listener's preference but should also be coherent with the most recently played tracks. In this work, we propose a novel algorithmic approach and optimization scheme to generate playlist continuations that address these requirements. In our approach, we first use collections of shared music playlists, music metadata, and user preferences to select suitable tracks with high accuracy. Next, we apply a generic re-ranking optimization scheme to generate playlist continuations that match the characteristics of the last played tracks. An empirical evaluation on three collections of shared playlists shows that the combination of different input signals helps to achieve high accuracy during track selection and that the re-ranking technique can both help to balance different quality optimization goals and to further increase accuracy.
+evaluation, quality factors, music recommendation
+G. Adomavicius, Y. Kwon|Improving aggregate recommendation diversity using ranking-based techniques|IEEE TKDE|2012
+W. Balkema, F. van der Heijden|Music Playlist Generation by Assimilating GMMs into SOMs|Pattern Recognition Letters|2010
+G. Bonnin, D. Jannach|Evaluating the Quality of Playlists Based on Hand-Crafted Samples|ISMIR|2013
+G. Bonnin, D. Jannach|Automated generation of music playlists: Survey and experiments|ACM Comput. Surv.|2014
+K. Bradley, B. Smyth|Improving Recommendation Diversity|AICS|2001
+P. Y. K. Chau, S. Y. Ho, K. K. W. Ho, Y. Yao|Examining the effects of malfunctioning personalized services on online users' distrust and behaviors|Decis. Support Syst.|2013.
+S. Cunningham, D. Bainbridge, A. Falconer|'More of an Art than a Science': Supporting the Creation of Playlists and Mixes|ISMIR|2006
+N. Hariri, B. Mobasher, R. Burke|Context-Aware Music Recommendation Based on Latent Topic Sequential Patterns|Proc. RecSys|2012
+T. Jambor, J. Wang|Optimizing multiple objectives in collaborative filtering|Proc. RecSys|2010
+D. Jannach, I. Kamehkhosh, G. Bonnin|Analyzing the characteristics of shared playlists for music recommendation|RSWeb Workhop at ACM RecSys|2014
+D. Jannach, L. Lerche, F. Gedikli, G. Bonnin|What recommenders recommend - an analysis of accuracy, popularity, and sales diversity effects|UMAP 2013|2013
+M. Kaminskas, F. Ricci|Contextual music information retrieval and recommendation: State of the art and challenges|Computer Science Review|2012
+B. Logan|Content-Based Playlist Generation: Exploratory Experiments|ISMIR|2002
+B. McFee, G. R. Lanckriet|The Natural Language of Playlists|ISMIR|2011
+B. McFee, G. R. Lanckriet|Hypergraph Models of Playlist Dialects|ISMIR|2012
+S. Pauws, W. Verhaegh, M. Vossen|Music playlist generation by adapted simulated annealing|Inf. Sci.|2008
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+A. Said, B. J. Jain, S. Albayrak|A 3D approach to recommender system evaluation|CSCW|2013
+A. M. Sarroff, M. Casey|Modeling and Predicting Song Adjacencies In Commercial Albums|SMC|2012
+M. Zhang, N. Hurley|Avoiding monotony: Improving the diversity of recommendation lists|RecSys|2008
+Y. C. Zhang, D. O. Séaghdha, D. Quercia, T. Jambor| Auralist: Introducing serendipity into music recommendation|WSDM|2012
+C.-N. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen|Improving recommendation lists through topic diversification|WWW|2005

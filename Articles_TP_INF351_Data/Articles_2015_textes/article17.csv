@@ -1,0 +1,28 @@
+It Takes Two to Tango: An Exploration of Domain Pairs for Cross-Domain Collaborative Filtering
+Shaghayegh (Sherry) Sahebi, University of Pittsburgh, PA, USA|Peter L Brusilovsky, University of Pittsburgh, PA, USA
+As the heterogeneity of data sources are increasing on the web, and due to the sparsity of data in each of these data sources, cross-domain recommendation is becoming an emerging research topic in the recent years. Cross-domain collaborative filtering aims to transfer the user rating pattern from source (auxiliary) domains to a target domain for the purpose of alleviating the sparsity problem and providing better target recommendations. However, the studies so far have either focused on a limited number of domains that are assumed to be related to each other (such as books and movies), or a division of the same dataset (such as movies) into different domains based on an item characteristic (such as genre). In this paper, we study a broad set of domains and their characteristics to understand the factors that affect the success or failure of cross-domain collaborative filtering, the amount of improvement in cross-domain approaches, and the selection of best source domains for a specific target domain. We propose to use Canonical Correlation Analysis (CCA) as a significant major factor in finding the most promising source domains for a target domain, and suggest a cross-domain collaborative filtering based on CCA (CD-CCA) that proves to be successful in using the shared information between domains in the target recommendations.
+cross-domain, domain pair, canonical correlation analysis, collaborative filtering, recommender system, target domain, source domain
+S. Berkovsky, T. Kuflik, F. Ricci|Cross-domain mediation in collaborative filtering|int'l conference on User Modeling|2007
+S. Berkovsky, T. Kuflik, F. Ricci|Mediation of user models for enhanced personalization in recommender systems|UMUAI|2008
+P. Cremonesi, M. Quadrana|Cross-domain recommendations without overlapping data: Myth or reality?|ACM Conference on Recommender Systems|2014
+A. Elkahky, Y. Song, X. He|A multi-view deep learning approach for cross domain user modeling in recommendation systems|International World Wide Web Conference Committee|2015
+S. Faridani|Using canonical correlation analysis for generalized sentiment analysis, product recommendation and search|ACM conference on Recommender systems|2011
+I. Fernández-Tobıas, I. Cantador, M. Kaminskas, F. Ricci| Cross-domain recommender systems: A survey of the state of the art|Conference on Information Retrieval|2012
+S. Gao, H. Luo, D. Chen, S. Li, P. Gallinari, J. Guo|Cross-domain recommendation via cluster-level latent factor model|Machine Learning and Knowledge Discovery in Databases|2013
+H. Hotelling|Relations Between Two Sets of Variates| Biometrika|1936
+L. Hu, J. Cao, G. Xu, L. Cao, Z. Gu, C. Zhu|Personalized recommendation via cross-domain triadic factorization|int'l conference on World Wide Web|2013
+M. Joshi, M. Dredze, W. W. Cohen, C. P. Rosé|What's in a domain? multi-domain learning for multi-attribute data|NAACL-HLT|2013
+M. Kaminskas, F. Ricci|Location-adapted music recommendation using tags|UMAP|2011
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+B. Li|Cross-domain collaborative filtering: A brief survey|IEEE Int'l Conference on Tools with Artificial Intelligence|2011
+B. Li, Q. Yang, X. Xue|Transfer learning for collaborative filtering via a rating-matrix generative model|Annual International Conference on Machine Learning|2009
+B. Loni, Y. Shi, M. Larson, A. Hanjalic|Cross-domain collaborative filtering with factorization machines| Advances in Information Retrieval|2014
+H. Ohkushi, T. Ogawa, M. Haseyama|Kernel cca-based music recommendation according to human motion robust to temporal expansion|Symposium on Communications and Information Technologies|2010
+S. Sahebi, P. Brusilovsky|Cross-domain collaborative recommendation in a cold-start context: The impact of user profile size on the quality of recommendation|UMAP|2013
+S. Sahebi, T. Walker|Content-based cross-domain recommendations using segmented models|CBRecSys|2014
+B. Shapira, L. Rokach, S. Freilikhman|Facebook single and cross domain data for recommendation systems|UMUAI|2013
+L. Sun, S. Ji, J. Ye|A least squares formulation for canonical correlation analysis|international conference on Machine learning|2008
+S. Tan, J. Bu, X. Qin, C. Chen, D. Cai|Cross domain recommendation based on multi-type media fusion| Neurocomputing|2014
+D. Weenink|Canonical correlation analysis|Proc. Institute of Phonetic Sciences of the University of Amsterdam|2003
+P. Winoto, T. Tang|If you like the devil wears prada the book, will you also enjoy the devil wears prada the movie? a study of cross-domain recommendations|New Generation Computing|2008
+X. Yang, T. Zhang, C. Xu|Cross-domain feature learning in multimedia|IEEE Transactions on Multimedia|2015

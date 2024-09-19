@@ -1,0 +1,44 @@
+Representation Learning for Homophilic Preferences
+Trong T Nguyen, Singapore Management University, Singapore, Singapore|Hady Wirawan Lauw, Singapore Management University, Singapore, Singapore
+Users express their personal preferences through ratings, adoptions, and other consumption behaviors. We seek to learn latent representations for user preferences from such behavioral data. One representation learning model that has been shown to be effective for large preference datasets is Restricted Boltzmann Machine (RBM). While homophily, or the tendency of friends to share their preferences at some level, is an established notion in sociology, thus far it has not yet been clearly demonstrated on RBM-based preference models. The question lies in how to appropriately incorporate social network into the architecture of RBM-based models for learning representations of preferences. In this paper, we propose two potential architectures: one that models social network among users as additional observations, and another that incorporates social network into the sharing of hidden units among related users. We study the efficacies of these proposed architectures on publicly available, real-life preference datasets with social networks, yielding useful insights.
+user preferences, representation learning, social recommendation, homophily, restricted boltzmann machine
+D. H. Ackley, G. E. Hinton, T. J. Sejnowski|A learning algorithm for boltzmann machines|Cognitive Science|1985
+G. Adomavicius, A. Tuzhilin|Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions|TKDE|2005
+X. Amatriain, J. Basilico|Recommender systems in industry: A netflix case study|Recommender Systems Handbook|2015
+R. M. Bell, Y. Koren|Lessons from the Netflix prize challenge|ACM SIGKDD Explorations Newsletter|2007
+Y. Bengio, A. Courville, P. Vincent|Representation learning: A review and new perspectives|TPAMI|2013
+I. Cantador, P. Brusilovsky, T. Kuflik|2nd workshop on information heterogeneity and fusion in recommender systems|RecSys|2011
+S. Deng, L. Huang, G. Xu, X. Wu, Z. Wu|On deep learning for trust-aware recommendations in social networks|TNNLS|2016
+K. Georgiev, P. Nakov|A non-iid framework for collaborative filtering with restricted Boltzmann machines|ICML|2013
+A. Gionis, H. Mannila, T. Mielik, P. Tsaparas|Assessing data mining results via swap randomization|TKDD|2007
+I. Guy|Social recommender systems|Recommender Systems Handbook|2015
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl|Evaluating collaborative filtering recommender systems|TOIS|2004
+G. Hinton|Training products of experts by minimizing contrastive divergence|Neural Computation|2000
+G. Hinton, L. Deng, D. Yu, G. E. Dahl, A.-r. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. N. Sainath|Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups|Signal Processing Magazine|2012
+M. Jahrer, A. Töscher|Collaborative filtering ensemble|KDD Cup|2012
+M. Jamali, M. Ester|A matrix factorization technique with trust propagation for recommendation in social networks|RecSys|2010
+D. Jannach, M. Zanker, A. Felfernig, G. Friedrich|Recommender systems: an introduction|Cambridge University Press|2010
+R. Kiros, R. Salakhutdinov, R. S. Zemel|Unifying visual-semantic embeddings with multimodal neural language models|TACL|2015
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+A. Krizhevsky, I. Sutskever, G. E. Hinton|ImageNet classification with deep convolutional neural networks|NIPS|2012
+H. Lee, C. Ekanadham, A. Y. Ng|Sparse deep belief net model for visual area v2|NIPS|2008
+H. Ma, I. King, M. R. Lyu|Learning to recommend with social trust ensemble|SIGIR|2009
+H. Ma, I. King, M. R. Lyu|Learning to recommend with explicit and implicit social relations|TIST|2011
+H. Ma, H. Yang, M. R. Lyu, I. King|SoRec: social recommendation using probabilistic matrix factorization|CIKM|2008
+H. Ma, D. Zhou, C. Liu, M. R. Lyu, I. King|Recommender systems with social regularization|WSDM|2011
+C. D. Manning, P. Raghavan, H. Schütze|Introduction to information retrieval|Cambridge University Press|2008
+M. McPherson, L. Smith-Lovin, J. M. Cook|Birds of a feather: Homophily in social networks|Annual Review of Sociology|2001
+P. Pu, L. Chen, R. Hu|A user-centric evaluation framework for recommender systems|RecSys|2011
+S. Purushotham, Y. Liu, C.-c. J. Kuo|Collaborative topic regression with social matrix factorization for recommendation systems|ICML|2012
+S. Reed, K. Sohn, Y. Zhang, H. Lee|Learning to disentangle factors of variation with manifold interaction|ICML|2014
+R. Salakhutdinov, G. E. Hinton|Deep boltzmann machines|AISTATS|2009
+R. Salakhutdinov, A. Mnih, G. Hinton|Restricted boltzmann machines for collaborative filtering|ICML|2007
+S. Sedhain, A. K. Menon, S. Sanner, L. Xie|AutoRec: Autoencoders meet collaborative filtering|WWW|2015
+N. Srivastava, R. R. Salakhutdinov|Multimodal learning with deep Boltzmann machines|NIPS|2012
+T. Tieleman|Training restricted boltzmann machines using approximations to the likelihood gradient|ICML|2008
+T. Tran, D. Phung, S. Venkatesh|Thurstonian Boltzmann machines: Learning from multiple inequalities|ICML|2013
+C. Wang, D. M. Blei|Collaborative topic modeling for recommending scientific articles|KDD|2011
+H. Wang, B. Chen, W.-J. Li|Collaborative topic regression with social regularization for tag recommendation|IJCAI|2013
+H. Wang, N. Wang, D.-Y. Yeung|Collaborative deep learning for recommender systems|KDD|2015
+E. P. Xing, R. Yan, A. G. Hauptmann|Mining associated text and images with dual-wing harmoniums|UAI|2005
+X. Yang, Y. Guo, Y. Liu, H. Steck|A survey of collaborative filtering based social recommender systems|Computer Communications|2014

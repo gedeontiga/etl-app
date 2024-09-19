@@ -1,0 +1,38 @@
+A Gradient-based Adaptive Learning Framework for Efficient Personal Recommendation
+Yue Ning, Virginia Tech, VA, USA|Yue Shi, Yahoo Research, CA, USA|Liangjie Hong, Etsy Inc., NY, USA|Huzefa Rangwala, George Mason University, VA, USA|Naren Ramakrishnan, Virginia Tech, VA, USA
+Recommending personalized content to users is a long-standing challenge to many online services including Facebook, Yahoo, Linkedin and Twitter. Traditional recommendation models such as latent factor models and feature-based models are usually trained for all users and optimize an "average" experience for them, yielding sub-optimal solutions. Although multi-task learning provides an opportunity to learn personalized models per user, learning algorithms are usually tailored to specific models (e.g., generalized linear model, matrix factorization and etc.), creating obstacles for a unified engineering interface, which is important for large Internet companies. In this paper, we present an empirical framework to learn user-specific personal models for content recommendation by utilizing gradient information from a global model. Our proposed method can potentially benefit any model that can be optimized through gradients, offering a lightweight yet generic alternative to conventional multi-task learning algorithms for user personalization. We demonstrate the effectiveness of the proposed framework by incorporating it in three popular machine learning algorithms including logistic regression, gradient boosting decision tree and matrix factorization. Our extensive empirical evaluation shows that the proposed framework can significantly improve the efficiency of personalized recommendation in real-world datasets.
+personalization, gradient adaptation, content recommendation
+Deepak Agarwal, Bee-Chung Chen|Regression-based Latent Factor Models|KDD|2009
+Deepak Agarwal, Bo Long, Jonathan Traupman, Doris Xin, Liang Zhang|LASER: A Scalable Response Prediction Platform for Online Advertising|WSDM|2014
+Xavier Amatriain, Deepak Agarwal|Tutorial: Lessons Learned from Building Real-life Recommender Systems|ACM Conference on Recommender Systems|2016
+Xavier Amatriain, Neal Lathia, Josep M. Pujol, Haewoon Kwak, Nuria Oliver|The Wisdom of the Few: A Collaborative Filtering Approach Based on Expert Opinions from the Web|International ACM SIGIR Conference on Research and Development in Information Retrieval|2009
+Yoshua Bengio, Jérôme Louradour, Ronan Collobert, Jason Weston|Curriculum Learning|Annual International Conference on Machine Learning|2009
+J. Bennett, S. Lanning|The Netflix Prize|KDD Cup Workshop|2007
+Alex Beutel, Ed H. Chi, Zhiyuan Cheng, Hubert Pham, John Anderson|Beyond Globally Optimal: Focused Learning for Improved Recommendations|International Conference on World Wide Web|2017
+Christopher J. C. Burges|From RankNet to LambdaRank to LambdaMART: An Overview|Technical Report|2010
+Allison J. B. Chaney, David M. Blei, Tina Eliassi-Rad|A Probabilistic Model for Using Social Networks in Personalized Item Recommendation|ACM Conference on Recommender Systems|2015
+Olivier Chapelle, Pannagadatta Shivaswamy, Srinivas Vadrevu, Kilian Weinberger, Ya Zhang, Belle Tseng|Boosted multi-task learning|Machine Learning|2011
+Tianqi Chen, Carlos Guestrin|XGBoost: A Scalable Tree Boosting System|KDD|2016
+David R. Cox|The regression analysis of binary sequences (with discussion)|J. Roy Stat Soc B.|1958
+Jerome H. Friedman|Greedy Function Approximation: A Gradient Boosting Machine|Annals of Statistics|2000
+Jerome H. Friedman|Stochastic gradient boosting|Computational Statistics & Data Analysis|2002
+Bikash Joshi, Franck Iutzeler, Massih-Reza Amini|Asynchronous Distributed Matrix Factorization with Similar User and Item Based Regularization|ACM Conference on Recommender Systems|2016
+Alexandros Karatzoglou, Linas Baltrunas, Yue Shi|Learning to Rank for Recommender Systems|ACM Conference on Recommender Systems|2013
+Gunhee Kim, Eric P. Xing|Time-sensitive Web Image Ranking and Retrieval via Dynamic Multi-task Regression|WSDM|2013
+Yehuda Koren|Factorization Meets the Neighborhood: A Multifaceted Collaborative Filtering Model|KDD|2008
+Roy Levin, Hassan Abassi, Uzi Cohen|Guided Walk: A Scalable Recommendation Algorithm for Complex Heterogeneous Social Networks|ACM Conference on Recommender Systems|2016
+Ping Li|Robust LogitBoost, Adaptive Base Class (ABC) LogitBoost|Conference on Uncertainty in Artificial Intelligence|2010
+Peter Lofgren, Siddhartha Banerjee, Ashish Goel|Personalized PageRank Estimation and Search: A Bidirectional Approach|ACM International Conference on Web Search and Data Mining|2016
+H. Brendan McMahan|Follow-the-Regularized-Leader and Mirror Descent: Equivalence Theorems and L1 Regularization|International Conference on Artificial Intelligence and Statistics|2011
+H. Brendan McMahan, Gary Holt, D. Sculley, Michael Young, Dietmar Ebner, Julian Grady, Lan Nie, Todd Phillips, Eugene Davydov, Daniel Golovin, Sharat Chikkerur, Dan Liu, Martin Wattenberg, Arnar Mar Hrafnkelsson, Tom Boulos, Jeremy Kubica|Ad Click Prediction: a View from the Trenches|KDD|2013
+Xu Miao, Chun-Te Chu, Lijun Tang, Yitong Zhou, Joel Young, Anmol Bhasin|Distributed Personalization|KDD|2015
+Xia Ning, George Karypis|Multi-task learning for recommender systems|Journal of Machine Learning Research|2010
+Alexandre Passos, Piyush Rai, Jacques Wainer, Hal Daumé III| Flexible Modeling of Latent Task Structures in Multitask Learning|ICML|2012
+Steffen Rendle|Factorization Machines with libFM|ACM Trans. Intell. Syst. Technol.|2012
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|BPR: Bayesian Personalized Ranking from Implicit Feedback|Conference on Uncertainty in Artificial Intelligence|2009
+Dhaval Shah, Pramod Koneru, Parth Shah, Rohit Parimi|News Recommendations at Scale at Bloomberg Media: Challenges and Approaches|ACM Conference on Recommender Systems|2016
+S. H. Walker, D. B. Duncan|Estimation of the probability of an event as a function of several independent variables| Biometrika|1967
+Hongning Wang, Xiaodong He, Ming-Wei Chang, Yang Song, Ryen W. White, Wei Chu|Personalized Ranking Model Adaptation for Web Search|SIGIR|2013
+Kilian Weinberger, Anirban Dasgupta, John Langford, Alex Smola, and Josh Attenberg|Feature Hashing for Large Scale Multitask Learning|ICML|2009
+XianXing Zhang, Yitong Zhou, Yiming Ma, Bee-Chung Chen, Liang Zhang, Deepak Agarwal|GLMix: Generalized Linear Mixed Models For LargeScale Response Prediction|KDD|2016
+Zhaohui Zheng, Hongyuan Zha, Tong Zhang, Olivier Chapelle, Keke Chen, Gordon Sun|A General Boosting Method and its Application to Learning Ranking Functions for Web Search|NIPS|2008

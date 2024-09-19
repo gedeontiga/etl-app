@@ -1,0 +1,30 @@
+ExcUseMe: Asking Users to Help in Item Cold-Start Recommendations
+Michal Aharon, Yahoo Labs, Haifa, Israel|Oren Anava, Technion - Israel Institute of Technology, Haifa, Israel|Noa Avigdor-Elgrabli, Yahoo Labs, Haifa, Israel|Dana Drachsler-Cohen, Technion - Israel Institute of, Haifa, Israel|Shahar Golan, Yahoo Labs, Haifa, Israel|Oren Somekh, Yahoo Labs, Haifa, Israel
+The item cold-start problem is of a great importance in collaborative filtering (CF) recommendation systems. It arises when new items are added to the inventory and the system cannot model them properly since it relies solely on historical users' interactions (e.g., ratings). Much work has been devoted to mitigate this problem mostly by employing hybrid approaches that combine content-based recommendation techniques or by devoting a portion of the user traffic for exploration to gather interactions from random users. We focus on pure CF recommender systems (i.e., without content or context information) in a realistic online setting, where random exploration is inefficient and smart exploration that carefully selects users is crucial due to the huge flux of new items with short lifespan. We further assume that users arrive randomly one after the other and that the system has to immediately decide whether the arriving user will participate in the exploration of the new items.For this setting we present ExcUseMe, a smart exploration algorithm that selects a predefined number of users for exploring new items. ExcUseMe gradually excavates the users that are more likely to be interested in the new items and models the new items based on the users' interactions. We evaluated ExcUseMe on several datasets and scenarios and compared it to state-of-the-art algorithms. Experimental results indicate that ExcUseMe is an efficient algorithm that outperforms all other algorithms in all tested scenarios.
+online algorithms, item cold-start, collaborative filtering
+D. Agarwal, B.-C. Chen|Regression-based latent factor models|KDD|2009
+M. Aharon, A. Kagian, Y. Koren, R. Lempel|Dynamic personalized recommendation of comment-eliciting stories|RecSys|2012
+N. Aizenberg, Y. Koren, O. Somekh|Build your own music recommender by modeling internet radio streams|WWW|2012
+O. Anava, S. Golan, N. Golbandi, Z. Karnin, R. Lempel, O. Rokhlenko, O. Somekh|Budget-constrained item cold-start handling in collaborative filtering recommenders via optimal design|WWW|2015
+M. Bateni, M. Hajiaghayi, M. Zadimoghaddam|Submodular secretary problem and extensions|ACM Trans. Algorithms|2013
+G. Dror, N. Koenigstein, Y. Koren|Yahoo! music recommendations: Modeling music ratings with temporal dynamics and item|RecSys|2011
+J. C. Duchi, E. Hazan, Y. Singer|Adaptive subgradient methods for online learning and stochastic optimization| Journal of Machine Learning Research|2011
+M. Feldman, J. Naor, R. Schwartz|Improved competitive ratios for submodular secretary problems (extended abstract)|APPROX-RANDOM|2011
+N. Golbandi, Y. Koren, R. Lempel|Adaptive bootstrapping of recommender systems using decision trees|WSDM|2011
+N. Golbandi, Y. Koren, R. Lempel|On bootstrapping recommender systems|CIKM|2010
+A. Gunawardana, C. Meek|Tied boltzmann machines for cold start recommendations|RecSys|2008
+A. Gunawardana, C. Meek|A unified approach to building hybrid recommender systems|RecSys|2009
+A. Gupta, A. Roth, G. Schoenebeck, K. Talwar|Constrained non-monotone submodular maximization: Offline and secretary algorithms|WINE|2010
+A. Kohrs, B. Mérialdo|Improving collaborative filtering for new-users by smart object selection|ICME|2001
+Y. Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|KDD|2008
+Y. Koren|Collaborative filtering with temporal dynamics| Commun. of the ACM|2010
+Y. Koren, R. M. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+S.-L. Lee|Commodity recommendations of retail business based on decision tree induction|Expert Systems with Applications|2010
+G. Linden, B. Smith, J. York|Amazon. com recommendations: Item-to-item collaborative filtering|Internet Computing|2003
+S.-T. Park, W. Chu|Pairwise preference regression for cold-start recommendation|RecSys|2009
+A. Paterek|Improving regularized singular value decomposition for collaborative filtering|KDD|2007
+M. J. Pazzani, D. Billsus|Content-based recommendation systems|The Adaptive Web|2007
+A. M. Rashid, I. Albert, D. Cosley, S. K. Lam, S. M. McNee, J. A. Konstan, J. Riedl|Getting to know you: Learning new user preferences in recommender systems|IUI|2002
+A. M. Rashid, G. Karypis, J. Riedl|Learning preferences of new users in recommender systems: an information theoretic approach|SIGKDD Explor. Newsl.|2008
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+G. Takacs, I. Pilaszy, B. Nemeth, D. Tikk|Investigation of various matrix factorization methods for large recommender systems|ICDMW|2008

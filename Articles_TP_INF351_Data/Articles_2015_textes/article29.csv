@@ -1,0 +1,21 @@
+The Role of User Location in Personalized Search and Recommendation
+Ido Guy, Yahoo Labs, Haifa, Israel
+With mobile devices, users no longer access the web from specific locations, but virtually from anywhere. How does this affect our ability to provide personalized information for users' In this talk, I will discuss the influence of location activity on users' information needs and how a better understanding of these needs can help enhance web applications in which personalization plays a central role.
+location-aware search, search personalization, context-based recommendation, recommender systems, user modeling.
+Guy I., Avraham U., Carmel D., Ur S., Jacovi M., Ronen I.|Mining expertise and interests from social media|WWW|2013
+Guy I., Hashavit A., Corem Y.|Games for crowds: A crowdsourcing game platform for the enterprise|CSCW|2015
+Guy I., Levin R., Daniel T., Bolshinsky E.|Islands in the Stream: A study of item recommendation within an enterprise social stream|SIGIR|2015
+Guy I., Perer A., Daniel T., Greenshpan O., Turbahn I.|Guess who? Enriching the social graph through a crowdsourcing game|CHI|2011
+Guy I., Ronen I., Raviv A.|Personalized activity streams: Sifting through the "river of news"|RecSys|2011
+Guy I., Ronen I., Wilcox E.|Do you know? Recommending people to invite into your social network|IUI|2009
+Guy I., Steier T., Barnea M., Ronen I., Daniel T.|Swimming against the streamz: Search and analytics over the enterprise activity stream|CIKM|2012
+Guy I., Ur S., Ronen I., Perer A., Jacovi M.|Do you want to know? Recommending strangers in the enterprise|CSCW|2011
+Guy I., Ur S., Ronen I., Weber S., Oral T.|Best faces forward: A large-scale study of people search in the enterprise|CHI|2012
+Guy I., Zwerdling N., Carmel D., Ronen I., Uziel E., Yogev S., Ofek-Koifman S.|Personalized recommendation of social software items based on social relations|RecSys|2009
+Guy I., Zwerdling N., Ronen I., Carmel D., Uziel E.|Social media recommendation based on people and tags|SIGIR|2010
+Jacovi M., Guy I., Kremer-Davidson S., Porat S., Aizenbud-Reshef N.|The perception of others: Inferring reputation from social media in the enterprise|CSCW|2014
+Jacovi M., Guy I., Ronen I., Perer A., Uziel E., Maslenko M.|Digital traces of interest: Deriving interest relationships from social media interactions|ECSCW|2011
+Kravi E., Agichtein E., Guy I., Kanza Y., Mejer A., Pelleg D.|Searcher in a strange land: Understanding web search from familiar and unfamiliar locations|SIGIR|2015
+Perer A., Guy I., Uziel E., Ronen I., Jacovi M.|Visual social network analytics for relationship discovery in the enterprise|VAST|2011
+Ronen I., Guy I., Kravi E., Barnea M.|Recommending social media content to community owners|SIGIR|2011
+Yogev A., Guy I., Ronen I., Zwerdling N., Barnea M.|Social media-based expertise evidence|ECSCW|2015

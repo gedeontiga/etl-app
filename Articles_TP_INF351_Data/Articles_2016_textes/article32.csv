@@ -1,0 +1,32 @@
+Vista: A Visually, Socially, and Temporally-aware Model for Artistic Recommendation
+Ruining He, UC San Diego, San Diego, USA|Chen Fang, Adobe Research, San Jose, USA|Zhaowen Wang, Adobe Research, San Jose, USA|Julian John McAuley, UC San Diego, San Diego, USA
+Understanding users' interactions with highly subjective content---like artistic images---is challenging due to the complex semantics that guide our preferences. On the one hand one has to overcome `standard' recommender systems challenges, such as dealing with large, sparse, and long-tailed datasets. On the other, several new challenges present themselves, such as the need to model content in terms of its visual appearance, or even social dynamics, such as a preference toward a particular artist that is independent of the art they create. In this paper we build large-scale recommender systems to model the dynamics of a vibrant digital art community, Behance, consisting of tens of millions of interactions (clicks and 'appreciates') of users toward digital art. Methodologically, our main contributions are to model (a) rich content, especially in terms of its visual appearance; (b) temporal dynamics, in terms of how users prefer 'visually consistent' content within and across sessions; and (c) social dynamics, in terms of how users exhibit preferences both towards certain art styles, as well as the artists themselves.
+Markov chains, artistic preferences, recommender systems
+D. W. Aha, D. Kibler, M. K. Albert|Instance-based learning algorithms|Machine learning|1991
+A. J. Chaney, D. M. Blei, T. Eliassi-Rad|A probabilistic model for using social networks in personalized item recommendation|RecSys|2015
+S. Chen, J. L. Moore, D. Turnbull, T. Joachims|Playlist prediction via metric embedding|SIGKDD|2012
+S. Chen, J. Xu, T. Joachims|Multi-space probabilistic sequence modeling|SIGKDD|2013
+Y. Ding, X. Li|Time weight collaborative filtering|CIKM|2005
+S. Feng, X. Li, Y. Zeng, G. Cong, Y. M. Chee, Q. Yuan|Personalized ranking metric embedding for next new poi recommendation|IJCAI|2015
+G. Guo, J. Zhang, N. Yorke-Smith|Trustsvd: Collaborative filtering with both the explicit and implicit influence of user trust and of item ratings|AAA|2015
+R. He, C. Lin, J. Wang, J. McAuley|Sherlock: sparse hierarchical embeddings for visually-aware one-class collaborative filtering|IJCAI|2016
+R. He, J. McAuley|Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering|WWW|2016
+R. He, J. McAuley|VBPR: visual bayesian personalized ranking from implicit feedback|AAAI|2016
+Y. Kalantidis, L. Kennedy, L.-J. Li|Getting the look: clothing recognition and segmentation for automatic product suggestions in everyday photos|ICMR|2013
+R. Klinkenberg|Learning drifting concepts: Example selection vs. example weighting|Intelligent Data Analysis|2004
+Y. Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|SIGKDD|2008
+Y. Koren|Collaborative filtering with temporal dynamics|Communications of the ACM|2010
+Y. Koren, R. Bell|Advances in collaborative filtering|Recommender Systems Handbook|Springer|2011
+H. Ma, I. King, M. R. Lyu|Learning to recommend with social trust ensemble|SIGIR|2009
+H. Ma, H. Yang, M. R. Lyu, I. King|Sorec: social recommendation using probabilistic matrix factorization|CIKM| 2008
+B. Mobasher, H. Dai, T. Luo, M. Nakagawa|Using sequential and non-sequential patterns in predictive web usage mining tasks|ICDM|2002
+F. Niu, B. Recht, C. Ré, S. J. Wright|Hogwild: A lock-free approach to parallelizing stochastic gradient descent|NIPS|2011
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|BPR: bayesian personalized ranking from implicit feedback|UAI|2009
+S. Rendle, C. Freudenthaler, L. Schmidt-Thieme|Factorizing personalized markov chains for next-basket recommendation|WWW|2010
+G. Shani, R. I. Brafman, D. Heckerman|An mdp-based recommender system|UAI|2002
+L. van der Maaten|Accelerating t-SNE using tree-based algorithms|JMLR|2014
+H. Wang, W. Fan, P. S. Yu, J. Han|Mining concept-drifting data streams using ensemble classifiers|SIGKDD|2003
+K. Yamaguchi, M. Kiapour, T. Berg|Paper doll parsing: Retrieving similar styles to parse clothing items|ICCV|2013
+W. Yang, P. Luo, L. Lin|Clothing co-parsing by joint image segmentation and labeling|CVPR|2014
+T. Zhao, J. McAuley, I. King|Leveraging social connections to improve personalized ranking for collaborative filtering|CIKM| 2014
+A. Zimdars, D. M. Chickering, C. Meek|Using temporal data for making recommendations|UAI|2001

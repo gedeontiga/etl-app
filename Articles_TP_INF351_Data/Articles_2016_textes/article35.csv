@@ -1,0 +1,24 @@
+Efficient Bayesian Methods for Graph-based Recommendation
+Ramon Lopes, Universidade Federal do Recôncavo da Bahia, Cruz das Almas, Brazil|Renato Martins Assunção, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil|Rodrygo L. T. Santos, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+Short-length random walks on the bipartite user-item graph have recently been shown to provide accurate and diverse recommendations. Nonetheless, these approaches suffer from severe time and space requirements, which can be alleviated via random walk sampling, at the cost of reduced recommendation quality. In addition, these approaches ignore users' ratings, which further limits their expressiveness. In this paper, we introduce a computationally efficient graph-based approach for collaborative filtering based on short-path enumeration. Moreover, we propose three scoring functions based on the Bayesian paradigm that effectively exploit distributional aspects of the users' ratings. We experiment with seven publicly available datasets against state-of-the-art graph-based and matrix factorization approaches. Our empirical results demonstrate the effectiveness of the proposed approach, with significant improvements in most settings. Furthermore, analytical results demonstrate its efficiency compared to other graph-based approaches.
+item recommendation, collaborative filtering, Bayesian statistics
+F. Christoffel, B. Paudel, C. Newell, A. Bernstein| Blockbusters and wallflowers: Accurate, diverse, and scalable recommendations with random walks|ACM Conference on Recommender Systems|2015
+J. Cook|Exact calculation of beta inequalities|Technical report|2005
+C. Cooper, S. H. Lee, T. Radzik, Y. Siantos|Random walks in recommender systems: Exact computation and simulations|International Conference on World Wide Web|2014
+F. Fouss, A. Pirotte, M. Saerens|A novel way of computing similarities between nodes of a graph, with application to collaborative recommendation|IEEE/WIC/ACM International Conference on Web Intelligence|2005
+F. Fouss, A. Pirotte, J.-m. Renders, M. Saerens|Random-walk computation of similarities between nodes of a graph with application to collaborative recommendation|IEEE Transactions on Knowledge and Data Engineering|2007
+M. Galassi|GNU Scientific Library Reference Manual|Network Theory Ltd.|2009
+Z. Gantner, S. Rendle, C. Freudenthaler, L. Schmidt-Thieme|Mymedialite: A free recommender system library|ACM Conference on Recommender Systems|2011
+J. Golbeck, J. Hendler|Filmtrust: movie recommendations using trust in web-based social networks|IEEE Communications and Networking Conference|2006
+M. Gori, A. Pucci|Itemrank: A random-walk based scoring algorithm for recommender engines|International Joint Conference on Artificial Intelligence|2007
+F. M. Harper, J. A. Konstan|The movielens datasets: History and context|ACM Transactions on Interactive Intelligent Systems|2015
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|IEEE International Conference on Data Mining|2008
+P. Massa, P. Avesani|Trust-aware recommender systems|ACM Conference on Recommender Systems|2007
+J. McAuley, R. Pandey, J. Leskovec|Inferring networks of substitutable and complementary products|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+L. Page, S. Brin, R. Motwani, T. Winograd|The pagerank citation ranking: Bringing order to the web|Technical Report|1999
+Y. Park, A. Tuzhilin|The long tail of recommender systems and how to leverage it|ACM Conference on Recommender Systems|2008
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+G. Shani, A. Gunawardana|Recommender Systems Handbook|chapter Evaluating Recommendation Systems|2011.
+Y. Shi, A. Karatzoglou, L. Baltrunas, M. Larson, N. Oliver, A. Hanjalic|Climf: Learning to maximize reciprocal rank with collaborative less-is-more filtering|ACM Conference on Recommender Systems|2012
+A. P. Singh, A. Gunawardana, C. Meek, A. C. Sudendran|Recommendations using absorbing random walks|North East Student Colloquium on Artificial Intelligence|2007
+C. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen|Improving recommendation lists through topic diversification|International Conference on World Wide Web|2005

@@ -1,0 +1,23 @@
+Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks
+Massimo Quadrana, Politecnico di Milano, Milan, Italy|Alexandros Karatzoglou, Telefonica Research, Barcelona, Spain|Balázs Hidasi, Gravity R&D, Budapest, Hungary
+Session-based recommendations are highly relevant in many modern on-line services (e.g. e-commerce, video streaming) and recommendation settings. Recently, Recurrent Neural Networks have been shown to perform very well in session-based settings. While in many session-based recommendation domains user identifiers are hard to come by, there are also domains in which user profiles are readily available. We propose a seamless way to personalize RNN models with cross-session information transfer and devise a Hierarchical RNN model that relays end evolves latent hidden states of the RNNs across user sessions. Results on two industry datasets show large improvements over the session-only RNNs.
+session-based recommendation, recurrent neural networks, personalization, session-aware recommendation
+James Bergstra, Yoshua Bengio|Random search for hyper-parameter optimization|J. Mach. Learn. Res.|2012
+Kyunghyun Cho, Bart van Merriënboer, Dzmitry Bahdanau, Yoshua Bengio|On the properties of neural machine translation: Encoder-decoder approaches|SSST-8: 8th Workshop on Syntax, Semantics and Structure in Statistical Translation|2014
+Robin Devooght, Hugues Bersini|Collaborative filtering with recurrent neural networks|arXiv preprint|2016
+John Duchi, Elad Hazan, Yoram Singer|Adaptive subgradient methods for online learning and stochastic optimization|The Journal of Machine Learning Research|2011
+B. Hidasi, D. Tikk|Fast ALS-based tensor factorization for context-aware recommendation from implicit feedback|ECML-PKDD|2012
+Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk|Session-based recommendations with recurrent neural networks|CoRR|2015
+Balázs Hidasi, Massimo Quadrana, Alexandros Karatzoglou, Domonkos Tikk|Parallel recurrent neural network architectures for feature-rich session-based recommendations|ACM Conference on Recommender Systems|2016
+Sepp Hochreiter, Jürgen Schmidhuber|Long short-term memory|Neural computation|1997
+Noam Koenigstein, Yehuda Koren|Towards scalable and accurate item-oriented recommendations|ACM Conference on Recommender Systems|2013
+G. Linden, B. Smith, J. York|Amazon.com recommendations: Item-to-item collaborative filtering|Internet Computing|2003
+Zachary C. Lipton, John Berkowitz, Charles Elkan|A critical review of recurrent neural networks for sequence learning|CoRR|2015
+Steffen Rendle, Christoph Freudenthaler|Improving pairwise learning for item recommendation from implicit feedback|ACM International Conference on Web Search and Data Mining|2014
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+D. E. Rumelhart, G. E. Hinton, R. J. Williams|Neurocomputing: Foundations of research|chapter Learning Internal Representations by Error Propagation|1988
+Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+Alessandro Sordoni, Yoshua Bengio, Hossein Vahabi, Christina Lioma, Jakob Grue Simonsen, Jian-Yun Nie|A hierarchical recurrent encoder-decoder for generative context-aware query suggestion|ACM International on Conference on Information and Knowledge Management|2015
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov|Dropout: A simple way to prevent neural networks from overfitting|J. Mach. Learn. Res.|2014
+Yong Kiam Tan, Xinxing Xu, Yong Liu|Improved recurrent neural networks for session-based recommendations|Workshop on Deep Learning for Recommender Systems|2016
+Chao-Yuan Wu, Amr Ahmed, Alex Beutel, Alexander J. Smola, How Jing|Recurrent recommender networks|ACM International Conference on Web Search and Data Mining|2017

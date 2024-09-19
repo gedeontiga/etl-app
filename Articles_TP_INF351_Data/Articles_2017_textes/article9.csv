@@ -1,0 +1,45 @@
+Fairness-Aware Group Recommendation with Pareto-Efficiency
+Lin Xiao, Tsinghua University, Beijing, China|Zhang Min, Tsinghua University, Beijing, China|Zhang Yongfeng, University of Massachusetts Amherst, MA, USA|Gu Zhaoquan, University of HongKong, HongKong, China|Liu Yiqun, Tsinghua University, Beijing, China|Ma Shaoping, Tsinghua University, Beijing, China
+Group recommendation has attracted significant research efforts for its importance in benefiting a group of users. This paper investigates the Group Recommendation problem from a novel aspect, which tries to maximize the satisfaction of each group member while minimizing the unfairness between them. In this work, we present several semantics of the individual utility and propose two concepts of social welfare and fairness for modeling the overall utilities and the balance between group members. We formulate the problem as a multiple objective optimization problem and show that it is NP-Hard in different semantics. Given the multiple-objective nature of fairness-aware group recommendation problem, we provide an optimization framework for fairness-aware group recommendation from the perspective of Pareto Efficiency. We conduct extensive experiments on real-world datasets and evaluate our algorithm in terms of standard accuracy metrics. The results indicate that our algorithm achieves superior performances and considering fairness in group recommendation can enhance the recommendation accuracy.
+group recommendation, pareto-efficiency, fairness
+S. Amer-Yahia, S. B. Roy, A. Chawlat, G. Das, C. Yu|Group recommendation: Semantics and efficiency|VLDB Endow|2009
+L. Baltrunas, T. Makcinskas, F. Ricci|Group recommendations with rank aggregation and collaborative filtering|ACM conference on Recommender systems|2010
+F. Brandt, V. Conitzer, U. Endriss|Computational social choice|Multiagent systems|2012
+L. A. Carvalho, H. T. Macedo|Generation of coalition structures to provide proper groups' formation in group recommender systems|International Conference on World Wide Web|2013
+L. A. M. C. Carvalho, H. T. Macedo|Users' satisfaction in recommendation systems for groups: an approach based on noncooperative games|International Conference on World Wide Web|2013
+D. Cosley, J. A. Konstan, J. Riedl|Polylens: A recommender system for groups of user|ECSCW|2001
+A. Crossen, J. Budzik, K. J. Hammond|Flytrap: Intelligent group music recommendation|IUI|2002
+T. De Pessemier, S. Dooms, L. Martens|Design and evaluation of a group recommender system|ACM conference on Recommender systems|2012
+K. Deb, K. Sindhya, J. Hakanen|Multi-objective optimization|Decision Sciences: Theory and Practice|2016
+M. Gartrell, X. Xing, Q. Lv, A. Beach, R. Han, S. Mishra, K. Seada|Enhancing group recommendation by incorporating social relationship interactions|ACM international conference on Supporting group work|2010
+G. Guo, J. Zhang, Z. Sun, N. Yorke-Smith|Librec: A java library for recommender systems|UMAP Workshops|2015
+F. Guzzi, F. Ricci, R. Burke|Interactive multi-party critiquing for group recommendation|ACM conference on Recommender systems|2011
+L. Hu, J. Cao, G. Xu, L. Cao, Z. Gu, W. Cao|Deep modeling of group preferences for group-based recommendation|AAAI|2014
+R. Jain, D.-M. Chiu, W. R. Hawe|A quantitative measure of fairness and discrimination for resource allocation in shared computer system, volume 38|Eastern Research Laboratory|1984
+T. Jambor, J. Wang|Optimizing multiple objectives in collaborative filtering|ACM conference on Recommender systems|2010
+M. Kompan, M. Bieliková|Voting based group recommendation: How users vote|HT|2014
+X. Liu, Y. Tian, M. Ye, W.-C. Lee|Exploring personal impact for group recommendation|ACM international conference on Information and knowledge management|2012
+L. Naamani Dery, M. Kalech, L. Rokach, B. Shapira|Iterative voting under uncertainty for group recommender systems|ACM conference on Recommender systems|2010
+E. Ntoutsi, K. Stefanidis, K. Nørvåg, H.-P. Kriegel|Fast group recommendations by applying user clustering|ER|2012
+W. Pan, L. Chen|Gbpr: Group preference based bayesian personalized ranking for one-class collaborative filtering|IJCAI|2013
+S. Qi, N. Mamoulis, E. Pitoura, P. Tsaparas|Recommending packages to groups|ICDM|2016
+E. Quintarelli, E. Rabosio, L. Tanca|Recommending new items to ephemeral groups using contextual user influence|ACM Conference on Recommender Systems,|2016
+J. A. Recio-Garcia, G. Jimenez-Diaz, A. A. Sanchez-Ruiz, B. Diaz-Agudo.|Personality aware recommendations to groups|ACM conference on Recommender systems|2009
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|conference on uncertainty in artificial intelligence|2009
+M. T. Ribeiro, A. Lacerda, A. Veloso, N. Ziviani|Pareto-efficient hybridization for multi-objective recommender systems|ACM conference on Recommender systems|2012
+F. Ricci, L. Rokach, B. Shapira|Introduction to recommender systems handbook|Springer|2011
+M. Rodriguez, C. Posse, E. Zhang|Multiple objective optimization in recommender systems|ACM conference on Recommender systems|2012
+I. Ronen, I. Guy, E. Kravi, M. Barnea|Recommending social media content to community owners|ACM SIGIR conference on Research & development in information retrieval|2014
+S. B. Roy, S. Thirumuruganathan, S. Amer-Yahia, G. Das, C. Yu|Exploiting group recommendation functions for flexible preferences|ICDE|2014
+A. Said, S. Berkovsky, E. W. De Luca|Group recommendation in context|Challenge on Context-Aware Movie Recommendation|2011
+A. Salehi-Abari, C. Boutilier|Preference-oriented social networks: Group recommendation and inference|RecSys|2015
+A. Salehi-Abari, C. Boutilier|Preference-oriented social networks: Group recommendation and inference|ACM Conference on Recommender Systems|2015
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|International Conference on World Wide Web|2001
+S. Seko, T. Yagi, M. Motegi, S. Muto|Group recommendation using feature space representing behavioral tendency and power balance among members|ACM conference on Recommender systems|2011
+A. Sen|Social choice theory|Handbook of mathematical economics|1986
+P. Skowron, P. Faliszewski, J. Lang|Finding a collective set of items: From proportional multirepresentation to group recommendation|Artificial Intelligence|2016
+X. Wang, R. Donaldson, C. Nell, P. Gorniak, M. Ester, J. Bu|Recommending groups to users using user-group engagement and time-dependent matrix factorization|AAAI Conference on Artificial Intelligence|2016
+M. Ye, X. Liu, W.-C. Lee|Exploring social influence for recommendation: a generative model approach|international ACM SIGIR conference on Research and development in information retrieval|2012
+Q. Yuan, G. Cong, C.-Y. Lin|Com: a generative model for group recommendation|ACM SIGKDD international conference on Knowledge discovery and data mining|2014
+W. Zhang, J. Wang, W. Feng|Combining latent factor model with location features for event-based group recommendation|ACM SIGKDD international conference on Knowledge discovery and data mining|2013
+E. Zitzler, L. Thiele|Multiobjective evolutionary algorithms: a comparative case study and the strength pareto approach|IEEE transactions on Evolutionary Computation|1999

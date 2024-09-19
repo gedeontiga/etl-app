@@ -1,0 +1,36 @@
+TAPER: A Contextual Tensor-Based Approach for Personalized Expert Recommendation
+Hancheng Ge, Texas A&M University, College Station, TX, USA|James A Caverlee, Texas A&M University, College Station, TX, USA|Haokai Lu, Texas A&M University, College Station, TX, USA
+We address the challenge of personalized recommendation of high quality content producers in social media. While some candidates are easily identifiable (say, by being "favorited" many times), there is a long-tail of potential candidates for whom we have little evidence. Through careful modeling of contextual factors like the geo-spatial, topical, and social preferences of users, we propose a tensor-based personalized expert recommendation framework that integrates these factors for revealing latent connections between homogeneous entities (e.g., users and users) and between heterogeneous entities (e.g., users and experts). Through extensive experiments over geo-tagged Twitter data, we find that the proposed framework can improve the quality of recommendation by over 30% in both precision and recall compared to the state-of-the-art.
+tensor, personalized expert recommendation, contextual factors
+X. Amatriain, N. Lathia, J. M. Pujol, H. Kwak, N. Oliver|The wisdom of the few: a collaborative filtering approach based on expert opinions from the web|SIGIR|2009
+L. Backstrom, E. Sun, C. Marlow|Find me if you can: improving geographical prediction with social and spatial proximity|WWW|2010
+K. Balog, L. Azzopardi, M. De Rijke|Formal models for expert finding in enterprise corpora|SIGIR|2006
+P. Bhargava, T. Phan, J. Zhou, J. Lee|Who, what, when, and where: Multi-dimensional collaborative recommendations using tensor factorization on sparse user-generated data|WWW|2015
+P. Bhattacharya, S. Ghosh, J. Kulshrestha, M. Mondal, M. B. Zafar, N. Ganguly, K. P. Gummadi|Deep twitter diving: Exploring topical groups in microblogs at scale|CSCW|2014
+Z. Cheng, J. Caverlee, H. Barthwal, V. Bachani|Who is the barbecue king of texas?: a geo-spatial approach to finding local experts on twitter|SIGIR|2014
+D. M. Dunlavy, T. G. Kolda, E. Acar|Temporal link prediction using matrix and tensor factorizations|TKDD|2011
+S. Ghosh, N. Sharma, F. Benevenuto, N. Ganguly, K. Gummadi|Cognos: crowdsourcing search for topic experts in microblogs|SIGIR|2012
+I. Guy, U. Avraham, D. Carmel, S. Ur, M. Jacovi, I. Ronen|Mining expertise and interests from social media|WWW|2013
+B. Hidasi, D. Tikk|Fast als-based tensor factorization for context-aware recommendation from implicit feedback|MLKDD|2012
+D. Hu, J. L. Zhao|Expert recommendation via semantic social networks|ICIS|2008
+A. Karatzoglou, X. Amatriain, L. Baltrunas, N. Oliver|Multiverse recommendation: n-dimensional tensor factorization for context-aware collaborative filtering|RecSys|2010
+T. G. Kolda, B. W. Bader|Tensor decompositions and applications|SIAM|2009
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+Y. Liu, F. Shang, L. Jiao, J. Cheng, H. Cheng|Trace norm regularized candecomp/parafac decomposition with missing data|Cybernetics|2014
+H. Lu, J. Caverlee|Exploiting geo-spatial preference for personalized expert recommendation|RecSys|2015
+H. Ma, H. Yang, M. R. Lyu, I. King|Sorec: social recommendation using probabilistic matrix factorization|CIKM|2008
+D. W. McDonald, M. S. Ackerma|Expertise recommender: a flexible recommendation system and architecture|CSCW|2000
+M. Naaman, Y. J. Song, A. Paepcke, H. Garcia-Molina|Automatic organization for digital photographs with geographic coordinates|ICDL|2004
+A. Pal, A. Herdagdelen, S. Chatterji, S. Taank, D. Chakrabarti|Discovery of topical authorities in instagram|WWW|2016
+S. A. Paul, L. Hong, E. H. Chi|Who is authoritative? understanding reputation mechanisms in quora|arXiv preprint|2012
+V. Rakesh, D. Singh, B. Vinzamuri, C. K. Reddy|Personalized recommendation of twitter lists using content and network information|ICWSM|2014
+S. Rendle, L. Schmidt-Thieme|Pairwise interaction tensor factorization for personalized tag recommendation|WSDM|2010
+P. Serdyukov, H. Rode, D. Hiemstra|Modeling multi-step relevance propagation for expert finding|CIKM|2008
+J. Sun, D. Tao, C. Faloutsos|Beyond streams and graphs: dynamic tensor analysis|SIGKDD|2006
+W. R. Tobler|A computer movie simulating urban growth in the detroit region|Economic geography|1970
+J. Weng, E.-P. Lim, J. Jiang, Q. He|Twitterrank: finding topic-sensitive influential twitterers|WSDM|2010
+B. Yang, S. Manandhar|Tag-based expert recommendation in community question answering|ASONAM|2014
+M. Ye, X. Liu, W. Lee|Exploring social influence for recommendation: a generative model approach|SIGIR|2012
+H.-F. Yu, C.-J. Hsieh, I. Dhillon|Scalable coordinate descent approaches to parallel matrix factorization for recommender systems|ICDM|2012
+J. Zhang, M. S. Ackerman, L. Adamic|Expertise networks in online communities: structure and algorithms|WWW|2007
+D. Zhou, B. Wang, S. M. Rahimi, X. Wang|A study of recommending locations on location-based social network by collaborative filtering|Adv. in Artificial Intelligence|2012

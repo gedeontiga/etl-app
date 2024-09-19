@@ -1,0 +1,19 @@
+Top-N Recommendation for Shared Accounts
+Koen Verstrepen, University of Antwerp, Antwerp, Belgium|Bart Goethals, University of Antwerp, Antwerp, Belgium
+Standard collaborative filtering recommender systems assume that every account in the training data represents a single user. However, multiple users often share a single account. A typical example is a single shopping account for the whole family. Traditional recommender systems fail in this situation. If contextual information is available, context aware recommender systems are the state-of-the-art solution. Yet, often no contextual information is available. Therefore, we introduce the challenge of recommending to shared accounts in the absence of contextual information. We propose a solution to this challenge for all cases in which the reference recommender system is an item-based top-N collaborative filtering recommender system, generating recommendations based on binary, positive-only feedback. We experimentally show the advantages of our proposed solution for tackling the problems that arise from the existence of shared accounts on multiple datasets.
+recommender systems, nearest neighbors, explaining recommendations, collaborative filtering, shared account
+S. Anand, B. Mobasher|Contextual recommendation|WebMine|2006
+M. Deshpande, G. Karypis|Item-based top-n recommendation algorithms|TOIS|2004
+C. Desrosiers, G. Karypis|A comprehensive survey of neighborhood-based recommendation methods|Recommender Systems Handbook|2011
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+D. Jannach, M. Zanker, A. Felfernig, G. Frierich| Recommender Systems: An Introduction|Cambridge University Press|2011
+S. Kabbur, G. Karypis|Nlmf: Nonlinear matrix factorization methods for top-n recommender systems|ICDMW|2014
+Y. Koren, R. Bell|Advances in collaborative filtering|Recommender Systems Handbook|2011
+G. Linden, B. Smith, J. York|Amazon.com recommendations: Item-to-item collaborative filtering|Internet Comp.|2003
+J. Masthoff|Group recommender systems: Combining individual models|Recommender Systems Handbook|2011
+C. Palmisano, A. Tuzhilin, M. Gorgolione|Using context to improve predictive modeling of customers in personalization applications|TKDE|2008
+R. Pan, Y. Zhou, B. Cao, N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|ICDM|2008
+C. Yu, L. Lakshmanan, S. Amer-Yahia|Recommendation diversification using explanations|ICDE|2009
+A. Zhang, N. Fawaz, S. Ioannidis, A. Montanari|Guess who rated this movie: Identifying users through subspace clustering|UAI|2012
+C.-N. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen| Improving recommendation lists through topic diversification|WWW|2005
+A. Zubiaga|Enhancing navigation on wikipedia with social tags|arXiv:1202.5469|2012

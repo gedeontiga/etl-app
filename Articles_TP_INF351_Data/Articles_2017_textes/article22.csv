@@ -1,0 +1,29 @@
+Practical Lessons from Developing a Large-Scale Recommender System at Zalando
+Antonino Freno, Zalando SE, Berlin, Germany
+Developing a real-world recommender system, i.e. for use in large-scale online retail, poses a number of different challenges. Interestingly, only a small part of these challenges are of algorithmic nature, such as how to select the most accurate model for a given use case. Instead, most technical problems usually arise from operational constraints, such as: adaptation to novel use cases; cost and complexity of system maintenance; capability of reusing pre-existing signal and integrating heterogeneous data sources.In this paper, we describe the system we developed in order to address those constraints at Zalando, which is one of the most popular online fashion retailers in Europe. In particular, we explain how moving from a collaborative filtering approach to a learning-to-rank model helped us to effectively tackle the challenges mentioned above, while improving at the same time the quality of our recommendations. A fairly detailed description of our software architecture is provided, along with an overview of the algorithmic approach. On the other hand, we present some of the offline and online experiments that we ran in order to validate our models.
+learning to rank, large-scale learning, recommender system architecture
+Fabio Aiolli|Efficient top-n recommendation for very large scale binary rated datasets|ACM Conference on Recommender Systems|2013
+Christopher J. C. Burges, Robert Ragno, Quoc Viet Le|Learning to Rank with Nonsmooth Cost Functions|Advances in Neural Information Processing Systems|2006
+Christopher J. C. Burges, Krysta Marie Svore, Paul N. Bennett, Andrzej Pastusiak, Qiang Wu|Learning to Rank Using an Ensemble of Lambda-Gradient Models|Yahoo! Learning to Rank Challenge|2011
+Zhe Cao, Tao Qin, Tie-Yan Liu, Ming-Feng Tsai, Hang Li|Learning to rank: from pairwise approach to listwise approach|International Conference on Machine learning|2007
+Paul Covington, Jay Adams, Emre Sargin|Deep Neural Networks for YouTube Recommendations|ACM Conference on Recommender Systems|2016
+Bruce Croft, Donald Metzler, Trevor Strohman|Search Engines: Information Retrieval in Practice|Addison-Wesley|2009
+John C. Duchi, Yoram Singer|Efficient Online and Batch Learning Using Forward Backward Splitting|Journal of Machine Learning Research|2009
+Roy Thomas Fielding|Architectural Styles and the Design of Network-based Software Architectures|Ph.D. Dissertation|2000
+Antonino Freno, Martin Saveski, Rodolphe Jenatton, Cédric Archambeau|One-Pass Ranking Models for Low-Latency Product Recommendations|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+Yoav Freund, Raj Iyer, Robert E. Schapire, Yoram Singer|An Efficient Boosting Algorithm for Combining Preferences|Journal of Maching Learning Research|2003
+Carlos A. Gomez-Uribe, Neil Hunt|The Netflix Recommender System: Algorithms, Business Value, and Innovation|ACM Trans. Management Inf. Syst.|2016
+Ralf Herbrich, Thore Graepel, Klaus Obermayer|Large Margin Rank Boundaries for Ordinal Regression|Advances in Large Margin Classifiers, Smola, Bartlett, Schölkopf, and Schuurmans|2000
+Thorsten Joachims|Optimizing Search Engines Using Clickthrough Data|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2002
+Ron Kohavi, Roger Longbotham, Dan Sommerfield, Randal M. Henne|Controlled experiments on the web: survey and practical guide|Data Mining and Knowledge Discovery|2009
+John Langford, Lihong Li, Tong Zhang|Sparse Online Learning via Truncated Gradient|Journal of Machine Learning Research|2009
+Tie-Yan Liu|Learning to Rank for Information Retrieval|Foundations and Trends in Information Retrieval|2009
+H. Brendan McMahan, Gary Holt, D. Sculley, Michael Young, Dietmar Ebner, Julian Grady, Lan Nie, Todd Phillips, Eugene Davydov, Daniel Golovin|Ad click prediction: a view from the trenches|ACM SIGKDD international conference on Knowledge discovery and data mining|2013
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Gregory S. Corrado, Jeffrey Dean|Distributed Representations of Words and Phrases and their Compositionality|Advances in Neural Information Processing Systems|2013
+Ananth Mohan, Zheng Chen, Kilian Q. Weinberger|Web-Search Ranking with Initialized Gradient Boosted Regression Trees|Yahoo! Learning to Rank Challenge|2011
+S. Negahban, P. Ravikumar, M. J. Wainwright, B. Yu|A unified framework for high-dimensional analysis of M-estimators with decomposable regularizers|Advances in Neural Information Processing Systems|2009
+D. Sculley|Large scale learning to rank|NIPS Workshop on Advances in Ranking|2009
+Jason Weston, Samy Bengio, Nicolas Usunier|WSABIE: Scaling Up to Large Vocabulary Image Annotation|IJCAI|2011
+Lin Xiao|Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization|Journal of Machine Learning Research|2010
+Jun Xu, Hang Li|AdaRank: A Boosting Algorithm for Information Retrieval|SIGIR|2007
+H. Zou, T. Hastie|Regularization and variable selection via the elastic net|Journal of the Royal Statistical Society|2005

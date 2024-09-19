@@ -1,0 +1,27 @@
+Putting Users in Control of their Recommendations
+F. Maxwell Harper, University of Minnesota, MN, USA|Funing Xu, University of Minnesota, MN, USA|Harmanpreet Kaur, University of Minnesota, MN, USA|Kyle Condiff, University of Minnesota, MN, USA|Shuo Chang, University of Minnesota, MN, USA|Loren Terveen, University of Minnesota, MN, USA
+The essence of a recommender system is that it can recommend items personalized to the preferences of an individual user. But typically users are given no explicit control over this personalization, and are instead left guessing about how their actions affect the resulting recommendations. We hypothesize that any recommender algorithm will better fit some users' expectations than others, leaving opportunities for improvement. To address this challenge, we study a recommender that puts some control in the hands of users. Specifically, we build and evaluate a system that incorporates user-tuned popularity and recency modifiers, allowing users to express concepts like "show more popular items". We find that users who are given these controls evaluate the resulting recommendations much more positively. Further, we find that users diverge in their preferred settings, confirming the importance of giving control to users.
+social computing, collaborative filtering, user control, recommender systems, personalization, movielens, simulation study, user study
+X. Amatriain|Mining Large Streams of User Data for Personalized Recommendations|SIGKDD Explor. Newsl|2013
+S. Bostandjiev, J. O'Donovan, T. Höllerer|TasteWeights: A Visual Interactive Hybrid Recommender System|ACM Conference on Recommender Systems|2012
+R. Burke|Hybrid Web Recommender Systems|Lecture Notes in Computer Science|2007
+Z. Cao, T. Qin, T.-Y. Liu, M.-F. Tsai, H. Li|Learning to Rank: From Pairwise Approach to Listwise Approach|International Conference on Machine Learning|2007
+S. Chang, F. M. Harper, L. Terveen|Using Groups of Items for Preference Elicitation in Recommender Systems|ACM Conference on Computer Supported Cooperative Work and Social Computing|2015
+O. Chapelle, S. S. Keerthi|Efficient algorithms for ranking with SVMs|Information Retrieval|2009
+L. Chen, P. Pu|Critiquing-based recommenders: survey and emerging trends|User Modeling and User-Adapted Interaction|2011
+P. Cremonesi, F. Garzotto, S. Negro, A. V. Papadopoulos, R. Turrin|Looking for "Good" Recommendations: A Comparative Evaluation of Recommender Systems|INTERACT|2011
+M. D. Ekstrand, F. M. Harper, M. C. Willemsen, J. A. Konstan|User Perception of Differences in Recommender Algorithms|ACM Conference on Recommender Systems|2014
+M. D. Ekstrand, M. Ludwig, J. A. Konstan, J. T. Ried| Rethinking the Recommender Research Ecosystem: Reproducibility, Openness, and LensKit|ACM Conference on Recommender Systems|2011
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl| Evaluating Collaborative Filtering Recommender Systems|ACM Trans. Inf. Syst.|2004
+M. Honan|I Liked Everything I Saw on Facebook for Two Days| Here's What It Did to Me|2014
+M. Jahrer, A. Toscher, R. Legenstein|Combining Predictions for Accurate Recommender Systems|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2010
+Y. Koren|Factorization Meets the Neighborhood: A Multifaceted Collaborative Filtering Model|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2008
+T.-Y. Liu|Learning to Rank for Information Retrieval| Found. Trends Inf. Retr.|2009
+S. M. McNee, S. K. Lam, J. A. Konstan, J. Riedl|Interfaces for Eliciting New User Preferences in Recommender Systems|Lecture Notes in Computer Science|2003
+P. Pu, L. Chen|User-Involved Preference Elicitation for Product Search and Recommender Systems|Ai Magazine|2008
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian Personalized Ranking from Implicit Feedback|Conference on Uncertainty in Artificial Intelligence|2009
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based Collaborative Filtering Recommendation Algorithms|International Conference on World Wide Web|2001
+G. Shani, A. Gunawardana|Evaluating Recommendation Systems|Recommender Systems Handbook|2011
+J. Sill, G. Takacs, L. Mackey, D. Lin|Feature-Weighted Linear Stacking|arXiv:0911.0460|2009
+R. Sinha, K. Swearingen|The Role of Transparency in Recommender Systems|CHI|2002
+L. Tang, Y. Jiang, L. Li, T. Li|Ensemble Contextual Bandits for Personalized Recommendation|ACM Conference on Recommender Systems|2014

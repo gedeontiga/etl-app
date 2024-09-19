@@ -1,0 +1,26 @@
+Mechanism Design for Personalized Recommender Systems
+Qingpeng Cai, Tsinghua University, Beijing, China|Aris Filos-Ratsikas, University of Oxford, Oxford, United Kingdom|Chang Liu, Alibaba Group, Beijing, China|Pingzhong Tang, Tsinghua University, Beijing, China
+Strategic behaviour from sellers on e-commerce websites, such as faking transactions and manipulating the recommendation scores through artificial reviews, have been among the most notorious obstacles that prevent websites from maximizing the efficiency of their recommendations. Previous approaches have focused almost exclusively on machine learning-related techniques to detect and penalize such behaviour. In this paper, we tackle the problem from a different perspective, using the approach of the field of mechanism design. We put forward a game model tailored for the setting at hand and aim to construct truthful mechanisms, i.e. mechanisms that do not provide incentives for dishonest reputation-augmenting actions, that guarantee good recommendations in the worst-case. For the setting with two agents, we propose a truthful mechanism that is optimal in terms of social efficiency. For the general case of m agents, we prove both lower and upper bound results on the effciency of truthful mechanisms and propose truthful mechanisms that yield significantly better results, when compared to an existing mechanism from a leading e-commerce site on real data.
+mechanism design, approximation, reputation systems
+E. H. Clarke|Multipart pricing of public goods|Public Choice|1971
+B. Faltings|Using incentives to obtain truthful information|Agents and Artificial Intelligence|2013
+T. Groves|Incentives in Teams|Econometrica|1973
+N. Jindal, B. Liu|Opinion spam and analysis|International Conference on Web Search and Data Mining|2008
+S. Johnson, J. W. Pratt, R. J. Zeckhauser|Efficiency despite mutually payoff-relevant private information: The finite case| Econometrica: Journal of the Econometric Society|1990
+R. Jurca, B. Faltings|Obtaining reliable feedback for sanctioning reputation mechanisms|Journal of Artificial Intelligence Research|2007
+R. Jurca, B. Faltings|Truthful opinions from the crowds|ACM SIGecom Exchanges|2008
+R. Jurca, B. Faltings|Mechanisms for making crowds truthful| Journal of Artificial Intelligence Research|2009
+E. S. Maskin|Mechanism design: How to implement social goals| The American Economic Review|2008
+H. Moulin|On strategy-proofness and single peakedness|Public Choice|1980
+A. Mukherjee, A. Kumar, B. Liu, J. Wang, M. Hsu, M. Castellanos, R. Ghosh|Spotting opinion spammers using behavioral footprints|ACM SIGKDD international conference on Knowledge discovery and data mining|2013
+R. B. Myerson|Optimal auction design|Mathematics of Operations Research|1981
+R. B. Myerson|Mechanism design|Center for Mathematical Studies in Economics and Management Science|1988
+N. Nisan, T. Roughgarden, Éva Tardos, V. V. Vazirani| Algorithmic Game Theory|Cambridge University Press|2007
+M. Ott, Y. Choi, C. Cardie, J. T. Hancock|Finding deceptive opinion spam by any stretch of the imagination|Annual Meeting of the Association for Computational Linguistics: Human Language Technologies|2011
+A. D. Procaccia, M. Tennenholtz|Approximate mechanism design without money|ACM conference on Electronic commerce|2009
+Y. Shoham, K. Leyton-Brown|Multiagent Systems: Algorithmic, Game theoretic and Logical Fundations|Cambridge Uni.|2009
+G. Swamynathan, K. C. Almeroth, B. Y. Zhao|The design of a reliable reputation system|Electronic Commerce Research|2010
+W. Vickrey|Counterspeculation, Auctions and Competitive Sealed Tenders|Journal of Finance|1961
+H. Xu, D. Liu, H. Wang, A. Stavrou|E-commerce reputation manipulation: The emergence of reputation-escalation-as-a-service|International Conference on World Wide Web|2015
+K.-H. Yoo, U. Gretzel|Comparison of deceptive and truthful travel reviews|Information and communication technologies in tourism|2009
+J. Zhang, R. Cohen, K. Larson|Combining trust modeling and mechanism design for promoting honesty in e-marketplaces| Computational Intelligence|2012

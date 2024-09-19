@@ -1,0 +1,33 @@
+Letting Users Choose Recommender Algorithms: An Experimental Study
+Michael D. Ekstrand, Texas State University, TX, USA|Daniel Kluver, University of Minnesota, MN, USA|F. Maxwell Harper, University of Minnesota, MN, USA|Joseph A. Konstan, University of Minnesota, MN, USA
+Recommender systems are not one-size-fits-all; different algorithms and data sources have different strengths, making them a better or worse fit for different users and use cases. As one way of taking advantage of the relative merits of different algorithms, we gave users the ability to change the algorithm providing their movie recommendations and studied how they make use of this power. We conducted our study with the launch of a new version of the MovieLens movie recommender that supports multiple recommender algorithms and allows users to choose the algorithm they want to provide their recommendations. We examine log data from user interactions with this new feature to under-stand whether and how users switch among recommender algorithms, and select a final algorithm to use. We also look at the properties of the algorithms as they were experienced by users and examine their relationships to user behavior. We found that a substantial portion of our user base (25%) used the recommender-switching feature. The majority of users who used the control only switched algorithms a few times, trying a few out and settling down on an algorithm that they would leave alone. The largest number of users prefer a matrix factorization algorithm, followed closely by item-item collaborative filtering; users selected both of these algorithms much more often than they chose a non-personalized mean recommender. The algorithms did produce measurably different recommender lists for the users in the study, but these differences were not directly predictive of user choice.
+recommender systems, experiment, field study
+Balabanović M., Shoham Y.|Fab: content-based, collaborative recommendation|Commun. ACM.|1967
+Burke R.|Hybrid Recommender Systems: Survey and Experiments|User Modeling and User-Adapted Interaction|2002
+Chang S., Harper F.M., Terveen L.|Using Groups of Items for Preference Elicitation in Recommender Systems|Proc. ACM CSCW|2015
+Cook R., Kay J.|The justified user model: a viewable, explained user model|International Conference on User Modelling|1994
+Cremonesi P., Garzottto F., Turrin R.|User Effort vs. Accuracy in Rating-based Elicitation|Proc. RecSys|2012
+Dooms S.|Dynamic Generation of Personalized Hybrid Recommender Systems|Ph.D thesis|2014
+Ekstrand M.D., Harper F.M., Willemsen M.C., Konstan J.A.|User Perception of Differences in Recommender Algorithms|Proc. RecSys|2014
+Ekstrand M., Ludwig M., Konstan J.A., Riedl J.|Rethinking the Recommender Research Ecosystem: Reproducibility, Openness, and LensKit|Proc. RecSys|2011
+Ekstrand M., Riedl J.|When recommenders fail: predicting recommender failure for algorithm selection and combination|Proc. RecSys|2012
+Goldberg D., Nichols D., Oki B.M., Terry D.|Using collaborative filtering to weave an information tapes-try| Commun. ACM.|1992
+Halfaker A., Keyes O., Kluver D., Thebault-Spieker J., Nguyen T., Shores K., Uduwage A., Warncke-Wang M.|User Session Identification Based on Strong Regularities in Inter-activity Time|arXiv:1411.2878|2014
+Kay J.|Scrutable Adaptation: Because We Can and Must. Adaptive Hypermedia and Adaptive Web-Based Systems|Springer|2006
+Kelly D., Belkin N.J.|Reading Time, Scrolling and Interaction: Exploring Implicit Sources of User Preferences for Relevance Feedback|SIGIR|2001
+Knijnenburg B., Willemsen M., Gantner Z., Soncu H., Newell C.|Explaining the user experience of recommender systems| User Modeling and User-Adapted Interaction|2012
+Kohavi R., Longbotham R., Sommerfield D., Henne R.M.| Controlled experiments on the web: survey and practical guide|Data Mining and Knowledge Discovery|2008
+Kramer A.D.I., Guillory J.E., Hancock J.T.|Experimental evidence of massive-scale emotional contagion through social networks|National Academy of Sciences|2014
+Levi A., Mokryn O., Diot C., Taft N.|Finding a Needle in a Haystack of Reviews: Cold Start Context-based Hotel Recommender System|Proc. RecSys|2012
+McNee S., Kapoor N., Konstan J.A.|Don't Look Stupid: Avoiding Pitfalls When Recommending Research Papers|CSCW|2006
+Nguyen T.T., Hui P.-M., Harper F.M., Terveen L., Konstan J.A.|Exploring the Filter Bubble: The Effect of Using Recommender Systems on Content Diversity|WWW|2014
+Pariser E.|The Filter Bubble: How the New Personalized Web Is Changing What We Read and How We Think|Penguin|2011
+Paterek A.|Improving regularized singular value decomposition for collaborative filtering|KDD Cup and Workshop|2007
+Resnick P., Iacovou N., Suchak M., Bergstrom P., Riedl J.|GroupLens: an open architecture for collaborative filtering of netnews|ACM CSCW|1994
+Rich E.|User modeling via stereotypes|Cognitive Science|1979
+Said A., Fields B., Jain B.J., Albayrak S.|User-centric Evaluation of a K-furthest Neighbor Collaborative Filtering Recommender Algorithm|ACM CSCW|2013
+Sarwar B., Karypis G., Konstan J., Reidl J.|Item-based collaborative filtering recommendation algorithms|WWW|2001
+Sill J., Takacs G., Mackey L., Lin D.|Feature-Weighted Linear Stacking|arXiv:0911.0460|2009
+Tintarev N.|Explanations of recommendations|Proc. RecSys|2007
+Vig J., Sen S., Riedl J.|The Tag Genome: En-coding Community Knowledge to Support Novel Interaction|ACM Trans. Interact. Intell. Syst.|2012
+Ziegler C.-N., McNee S., Konstan J.A., Lausen G.|Improving Recommendation Lists through Topic Diversification|WWW|2005

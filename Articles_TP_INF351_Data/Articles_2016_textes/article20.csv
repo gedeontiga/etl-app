@@ -1,0 +1,18 @@
+Recommender Systems with Personality
+Amos Azaria, Carnegie Mellon University, PA, USA|Jason I An Hong, Carnegie Mellon University, PA, USA
+We believe that in the future, the most common form of recommender systems will be present in a personal assistant. We claim that such an intelligent agent must be personal, i.e., know its user's preferences and recommend relevant content, a dynamic learner, instructable, supportive and affable. We describe the current state of the art and the challenges which should be addressed in each of these agent properties and provide examples of how we expect future personal agents to convey these properties.
+vision, recommender systems, personal assistant, intelligent agents
+Amos Azaria, Jayant Krishnamurthy, Tom M Mitchell| Instructable intelligent personal agent|AAAI|2016
+John S Breese, David Heckerman, Carl Kadie|Empirical analysis of predictive algorithms for collaborative filtering|Uncertainty in artificial intelligence|1998
+David L Chen, Raymond J Mooney|Learning to interpret natural language navigation instructions from observations|San Francisco|2011
+Xinlei Chen, Ashish Shrivastava, Arpan Gupta|Neil: Extracting visual knowledge from web data|Computer Vision|2013
+Fiorella De Rosis, Catherine Pelachaud, Isabella Poggi, Valeria Carofiglio, Berardina De Carolis|From greta's mind to her face: modelling the dynamics of affective states in a conversational embodied agent|International journal of human-computer studies|2003
+Lixing Huang, Louis-Philippe Morency, Jonathan Gratch|Virtual rapport 2.0|Intelligent virtual agents|2011
+Ting-Hao Kenneth Huang, Amos Azaria, Jeffrey P Bigham| Instructablecrowd: Creating if-then rules via conversations with the crowd|CHI|2016
+Edwin L Hutchins, James D Hollan, Donald A Norman|Direct manipulation interfaces|Human-Computer Interaction|1985
+George Konidaris, Scott Kuindersma, Roderic Grupen, Andrew Barto|Robot learning from demonstration by constructing skill trees|International Journal of Robotics Research|2011
+Pattie Maes|Agents that reduce work and information overload|Communications of the ACM|1994
+Tom M Mitchell, William Cohen, Estevam Hruschka, Partha Talukdar, Justin Betteridge, Andrew Carlson, Dalvi Mishra|Never-ending learning|AAAI|2015
+Guy Shani, Ronen I Brafman, David Heckerman|An mdp-based recommender system|Uncertainty in artificial intelligence|2002
+William Yang Wang, Kathryn Mazaitis, William W Cohen|Programming with personalized pagerank: a locally groundable first-order probabilistic logic|Information and Knowledge Management|2013
+Jason Wiese, Jason I Hong, John Zimmerman|Challenges and opportunities in data mining contact lists for inferring relationships|Pervasive and Ubiquitous Computing|2014

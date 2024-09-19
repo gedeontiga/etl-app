@@ -1,0 +1,39 @@
+Secure Multi-Party Protocols for Item-Based Collaborative Filtering
+Erez Shmueli, Tel-Aviv University, Tel-Aviv, Israel|Tamir Tassa, The Open University, Ra'anana, Israel
+Recommender systems have become extremely common in recent years, and are utilized in a variety of domains such as movies, music, news, products, restaurants, etc. While a typical recommender system bases its recommendations solely on users' preference data collected by the system itself, the quality of recommendations can significantly be improved if several recommender systems (or vendors) share their data. However, such data sharing poses significant privacy and security challenges, both to the vendors and the users. In this paper we propose secure protocols for distributed item-based Collaborative Filtering. Our protocols allow to compute both the predicted ratings of items and their predicted rankings, without compromising privacy nor predictions' accuracy. Unlike previous solutions in which the secure protocols are executed solely by the vendors, our protocols assume the existence of a mediator that performs intermediate computations on encrypted data supplied by the vendors. Such a mediated setting is advantageous over the non-mediated one since it enables each vendor to communicate solely with the mediator. This yields reduced communication costs and it allows each vendor to issue recommendations to its clients without being dependent on the availability and willingness of the other vendors to collaborate.
+privacy, distributed computing, item-based collaborative filtering
+Gilad Asharov, Francesco Bonchi, David García-Soriano, Tamir Tassa|Secure Centrality Computation Over Multiple Networks|WWW|2017
+Anirban Basu, Jaideep Vaidya, Hiroaki Kikuchi|Perturbation Based Privacy Preserving Slope One Predictors for Collaborative Filtering|IFIPTM|2012
+Iván Cantador, Ignacio Fernández-Tobías, Shlomo Berkovsky, Paolo Cremonesi|Cross-domain recommender systems|Recommender Systems Handbook|2015
+Fran Casino, Constantinos Patsakis, Domenec Puig, Agusti Solanas|On Privacy Preserving Collaborative Filtering: Current Trends, Open Problems, and New Issues|ICEBE|2013
+Wenliang Du, Justin Zhijun Zhan|A practical approach to solve Secure Multi-party Computation problems|Workshop on New Security Paradigms|2002
+Michael D. Ekstrand, John Riedl, Joseph A. Konstan|Collaborative Filtering Recommender Systems|Foundations and Trends in Human-Computer Interaction|2011
+Arik Friedman, Bart P Knijnenburg, Kris Vanhecke, Luc Martens, Shlomo Berkovsky|Privacy aspects of recommender systems|Recommender Systems Handbook|2015
+David Goldberg, David A. Nichols, Brian M. Oki, Douglas B. Terry|Using Collaborative Filtering to Weave an Information Tapestry|Commun. ACM|1992
+Tal Grinshpoun, Tamir Tassa|A privacy-preserving algorithm for distributed constraint optimization|AAMAS|2014
+Tal Grinshpoun, Tamir Tassa|P-SyncBB: A Privacy Preserving Branch and Bound DCOP Algorithm|J. Artificial Intelligence Research|2016
+Arjan Jeckmans, Qiang Tang, Pieter H. Hartel|Privacy-preserving collaborative filtering based on horizontally partitioned dataset|International Conference on Collaboration Technologies and Systems|2012
+Wei Jiang, Chris Clifton|A secure distributed framework for achieving k-anonymity|The VLDB Journal|2006
+Murat Kantarcioglu, Chris Clifton|Privacy-preserving distributed mining of association rules on horizontally partitioned data|IEEE Transactions on Knowledge and Data Engineering|2004
+Thomas Léauté, Boi Faltings|Protecting Privacy through Distributed Computation in Multi-agent Decision Making|J. Artificial Intelligence Research|2013
+Daniel Lemire, Anna Maclachlan|Slope One Predictors for Online Rating-Based Collaborative Filtering|SDM|2015
+Kartik Nayak, Xiao Shaun Wang, Stratis Ioannidis, Udi Weinsberg, Nina Taft, Elaine Shi|GraphSC: Parallel Secure Computation Made Easy|IEEE Symposium on Security and Privacy|2015
+Valeria Nikolaenko, Stratis Ioannidis, Udi Weinsberg, Marc Joye, Nina Taft, Dan Boneh.|Privacy-preserving matrix factorization|CCS|2013
+Pascal Paillier|Public-Key Cryptosystems Based on Composite Degree Residuosity Classes|Eurocrypt|1999
+Huseyin Polat andWenliang Du|Privacy-Preserving Collaborative Filtering on Vertically Partitioned Data|PKDD|2005
+Huseyin Polat, Wenliang Du|Privacy-preserving top-N recommendation on distributed data|Journal of the Association for Information Science and Technology|2008
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+Badrul M. Sarwar, George Karypis, Joseph A. Konstan, John Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+J. Ben Schafer, Joseph A. Konstan, John Riedl|Recommender systems in e-commerce|EC|1999
+Assaf Schuster, RanWolfe, Bobi Gilburd|Privacy-preserving association rule mining in large-scale distributed systems|CCGRID|2004
+Tamir Tassa|Secure Mining of Association Rules in Horizontally Distributed Databases|IEEE Transactions on Knowledge and Data Engineering|2014
+Tamir Tassa, Francesco Bonchi|Privacy Preserving Estimation of Social Influence|EDBT|2014
+Tamir Tassa, Dror J. Cohen|Anonymization of Centralized and Distributed Social Networks by Sequential Clustering|IEEE Transactions on Knowledge and Data Engineering|2013
+Tamir Tassa, Ehud Gudes|Secure distributed computation of anonymized views of shared databases|Transactions on Database Systems|2012
+Tamir Tassa, Roie Zivan, Tal Grinshpoun|Max-Sum Goes Private|IJCAI|2015
+Tamir Tassa, Roie Zivan, Tal Grinshpoun|Preserving Privacy in Region Optimal DCOP Algorithms|IJCAI|2006
+Jaideep Vaidya, Chris Clifton|Privacy preserving association rule mining in vertically partitioned data|KDD|2002
+I.-Cheng Wang, Chih-Hao Shen, Justin Zhan, Tsan-sheng Hsu, Churn-Jung Liau, Da-Wei Wang|Toward Empirical Aspects of Secure Scalar Product|IEEE Transactions on Systems, Man, and Cybernetics|2009
+Ibrahim Yakut, Huseyin Polat|Arbitrarily distributed data-based recommendations with privacy|Data & Knowledge Engineering|2012
+Andrew C. Yao|Protocols for secure computation|FOCS|1982
+Sheng Zhong, Zhiqiang Yang, Rebecca N. Wright|Privacy-enhancing k-anonymization of customer data|PODS|2005

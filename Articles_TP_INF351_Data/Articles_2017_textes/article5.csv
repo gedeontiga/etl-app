@@ -1,0 +1,29 @@
+The Magic Barrier Revisited: Accessing Natural Limitations of Recommender Assessment
+Kevin Jasberg, Heinrich-Heine-University Duesseldorf, Duesseldorf, Germany|Sergej Sizov, Heinrich-Heine-University Duesseldorf, Duesseldorf, Germany
+Recommender systems nowadays have many applications and are of great economic benefit. Hence, it is imperative for success-oriented companies to compare various of such systems and select the better one for their purposes. To this end, various metrics of predictive accuracy are commonly used, such as the Root Mean Square Error (RMSE), or precision and recall. All these metrics more or less measure how well a recommender system can predict human behaviour. Unfortunately, human behaviour is always associated with some degree of uncertainty, making the evaluation difficult, since it is not clear whether a deviation is system-induced or just originates from the natural variability of human decision making. At this point, some authors speculated that we may be reaching some Magic Barrier where this variability prevents us from getting much more accurate [12, 13, 24]. In this article, we will extend the existing theory of the Magic Barrier [24] into a new probabilistic but a yet pragmatic model. In particular, we will use methods from metrology and physics to develop easy-to-handle quantities for computation to describe the Magic Barrier for different accuracy metrics and provide suggestions for common application. This discussion is substantiated by comprehensive experiments with real users and large-scale simulations on a high-performance cluster.
+human uncertainty, magic barrier, point-paradigm, rmse, noise, ranking error, distribution-paradigm
+Xavier Amatriain, Josep Pujol|Rate It Again: Increasing Recommendation Accuracy by User Re-rating|ACM Conference on Recommender Systems|2009
+Xavier Amatriain, Josep M. Pujol, Nuria Oliver|I like it? i like it not: Evaluating user ratings noise in recommender systems|International Conference on User Modeling, Adaptation, and Personalization|2009
+F. Gregory Ashby|Multidimensional Models of Perception and Cognition (Scientific Psychology Series)|Psychology Press|1992
+Joeran Beel, Marcel Genzmehr, Stefan Langer, Andreas Nürnberger, Bela Gipp|A Comparative Analysis of Offline and Online Evaluations and Discussion of Research Paper Recommender System Evaluation|International Workshop on Reproducibility and Replication in Recommender Systems Evaluation|2013
+Philip Bevington, D. Keith Robinson|Data Reduction and Error Analysis for the Physical Sciences|McGraw-Hill Education|2002
+Jésus Bobadilla, Fernando Ortega, Antonio Hernando, Abraham Gutiérrez|Recommender systems survey|Knowledge-based systems|2013
+Andy Buffler, Saalih Allie, Fred Lubben|The development of first year physics students' ideas about measurement in terms of point and set paradigms|International Journal of Science Education|2001
+F. Kenneth Chan|Miss Distance-Generalized Variance Non-Central Chi Distribution|AAS/AIAA Space Flight Mechanics Meeting|2011
+Angela D'Elia and Domenico Piccolo|A mixture model for preferences data analysis|Computational Statistics & Data Analysis|2005
+Michael Grabe|Grundriss der Generalisierten Gauß'schen Fehlerrechnung|Springer Berlin Heidelberg|2011
+Herlocker|Evaluating collaborative filtering recommender systems|ACM Transactions on Information Systems|2004
+Will Hill, Larry Stead, Mark Rosenstein, George Furnas| Recommending and Evaluating Choices in a Virtual Community of Use|SIGCHI Conference on Human Factors in Computing Systems|1995
+Maria Iannario|Modelling Uncertainty and Overdispersion in Ordinal Data|Communications in Statistics - Theory and Methods|2014
+Helene Intraub|Presentation Rate and the Representation of Briefly Glimpsed Pictures in Memory|Journal of Experimental Psychology|1990
+Dietmar Jannach, Markus Zanker, Alexander Felfernig, Gerhard Friedrich|Recommender Systems: An Introduction|Cambridge University Press|2010
+JCGM|Guide to the Expression of Uncertainty in Measurement|Technical Report|2008
+JCGM|Supplement 1 to the GUM - Propagation of distributions using a Monte Carlo method|Technical Report|2008
+H. H. Ku|Notes on the use of propagation of error formulas|J. Res. Nat. Bur. Standards|1966
+Frank J Massey Jr|The Kolmogorov-Smirnov test for goodness of fit|Journal of the American statistical Association|1951
+Netflix|Netflix Leaderboard|http://www.netflixprize.com/leaderboard.html|2016
+Netflix|The Netflix Prize Rules|http://www.netflixprize.com/rules.html|2016
+Francesco Ricci, Lior Rokach, Bracha Shapira|Recommender Systems Handbook|Springer|2015
+Alan Said, Brijnesh Jain, Sascha Narr, Till Plumbaum|Users and Noise: The Magic Barrier of Recommender Systems|User Modeling, Adaptation, and Personalization|2012
+John Taylor|Introduction to error analysis, the study of uncertainties in physical measurements|University Science Books|1997
+Yi Zhang, Jonathan Koren|Efficient bayesian hierarchical user modeling for recommendation system|annual international ACM SIGIR conference on Research and development in information retrieval|2007

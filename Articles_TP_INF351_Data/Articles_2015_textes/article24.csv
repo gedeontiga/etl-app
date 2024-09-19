@@ -1,0 +1,27 @@
+Content Driven User Profiling for Comment-Worthy Recommendations of News and Blog Articles
+Trapit Bansal, Indian Institute of Science, Bangalore, India|Mrinal Kanti Das, Indian Institute of Science, Bangalore, India|Chiranjib Bhattacharyya, Indian Institute of Science, Bangalore, India
+We consider the problem of recommending comment-worthy articles such as news and blog-posts. An article is defined to be comment-worthy for a particular user if that user is interested to leave a comment on it. We note that recommending comment-worthy articles calls for elicitation of commenting-interests of the user from the content of both the articles and the past comments made by users. We thus propose to develop content-driven user profiles to elicit these latent interests of users in commenting and use them to recommend articles for future commenting. The difficulty of modeling comment content and the varied nature of users' commenting interests make the problem technically challenging. The problem of recommending comment-worthy articles is resolved by leveraging article and comment content through topic modeling and the co-commenting pattern of users through collaborative filtering, combined within a novel hierarchical Bayesian modeling approach. Our solution, Collaborative Correspondence Topic Models (CCTM), generates user profiles which are leveraged to provide a personalized ranking of comment-worthy articles for each user. Through these content-driven user profiles, CCTM effectively handle the ubiquitous problem of cold-start without relying on additional meta-data. The inference problem for the model is intractable with no off-the-shelf solution and we develop an efficient Monte Carlo EM algorithm. CCTM is evaluated on three real world data-sets, crawled from two blogs, ArsTechnica (AT) Gadgets (102,087 comments) and AT-Science (71,640 comments), and a news site, DailyMail (33,500 comments). We show average improvement of 14% (warm-start) and 18% (cold-start) in AUC, and 80% (warm-start) and 250% (cold-start) in Hit-Rank@5, over state of the art.
+collaborative filtering, blogs, topic modeling, news, user profiling, hybrid recommendation systems, comments
+E. Shmueli, A. Kagian, Y. Koren, R. Lempel|Care to comment?: Recommendations for commenting on news stories|WWW|2012
+C. Wang, D. Blei|Collaborative topic modeling for recommending scientific articles|SIGKDD|2011
+R. Kant, S. Sengamedu, K. Kumar|Comment spam detection by sequence mining|WSDM|2012
+Z. Ma, A. Sun, Q. Yuan, G. Cong|Topic-driven reader comments summarization|CIKM|2012
+D. Agarwal, B. Chen, B. Pang|Personalized recommendation of user comments via factor models|EMNLP|2011
+Q. Li, J. Wang, Y. Chen, Z. Lin|User comments for news recommendation in forum-based social media|Information Sciences|2010
+M. Das, T. Bansal, C. Bhattacharyya|Going beyond Corr-LDA for detecting specific comments on news & blogs|WSDM|2014
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|NIPS|2007
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+J. Liu, P. Dolan, E. Pedersen|Personalized news recommendation based on click behavior|IUI|2010
+D. Blei, M. Jordan|Modeling annotated data|SIGIR|2003
+J. Wang, C. Yu, P. Yu, B. Liu, W. Meng|Diversionary comments under political blog posts|CIKM|2012
+A. Ahmed, Y. Low, M. Aly, V. Josifovski, A. Smola|Scalable distributed inference of dynamic user interests for behavioral targeting|SIGKDD|2011
+T. Zhao, N. Bian, C. Li, M. Li|Topic-level expert modeling in community question answering|SDM|2013
+X. Su, T. Khoshgoftaar|A survey of collaborative filtering techniques|Advances in artificial intelligence|2009
+F. Ricci, L. Rokach, B. Shapira|Introduction to recommender systems handbook|Springer|2011
+L. Charlin, R. Zemel, H. Larochelle|Leveraging user libraries to bootstrap collaborative filtering|SIGKDD|2014
+H. Ishwaran, L. James|Gibbs sampling methods for stick-breaking priors|Journal of the American Statistical Association|2001
+W. Neiswanger, C. Wang, Q. Ho, E. Xing|Modeling citation networks using latent random offsets|UAI|2014
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+S. Rendle, L. Schmidt-Thieme|Pairwise interaction tensor factorization for personalized tag recommendation|WSDM|2010
+A. Ahmed, B. Kanagal, S. Pandey, V. Josifovski, L. Pueyo, J. Yuan|Latent factor models with additive and hierarchically-smoothed user preferences|WSDM|2013
+L. Hong, A. Doumith, B. Davison|Co-factorization machines: modeling user interests and predicting individual decisions in Twitter|WSDM|2013

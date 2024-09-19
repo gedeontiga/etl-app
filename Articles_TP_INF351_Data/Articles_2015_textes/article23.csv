@@ -1,0 +1,35 @@
+Predicting Online Performance of News Recommender Systems Through Richer Evaluation Metrics
+Andrii Maksai, École polytechnique fédérale de Lausanne, Lausanne, Switzerland|Florent Garcin, École polytechnique fédérale de Lausanne, Lausanne, Switzerland|Boi Volkert Faltings, École polytechnique fédérale de Lausanne, Lausanne, Switzerland
+We investigate how metrics that can be measured offline can be used to predict the online performance of recommender systems, thus avoiding costly A-B testing. In addition to accuracy metrics, we combine diversity, coverage, and serendipity metrics to create a new performance model. Using the model, we quantify the trade-off between different metrics and propose to use it to tune the parameters of recommender algorithms without the need for online testing. Another application for the model is a self-adjusting algorithm blend that optimizes a recommender's parameters over time. We evaluate our findings on data and experiments from news websites.
+evaluation metrics, online evaluation, recommender system
+D. Agarwal, B.-C. Chen, P. Elango, X. Wang|Click shaping to optimize multiple objectives|KDD|2011
+R. Burke|Evaluating the dynamic properties of recommendation algorithms|RecSys|2010
+A. S. Das, M. Datar, A. Garg, S. Rajaram|Google news personalization: scalable online collaborative filtering|WWW|2007
+B. Efron, T. Hastie, I. Johnstone, R. Tibshirani|Least angle regression|The Annals of statistics|2004
+F. Garcin, C. Dimitrakakis, B. Faltings|Personalized news recommendation with context trees|RecSys|2013
+F. Garcin, B. Faltings, O. Donatsch, A. Alazzawi, C. Bruttin, A. Huber|Offline and online evaluation of news recommender systems at swissinfo|RecSys|2014
+M. Ge, C. Delgado-Battenfeld, D. Jannach|Beyond accuracy: evaluating recommender systems by coverage and serendipity|RecSys|2010
+J. Herlocker, J. Konstan, L. Terveen, J. Riedl|Evaluating collaborative filtering recommender systems|Transactions on Information Systems|2004
+T. Jambor, J. Wang|Optimizing multiple objectives in collaborative filtering|RecSys|2010
+N. Lathia, S. Hailes, L. Capra, X. Amatriain|Temporal diversity in recommender systems|SIGIR|2010
+L. Li, W. Chu, J. Langford, X. Wang|Unbiased offline evaluation of contextual-bandit-based news article recommendation algorithms|WSDM|2011
+J. Liu, P. Dolan, E. R. Pedersen|Personalized news recommendation based on click behavior|IUI|2010
+S. McNee, J. Riedl, J. Konstan|Being accurate is not enough: how accuracy metrics have hurt recommender systems|CHI|2006
+T. Murakami, K. Mori, R. Orihara|Metrics for evaluating the serendipity of recommendation lists|New frontiers in artificial intelligence|2008
+D. M. Powers|Evaluation: from precision, recall and f-measure to roc, informedness, markedness and correlation|Bioinfo Publications|2011
+M. Ribeiro, A. Lacerda, E. de Moura, A. Veloso, N. Ziviani| Multi-objective pareto-efficient approaches for recommender systems|ACM Transactions on Intelligent Systems and Technology|2013
+F. Ricci, L. Rokach, B. Shapira|Introduction to recommender systems handbook|Springer|2011
+M. Rodriguez, C. Posse, E. Zhang|Multiple objective optimization in recommender systems|RecSys|2012
+A. Said|Evaluating the Accuracy and Utility of Recommender Systems|PhD thesis|2013
+A. Said, A. Bellogın, J. Lin, A. de Vries|Do recommendations matter?: news recommendation in real life|CSCW|2014
+A. Said, J. Lin, A. Bellogın, A. de Vries|A month in the life of a production news recommender system|CIKM-LL Workshop|2013
+K. Svore, M. Volkovs, C. Burges|Learning to rank with multiple objective functions|WWW|2011
+H. Vanchinathan, I. Nikolic, F. De Bona, A. Krause|Explore-exploit in top-n recommender systems via gaussian processes|RecSys|2014
+S. Vargas, P. Castells|Rank and relevance in novelty and diversity metrics for recommender systems|RecSys|2011
+H. Wang, A. Dong, L. Li, Y. Chang, E. Gabrilovich|Joint relevance and freshness learning from clickthroughs for news search|WWW|2012
+S. Wang, M. Gong, L. Ma, Q. Cai, L. Jiao|Decomposition based multiobjective evolutionary algorithm for collaborative filtering recommender systems|Evolutionary Computation|2014
+J. Yi, Y. Chen, J. Li, S. Sett, T. W. Yan|Predictive model performance: Offline and online evaluations|KDD|2013
+M. Zhang, N. Hurley|Avoiding monotony: improving the diversity of recommendation lists|RecSys|2008
+Y. Zhang, J. Callan, T. Minka|Novelty and redundancy detection in adaptive filtering|SIGIR|2002
+T. Zhou, Z. Kuscsik, J.-G. Liu, M. Medo, J. Wakeling, Y.-C. Zhang|Solving the apparent diversity-accuracy dilemma of recommender systems|NAS|2010
+C.-N. Ziegler, S. McNee, J. Konstan, G. Lausen|Improving recommendation lists through topic diversification|WWW|2005

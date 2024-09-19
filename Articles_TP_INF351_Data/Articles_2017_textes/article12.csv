@@ -1,0 +1,32 @@
+3D Convolutional Networks for Session-based Recommendation with Content Features
+Trinhxuan Tuan, NextSmarty, Hanoi, Vietnam|Tu Minh Phuong, Posts and Telecommunications Institute of Technology & FPT Software Research Lab, Hanoi, Vietnam
+In many real-life recommendation settings, user profiles and past activities are not available. The recommender system should make predictions based on session data, e.g. session clicks and descriptions of clicked items. Conventional recommendation approaches, which rely on past user-item interaction data, cannot deliver accurate results in these situations. In this paper, we describe a method that combines session clicks and content features such as item descriptions and item categories to generate recommendations. To model these data, which are usually of different types and nature, we use 3-dimensional convolutional neural networks with character-level encoding of all input data. While 3D architectures provide a natural way to capture spatio-temporal patterns, character-level networks allow modeling different data types using their raw textual representation, thus reducing feature engineering effort. We applied the proposed method to predict add-to-cart events in e-commerce websites, which is more difficult then predicting next clicks. On two real datasets, our method outperformed several baselines and a state-of-the-art method based on recurrent neural networks.
+session-based recommendation, recommender systems, convolutional neural networks
+Ngo Xuan Bach, Nguyen Do Hai, Tu Minh Phuong|Personalized recommendation of stories for commenting in forum-based social media|Information Sciences|2016
+Marko Balabanović, Yoav Shoham|Fab: Content-based, Collaborative Recommendation|Commun. ACM|1997
+Ronan Collobert, Jason Weston, Léon Bottou, Michael Karlen, Koray Kavukcuoglu, Pavel Kuksa|Natural Language Processing (Almost) from Scratch|J. Mach. Learn. Res.|2011
+Paul Covington, Jay Adams, Emre Sargin|Deep Neural Networks for YouTube Recommendations|ACM Conference on Recommender Systems|2016
+Mukund Deshpande, George Karypis|Item-based top- N recommendation algorithms|ACM Transactions on Information Systems|2004
+Flavio Figueiredo, Bruno Ribeiro, Jussara M. Almeida, Christos Faloutsos|TribeFlow: Mining & Predicting User Trajectories|International Conference on World Wide Web|2016
+David Goldberg, David Nichols, Brian M. Oki, Douglas Terry|Using Collaborative Filtering to Weave an Information Tapestry|Commun. ACM|1992
+Alex Graves, Abdel-rahman Mohamed, Geoffrey Hinton|Speech recognition with deep recurrent neural networks|Acoustics, speech and signal processing|2013
+Mihajlo Grbovic, Vladan Radosavljevic, Nemanja Djuric, Narayan Bhamidipati, Jaikit Savla, Varun Bhagwan, Doug Sharp|E-commerce in Your Inbox: Product Recommendations at Scale|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun|Deep Residual Learning for Image Recognition|IEEE Conference on Computer Vision and Pattern Recognition|2016
+Balázs Hidasi, Alexandros Karatzoglou, L. Baltrunas, Domonkos Tikk|Session-based recommendations with recurrent neural networks|International Conference on Learning Representations|2016
+Balázs Hidasi, Massimo Quadrana, Alexandros Karatzoglou, Domonkos Tikk|Parallel Recurrent Neural Network Architectures for Feature-rich Session-based Recommendations|ACM Conference on Recommender Systems|2016
+S. Ji, W. Xu, M. Yang, K. Yu|3D Convolutional Neural Networks for Human Action Recognition|IEEE Transactions on Pattern Analysis and Machine Intelligence|2013
+Yoon Kim, Yacine Jernite, David Sontag, Alexander M. Rush|Characteraware Neural Language Models|AAAI Conference on Artificial Intelligence|2016
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix Factorization Techniques for Recommender Systems|Computer|2009
+Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton|ImageNet Classification with Deep Convolutional Neural Networks|International Conference on Neural Information Processing Systems|2012
+Yann LeCun, Yoshua Bengio, Geoffrey Hinton|Deep learning|Nature|2015
+Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, L. D. Jackel|Handwritten Digit Recognition with a Back-Propagation Network|Advances in Neural Information Processing Systems|1990
+Dokyun Lee, Kartik Hosanagar|When Do Recommender Systems Work the Best? The Moderating Effects of Product Attributes and Consumer Reviews on Recommender Performance|International Conference on World Wide Web|2016
+Steffen Rendle, Christoph Freudenthaler, Lars Schmidt-Thieme|Factorizing Personalized Markov Chains for Next-basket Recommendation|International Conference on World Wide Web|2010
+Ruslan Salakhutdinov, Andriy Mnih, Geoffrey Hinton|Restricted Boltzmann Machines for Collaborative Filtering|International Conference on Machine Learning|2007
+Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl|Item-based Collaborative Filtering Recommendation Algorithms|International Conference on World Wide Web|2001
+Yong Kiam Tan, Xinxing Xu, Yong Liu|Improved Recurrent Neural Networks for Session-based Recommendations|Workshop on Deep Learning for Recommender Systems|2016
+Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, Manohar Paluri|Learning Spatiotemporal Features with 3D Convolutional Networks|IEEE International Conference on Computer Vision|2015
+Aäron Van den Oord, Sander Dieleman, Benjamin Schrauwen|Deep Content-based Music Recommendation|International Conference on Neural Information Processing Systems|2013
+Flavian Vasile, Elena Smirnova, Alexis Conneau|Meta-Prod2Vec: Product Embeddings Using Side-Information for Recommendation|ACM Conference on Recommender Systems|2016
+Hao Wang, Naiyan Wang, Dit-Yan Yeung|Collaborative Deep Learning for Recommender Systems|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+Xiang Zhang, Junbo Zhao, Yann LeCun|Character-level Convolutional Networks for Text Classification|International Conference on Neural Information Processing Systems|2015

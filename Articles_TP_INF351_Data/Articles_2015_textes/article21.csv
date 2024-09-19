@@ -1,0 +1,28 @@
+Blockbusters and Wallflowers: Accurate, Diverse, and Scalable Recommendations with Random Walks
+Fabian Christoffel, University of Zurich, Zurich, Switzerland|Bibek Paudel, University of Zurich, Zurich, Switzerland|Chris Newell, British Broadcasting Corporation, London, Gt Britain|Abraham Bernstein, University of Zurich, Zurich, Switzerland
+User satisfaction is often dependent on providing accurate and diverse recommendations. In this paper, we explore scalable algorithms that exploit random walks as a sampling technique to obtain diverse recommendations without compromising on accuracy. Specifically, we present a novel graph vertex ranking recommendation algorithm called RP^3_beta that re-ranks items based on 3-hop random walk transition probabilities. We show empirically, that RP^3_beta provides accurate recommendations with high long-tail item frequency at the top of the recommendation list. We also present scalable approximate versions of RP^3_beta and the two most accurate previously published vertex ranking algorithms based on random walk transition probabilities and show that these approximations converge with increasing number of samples.
+diversity, top-n recommendation, item ranking, random walks, bipartite graph, long-tail, sampling
+G. Adomavicius, Y. Kwon|Maximizing Aggregate Recommendation Diversity: A Graph-Theoretic Approach|Workshop on Novelty and Diversity in Recommender Systems|2011
+G. Adomavicius, Y. Kwon|Improving Aggregate Recommendation Diversity Using Ranking-Based Techniques|IEEE Transactions on Knowledge and Data Engineering|2012
+C. C. Aggarwal, J. L. Wolf, K.-L. Wu, P. S. Yu|Horting Hatches an Egg: A New Graph-Theoretich Approach to Collaborative Filtering|ACM SIGKDD|1999
+S. Baluja, R. Seth, D. Sivakumar, Y. Jing, J. Yagnik, S. Kumar, D. Ravichandran, M. Aly|Video Suggestion and Discovery for YouTube: Taking Random Walks Through the View Graph|WWW Conference|2008
+T. Bogers|Movie Recommendation using Random Walks over the Contextual Graph|Workshop on Context-Aware Recommender Systems|2010
+C. Cooper, S. H. Lee, T. Radzik, Y. Siantos|Random Walks in Recommender Systems: Exact Computation and Simulations|WWW Conference|2014
+P. Cremonesi, F. Garzotto, S. Negro, A. V. Papadopoulos, R. Turrin|Looking for "Good" Recommendations: A Comparative Evaluation of Recommender Systems|INTERACT|2011
+D. M. Fleder, K. Hosanagar|Blockbuster Culture's Next Rise or Fall: The Impact of Recommender Systems on Sales Diversity|Management science|2009
+F. Fouss, A. Pirotte, M. Saerens|A Novel Way of Computing Similarities between Nodes of a Graph, with Application to Collaborative Recommendation|IEEE/WIC/ACM International Conference on Web Intelligence|2005
+Z. Gantner, S. Rendle, C. Freudenthaler, L. Schmidt-Thieme| MyMediaLite: A Free Recommender System Library|ACM RecSys|2011
+D. G. Goldstein, D. C. Goldstein|Profiting from the long tail|Harvard Business Review|2006
+M. Gori, A. Pucci|ItemRank: A Random-Walk Based Scoring Algorithm for Recommender Engines|IJCAI|2007
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl| Evaluating Collaborative Filtering Recommender Systems|ACM Transactions on Information Systems|2004
+Z. Huang, H. Chen, D. Zeng|Applying Associative Retrieval Techniques to Alleviate the Sparsity Problem in Collaborative Filtering|ACM Transactions on Information Systems|2004
+M. Jamali, M. Ester|TrustWalker: A RandomWalk Model for Combining Trust-based and Item-based Recommendation|ACM SIGKDD|2009
+S. Lee, S. Park, M. Kahng, S.-g. Lee|PathRank: A Novel Node Ranking Measure on a Heterogeneous Graph for Recommender Systems|CIKM|2012
+S. M. McNee, J. Riedl, J. A. Konstan|Being Accurate is Not Enough: How Accuracy Metrics have hurt Recommender Systems|CHI|2006
+E. Pariser|The Filter Bubble: What the Internet is Hiding from You|Penguin UK|2011
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian Personalized Ranking from Implicit Feedback|UAI|2009
+P. Sarkar, A. W. Moore, A. Prakash|Fast Incremental Proximity Search in Large Graphs|ACM ICML|2008
+S. Vargas, P. Castells|Rank and Relevance in Novelty and Diversity Metrics for Recommender Systems|ACM RecSys|2011
+L. Xiang, Q. Yuan, S. Zhao, L. Chen, X. Zhang, Q. Yang, J. Sun|Temporal Recommendation on Graphs via Long- and Short-term Preference Fusion|ACM SIGKDD|2010
+T. Zhou, Z. Kuscsik, J.-G. Liu, M. Medo, J. R. Wakeling, Y.-C. Zhang|Solving the apparent diversity-accuracy dilemma of recommender systems|PNAS|2010
+C.-N. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen| Improving Recommendation Lists Through Topic Diversification|WWW Conference|2005

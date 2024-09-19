@@ -1,0 +1,33 @@
+STAR: Semiring Trust Inference for Trust-Aware Social Recommenders
+Peixin Gao, University of Maryland, College Park, MD, USA|Hui Miao, University of Maryland, College Park, MD, USA|John S Baras, University of Maryland, College Park, MD, USA|Jennifer A. Golbeck, University of Maryland, College Park, MD, USA
+Social recommendation takes advantage of the influence of social relationships in decision making and the ready availability of social data through social networking systems. Trust relationships in particular can be exploited in such systems for rating prediction and recommendation, which has been shown to have the potential for improving the quality of the recommender and alleviating the issue of data sparsity, cold start, and adversarial attacks. An appropriate trust inference mechanism is necessary in extending the knowledge base of trust opinions and tackling the issue of limited trust information due to connection sparsity of social networks. In this work, we offer a new solution to trust inference in social networks to provide a better knowledge base for trust-aware recommender systems. We propose using a semiring framework as a nonlinear way to combine trust evidences for inferring trust, where trust relationship is model as 2-D vector containing both trust and certainty information. The trust propagation and aggregation rules, as the building blocks of our trust inference scheme, are based upon the properties of trust relationships. In our approach, both trust and distrust (i.e., positive and negative trust) are considered, and opinion conflict resolution is supported. We evaluate the proposed approach on real-world datasets, and show that our trust inference framework has high accuracy, and is capable of handling trust relationship in large networks. The inferred trust relationships can enlarge the knowledge base for trust information and improve the quality of trust-aware recommendation.
+trust network, trust inference, distrust, trust-aware social recommender, trust propagation and aggregation
+C. C. Aggarwal|Social and trust-centric recommender systems|Recommender Systems|2016
+R. Andersen, C. Borgs, J. Chayes, U. Feige, A. Flaxman, A. Kalai, V. Mirrokni, M. Tennenholtz|Trust-based recommendation systems: an axiomatic approach|WWW|2008
+P. Avesani, P. Massa, R. Tiella|A trust-enhanced recommender system application: Moleskiing|ACM SAC|2005
+S. Bistarelli|Semirings for soft constraint solving and programming|Springer Science & Business Media|2004
+C. Castelfranchi, R. Falcone|Trust theory: A socio-cognitive and computational model|John Wiley & Sons|2010
+T. DuBois, J. Golbeck, A. Srinivasan|Predicting trust and distrust in social networks|Privacy, Security, Risk and Trust (PASSAT) and IEEE SocialCom|2011
+R. Forsati, I. Barjasteh, F. Masrour, A.-H. Esfahanian, H. Radha|Pushtrust: An efficient recommendation algorithm by leveraging trust and distrust relations|ACM RecSys|2015
+P. Gao, J. S. Baras, J. Golbeck|Semiring-based trust evaluation for information fusion in social network services|IEEE Fusion|2015
+J. Golbeck|Computing and applying trust in web-based social networks|PhD thesis|2005
+J. Golbeck|Personalizing applications through integration of inferred trust values in semantic web-based social networks|Semantic Network Analysis Workshop at ISWC|2005
+J. Golbeck|Generating predictive movie recommendations from trust in social networks|Springer|2006
+J. Golbeck|Computing with social trust|Springer|2008
+R. Guha, R. Kumar, P. Raghavan, A. Tomkins|Propagation of trust and distrust|WWW|2004
+C. Haydar, A. Roussanaly, A. Boyer|Local trust versus global trust networks in subjective logic|IEEE/WIC/ACM International Joint Conferences on Web Intelligence and Intelligent Agent Technologies|2003
+M. Jamali, M. Ester|Trustwalker: a random walk model for combining trust-based and item-based recommendation|ACM KDD|2009
+M. Jamali, M. Ester|A matrix factorization technique with trust propagation for recommendation in social networks|ACM RecSys|2010
+A. Jøsang, R. Ismail, C. Boyd|A survey of trust and reputation systems for online service provision|Decision support systems|2007
+A. Jøsang, S. Marsh, S. Pope|Exploring different types of trust propagation|Trust management|2006
+J. Leskovec, D. Huttenlocher, J. Kleinberg|Predicting positive and negative links in online social networks|WWW|2010
+B. London, L. Getoor|Collective classification of network data|Data Classification: Algorithms and Applications|2014
+H. Ma, I. King, M. R. Lyu|Learning to recommend with social trust ensemble|ACM SIGIR|2009
+H. Ma, M. R. Lyu, I. King|Learning to recommend with trust and distrust relationships|ACM RecSys|2009.
+H. Ma, H. Yang, M. R. Lyu, I. King|Sorec: social recommendation using probabilistic matrix factorization|ACM SIGIR|2008
+P. Massa, P. Avesani|Trust-aware recommender systems|ACM RecSy|2007
+J. Neville, D. Jensen|Iterative classification in relational data|AAAI Workshop on Learning Statistical Models from Relational Data|2000
+M. Richardson, R. Agrawal, P. Domingos|Trust management for the semantic web|The Semantic Web-ISWC|2003
+J. Tang, X. Hu, H. Liu|Social recommendation: a review|Social Network Analysis and Mining|2013
+G. Theodorakopoulos, J. S. Baras|Trust evaluation in ad-hoc networks|ACM workshop on Wireless security|2004
+C.-N. Ziegler, G. Lausen|Propagation models for trust and distrust in social networks|Information Systems Frontiers|2005

@@ -1,0 +1,34 @@
+Understanding How People Use Natural Language to Ask for Recommendations
+Jie Kang, University of Minnesota, MN, USA|Kyle Condiff, University of Minnesota, MN, USA|Shuo Chang, Quora, Inc.,CA, USA|Joseph A. Konstan, University of Minnesota, MN, USA|Loren Terveen, University of Minnesota, MN, USA
+The technical barriers for conversing with recommender systems using natural language are vanishing. Already, there are commercial systems that facilitate interactions with an AI agent. For instance, it is possible to say "what should I watch" to an Apple TV remote to get recommendations. In this research, we investigate how users initially interact with a new natural language recommender to deepen our understanding of the range of inputs that these technologies can expect. We deploy a natural language interface to a recommender system, we observe users' first interactions and follow-up queries, and we measure the differences between speaking- and typing-based interfaces. We employ qualitative methods to derive a categorization of users' first queries (objective, subjective, and navigation) and follow-up queries (refine, reformulate, start over). We employ quantitative methods to determine the differences between speech and text, finding that speech inputs are typically longer and more conversational.
+virtual assistants, speech, user study, natural language recommenders, voice, critiquing, qualitative methods, recommender systems
+Andreas Bohm|TheoreticaI Coding: Text AnaIysis in Grounded Theory|A companion to qualitative research|2004
+Andrei Broder|A Taxonomy of Web Search|SIGIR Forum|2022
+Barbara L. Chalfonte, Robert S. Fish, Robert E. Kraut|Expressive Richness: A Comparison of Speech and Text As Media for Revision|SIGCHI Conference on Human Factors in Computing Systems|1991
+Ed H. Chi, Peter Pirolli, Kim Chen, James Pitkow|Using Information Scent to Model User Information Needs and Actions and the Web|SIGCHI Conference on Human Factors in Computing Systems|2001
+Lucas Colucci, Prachi Doshi, Kun-Lin Lee, Jiajie Liang, Yin Lin, Ishan Vashishtha, Jia Zhang, Alvin Jude|Evaluating Item-Item Similarity Algorithms for Movies|CHI Conference Extended Abstracts on Human Factors in Computing Systems|2016
+Fabio Crestani, Heather Du|Written Versus Spoken Queries: A Qualitative and Quantitative Comparative Analysis|J. Am. Soc. Inf. Sci. Technol.|2006
+Jane Dye, Irene Schatz, Brian Rosenberg, Susanne Coleman|Constant Comparison Method: A Kaleidoscope of Data|The Qualitative Report|2000
+Mehmet H. Göker, Cynthia A. Thompson|Personalized Conversational Case-Based Recommendation|Advances in Case-Based Reasoning, Enrico Blanzieri and Luigi Portinale|2000
+Ido Guy|Searching by Talking: Analysis of Voice Queries on Mobile Web Search|International ACM SIGIR Conference on Research and Development in Information Retrieval|2016
+Jonathan L. Herlocker, Joseph A. Konstan, Loren G. Terveen, and John T. Riedl|Evaluating Collaborative Filtering Recommender Systems|ACM Trans. Inf. Syst.|2004
+Bernard J. Jansen, Danielle L. Booth, Amanda Spink|Determining the informational, navigational, and transactional intent of Web queries|Information Processing & Management|2008
+Jiepu Jiang, Wei Jeng, Daqing He|How Do Users Respond to Voice Input Errors? Lexical and Phonetic Query Reformulation in Voice Search|International ACM SIGIR Conference on Research and Development in Information Retrieval|2013
+Maryam Kamvar, Shumeet Baluja|A Large Scale Study of Wireless Search Behavior: Google Mobile Search|SIGCHI Conference on Human Factors in Computing Systems|2006
+Jie Kang, Kyle Condiff, Shuo Chang, Joseph A. Konstan, Loren Terveen, F. Maxwell Harper|Understanding How People Use Natural Language to Ask for Recommendations: Query Dataset|http://conservancy.umn.edu/handle/11299/188687 type: dataset|2017
+Lorraine McGinty, James Reilly|On the Evolution of Critiquing Recommenders|Recommender Systems Handbook, Francesco Ricci, Lior Rokach, Bracha Shapira, and Paul B. Kantor|2011
+Sean M. McNee, John Riedl, Joseph A. Konstan|Making Recommendations Better: An Analytic Model for Human-recommender Interaction|CHI|2006
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S. Corrado, Jeff Dean|Distributed Representations of Words and Phrases and their Compositionality|Advances in Neural Information Processing Systems|2013
+Hendrik Müller, Aaron Sedley, Elizabeth Ferrall-Nunge|Survey Research in HCI|Ways of Knowing in HCI, Judith S. Olson and Wendy A. Kellogg|2014
+Peter Pirolli, Stuart Card|Information foraging|Psychological Review|1999
+Pearl Pu, Li Chen, Rong Hu|A User-centric Evaluation Framework for Recommender Systems|ACM Conference on Recommender Systems|2011
+Francesco Ricci, Lior Rokach, Bracha Shapira|Introduction to Recommender Systems Handbook|Recommender Systems Handbook, Francesco Ricci, Lior Rokach, Bracha Shapira, and Paul B. Kantor|2011
+Daniel E. Rose, Danny Levinson|Understanding User Goals in Web Search|International Conference on World Wide Web|2004
+Sherry Ruan, Jacob O. Wobbrock, Kenny Liou, Andrew Ng, James Landay|Speech Is 3x Faster than Typing for English and Mandarin Text Entry on Mobile Devices|arXiv:1608.07323|2016
+Gery W. Ryan, H. Russell Bernard|Techniques to Identify Themes|Field Methods|2003
+J. Ben Schafer, Dan Frankowski, Jon Herlocker, Shilad Sen|Collaborative Filtering Recommender Systems|The Adaptive Web, Peter Brusilovsky, Alfred Kobsa, and Wolfgang Nejdl|2007
+B. Smyth, L. McGinty, J. Reilly, K. McCarthy|Compound Critiques for Conversational Recommender Systems|IEEE/WIC/ACM International Conference on Web Intelligence|2004
+Jaime Teevan, Christine Alvarado, Mark S. Ackerman, David R. Karger|The Perfect Search Engine is Not Enough: A Study of Orienteering Behavior in Directed Search|SIGCHI Conference on Human Factors in Computing Systems|2004
+Cynthia A. Thompson, Mehmet H. Göker, Pat Langley|A Personalized System for Conversational Recommendations|J. Artif. Int. Res.|2004
+Jesse Vig, Shilad Sen, John Riedl|The Tag Genome: Encoding Community Knowledge to Support Novel Interaction|ACM Trans. Interact. Intell. Syst.|2012
+Steve Whittaker, Julia Hirschberg, Brian Amento, Litza Stark, Michiel Bacchiani, Philip Isenhour, Larry Stead, Gary Zamchick, Aaron Rosenberg|SCANMail: A Voicemail Interface That Makes Speech Browsable, Readable and Searchable|SIGCHI Conference on Human Factors in Computing Systems|2002

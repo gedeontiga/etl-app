@@ -1,0 +1,53 @@
+Metalearning for Context-aware Filtering: Selection of Tensor Factorization Algorithms
+Tiago Oliveira Cunha, Faculdade de Engenharia da Universidade do Porto, Porto, Portugal|Carlos Soares, Faculdade de Engenharia da Universidade do Porto, Porto, Portugal|André Carlos Ponce Leon Ferreira Carvalho, Universidade de São Paulo, São Carlos, Brazil
+This work addresses the problem of selecting Tensor Factorization algorithms for the Context-aware Filtering recommendation task using a metalearning approach. The most important challenge of applying metalearning on new problems is the development of useful measures able to characterize the data, i.e. metafeatures. We propose an extensive and exhaustive set of metafeatures to characterize Context-aware Filtering recommendation task. These metafeatures take advantage of the tensor's hierarchical structure via slice operations. The algorithm selection task is addressed as a Label Ranking problem, which ranks the Tensor Factorization algorithms according to their expected performance, rather than simply selecting the algorithm that is expected to obtain the best performance. A comprehensive experimental work is conducted on both levels, baselevel and metalevel (Tensor Factorization and Label Ranking, respectively). The results show that the proposed metafeatures lead to metamodels that tend to rank Tensor Factorization algorithms accurately and that the selected algorithms present high recommendation performance.
+tensor factorization, context-aware filtering, metalearning, label ranking, algorithm selection
+Panagiotis Adamopoulos, Alexander Tuzhilin|Estimating the Value of Multi-Dimensional Data Sets in Context-based Recommender Systems|ACM Conference on Recommender Systems|2014
+Gediminas Adomavicius, Ramesh Sankaranarayanan, Shahana Sen, Alexander Tuzhilin|Incorporating Contextual Information in Recommender Systems Using a Multidimensional Approach|ACM Transactions on Information Systems|2005
+Gediminas Adomavicius, Alexander Tuzhilin|Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions|IEEE Trans. on Knowl. and Data Eng.|2005
+Gediminas Adomavicius, Alexander Tuzhilin|Context-Aware Recommender Systems|Recommender Systems Handbook|2011
+Gediminas Adomavicius, Jingjing Zhang|Impact of data characteristics on recommender systems performance|ACM Transactions on Management Information Systems|2012
+J. Bobadilla, F. Ortega, A. Hernando, A. Gutiérrez|Recommender systems survey|Knowledge-Based Systems|2013
+Pavel Brazdil, Christophe Giraud-Carrier, Carlos Soares, Ricardo Vilalta|Metalearning: Applications to Data Mining|Springer Publishing Company|2009
+J. Douglas Carroll, Jih-Jie Chang|Analysis of individual differences in multidimensional scaling via an n-way generalization of "Eckart-Young" decomposition|Psychometrika|1970
+Tiago Cunha, Carlos Soares, André C.P.L.F. de Carvalho|Selecting Collaborative Filtering algorithms using Metalearning|Conference on Machine Learning and Knowledge Discovery in Databases|2016
+Cláudio Rebelo de Sá, Carlos Soares, Arno Knobbe, Paulo Cortez|Label Ranking Forests|Expert Systems|2016
+Janez Demšar|Statistical Comparisons of Classifiers over Multiple Data Sets|Journal of Machine Learning Research|2006
+Mukund Deshpande, George Karypis|Item-based top-N recommendation algorithms|ACM Transactions on Information Systems|2004
+Simon Dooms, Toon De Pessemier, Luc Martens|MovieTweetings: a Movie Rating Dataset Collected From Twitter|Workshop on Crowdsourcing and Human Computation for Recommender Systems|2013
+Michael Ekstrand, John Riedl|When Recommenders Fail: Predicting Recommender Failure for Algorithm Selection and Combination| ACM Conference on Recommender Systems|2012
+Zeno Gantner, Steffen Rendle, Christoph Freudenthaler, Lars Schmidt- Thieme|MyMediaLite: A Free Recommender System Library|ACM Conference on Recommender Systems|2011
+Josephine Griffith, Colm O'Riordan, and Humphrey Sorensen|Investigations into user rating information and predictive accuracy in a collaborative filtering domain|ACM Symposium on Applied Computing|2012
+GroupLens|MovieLens datasets|http://grouplens.org/datasets/movielens/|2016
+M. Hazewinkel|Handbook of Algebra|Handbook of Algebra. Elsevier Science|2008
+Jonathan L. Herlocker, Joseph a. Konstan, Loren G. Terveen, John T. Riedl|Evaluating collaborative filtering recommender systems|ACM Transactions on Information Systems|2004
+Balázs Hidasi, Domonkos Tikk|Fast ALS-based tensor factorization for context-aware recommendation from implicit feedback|European Conference on Machine Learning and Knowledge Discovery in Databases|2012
+Zan Huang, Daniel Dajun Zeng|Why does collaborative filtering work? transaction-based recommendation model validation and selection by analyzing bipartite random graphs|INFORMS Journal on Computing|2011
+Alexandros Karatzoglou, Xavier Amatriain, Linas Baltrunas, Nuria Oliver|Multiverse Recommendation: N-dimensional Tensor Factorization for Context-aware Collaborative Filtering|ACM Conference on Recommender Systems|2010
+Tamara G. Kolda, Brett W. Bader|Tensor Decompositions and Applications|SIAM Rev|2009
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix Factorization Techniques for Recommender Systems|Computer|2009
+Christiane Lemke, Marcin Budka, Bogdan Gabrys|Metalearning: a survey of trends and technologies|Artificial Intelligence Review|2013
+Christiane Lemke, Bogdan Gabrys|Meta-learning for time series forecasting and forecast combination|Neurocomputing|2010
+Qiang Liu, Shu Wu, Liang Wang|COT: Contextual Operating Tensor for Context-Aware Recommender Systems|AAAI Conference on Artificial Intelligence|2015
+Pawel Matuszyk, Myra Spiliopoulou|Predicting the Performance of Collaborative Filtering Algorithms|International Conference on Web Intelligence, Mining and Semantics|2014
+Julian McAuley, Jure Leskovec|Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text|ACM Conference on Recommender Systems|2013
+István Pilaszy, Dávid Zibriczky, Domonkos Tikk|Fast ALS-based Matrix Factorization for Explicit and Implicit Feedback Datasets|ACM Conference on Recommender Systems|2010
+Fábio Pinto, Carlos Soares, João Mendes-Moreira|Towards automatic generation of Metafeatures|Pacific Asia Conference on Knowledge Discovery and Data Mining|2016
+Ricardo B. C. Prudêncio, Teresa B. Ludermir|Meta-learning approaches to selecting time series models|Neurocomputing|2004
+Steffen Rendle, Zeno Gantner, Christoph Freudenthaler, Lars Schmidt-thieme|Fast Context-aware Recommendations with Factorization Machines|International ACM SIGIR Conference on Research and Development in Information Retrieval|2011
+John Rice|The Algorithm Selection Problem|Advances in Computers|1976
+André Luis Debiaso Rossi, André Carlos Ponce De Leon Ferreira de Carvalho, Carlos Soares, Bruno Feres de Souza|MetaStream: A meta-learning based method for periodic algorithm selection in time-changing data|Neurocomputing|2014
+Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl|Analysis of Recommendation Algorithms for E-Commerce|ACM Conference on Electronic commerce|2000
+Floarea Serban, Joaquin Vanschoren, Abraham Bernstein|A survey of intelligent assistants for data analysis|Comput. Surveys|2013
+Yue Shi, Alexandros Karatzoglou, Linas Baltrunas, Martha Larson, Alan Hanjalic, Nuria Oliver|TFMAP: Optimizing MAP for Top-N Context-aware Recommendation|ACM SIGIR Conference on Research and Development in Information Retrieval|2012
+Carlos Soares|labelrank: Predicting Rankings of Labels|https://cran.r-project.org/|2015
+Carlos Soares, Pavel B. Brazdil, Petr Kuba|A Meta-Learning Method to Select the Kernel Width in Support Vector Regression|Machine Learning|2004
+Panagiotis Symeonidis, Alexandros Nanopoulos, Yannis Manolopoulos|Tag recommendations based on tensor dimensionality reduction|ACM Conference on Recommender Systems|2008
+Panagiotis Symeonidis, Alexandros Nanopoulos, Yannis Manolopoulos|A Unified Framework for Providing Recommendations in Social Tagging Systems Based on Ternary Semantic Analysis|IEEE Transactions on Knowledge and Data Engineering|2008
+H. E. A. Tinsley, S. D. Brown|Handbook of Applied Multivariate Statistics and Mathematical Modeling|Elsevier Science|2000
+Ledyard R. Tucker|Some mathematical notes on three-mode factor analysis|Psychometrika|1966
+Joaquin Vanschoren|Understanding machine learning performance with experiment databases|Ph.D. Dissertation|2010
+Nico Vervliet, Otto Debals, Lieven De Lathauwer|Tensorlab 3.0 - Numerical optimization strategies for large-scale constrained and coupled matrix/ tensor factorization|Asilomar Conference on Signals, Systems and Computers|2016
+Hongning Wang, Yue Lu, ChengXiang Zhai|Latent Aspect Rating Analysis Without Aspect Keyword Supervision|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2011
+Liang Xiong, Xi Chen, Tzu-Kuo Huang, Jeff Schneider, Jaime G. Carbonell|Temporal Collaborative Filtering with Bayesian Probabilistic Tensor Factorization|SIAM Conference on Data Mining|2010
+Xiwang Yang, Yang Guo, Yong Liu, Harald Steck|A survey of collaborative filtering based social recommender systems|Computer Communications|2014

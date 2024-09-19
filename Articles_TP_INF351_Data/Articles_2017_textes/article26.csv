@@ -1,0 +1,51 @@
+Getting Deep Recommenders Fit: Bloom Embeddings for Sparse Binary Input/Output Networks
+Joan R Serrà, Telefónica Research, Barcelona, Spain|Alexandros Karatzoglou, Telefónica Research, Barcelona, Spain
+Recommendation algorithms that incorporate techniques from deep learning are becoming increasingly popular. Due to the structure of the data coming from recommendation domains (i.e., one-hot-encoded vectors of item preferences), these algorithms tend to have large input and output dimensionalities that dominate their overall size. This makes them difficult to train, due to the limited memory of graphical processing units, and difficult to deploy on mobile devices with limited hardware. To address these difficulties, we propose Bloom embeddings, a compression technique that can be applied to the input and output of neural network models dealing with sparse high-dimensional binary-coded instances. Bloom embeddings are computationally efficient, and do not seriously compromise the accuracy of the model up to 1/5 compression ratios. In some cases, they even improve over the original accuracy, with relative increases up to 12%. We evaluate Bloom embeddings on 7 data sets and compare it against 4 alternative methods, obtaining favorable results. We also discuss a number of further advantages of Bloom embeddings, such as 'on-the-fly' constant-time operation, zero or marginal space requirements, training time speedups, or the fact that they do not require any change to the core model architecture or training configuration.
+bloom filters, neural network, embeddings, sparse input/output, deep recommenders
+Z. Akata, F. Perronnin, Z. Harchaoui, C. Schmid|Label-embedding for image classification|IEEE Trans. on Pattern Analysis and Machine Intelligence|2015
+Y. Amit, M. Fink, N. Srebro, S. Ullman|Uncovering shared structures in multiclass classification|Int. Conf. on Machine Learning|2007
+G. Armano, C. Chira, N. Hatami|Error-correcting output codes for multi-label text categorization|Italian Information Retrieval Conf.|2012
+S. Bengio, J. Weston, D. Grangier|Label embedding trees for large multi-class tasks|Advances in Neural Information Processing Systems|2010
+Y. Bengio, R. Ducharme, P. Vincent|A neural probabilistic language model|Advances in Neural Information Processing Systems|2000
+T. Bertin-Mahieux, D. P. W. Ellis, B. Whitman, P. Lamere|The million song dataset|Int. Soc. for Music Information Retrieval Conf.|2011
+B. H. Bloom|Space/time trade-offs in hash coding with allowable errors|Commun. ACM|1970
+J. Blustein, A. El-Maazawi|Bloom filters - a tutorial, analysis, and survey|Technical Report|2002
+F. Bonomi, M. Mitzenmacher, R. Panigrahy, S. Singh, G. Varghese|An improved construction for counting Bloom filters|European Symposium on Algorithms|2006
+A. Cardoso-Cachopo|Improving methods for single-label text categorization|Ph.D. Dissertation|2007
+W. Chen, J. Wilson, S. Tyree, K. Weinberger, Y. Chen| Compressing neural networks with the hashing trick|Int. Conf. on Machine Learning|2015
+H.-T. Cheng, L. Koc, J. Harmsen, T. Shaked, T. Chandra, H. Aradhye, G. Anderson, G. Corrado, W. Chai, M. Ispir, R. Anil, Z. Haque, L. Hong, V. Jain, X. Liu, H. Shah|Wide & deep learning for recommender systems|Workshop on Deep Learning for Recommender Systems|2016
+K. Cho, B. Van Merriënboer, D. Bahdanau, Y. Bengio|On the properties of neural machine translation: encoder-decoder approaches|Workshop on Syntax, Semantics and Structure in Statistical Translation|2014
+F. Chollet|Information-theoretic label embeddings for large-scale image classification|ArXiv: 1607.05691|2016
+M. Cissé, N. Usunier, T. Artières, P. Gallinari|Robust Bloom filters for large multilabel classification tasks|Advances in Neural Information Processing Systems|2013
+M. Courbariaux, Y. Bengio, J.-P. David|BinaryConnect: training deep neural networks with binary weights during propagations|Advances in Neural Information Processing Systems|2015
+T. G. Dietterich, G. Bakiri|Solving multiclass learning problems via error-correcting output codes|Journal of Artificial Intelligence Research|1995
+P. C. Dillinger, P. Manolios|Bloom filters in probabilistic verification|Int. Conf. on Formal Methods in Computer-Aided Design|2004
+J. Duchi, E. Hazan, Y. Singer|Adaptive subgradient methods for online learning and stochastic optimization|Journal of Machine Learning Research|2011
+K. Ganchev, M. Dredze|Small statistical models by random feature mixing|ACL Workshop on Mobile Language Processing|2008
+X. Glorot, A. Bordes, Y. Bengio|Deep sparse rectifier neural networks|Int. Conf. on Artificial Intelligence and Statistics|2011
+E. Grave, A. Joulin, M. Cissé, D. Grangier, H. Jégou|Efficient softmax approximation for GPUs|ArXiv: 1609.04309|2016
+A. Graves|Generating sequences with recurrent neural networks|ArXiv: 1308.0850|2013
+F. M. Harper, J. K. Konstan|The MovieLens datasets: history and context|ACM Trans. on Interactive Intelligent Systems|2015
+S. Hochreiter, J. Schmidhuber|Long short-term memory networks|Neural Computation|1997
+H. Hotelling|Relations between two sets of variates|Biometrika|1936
+D. Hsu, S. M. Kakade, T. Zhang|A spectral algorithm for learning hidden Markov models|J. Comput. System Sci.|2012
+D. J. Hsu, S. M. Kakade, J. Langford, T. Zhang|Multi-label prediction via compressed sensing|Advances in Neural Information Processing Systems|2009
+D. P. Kingma, J. L. Ba|Adam: a method for stochastic optimization|Int. Conf. on Learning Representations|2015
+J. Langford, L. Li, A. Strehl|Vowpal wabbit online learning project|Technical Report|2007
+C. D. Manning, P. Raghavan, H. Schütze|Introduction to information retrieval|Cambridge University Press|2008
+J. McAuley, R. Pandey, J. Leskovec|Inferring networks of substitutable and complementary products|ACM SIGKDD Int. Conf. on Knowledge Discovery and Data Mining|2015
+T. Mikolov|Statistical language models based on neural networks|Ph.D. Dissertation|2012
+T. Mikolov, K. Chen, G. S. Corrado, J. Dean|Efficient estimation of word representations in vector space|arXiv: 1301.3781|2013
+M. Mitzenmacher, E. Upfal|Probability and computing: randomized algorithms and probabilistic analysis|Cambridge University Press|2005
+F. Morin, Y. Bengio|Hierarchical probabilistic neural network language model|Int. Workshop on Artificial Intelligence and Statistics|2005
+S. Rendle|Factorization machines|IEEE Int. Conf. on Data Mining|2015
+Q. Shi, J. Petterson, G. Dror, J. Langford, A. Smola, S. V. N. Vishwanathan|Hash kernels for structured data|Journal of Machine Learning Research|2009
+F. Strub, R. Gaudel, J. Mary|Hybrid recommender system based on autoencoders|Workshop on Deep Learning for Recommender Systems|2016
+T. Tieleman, G. Hinton|Lecture 6.5-RMSprop: divide the gradient by a running average of its recent magnitude|COURSERA: Neural Networks for Machine Learning|2012
+J. Turian, L. Ratinov, Y. Bengio|Word representations: a simple and general method for semi-supervised learning|the Annual Meeting of the Association for Computational Linguistics|2010
+P. Vincent, A. Brébisson, X. Bouthilier|Efficient exact gradient update for training deep networks with very large sparse targets|Advances in Neural Information Processing Systems|2015
+K.Weinberger, A. Dasgupta, J. Attenberg, J. Langford, A. Smola|Feature hashing for large scale multitask learning|Int. Conf. on Machine Learning|2009
+J.Weston, S. Bengio, N. Usunier|Large scale image annotation: learning to rank with joint word-image embeddings|Machine Learning|2010
+J. Weston, O. Chapelle, A. Elisseeff, B. Schölkopf, V. Vapnik|Kernel dependency estimation|Advances in Neural Information Processing Systems|2002
+Y. Wu, C. DuBois, A. X. Zheng, M. Ester|Collaborative denoising auto-Encoders for top-N recommender systems|ACM Int. Conf. on Web Search and Data Mining|2016
+C.-N. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen|Improving recommendation lists through topic diversification|Int. World Wide Web Conf|2005

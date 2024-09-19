@@ -1,0 +1,59 @@
+Ask the GRU: Multi-task Learning for Deep Text Recommendations
+Trapit Bansal, University of Massachusetts Amherst, MA, USA|David Belanger, University of Massachusetts Amherst, MA, USA|Andrew Kachites McCallum, University of Massachusetts Amherst, MA, USA
+In a variety of application domains the content to be recommended to users is associated with text. This includes research papers, movies with associated plot summaries, news articles, blog posts, etc. Recommendation approaches based on latent factor models can be extended naturally to leverage text by employing an explicit mapping from text to factors. This enables recommendations for new, unseen content, and may generalize better, since the factors for all items are produced by a compactly-parametrized model. Previous work has used topic models or averages of word embeddings for this mapping. In this paper we present a method leveraging deep recurrent neural networks to encode the text sequence into a latent vector, specifically gated recurrent units (GRUs) trained end-to-end on the collaborative filtering task. For the task of scientific paper recommendation, this yields models with significantly higher accuracy. In cold-start scenarios, we beat the previous state-of-the-art, all of which ignore word order. Performance is further improved by multi-task learning, where the text encoder network is trained for a combination of content recommendation and item metadata prediction. This regularizes the collaborative filtering model, ameliorating the problem of sparsity of the observed rating matrix.
+multi-task learning, deep learning, recommender systems, cold start, neural networks
+Ido Guy, Naama Zwerdling, Inbal Ronen, David Carmel, Erel Uziel|Social media recommendation based on people and tags|SIGIR|2010
+Owen Phelan, Kevin McCarthy, Barry Smyth|Using twitter to recommend real-time topical news|RecSys|2009
+Trapit Bansal, Mrinal Das, Chiranjib Bhattacharyya|Content driven user profiling for comment-worthy recommendations of news and blog articles|RecSys|2015
+Julian McAuley, Jure Leskovec|Hidden factors and hidden topics: understanding rating dimensions with review text|RecSys|2013
+Chong Wang, David M Blei|Collaborative topic modeling for recommending scientific articles|SIGKDD|2011
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+Andriy Mnih, Ruslan Salakhutdinov|Probabilistic matrix factorization|NIPS|2007
+fabMarko Balabanović, Yoav Shoham|Fab: content-based, collaborative recommendation|Communications of the ACM|1997
+Raymond J Mooney, Loriene Roy|Content-based book recommending using learning for text categorization|ACM conference on Digital libraries|2000
+Chumki Basu, Haym Hirsh, William Cohen|Recommendation as classification: Using social and content-based information in recommendation|AAAI|1998
+Andrew I Schein, Alexandrin Popescul, Lyle H Ungar, David M Pennock|Methods and metrics for cold-start recommendations|SIGIR|2002
+Justin Basilico, Thomas Hofmann|Unifying collaborative and content-based filtering|ICML|2004
+Hao Wang, Naiyan Wang, Dit-Yan Yeung|Collaborative deep learning for recommender systems|SIGKDD|2015
+Prem Melville, Raymond J Mooney, Ramadass Nagarajan| Content-boosted collaborative filtering for improved recommendations|AAAI|2002
+Prem K Gopalan, Laurent Charlin, David Blei|Content-based recommendations with poisson factorization|NIPS|2014
+Deepak Agarwal, Bee-Chung Chen|Regression-based latent factor models|SIGKDD|2009
+Hanna M Wallach|Topic modeling: beyond bag-of-words|ICML|2006
+Paul J Werbos|Backpropagation through time: what it does and how to do it|IEEE|1990
+Mikolov, Martin Karafiát, Lukas Burget, Jan Cernockỳ, Sanjeev Khudanpur|Recurrent neural network based language model|INTERSPEECH|2010
+Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, Yoshua Bengio|Learning phrase representations using rnn encoder-decoder for statistical machine translation|EMNLP|2014
+Robert M Bell, Yehuda Koren|Lessons from the netflix prize challenge|SIGKDD Explorations Newsletter|2007
+Guang Ling, Michael R Lyu, Irwin King|Ratings meet reviews, a combined approach to recommend|RecSys|2014
+Amjad Almahairi, Kyle Kastner, Kyunghyun Cho, Aaron Courville|Learning distributed representations from reviews for collaborative filtering|RecSys|2015
+Jason Weston, Samy Bengio, Nicolas Usunier|Wsabie: Scaling up to large vocabulary image annotation|IJCAI|2011
+Yifan Hu, Yehuda Koren, Chris Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|UAI|2009
+Yue Shi, Martha Larson, Alan Hanjalic|Collaborative filtering beyond the user-item matrix: A survey of the state of the art and future challenges|ACM Computing Surveys|2014
+Steffen Rendle|Factorization machines|ICDM|2010
+Zeno Gantner, Lucas Drumond, Christoph Freudenthaler, Steffen Rendle, Lars Schmidt-Thieme|Learning attribute-to-feature mappings for cold-start recommendations|ICDM|2010
+Rich Caruana|Multitask learning|Machine learning|1997
+Ajit P Singh, Geoffrey J Gordon|Relational learning via collective matrix factorization|SIGKDD|2008
+Hao Ma, Haixuan Yang, Michael R Lyu, Irwin King|Sorec: social recommendation using probabilistic matrix factorization|CIKM|2008
+Ralf Krestel, Peter Fankhauser, Wolfgang Nejdl|Latent dirichlet allocation for tag recommendation|RecSys|2009
+Yoshua Bengio Ian Goodfellow, Aaron Courville|Deep learning|MIT Press|2016.
+Ruslan Salakhutdinov, Andriy Mnih, Geoffrey Hinton| Restricted boltzmann machines for collaborative filtering|ICML|2007
+Suvash Sedhain, Aditya Krishna Menon, Scott Sanner, Lexing Xie|Autorec: Autoencoders meet collaborative filtering|WWW|2015
+Yao Wu, Christopher DuBois, Alice X. Zheng, Martin Ester| Collaborative denoising auto-encoders for top-n recommender systems|WSDM|2016
+Ali Mamdouh Elkahky, Yang Song, Xiaodong He|A multi-view deep learning approach for cross domain user modeling in recommendation systems|WWW|2015
+Gintare Karolina Dziugaite, Daniel M Roy|Neural network matrix factorization|arXiv preprint arXiv|2015
+Aaron Van den Oord, Sander Dieleman, Benjamin Schrauwen| Deep content-based music recommendation|NIPS|2013
+Xinxi Wang, Ye Wang|Improving content-based and hybrid music recommendation using deep learning|International Conference on Multimedia|2014
+R. He, J. McAuley|VBPR: visual bayesian personalized ranking from implicit feedback|AAAI|2016
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, Jeff Dean|Distributed representations of words and phrases and their compositionality|NIPS|2013
+Ronan Collobert, Jason Weston, Léon Bottou, Michael Karlen, Koray Kavukcuoglu, Pavel Kuksa|Natural language processing (almost) from scratch|JMLR|2011
+Ilya Sutskever, Oriol Vinyals, Quoc V Le|Sequence to sequence learning with neural networks|NIPS|2014
+Andrew M Dai, Quoc V Le|Semi-supervised sequence learning|NIPS|2015
+Yoshua Bengio, Patrice Simard, Paolo Frasconi|Learning long-term dependencies with gradient descent is difficult|Neural Networks|1994
+Sepp Hochreiter, Jürgen Schmidhuber|Long short-term memory|Neural computation|1997
+Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, Yoshua Bengio|Empirical evaluation of gated recurrent neural networks on sequence modeling|arXiv preprint arXiv|2014
+Rafal Jozefowicz, Wojciech Zaremba, Ilya Sutskever|An empirical exploration of recurrent network architectures|ICML|2015
+Mike Schuster, Kuldip K Paliwal|Bidirectional recurrent neural networks|Signal Processing|1997
+Arthur P Dempster, Nan M Laird, Donald B Rubin|Maximum likelihood from incomplete data via the em algorithm|Journal of the royal statistical society|1977
+Diederik Kingma, Jimmy Ba|Adam: A method for stochastic optimization|arXiv preprint arXiv|2014
+Misha Denil, Alban Demiraj, Nando de Freitas|Extraction of salient sentences from labelled documents|arXiv preprint arXiv|2014
+Jiwei Li, Xinlei Chen, Eduard Hovy, Dan Jurafsky|Visualizing and understanding neural models|nlp|2016.

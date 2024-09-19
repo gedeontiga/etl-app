@@ -1,0 +1,40 @@
+Recommender Systems for Self-Actualization
+Bart P. Knijnenburg, Clemson University, SC, USA|Saadhika Sivakumar Clemson, University, SC, USA|Daricia Wilkinson Clemson, University, SC, USA
+Every day, we are confronted with an abundance of decisions that require us to choose from a seemingly endless number of choice options. Recommender systems are supposed to help us deal with this formidable task, but some scholars claim that these systems instead put us inside a "Filter Bubble" that severely limits our perspectives. This paper presents a new direction for recommender systems research with the main goal of supporting users in developing, exploring, and understanding their unique personal preferences.
+recommender systems, self-actualization, filter bubble, choice overload
+Alexander C., Ishikawa S., Silverstein M.|A Pattern Language: Towns, Buildings, Construction|Oxford University Press|1997
+Amatriain X., Pujol J.M., Tintarev N., Oliver N.|Rate It Again: Increasing Recommendation Accuracy by User Re-rating.|ACM Conference on Recommender Systems|2009
+Bettman J.R., Luce M.F., Payne J.W.|Constructive consumer choice processes|Journal of consumer research.|1998
+Bollen D., Knijnenburg B.P., Willemsen M.C., Graus M.|Understanding choice overload in recommender systems|ACM conference on Recommender systems|2010
+Boyd D.|Streams of Content, Limited Attention: The Flow of Information through Social Media|Educase Review|2010
+Chen L., Pu P.|Critiquing-based recommenders: survey and emerging trends|User Modeling and User-Adapted Interaction|2011
+Chernev A.|When More Is Less and Less Is More: The Role of Ideal Point Availability and Assortment in Consumer Choice|Journal of Consumer Research|2003
+Cosley D., Lam S.K., Albert I., Konstan J.A., Riedl J.|Is Seeing Believing?: How Recommender System Interfaces Affect Users' Opinions|SIGCHI Conference on Human Factors in Computing Systems|2003
+Doyle J.R.|Survey of time preference, delay discounting models|Judgment and Decision Making|2013
+Fifield W.|Pablo Picasso: A Composite Interview|The Paris Review|1964
+Gelernter D.|Time to start taking the Internet seriously. Edge|https://www.edge.org/conversation/david_gelernter-time-to-start-taking-the-internet-seriously|2010
+Gretzel U., Fesenmaier D.R.|Persuasion in Recommender Systems|International Journal of Electronic Commerce|2006
+Iyengar S.S., Lepper, M.R|When choice is demotivating: Can one desire too much of a good thing?|Journal of Personality and Social Psychology|2000
+Jameson, A., Willemsen M.C., Felfernig A., de Gemmis M., Lops P., Semeraro G., Chen L.| Human Decision Making and Recommender Systems|Recommender Systems Handbook|2015
+Jenkins H.W.|Google and the Search for the Future|Wall Street Journal|2010
+Karimi R., Freudenthaler C., Nanopoulos A., Schmidt-Thieme L.|Exploiting the characteristics of matrix factorization for active learning in recommender systems|ACM conference on Recommender systems|2012
+Knijnenburg B.P., Reijmer N.J.M., Willemsen M.C.|Each to his own: how different users call for different interaction methods in recommender systems|ACM conference on Recommender systems|2011
+Knijnenburg B.P., Willemsen M.C.|Evaluating Recommender Systems with User Experiments|Recommender Systems Handbook|2015
+Knijnenburg B.P., Willemsen M.C., Gantner Z., Soncu H., Newell C.|Explaining the user experience of recommender systems|User Modeling and User-Adapted Interaction|2012
+Konstan J.A., Riedl J.|Recommender systems: from algorithms to user experience|User Modeling and User-Adapted Interaction|2012
+Lanier J.|You Are Not a Gadget: A Manifesto|Thorndike Press|2010
+Martin F.J.|Top 10 Lessons Learned Developing Deploying and Operating Real-world Recommender Systems|ACM Conference on Recommender Systems|2009
+Maslow H.A.|A theory of human motivation|Psychological Review|1943
+McNee S.M., Albert I., Cosley D., Gopalkrishnan P., Lam S.K., Rashid A.M., Konstan J.A., Riedl J.|On the recommending of citations for research papers|ACM conference on Computer supported cooperative work|2002
+McNee S.M., Riedl J., Konstan J.A.|Being accurate is not enough: how accuracy metrics have hurt recommender systems|Extended abstracts on Human factors in computing systems|2006
+McNee S.M., Riedl J., Konstan J.A.|Making Recommendations Better: An Analytic Model for Human-recommender Interaction|Extended Abstracts on Human Factors in Computing Systems|2006
+Nguyen T.T., Hui P.-M., Harper F.M., Terveen L., Konstan J.A.|Exploring the filter bubble: the effect of using recommender systems on content diversity|international conference on World wide web|2014
+Pariser E.|The filter bubble: how the new personalized Web is changing what we read and how we think|Penguin Books|2012
+Pu P., Chen L., Hu R.|A User-centric Evaluation Framework for Recommender Systems|ACM Conference on Recommender Systems|2011
+Resnick P., Garrett R.K., Kriplean T., Munson S.A., Stroud N.J.|Bursting your (filter) bubble: strategies for promoting diverse exposure|conference on Computer supported cooperative work companion|2013
+Resnick P., Iacovou N., Sushak M., Bergstrom P., Riedl J.|GroupLens: An Open Architecture for Collaborative Filtering of Netnews|ACM Conference on Computer Supported Cooperative Work|2013
+Schein A.I., Popescul A., Ungar L.H., Pennock D.M.| Methods and Metrics for Cold-start Recommendations|International Conference on Research and Development in Information Retrieval|2002
+Thaler R.H., Sunstein C.|Nudge?: improving decisions about health, wealth, and happiness|Yale University Press|2001
+Tian K.T., Bearden W.O., Hunter G.L.|Consumer's Need for Uniqueness: Scale Development and Validation|Journal of Consumer Research|2001
+Torres R., McNee S.M., Abel M., Konstan J.A., Riedl J.|Enhancing digital libraries with TechLens+|joint ACM/IEEE conference on Digital libraries|2004
+Ziegler C.-N., McNee S.M., Konstan J.A., Lausen G.|Improving recommendation lists through topic diversification|international conference on World Wide Web|2005

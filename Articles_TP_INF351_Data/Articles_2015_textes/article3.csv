@@ -1,0 +1,32 @@
+"I like to explore sometimes": Adapting to Dynamic User Novelty Preferences
+Komal Kapoor, University of Minnesota, MN, USA|Vikas Kumar, University of Minnesota, MN, USA|Loren Terveen, University of Minnesota, MN, USA|Joseph A. Konstan, University of Minnesota, MN, USA|Paul R Schrater, University of Minnesota, MN, USA
+Studies have shown that the recommendation of unseen, novel or serendipitous items is crucial for a satisfying and engaging user experience. As a result, recent developments in recommendation research have increasingly focused towards introducing novelty in user recommendation lists. While, existing solutions aim to find the right balance between the similarity and novelty of the recommended items, they largely ignore the user needs for novelty. In this paper, we show that there are large individual and temporal differences in the users' novelty preferences. We develop a regression model to predict these dynamic novelty preferences of users using features derived from their past interactions. Finally, we describe an adaptive recommender,~emph{adaNov-R}, that adapts to the user needs for novel items and show that the model achieves better recommendation performance on a metric that considers both novel and familiar items.
+diversity, dynamic user preferences, recommendation systems, novelty
+G. Adomavicius, Y. Kwon|Toward more diverse recommendations: Item re-ranking methods for recommender systems|Workshop on Information Technologies and Systems|2009
+G. Adomavicius, Y. Kwon|Maximizing aggregate recommendation diversity: A graph-theoretic approach|International Workshop on Novelty and Diversity in Recommender Systems|2011
+A. Anderson, R. Kumar, A. Tomkins, S. Vassilvitskii|The dynamics of repeat consumption|international conference on World wide web|2014
+D. E. Berlyne|Novelty, complexity, and hedonic value| Perception & Psychophysics|1970
+P. Castells, S. Vargas, J. Wang|Novelty and diversity metrics for recommender systems: choice, discovery and relevance|International Workshop on Diversity in Document Retrieval|2011
+Y. Hijikata, T. Shimizu, S. Nishida|Discovery-oriented collaborative filtering for improving user satisfaction|international conference on Intelligent user interfaces|2009
+N. Hurley, M. Zhang|Novelty and diversity in top-n recommendationñanalysis and evaluation|ACM Transactions on Internet Technology|2011
+J. J. Inman|The role of sensory-specific satiety in attribute-level variety seeking|Journal of Consumer Research|2001
+T. Jambor, J. Wang|Optimizing multiple objectives in collaborative filtering|ACM conference on Recommender systems|2010
+K. Kapoor, N. Srivastava, J. Srivastava, P. Schrater| Measuring spontaneous devaluations in user preferences|ACM SIGKDD international conference on Knowledge discovery and data mining|2013
+K. Kapoor, K. Subbian, J. Srivastava, P. Schrater|Timing matters! - modeling dynamics of boredom in activity streams|ACM conference on Web Search and Data Mining|2015
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+N. Lathia, S. Hailes, L. Capra, X. Amatriain|Temporal diversity in recommender systems|international ACM SIGIR conference on Research and development in information retrieval|2010
+G. Linden, B. Smith, J. York|Amazon. com recommendations: Item-to-item collaborative filtering|Internet Computing|2003
+X.-Y. Liu, Z.-H. Zhou|The influence of class imbalance on cost-sensitive learning: An empirical study|ICDM|2006
+E. H. Margulis|On Repeat: How Music Plays the Mind|Oxford University Press|2014
+C. Martindale, K. Moore|Priming, prototypicality, and preference|Journal of Experimental Psychology: Human Perception and Performance|1988
+R. K. Ratner, B. E. Kahn, D. Kahneman|Choosing less-preferred experiences for the sake of variety|Journal of Consumer Research|1999
+I. Simonson, R. S. Winer|The influence of purchase quantity and display format on consumer preference for variety| Journal of Consumer Research|1992
+H. C. Van Trijp, W. D. Hoyer, J. J. Inman|Why switch? product category: level explanations for true variety-seeking behavior|Journal of Marketing Research|1996
+S. Vargas, P. Castells|Rank and relevance in novelty and diversity metrics for recommender systems|ACM conference on Recommender systems|2011
+L.-T. Weng, Y. Xu, Y. Li, R. Nayak|Improving recommendation novelty based on topic taxonomy|Web Intelligence and Intelligent Agent Technology Workshops|2007
+R. B. Zajonc|Mere exposure: A gateway to the subliminal| Current directions in psychological science|2001
+F. Zhang, N. J. Yuan, D. Lian, X. Xie|Mining novelty-seeking trait across heterogeneous domains|international conference on World wide web|2014
+M. Zhang, N. Hurley|Avoiding monotony: improving the diversity of recommendation lists|ACM conference on Recommender systems|2008
+Y. C. Zhang, D. Ó. Séaghdha, D. Quercia, T. Jambor| Auralist: introducing serendipity into music recommendation|ACM international conference on Web search and data mining|2012
+T. Zhou, Z. Kuscsik, J.-G. Liu, M. Medo, J. R. Wakeling, Y.-C. Zhang|Solving the apparent diversity-accuracy dilemma of recommender systems|National Acad Sciences|2010
+C.-N. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen| Improving recommendation lists through topic diversification|international conference on World Wide Web|2005

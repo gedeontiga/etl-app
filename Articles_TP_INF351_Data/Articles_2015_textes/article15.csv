@@ -1,0 +1,24 @@
+Gaussian Ranking by Matrix Factorization
+Harald Steck, Netflix, CA, USA
+The ranking quality at the top of the list is crucial in many real-world applications of recommender systems. In this paper, we present a novel framework that allows for pointwise as well as listwise training with respect to various ranking metrics. This is based on a training objective function where we assume that, for given a user, the recommender system predicts scores for all items that follow approximately a Gaussian distribution. We motivate this assumption from the properties of implicit feedback data. As a model, we use matrix factorization and extend it by non-linear activation functions, as customary in the literature of artificial neural networks. In particular, we use non-linear activation functions derived from our Gaussian assumption. Our preliminary experimental results show that this approach is competitive with state-of-the-art methods with respect to optimizing the Area under the ROC curve, while it is particularly effective in optimizing the head of the ranked list.
+matrix factorization, recommender systems, collaborative filtering, learning to rank
+C. Bishop|Neural networks for pattern recognition|Oxford|1995
+P. Cremonesi, Y. Koren, R. Turrin|Performance of recommender algorithms on top-N recommendation tasks|ACM Conference on Recommender Systems|2010
+D. J. Hand, R. J. Till|A simple generalization of the area under the ROC curve for multiple class classification problems|Machine Learning|2001
+T. Ho|The random subspace method for constructing decision forests|IEEE Transactions on Pattern Analysis and Machine Learning|1998
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|IEEE International Conference on Data Mining|2008
+Y. Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|ACM Conference on Knowledge Discovery and Data Mining|2008
+R. Pan, Y. Zhou, B. Cao, N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|IEEE International Conference on Data Mining|2008
+A. Paterek|Improving regularized singular value decomposition for collaborative filtering|KDDCup|2007
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|Advances in Neural Information Processing Systems|2008
+Y. Shi, A. Karatzoglou, L. Baltrunas, M. Larson, A. Hanjalic, N. Oliver|TFMAP: optimizing MAP for top-n context-aware recommendation|ACM SIGIR conference|2012
+Y. Shi, A. Karatzoglou, L. Baltrunas, M. Larson, N. Oliver, A. Hanjalic|CLiMF: Learning to maximize reciprocal rank with collaborative less-is-more filtering|ACM Conference on Recommender Systems|2012
+Y. Shi, M. Larson, A. Hanjalic|List-wise learning to rank with matrix factorization for collaborative filtering|ACM Conference on Recommender Systems|2010
+N. Srivastava, G. Hinton, A. Krizhevsky, I. Sutskever, R. Salakhutdinov|Dropout: A simple way to prevent neural networks from overfitting|Journal of Machine Learning Research|2014
+H. Steck|Hinge rank loss and the area under the ROC curve|European Conference on Machine Learning|2007
+H. Steck|Training and testing of recommender systems on data missing not at random|ACM Conference on Knowledge Discovery and Data Mining|2010
+M. Weimer, A. Karatzoglou, Q. Le, A. Smola|Cofi rank--maximum margin matrix factorization for collaborative ranking|Advances in Neural Information Processing Systems|2008
+J. Weston, H. Yee, R. Weiss|WSABIE: Scaling up to large vocabulary image annotation|Int. Joint Conference on Artificial Intelligence|2011
+J. Weston, H. Yee, R. Weiss|Learning to rank recommendations with the k-order statistic loss|ACM Conference on Recommender Systems|2013
+W. Zhang, T. Chen, J. Wang, Y. Yu|Optimizing top-n collaborative filtering via dynamic negative item sampling|ACM SIGIR Conference|2013

@@ -1,0 +1,26 @@
+Exploiting Geo-Spatial Preference for Personalized Expert Recommendation
+Haokai Lu, Texas A&M University, TX, USA|James A Caverlee, Texas A&M University, TX, USA
+Experts are important for providing reliable and authoritative information and opinion, as well as for improving online reviews and services. While considerable previous research has focused on finding topical experts with broad appeal -- e.g., top Java developers, best lawyers in Texas -- we tackle the problem of personalized expert recommendation, to identify experts who have special personal appeal and importance to users. One of the key insights motivating our approach is to leverage the geo-spatial preferences of users and the variation of these preferences across different regions, topics, and social communities. Through a fine-grained GPS-tagged social media trace, we characterize these geo-spatial preferences for personalized experts, and integrate these preferences into a matrix factorization-based personalized expert recommender. Through extensive experiments, we find that the proposed approach can improve the quality of recommendation by 24% in precision compared to several baselines. We also find that users' geo-spatial preference of expertise and their underlying social communities can ameliorate the cold start problem by more than 20% in precision and recall.
+GPS-tagged social media, geospatial preference, expert recommendation
+X. Amatriain, N. Lathia, J. M. Pujol, H. Kwak, N. Oliver| The wisdom of the few: A collaborative filtering approach based on expert opinions from the web|SIGIR|2009
+K. Balog, L. Azzopardi, M. De Rijke|Formal models for expert finding in enterprise corpora|SIGIR|2006
+C. Campbell, P. Maglio, A. Cozzi, B. Dom|Expertise identification using email communications|CIKM|2003
+K. Chen, T. Chen, G. Zheng, Q. Jin, E. Yao, Y. Yu| Collaborative personalized tweet recommendation|SIGIR|2012
+C. Cheng, H. Yang, I. King, M. R. Lyu|Fused matrix factorization with geographical and social influence in location-based social networks|AAAI|2012
+Z. Cheng, J. Caverlee, H. Barthwal, V. Bachani|Who is the barbecue king of texas?: A geo-spatial approach to finding local experts on twitter|SIGIR|2014
+S. Ghosh, N. Sharma, F. Benevenuto, N. Ganguly, K. Gummadi| Cognos: Crowdsourcing search for topic experts in microblogs|SIGIR|2012
+L. Hu, A. Sun, Y. Liu|Your neighbors affect your ratings: On geographical neighborhood influence to rating predictio|SIGIR|2014
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+A. Krohn-Grimberghe, L. Drumond, C. Freudenthaler, L. Schmidt-Thieme|Multi-relational matrix factorization using bayesian personalized ranking for social network data|WSDM|2012
+D. Lian, C. Zhao, X. Xie, G. Sun, E. Chen, Y. Rui|Geomf: joint geographical modeling and matrix factorization for point-of-interest recommendation|SIGKDD|2014
+B. Liu, Y. Fu, Z. Yao, H. Xiong|Learning geographical preferences for point-of-interest recommendation|SIGKDD| 2013
+X. Liu, B. Croft, M. Koll|Finding experts in community based question-answering services|CIKM|2005
+Y. Liu, W. Wei, A. Sun, C. Miao|Exploiting geographical neighborhood characteristics for location recommendation|CIKM|2014
+H. Ma, D. Zhou, C. Liu, M. Lyu, I. King|Recommender systems with social regularization|WSDM|2011
+A. Pal, S. Counts|Identifying topical authorities in microblogs|WSDM|2011
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| Bpr: Bayesian personalized ranking from implicit feedback|UAI|2009
+S. Rendle, L. Schmidt-Thieme|Pairwise interaction tensor factorization for personalized tag recommendation|WSDM|2010
+J. Weng, E.P. Lim, J. Jiang, Q. He|Twitterrank: Finding topic-sensitive influential twitterers|WSDM|2010
+M. Ye, P. Yin, W.C. Lee, D.L. Lee|Exploiting geographical influence for collaborative point-of-interest recommendation|SIGIR|2011
+J. Zhang, M. S. Ackerman, L. Adamic|Expertise networks in online communities: structure and algorithms|WWW|2007
+W. Zhang, J. Wang, W. Feng|Combining latent factor model with location features for event-based group recommendation|SIGKDD|2013

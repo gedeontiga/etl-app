@@ -1,0 +1,39 @@
+Joint User Modeling across Aligned Heterogeneous Sites
+Xuezhi Cao, Shanghai Jiao Tong University, Shanghai, China|Yong Yu, Shanghai Jiao Tong University, Shanghai, China
+An accurate and comprehensive user modeling technique is crucial for the quality of recommender systems. Traditionally, we model user preferences using only actions from the target site and may suffer from cold-start problem. As nowadays people normally engage in multiple online sites for various needs, we consider leveraging the cross-site actions to improve the user modeling accuracy. Specifically, in this paper we aim at achieving a more comprehensive and accurate user modeling by modeling user's actions in multiple aligned heterogeneous sites simultaneously. To do so, we propose a modularized probabilistic graphical model framework JUMA. We further integrate topic model and matrix factorization into JUMA for joint user modeling over text-based and item-based sites. We assemble and publish large-scale dataset for comprehensive analyzing and evaluation. Experimental results show that our framework JUMA out performs traditional within-site user modeling techniques, especially for cold-start scenarios. For cold-start users, we achieve relative improvements of 9.3% and 12.8% comparing to existing within-site approaches for recommendation in item-based and text-based sites respectively. Thus we draw the conclusion that aligning heterogeneous sites and modeling users jointly do help to improve the quality of online recommender systems.
+recommender system, user modeling, graphical model
+S. Berkovsky, T. Kuflik, F. Ricci|Cross-domain mediation in collaborative filtering|User Modeling|2007
+D. M. Blei, A. Y. Ng, M. I. Jordan|Latent dirichlet allocation|JML|2003
+K. Chen, T. Chen, G. Zheng, O. Jin, E. Yao, Y. Yu|Collaborative personalized tweet recommendation|SIGIR|2012
+S. Chib, E. Greenberg|Understanding the metropolis-hastings algorithm|The american statistician|1995
+I. Fernández-Tobıas, I. Cantador, M. Kaminskas, F. Ricci| Cross-domain recommender systems: A survey of the state of the art.|SCIR|2012
+H. Gao, J. Tang, H. Liu|Addressing the cold-start problem in location recommendation using geo-social correlations| Data Mining and Knowledge Discovery|2014
+F. Godin, V. Slavkovikj, W. De Neve, B. Schrauwen, R. Van de Walle|Using topic models for twitter hashtag recommendation|WWW|2013
+N. Golbandi, Y. Koren, R. Lempel|Adaptive bootstrapping of recommender systems using decision trees|ACM international conference on Web search and data mining|2011
+F. Hu, Y. Yu|Interview process learning for top-n recommendation|ACM conference on Recommender systems|2013
+T. Iofciu, P. Fankhauser, F. Abel, K. Bischoff|Identifying users across social tagging systems|ICWSM|2011
+M. Jamali, M. Ester|A matrix factorization technique with trust propagation for recommendation in social networks|ACM conference on Recommender systems|2010
+H. Kautz, B. Selman, M. Shah|Referral web: combining social networks and collaborative filtering|Communications of the ACM|1997
+N. Koenigstein, G. Dror, Y. Koren|Yahoo! music recommendations: modeling music ratings with temporal dynamics and item taxonomy|ACM conference on Recommender systems|2011
+Y. Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|ACM SIGKDD international conference on Knowledge discovery and data mining|2008
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+X. N. Lam, T. Vu, T. D. Le, A. D. Duong|Addressing cold-start problem in recommendation systems|international conference on Ubiquitous information management and communication|2008
+G. Linden, B. Smith, J. York|Amazon. com recommendations: Item-to-item collaborative filtering|Internet Computing|2003.
+H. Liu, P. Maes|Interestmap: Harvesting social network profiles for recommendations|Beyond Personalization-IUI|2005
+J. Liu, F. Zhang, X. Song, Y.-I. Song, C.-Y. Lin, H.-W. Hon|What's in a name?: an unsupervised approach to link users across communities|ACM international conference on Web search and data mining|2013
+S. Liu, S. Wang, F. Zhu, J. Zhang, R. Krishnan|Hydra: Large-scale social identity linkage via heterogeneous behavior modeling|SIGMOD|2014
+J. McAuley, J. Leskovec|Hidden factors and hidden topics: understanding rating dimensions with review text|RecSys|2013
+A. Mnih, R. Salakhutdinov|Probabilistic matrix factorization|NIPS|2007
+A. Narayanan, V. Shmatikov|De-anonymizing social networks|IEEE Symposium|2009
+A. Narayanan, V. Shmatikov|Myths and fallacies of personally identifiable information|Communications of the ACM|2010
+S. Sahebi, P. Brusilovsky|Cross-domain collaborative recommendation in a cold-start context: The impact of user profile size on the quality of recommendation|UMAP|2013
+A. I. Schein, A. Popescul, L. H. Ungar, D. M. Pennock| Methods and metrics for cold-start recommendations|SIGIR|2002
+S. Tan, J. Bu, X. Qin, C. Chen, D. Cai|Cross domain recommendation based on multi-type media fusion|Neurocomputing|2014
+S. Tan, Z. Guan, D. Cai, X. Qin, J. Bu, C. Chen|Mapping users across networks by manifold alignment on hypergraph|AAAI|2014
+J. Tang, S. Wu, J. Sun, H. Su|Cross-domain collaboration recommendation|ACM SIGKDD international conference on Knowledge discovery and data mining|2012
+M. J. Wainwright, M. I. Jordan|Graphical models, exponential families, and variational inference|Foundations and Trends in Machine Learning|2008
+J. Zhang, X. Kong, P. S. Yu|Predicting social links for new users across aligned heterogeneous social networks|International Conference on Data Mining|2013
+Y. Zhang, J. Koren|Efficient bayesian hierarchical user modeling for recommendation system|SIGIR|2007
+Z.-K. Zhang, C. Liu, Y.-C. Zhang,  T. Zhou|Solving the cold-start problem in recommender systems with social tags|EPL|2010
+E. Zhong, W. Fan, J. Wang, L. Xiao, Y. Li|Comsoc: adaptive transfer of user behaviors over composite social network|ACM SIGKDD|2012
+K. Zhou, S.-H. Yang, H. Zha|Functional matrix factorizations for cold-start recommendation|international ACM SIGIR conference on Research and development in Information Retrieval|2011

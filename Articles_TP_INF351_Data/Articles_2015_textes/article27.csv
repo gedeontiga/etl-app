@@ -1,0 +1,36 @@
+Adaptation and Evaluation of Recommendations for Short-term Shopping Goals
+Dietmar Jannach, TU Dortmund, Dortmund, Germany|Lukas Lerche, TU Dortmund, Dortmund, Germany|Michael Jugovac, TU Dortmund, Dortmund, Germany
+An essential characteristic in many e-commerce settings is that website visitors can have very specific short-term shopping goals when they browse the site. Relying solely on long-term user models that are pre-trained on historical data can therefore be insufficient for a suitable next-basket recommendation. Simple "real-time" recommendation approaches based, e.g., on unpersonalized co-occurrence patterns, on the other hand do not fully exploit the available information about the user's long-term preference profile. In this work, we aim to explore and quantify the effectiveness of using and combining long-term models and short-term adaptation strategies. We conducted an empirical evaluation based on a novel evaluation design and two real-world datasets. The results indicate that maintaining short-term content-based and recency-based profiles of the visitors can lead to significant accuracy increases. At the same time, the experiments show that the choice of the algorithm for learning the long-term preferences is particularly important at the beginning of new shopping sessions.
+algorithms, context, e-commerce, evaluation
+G. Adomavicius, A. Tuzhilin.|Context-aware recommender systems|Recommender Systems Handbook|2011
+S. R. Aghabozorgi, T. Y. Wah|Recommender systems: Incremental clustering on web log data|ICIS|2009
+Y. AlMurtadha, N. B. Sulaiman, N. Mustapha, N. I. Udzir, Z. Muda|ARS: Web page recommendation system for anonymous users based on web usage mining|ECS|2010
+S. Anand, B. Mobasher|Contextual recommendation. In From Web to Social Web|LNCS|2007
+L. Baltrunas, X. Amatriain|Towards time-dependant recommendation based on implicit feedback|CARS WS at RecSys|2009
+L. Baltrunas, B. Ludwig, F. Ricci|Context relevance assessment for recommender systems|IUI|2011
+P. G. Campos, F. Dıez, I. Cantador|Time-aware recommender systems: a comprehensive survey and analysis of existing evaluation protocols|UMUAI|2014
+P. Cremonesi, F. Garzotto, S. Negro, A. Papadopoulos, R. Turrin|Looking for "good" recommendations: A comparative evaluation of recommender systems|Proc. Interact|2011
+P. Cremonesi, F. Garzotto, R. Turrin|Investigating the persuasion potential of recommender systems from a quality perspective: An empirical study|ACM TIST|2012
+P. Cremonesi, Y. Koren, R. Turrin|Performance of algorithms on top-n recommendation tasks|Proc. RecSys|2010
+M. B. Dias, D. Locher, M. Li, W. El-Deredy, P. J. Lisboa| The value of personalised recommender systems to e-business: A case study|Proc. RecSys|2008
+N. Hariri, B. Mobasher, R. Burke|Context adaptation in interactive recommender systems|Proc. RecSys|2014
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl| Evaluating collaborative filtering recommender systems|ACM TOIS|2004
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+D. Jannach, K. Hegelich|A case study on the effectiveness of recommendations in the mobile internet|Proc. RecSys|2009
+D. Jannach, L. Lerche, F. Gedikli, G. Bonnin|What recommenders recommend - an analysis of accuracy, popularity, and sales diversity effects|UMAP|2013
+D. Jannach, M. Zanker, M. Ge, M. Gröning|Recommender systems in computer science and information systems - a landscape of research|EC-Web|2012
+E. Kirshenbaum, G. Forman, M. Dugan|A live comparison of methods for personalized article recommendation at Forbes.com|ECML/PKDD|2012
+Y. Koren|Collaborative filtering with temporal dynamics| Proc. KDD|2009
+L. Lerche, D. Jannach|Using graded implicit feedback for bayesian personalized ranking|Proc. RecSys|2014
+J. Liu, P. Dolan, E. R. Pedersen|Personalized news recommendation based on click behavior|IUI|2010
+B. Mobasher, H. Dai, T. Luo, M. Nakagawa|Using sequential and non-sequential patterns in predictive web usage mining tasks|ICDM|2002
+Q. N. Nguyen, F. Ricci|Long-term and session-specific user preferences in a mobile recommender system|IUI|2008
+S. Rendle|Factorization machines with libFM|ACM Transactions on Intelligent Systems Technology|2012
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+S. Rendle, C. Freudenthaler, L. Schmidt-Thieme|Factorizing personalized markov chains for next-basket recommendation|WWW|2010
+F. Ricci, A. Venturini, D. Cavada, N. Mirzadeh, D. Blaas, M. Nones|Product recommendation with interactive query management and twofold similarity|ICCBR|2003
+A. Said, D. Tikk, K. Stumpf, Y. Shi, M. Larson, P. Cremonesi|Recommender systems evaluation: A 3D benchmark|RUE WS at RecSys|2012
+E. Shen, H. Lieberman, F. Lam|What am I gonna wear?: Scenario-oriented recommendation|IUI|2007
+Y. Shi, A. Karatzoglou, L. Baltrunas, M. Larson, A. Hanjalic|xCLiMF: optimizing expected reciprocal rank for data with multiple levels of relevance|RecSys|2013
+M. Tavakol, U. Brefeld|Factored MDPs for detecting topics of user sessions|Proc. RecSys|2014
+M. Zanker, M. Bricman, S. Gordea, D. Jannach, M. Jessenitschnig|Persuasive online-selling in quality & taste domains|EC-Web|2006

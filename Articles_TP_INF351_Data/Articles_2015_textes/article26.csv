@@ -1,0 +1,30 @@
+Selection and Ordering of Linear Online Video Ads
+Wreetabrata Kar, Adobe, San Jose, CA, USA|Viswanathan (Vishy) Swaminathan, Adobe, San Jose, CA, USA|Paulo Albuquerque, Insead, Fontainbleau, France
+This paper studies the selection and ordering of in-stream ads in videos shown in online content publishers. We propose an allocation algorithm that uses a collective measure of price and quality for each ad and factors in slot-specific continuation probabilities to maximize publisher revenue. The algorithm is based on cascade models and uses a dynamic programming method to assign linear (video) ads to slots in an online video. The approach accounts for the negative externality created by lower quality ads placed in a video, leading to viewer exit and thereby preventing the publisher from showing the subsequent ads scheduled in that session. Our algorithm is scalable and suited for real-time applications. A large log of viewer activity from a video ad platform is used to empirically test the algorithm. A series of simulations show that our algorithm, when compared to other algorithms currently practiced in industry, generates more revenue for the publisher and increases viewer retention.
+scalable real-time algorithm, dynamic program, viewer retention, linear online video ads, revenue maximization
+Kenneth C Wilbur, Linli Xu, David Kempe|Correcting audience externalities in television advertising|Marketing Science|2013
+Hal R Varian|Position auctions|International Journal of Industrial Organization|2007
+Benjamin Edelman, Michael Ostrovsky, Michael Schwarz|Internet advertising and the generalized second price auction: Selling billions of dollars worth of keywords|Technical report|2005
+Gagan Aggarwal, Ashish Goel, Rajeev Motwani|Truthful auctions for pricing search keywords|ACM conference on Electronic commerce|2006
+Sébastien Lahaie, David M Pennock, Amin Saberi, Rakesh V Vohra|Sponsored search auctions|Algorithmic game theory|2007
+Li Liang, Qi Qi|Cooperative or vindictive: Bidding strategies in sponsored search auction|Internet and Network Economics|2007
+Tao Qin, Wei Chen, Tie-Yan Liu|Sponsored search auctions: Recent advances and future directions|ACM Transactions on Intelligent Systems and Technology|2015
+David Maxwell Chickering, David Heckerman|Targeted advertising on the web with inventory management| Interfaces|2003
+John Turner, Alan Scheller-Wolf, Sridhar Tayur|Or practice-scheduling of dynamic in-game advertising|Operations research|2011
+Guillaume Roels, Kristin Fridgeirsdottir|Dynamic revenue management for online display advertising|Journal of Revenue & Pricing Management|2009
+David Kempe, Mohammad Mahdian|A cascade model for externalities in sponsored search|Internet and Network Economics|2008
+Gagan Aggarwal, Jon Feldman, S Muthukrishnan, Martin Pál| Sponsored search auctions with markovian users|Internet and Network Economics|2008
+VF Araman, K Fridgeirsdottir|Online advertising: Revenue management approach|Technical report|2008
+Alf Kimms, Michael Muller-Bungart|Revenue management for broadcasting commercials: the channel's problem of selecting and scheduling the advertisements to be aired| International Journal of Revenue Management|2007
+Victor F Araman, Ioana Popescu|Stochastic revenue management models for media broadcasting|Technical report|2007
+Thorsten Joachims, Laura Granka, Bing Pan, Helene Hembrooke, Filip Radlinski, Geri Gay|Evaluating the accuracy of implicit feedback from clicks and query reformulations in web search|ACM Transactions on Information Systems|2007
+Kinshuk Jerath, Liye Ma, Young-Hoon Park, Kannan Srinivasan|A "position paradox" in sponsored search auctions| Marketing Science|2011
+Susan Athey, Glenn Ellison|Position auctions with consumer search|Technical report|2009
+Matthew Richardson, Ewa Dominowska, Robert Ragno| Predicting clicks: estimating the click-through rate for new ads|international conference on World Wide Web|2007
+D. Sculley, Robert G. Malkin, Sugato Basu, Roberto J. Bayardo|Predicting bounce rates in sponsored search advertisements|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2009
+Paat Rusmevichientong, David P Williamson|An adaptive algorithm for selecting profitable keywords for search-based advertising services|ACM Conference on Electronic Commerce|2006
+Peter McCullagh, John A Nelder, P McCullagh|Generalized linear models|Chapman and Hall London|1989
+Dan Zigmond, Sundar Dorai-Raj, Yannet Interian, Igor Naverniouk|Measuring advertising quality based on audience retention|Journal of Advertising Research|2009
+Nick Craswell, Onno Zoeter, Michael Taylor, Bill Ramsey|An experimental comparison of click position-bias models|International Conference on Web Search and Data Mining|2008
+Tao Mei, Xian-Sheng Hua, Shipeng Li.|Videosense: A contextual in-video advertising system|Circuits and Systems for Video Technology|2009
+Karthik Yadati, Harish Katti, Mohan Kankanhalli|Cavva: Computational affective video-in-video advertising. Multimedia|IEEE Transactions|2014

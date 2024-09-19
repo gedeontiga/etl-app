@@ -1,0 +1,48 @@
+TransNets: Learning to Transform for Recommendation
+Rose Catherine, Carnegie Mellon University, PA, USA|William Weston Cohen, Carnegie Mellon University, PA, USA
+Recently, deep learning methods have been shown to improve the performance of recommender systems over traditional methods, especially when review text is available. For example, a recent model, DeepCoNN, uses neural nets to learn one latent representation for the text of all reviews written by a target user, and a second latent representation for the text of all reviews for a target item, and then combines these latent representations to obtain state-of-the-art performance on recommendation tasks. We show that (unsurprisingly) much of the predictive value of review text comes from reviews of the target user for the target item. We then introduce a way in which this information can be used in recommendation, even when the target user's review for the target item is not available. Our model, called TransNets, extends the DeepCoNN model by introducing an additional latent layer representing the target user-target item pair. We then regularize this layer, at training time, to be similar to another latent representation of the target user's review of the target item. We show that TransNets and extensions of it improve substantially over the previous state-of-the-art.
+recommender systems, deep learning, deep non-linear transformative neural nets
+Gediminas Adomavicius, Alexander Tuzhilin|Context-aware Recommender Systems|ACM Conference on Recommender Systems|2008
+Amjad Almahairi, Kyle Kastner, Kyunghyun Cho, Aaron Courville|Learning Distributed Representations from Reviews for Collaborative Filtering|ACM Conference on Recommender Systems|2015
+Trapit Bansal, David Belanger, Andrew McCallum|Ask the GRU: Multi-task Learning for Deep Text Recommendations|ACM Conference on Recommender Systems|2016
+Yang Bao, Hui Fang, Jie Zhang|TopicMF: Simultaneously Exploiting Ratings and Reviews for Recommendation|AAAI Conference on Artificial Intelligence|2014
+David M. Blei, Andrew Y. Ng, Michael I. Jordan|Latent Dirichlet Allocation|J. Mach. Learn. Res.|2003
+Cristian Buciluǎ, Rich Caruana, Alexandru Niculescu-Mizil|Model Compression|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2006
+Minmin Chen, Zhixiang Xu, Kilian Q.Weinberger, Fei Sha|Marginalized Denoising Autoencoders for Domain Adaptation|International Coference on International Conference on Machine Learning|2012
+Ronan Collobert, JasonWeston, Léon Bottou, Michael Karlen, Koray Kavukcuoglu, Pavel Kuksa|Natural Language Processing (Almost) from Scratch|J. Mach. Learn. Res.|2011
+Paul Covington, Jay Adams, Emre Sargin|Deep Neural Networks for YouTube Recommendations|ACM Conference on Recommender Systems|2016
+Ali Mamdouh Elkahky, Yang Song, Xiaodong He|A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems|International Conference on World Wide Web|2015
+Ian Goodfellow, Yoshua Bengio, Aaron Courville|Deep Learning|MIT Press|http://www.deeplearningbook.org|2016
+Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde- Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio|Generative Adversarial Nets|International Conference on Neural Information Processing Systems|2014
+Geoffrey E. Hinton, Oriol Vinyals, Jeffrey Dean|Distilling the Knowledge in a Neural Network|Deep Learning and Representation LearningWorkshop|2014
+Sepp Hochreiter, Jürgen Schmidhuber|Long Short-Term Memory|Neural Computation|1997
+Zhiting Hu, Xuezhe Ma, Zhengzhong Liu, Eduard Hovy, Eric Xing|Harnessing Deep Neural Networks with Logic Rules|Annual Meeting of the Association for Computational Linguistics|2016
+Donghyun Kim, Chanyoung Park, Jinoh Oh, Sungyoung Lee, Hwanjo Yu|Convolutional Matrix Factorization for Document Context-Aware Recommendation|ACM Conference on Recommender Systems|2016
+Diederik P. Kingma, Jimmy Ba|Adam: A Method for Stochastic Optimization|International Conference on Learning Representations|2014
+Yehuda Koren|Factorization Meets the Neighborhood: A Multifaceted Collaborative Filtering Model|KDD|2008
+Quoc V. Le, Tomas Mikolov|Distributed Representations of Sentences and Documents|ICML|2014
+Y. Lecun, L. Bottou, Y. Bengio, P. Haffner|Gradient-based learning applied to document recognition|IEEE|1998
+Sheng Li, Jaya Kawale, Yun Fu|Deep Collaborative Filtering via Marginalized Denoising Auto-encoder|ACM International on Conference on Information and Knowledge Management|2015
+Guang Ling, Michael R. Lyu, Irwin King|Ratings Meet Reviews, a Combined Approach to Recommend|ACM Conference on Recommender Systems|2014
+Christopher D. Manning, Mihai Surdeanu, John Bauer, Jenny Finkel, Steven J. Bethard, and David McClosky|The Stanford CoreNLP Natural Language Processing Toolkit|Association for Computational Linguistics|2014
+Julian McAuley, Jure Leskovec|Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text|ACM Conference on Recommender Systems|2013
+Julian McAuley, Rahul Pandey, Jure Leskovec|Inferring Networks of Substitutable and Complementary Products|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+Julian McAuley, Christopher Targett, Qinfeng Shi, Anton van den Hengel|Image-Based Recommendations on Styles and Substitutes|International ACM SIGIR Conference on Research and Development in Information Retrieval|2015
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, Jeffrey Dean|Distributed Representations ofWords and Phrases and Their Compositionality|International Conference on Neural Information Processing Systems|2013
+Vinod Nair, Geoffrey E. Hinton|Rectified Linear Units Improve Restricted Boltzmann Machines|International Conference on Machine Learning|2010
+Aäron van den Oord, Sander Dieleman, Benjamin Schrauwen|Deep Content-based Music Recommendation|International Conference on Neural Information Processing Systems|2013
+Jeffrey Pennington, Richard Socher, Christopher D. Manning|GloVe: Global Vectors for Word Representation|Empirical Methods in Natural Language Processing|2014
+Scott Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, Honglak Lee|Generative Adversarial Text to Image Synthesis|International Conference on International Conference on Machine Learning|2016
+Steffen Rendle|Factorization Machines|IEEE International Conference on Data Mining|2010
+Ruslan Salakhutdinov, Andriy Mnih|Probabilistic Matrix Factorization|International Conference on Neural Information Processing Systems|2007
+Sungyong Seo, Jing Huang, Hao Yang, Yan Liu| Representation Learning of Users and Items for Review Rating Prediction Using Attention-based Convolutional Neural Network|International Workshop on Machine Learning Methods for Recommender Systems|2017
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Y. Ng, Christopher Potts|Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank|Conference on Empirical Methods in Natural Language Processing|2013
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov|Dropout: A Simple Way to Prevent Neural Networks from Overfitting|J. Mach. Learn. Res.|2014
+Yunzhi Tan, Min Zhang, Yiqun Liu, Shaoping Ma|Rating-boosted Latent Topics: Understanding Users and Items with Ratings and Reviews|International Joint Conference on Artificial Intelligence|2016
+Pascal Vincent, Hugo Larochelle, Isabelle Lajoie, Yoshua Bengio, Pierre-Antoine Manzagol|Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion|J. Mach. Learn. Res.|2010
+Chong Wang, David M. Blei|Collaborative Topic Modeling for Recommending Scientific Articles|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2011
+HaoWang, NaiyanWang, Dit-Yan Yeung|Collaborative Deep Learning for Recommender Systems|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+Yao Wu, Christopher DuBois, Alice X. Zheng, Martin Ester|Collaborative Denoising Auto-Encoders for Top-N Recommender Systems|ACM International Conference on Web Search and Data Mining|2016
+Xing Yi, Liangjie Hong, Erheng Zhong, Nanthan Nan Liu, Suju Rajan|Beyond Clicks: Dwell Time for Personalization|ACM Conference on Recommender Systems|2014
+Yongfeng Zhang, Guokun Lai, Min Zhang, Yi Zhang, Yiqun Liu, Shaoping Ma|Explicit Factor Models for Explainable Recommendation Based on Phrase-level Sentiment Analysis|International ACM SIGIR Conference on Research & Development in Information Retrieval|2014
+Lei Zheng, Vahid Noroozi, Philip S. Yu|Joint Deep Modeling of Users and Items Using Reviews for Recommendation|ACM International Conference on Web Search and Data Mining|2017

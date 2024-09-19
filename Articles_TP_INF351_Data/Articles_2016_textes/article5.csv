@@ -1,0 +1,37 @@
+Learning Hierarchical Feature Influence for Recommendation by Recursive Regularization
+Jie Yang, Delft University of Technology, Delft, Netherlands|Zhu Sun, Nanyang Technological University, Singapore, Singapore|Alessandro Bozzon, Delft University of Technology, Delft, Netherlands|Jie Jennifer Zhang, Nanyang Technological University, Singapore, Singapore
+Existing feature-based recommendation methods incorporate auxiliary features about users and/or items to address data sparsity and cold start issues. They mainly consider features that are organized in a flat structure, where features are independent and in a same level. However, auxiliary features are often organized in rich knowledge structures (e.g. hierarchy) to describe their relationships. In this paper, we propose a novel matrix factorization framework with recursive regularization -- ReMF, which jointly models and learns the influence of hierarchically-organized features on user-item interactions, thus to improve recommendation accuracy. It also provides characterization of how different features in the hierarchy co-influence the modeling of user-item interactions. Empirical results on real-world data sets demonstrate that ReMF consistently outperforms state-of-the-art feature-based recommendation methods.
+recommender systems, feature-based recommendation, hierarchy
+D. Agarwal, B.-C. Chen|Regression-based latent factor models|KDD|2009
+A. Albadvi, M. Shahbazi|A hybrid recommendation technique based on product category attributes|Expert Systems with Applications|2009
+S. Bocconi, A. Bozzon, A. Psyllidis, C. Titos Bolivar, G.-J. Houben|Social glass: A platform for urban analytics and decision-making through heterogeneous social data|WWW|2015
+T. Chen, W. Zhang, Q. Lu, K. Chen, Z. Zheng, Y. Yu| Svdfeature: a toolkit for feature-based collaborative filtering|Journal of Machine Learning Research|2012
+Z. Cheng, J. Caverlee, K. Lee, D. Z. Sui|Exploring millions of footprints in location sharing services|ICWSM|2011
+Z. Gantner, L. Drumond, C. Freudenthaler, S. Rendle, L. Schmidt-Thieme|Learning attribute-to-feature mappings for cold-start recommendations|ICDM|2010
+H. Gao, J. Tang, X. Hu, H. Liu|Content-aware point of interest recommendation on location-based social networks|AAAI|2015
+H. Gao, J. Tang, H. Liu|gscorr: modeling geo-social correlations for new check-ins on location-based social networks|CIKM|2012
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl| Evaluating collaborative filtering recommender systems|ACM Transactions on Information Systems|2004
+Z. Hu, P. Huang, Y. Deng, Y. Gao, E. P. Xing|Entity hierarchy embedding|ACL-IJCNLP|2015
+R. Jenatton, J. Mairal, F. R. Bach, G. R. Obozinski| Proximal methods for sparse hierarchical dictionary learning|ICML|2010
+S. Kim, E. P. Xing|Tree-guided group lasso for multi-task regression with structured sparsity|ICML|2010
+N. Koenigstein, G. Dror, Y. Koren|Yahoo! music recommendations: modeling music ratings with temporal dynamics and item taxonomy|ResSys|2011
+Y. Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|KDD|2008
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+W.-J. Li, D.-Y. Yeung|Relation regularized matrix factorization|IJCAI|2009
+C. Lippert, S. H. Weber, Y. Huang, V. Tresp, M. Schubert, H.-P. Kriegel|Relation prediction in multi-relational domains using matrix factorization|NIPS Workshop SISO|2008
+H. Ma, D. Zhou, C. Liu, M. R. Lyu, I. King|Recommender systems with social regularization|WSDM|2011
+J. McAuley, C. Targett, Q. Shi, A. van den Hengel|Image-based recommendations on styles and substitutes|SIGIR|2015
+Y. Moshfeghi, B. Piwowarski, J. M. Jose|Handling data sparsity in collaborative filtering using emotion and semantic based features|SIGIR|2011
+S. Rendle|Factorization machines|ICDM|2010
+S. Rendle, Z. Gantner, C. Freudenthaler, L. Schmidt-Thieme|Fast context-aware recommendations with factorization machines|SIGIR|2011
+F. Ricci, L. Rokach, B. Shapira|Introduction to recommender systems handbook|Springer|2011
+Y. Shi, M. Larson, A. Hanjalic|Collaborative filtering beyond the user-item matrix: A survey of the state of the art and future challenges|ACM Computing Surveys|2014
+A. P. Singh, G. J. Gordon|Relational learning via collective matrix factorization|KDD|2008
+J. Tang, H. Gao, X. Hu, H. Liu|Exploiting homophily effect for trust prediction|WSDM|2013
+J. Tang, X. Hu, H. Liu|Social recommendation: a review| Social Network Analysis and Mining|2013
+S. Wang, J. Tang, Y. Wang, H. Liu|Exploring implicit hierarchical structures for recommender systems|IJCAI|2015
+L.-T. Weng, Y. Xu, Y. Li, R. Nayak|Exploiting item taxonomy for solving cold-start problem in recommendation making|ICTAI|2008
+M. Ye, P. Yin, W.-C. Lee, D.-L. Lee|Exploiting geographical influence for collaborative point-of-interest recommendation|SIGIR|2011
+T. Zhao, J. McAuley, I. King|Improving latent factor models via personalized feature projection for one class recommendation|CIKM|2015
+Y. Zhen, W.-J. Li, D.-Y. Yeung|Tagicofi: tag informed collaborative filtering|RecSys|2009
+C.-N. Ziegler, G. Lausen, L. Schmidt-Thieme|Taxonomy-driven computation of product recommendations|CIKM|2004

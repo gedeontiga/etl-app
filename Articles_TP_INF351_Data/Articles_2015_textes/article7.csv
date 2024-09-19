@@ -1,0 +1,25 @@
+PushTrust: An Efficient Recommendation Algorithm by Leveraging Trust and Distrust Relations
+Rana Forsati, Michigan State University, MI, USA|Iman Barjasteh, Michigan State University, MI, USA|Farzan Masrour, Michigan State University, MI, USA|Abdol Hossein Esfahanian, Michigan State University, MI, USA|Hayder Radha, Michigan State University, MI, USA
+The significance of social-enhanced recommender systems is increasing, along with its practicality, as online reviews, ratings, friendship links, and follower relationships are increasingly becoming available. In recent years, there has been an upsurge of interest in exploiting social information, such as trust and distrust relations in recommendation algorithms. The goal is to improve the quality of suggestions and mitigate the data sparsity and the cold-start users problems in existing systems. In this paper, we introduce a general collaborative social ranking model to rank the latent features of users extracted from rating data based on the social context of users. In contrast to existing social regularization methods, the proposed framework is able to simultaneously leverage trust, distrust, and neutral relations, and has a linear dependency on the social network size. By integrating the ranking based social regularization idea into the matrix factorization algorithm, we propose a novel recommendation algorithm, dubbed PushTrust. Our experiments on the Epinions dataset demonstrate that collaboratively ranking the latent features of users by exploiting trust and distrust relations leads to a substantial increase in performance, and to effectively deal with cold-start users problem.
+social regularization, collaborative filtering, matrix factorization, collaborative social ranking
+M. Kim, J. Leskovec|The network completion problem: Inferring missing nodes and edges in networks|SDM. SIAM| 2011
+A. Annibale, A. Coolen|What you see is not what you get: how sampling affects macroscopic features of biological networks|Interface Focus|2011
+M. Papagelis, G. Das, N. Koudas|Sampling online social networks|Knowledge and Data Engineering|2013
+M. Shiga, I. Takigawa, H. Mamitsuka|Annotating gene function by combining expression data with a modular gene network|Bioinformatics|2007
+B. Recht|A simpler approach to matrix completion|JMLR|2011
+R. Guimerà, M. Sales-Pardo|Missing and spurious interactions and the reconstruction of complex networks|National Academy of Sciences|2009
+S. Hanneke, E. P. Xing|Network completion and survey sampling|AISTAT|2009
+D. Liben-Nowell, J. Kleinberg|The link-prediction problem for social networks|Journal of the American society for information science and technology|2007
+N. Srebro, J. Rennie, T. S. Jaakkola|Maximum-margin matrix factorization|NIPS|2004
+T. Zhou, H. Shan, A. Banerjee, G. Sapiro|Kernelized probabilistic matrix factorization: Exploiting graphs and side information|SDM|2012
+A. K. Menon, K.-P. Chitrapura, S. Garg, D. Agarwal, N. Kota|Response prediction using collaborative filtering with hierarchies and side-information|ACM SIGKDD international conference on Knowledge discovery and data mining|2011
+I. Porteous, A. U. Asuncion, M. Welling|Bayesian matrix factorization with side information and dirichlet process mixtures|AAAI|2010
+Y. Fang, L. Si|Matrix co-factorization for recommendation with rich side information and implicit feedback|International Workshop on Information Heterogeneity and Fusion in Recommender Systems|2011
+W. Pan, E. W. Xiang, N. N. Liu, Q. Yang|Transfer learning in collaborative filtering for sparsity reduction|AAAI|2010
+J. Abernethy, F. Bach, T. Evgeniou, J.-P. Vert|A new approach to collaborative filtering: Operator estimation with spectral regularization|JMLR|2009
+E. J. Candès, B. Recht|Exact matrix completion via convex optimization|Foundations of Computational mathematics|2009
+J.-F. Cai, E. J. Candès, Z. Shen|A singular value thresholding algorithm for matrix completion|SIAM Journal on Optimization|2010
+A. Goldberg, B. Recht, J. Xu, R. Nowak, X. Zhu|Transduction with matrix completion: Three birds with one stone|NIPS|2010
+K.-Y. Chiang, C.-J. Hsieh, N. Natarajan, I. S. Dhillon, A. Tewari|Prediction and clustering in signed networks: a local to global perspective|JMLR|2014
+W. Liu, J. Wang, S.-F. Chang|Robust and scalable graph-based semisupervised learning|IEEE|2012
+A. K. Menon, C. Elkan|Link prediction via matrix factorization|Machine Learning and Knowledge Discovery in Databases|2011

@@ -1,0 +1,34 @@
+MPR: Multi-Objective Pairwise Ranking
+Rasaq Otunba, George Mason University, VA, USA|Raimi A Rufai, SAP Labs, PQ, Canada|Jessica Hung Fan Lin, George Mason University, VA, USA
+The recommendation challenge can be posed as the problem of predicting either item ratings or item rankings. The latter approach has proven more effective. Pairwise learning-to-rank techniques have been relatively successful. Hence, they are popularly used for learning recommender model parameters such as those in collaborative filtering (CF) models. The model parameters are learned by optimizing close smooth approximations of the non-smooth information retrieval (IR) metrics such as Mean Area Under ROC curve (AUC).Targeted campaigns are an alternative to item recommendations for increasing conversion. The user ranking task is referred to as audience retrieval. It is used in targeted campaigns to rank push campaign recipients based on their potential to convert. In this work, we consider the task of efficiently learning a ranking model that provides item recommendations and user rankings simultaneously. We adopt pairwise learning for this task. We refer to our approach as multi-objective pairwise ranking (MPR).We describe our approach and use experiments to evaluate its performance.
+recommendations, audience retrieval, collaborative filtering
+S. Balakrishnan, S. Chopra|Collaborative ranking|ACM International Conference on Web Search and Data Mining|2012
+Y. Benjamini, Y. Hochberg|Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing|Journal of the Royal Statistical Society|1995
+C. Burges, T. Shaked, E. Renshaw, A. Lazier, M. Deeds, N. Hamilton, G. Hullender|Learning to rank using gradient descent|International Conference on Machine Learning|2005
+M. Deshpande, G. Karypis|Item-based top-n recommendation algorithms|ACM Trans. Inf. Syst.|2004
+I. Goodfellow, Y. Bengio, A. Courville|Deep Learning|MIT Press|2016
+T. Graepel, J. Q. n. Candela, T. Borchert, R. Herbrich|Web-Scale Bayesian Click-Through rate Prediction for Sponsored Search Advertising in Microsoft's Bing Search Engine|International Conference on Machine Learning|2010
+G. Guo, J. Zhang, Z. Sun, N. Yorke-Smith|Librec: A java library for recommender systems|UMAP|2015
+F. M. Harper, J. A. Konstan|The movielens datasets: History and context|ACM Trans. Interact. Intell. Syst.|2015
+X. He, L. Liao, H. Zhang, L. Nie, X. Hu, T.-S. Chua|Neural collaborative filtering|International Conference on World Wide Web|2017
+X. He, H. Zhang, M.-Y. Kan, T.-S. Chua|Fast matrix factorization for online recommendation with implicit feedback|International ACM SIGIR Conference on Research and Development in Information Retrieval|2016
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|IEEE International Conference on Data Mining|2008
+S. Huang, S. Wang, T.-Y. Liu, J. Ma, Z. Chen, J. Veijalainen|Listwise collaborative filtering|International ACM SIGIR Conference on Research and Development in Information Retrieval|2015
+S. Kabbur, X. Ning, G. Karypis|Fism: Factored item similarity models for top-n recommender systems|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2013
+Y. Koren|Factorization meets the neighborhood: A multifaceted collaborative filtering model|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2008
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+H. Liu, D. Pardoe, K. Liu, M. Thakur, F. Cao, C. Li|Audience expansion for online social network advertising|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2016
+Y. Liu, S. Pandey, D. Agarwal, V. Josifovski|Finding the right consumer: Optimizing for conversion in display advertising campaigns|ACM International Conference on Web Search and Data Mining|2012
+R. T. Marler, J. S. Arora|The weighted sum method for multi-objective optimization: new insights|Structural and Multidisciplinary Optimization|2010
+X. Ning, G. Karypis|Slim: Sparse linear methods for top-n recommender system|International Conference on Data Mining|2011
+S. Pandey, M. Aly, A. Bagherjeiran, A. Hatch, P. Ciccolo, A. Ratnaparkhi, M. Zinkevich|Learning to target: What works for behavioral targeting|ACM International Conference on Information and Knowledge Management|2011
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+S. Rendle, L. Schmidt-Thieme|Online-updating regularized kernel matrix factorization models for large-scale recommender systems|ACM Conference on Recommender Systems|2008
+J. D. M. Rennie, N. Srebro|Fast maximum margin matrix factorization for collaborative prediction|International Conference on Machine Learning|2005
+G. Robinson|Automated collaborative filtering|world wide web advertising|1997
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|International Conference on World Wide Web|2001
+Y. Shi, M. Larson, A. Hanjalic|List-wise learning to rank with matrix factorization for collaborative filtering|ACM Conference on Recommender Systems|2010
+M. Volkovs, R. S. Zemel|Collaborative ranking with 17 parameters|Advances in Neural Information Processing Systems|2012
+M. Weimer, A. Karatzoglou, Q. V. Le, A. J. Smola|Cofi rank - maximum margin matrix factorization for collaborative ranking|Advances in Neural Information Processing Systems|2007
+S. Xu, S. Wu, L. Wang|Personalized semantic ranking for collaborative recommendation|International ACM SIGIR Conference on Research and Development in Information Retrieval|2015
+J. Yuan, B. Kanagal, V. Josifovski, L. Garcia-Pueyo, A. Ahmed, S. Pandey|Focused matrix factorization for audience selection in display advertising|IEEE International Conference on Data Engineering|2013

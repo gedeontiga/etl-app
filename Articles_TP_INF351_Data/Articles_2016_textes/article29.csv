@@ -1,0 +1,35 @@
+Guided Walk: A Scalable Recommendation Algorithm for Complex Heterogeneous Social Networks
+Roy Levin, Microsoft, Herzliya, Israel|Hassan Abassi, Technion, Haifa, Israel|Uzi Cohen, IBM, Haifa, Israel
+Online social networks have become predominant in recent years and have grown to encompass massive scales of data. In addition to data scale, these networks can be heterogeneous and contain complex structures between different users, between social entities and various interactions between users and social entities. This is especially true in enterprise social networks where hierarchies explicitly exist between employees as well.In such networks, producing the best recommendations for each user is a very challenging problem for two main reasons. First, the complex structures in the social network need to be properly mined and exploited by the algorithm. Second, these networks contain millions or even billions of edges making the problem very difficult computationally.In this paper we present Guided Walk, a supervised graph based algorithm that learns the significance of different network links for each user and then produces entity recommendations based on this learning phase. We compare the algorithm with a set of baseline algorithms using offline evaluation techniques as well as a user survey. The offline results show that the algorithm outperforms the next best algorithm by a factor of 3.6. The user survey further confirms that the recommendation are not only relevant but also rank high in terms of personal relevance for each user.To deal with large scale social networks, the Guided Walk algorithm is formulated as a Pregel program which allows us to utilize the power of distributed parallel computing. This would allow horizontally scaling the algorithm for larger social networks by simply adding more compute nodes to the cluster.
+graph algorithms, heterogeneous networks, social networks, pregel, apache spark, graphx, recommendations
+D. Agarwal, B.-C. Chen, R. Gupta, J. Hartman, Q. He, A. Iyer, S. Kolar, Y. Ma, P. Shivaswamy, A. Singh|Activity ranking in linkedin feed|SIGKDD|2014
+L. Backstrom, J. Leskovec|Supervised random walks: predicting and recommending links in social networks|ACM international conference on Web search and data mining|2011
+E. M. Daly, M. J. Muller, L. Gou, D. R. Millen|Social lens: Personalization around user defined collections for filtering enterprise message streams|ICWSM|2011
+J. Dean, S. Ghemawat|Mapreduce: simplified data processing on large clusters|Communications of the ACM|2008
+W. Feng, J. Wang|Retweet or not?: personalized tweet re-ranking|WSDM|2013
+I. Guy, R. Levin, T. Daniel, E. Bolshinsky|Islands in the stream: A study of item recommendation within an enterprise social stream|SIGIR|2015
+I. Guy, T. Steier, M. Barnea, I. Ronen, T. Daniel|Finger on the pulse: the value of the activity stream in the enterprise|Human-Computer Interaction|2013
+L. Hong, R. Bekkerman, J. Adler, B. D. Davison|Learning to rank social update streams|SIGIR|2012
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+IBM|Ibm-connections|http://www-03.ibm.com/software/products/en/conn|2007
+G. Jeh, J. Widom|Simrank: a measure of structural-context similarity|SIGKDD|2002
+G. Jeh, J. Widom|Scaling personalized web search|WWW|2003
+I. Konstas, V. Stathopoulos, J. M. Jose|On social networks and collaborative recommendation|SIGIR|2009
+P. Kouki, S. Fakhraei, J. Foulds, M. Eirinaki, L. Getoor|Hyper: A flexible and extensible probabilistic framework for hybrid recommender systems|ACM RecSys|2015
+N. Lao, W. W. Cohen|Fast query execution for retrieval models based on path-constrained random walks|ACM SIGKDD international conference on Knowledge discovery and data mining|2010
+B. Long, Z. M. Zhang, P. S. Yu|Co-clustering by block value decomposition|SIGKDD|2005
+L. Lovász|Random walks on graphs: A survey|Combinatorics|1996
+C. Luo, W. Pang, Z. Wang, C. Lin|Hete-cf: Social-based collaborative filtering recommendation using heterogeneous relations|ICDM|2014
+G. Malewicz, M. H. Austern, A. J. Bik, J. C. Dehnert, I. Horn, N. Leiser, G. Czajkowski|Pregel: a system for large-scale graph processing|ACM SIGMOD International Conference on Management of data|2010
+R. S. Marcus, J. F. Reintjes|A translating computer interface for end-user operation of heterogeneous retrieval systems, ii. evaluations|Journal of the American Society for Information Science|1981
+T. Paek, M. Gamon, S. Counts, D. M. Chickering, A. Dhesi|Predicting the importance of newsfeed posts and social network friends|AAAI|2010
+C. Shi, X. Kong, Y. Huang, P. S. Yu, B. Wu|Hetesim: A general framework for relevance measure in heterogeneous networks|Knowledge and Data Engineering|2014
+C. Shi, Y. Li, J. Zhang, Y. Sun, P. S. Yu|A survey of heterogeneous information network analysis|TKDE|2015
+C. Shi, Z. Zhang, P. Luo, P. S. Yu, Y. Yue, B. Wu|Semantic path based personalized recommendation on weighted heterogeneous information networks|ACM International on Conference on Information and Knowledge Management|2015
+Y. Sun, J. Han|Meta-path-based search and mining in heterogeneous information networks|Tsinghua Science and Technology|2013
+Y. Sun, J. Han, X. Yan, P. S. Yu, T. Wu|Pathsim: Meta path-based top-k similarity search in heterogeneous information networks|VLDB|2011
+R. Wang, C. Shi, S. Y. Philip, B. Wu|Integrating clustering and ranking on hybrid heterogeneous information network|SIGKDD|2013
+R. S. Xin, J. E. Gonzalez, M. J. Franklin, I. Stoica|Graphx: A resilient distributed graph system on spark|First International Workshop on Graph Data Management Experiences and Systems|2013
+X. Yu, X. Ren, Y. Sun, Q. Gu, B. Sturt, U. Khandelwal, B. Norick, J. Han|Personalized entity recommendation: A heterogeneous information network approach|WSDM|2014
+X. Yu, X. Ren, Y. Sun, B. Sturt, U. Khandelwal, Q. Gu, B. Norick, J. Han|Recommendation in heterogeneous information networks with implicit user feedback|ACM RecSys|2013
+M. Zaharia, M. Chowdhury, T. Das, A. Dave, J. Ma, M. McCauley, M. J. Franklin, S. Shenker, I. Stoica|Resilient distributed datasets: A fault-tolerant abstraction for in-memory cluster computing|USENIX conference on Networked Systems Design and implementation|2012

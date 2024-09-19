@@ -1,0 +1,42 @@
+Recommending New Items to Ephemeral Groups Using Contextual User Influence
+Elisa Quintarelli, Politecnico di Milano, Milano, Italy|Emanuele Rabosio, Politecnico di Milano, Milano, Italy|L. Tanca, Politecnico di Milano, Milano, Italy
+Group recommender systems help groups of users in finding appropriate items to be enjoyed together. Lots of activities, like watching TV or going to the restaurant, are intrinsically group-based, thus making the group recommendation problem very relevant. In this paper we study ephemeral groups, i.e., groups where the members might be together for the first time. Recent approaches have tackled this issue introducing complex models to be learned offline, making them unable to deal with new items; on the contrary, we propose a group recommender able to manage new items too. In more detail, our technique determines the preference of a group for an item by combining the individual preferences of the group members on the basis of their contextual influence, where the contextual influence represents the ability of an individual, in a given situation, to direct the group's decision. We conducted an extensive experimental evaluation on a TV dataset containing a log of viewings performed by real groups, showing how our approach outperforms the comparable techniques from the literature.
+influence, group recommendations, context
+G. Adomavicius, A. Tuzhilin|Toward the next generation of recommender systems: A survey of thestate-of-the-art and possible extensions|IEEE Trans. Knowl. Data Eng.|2005
+I. Ali, S. Kim|Group recommendations: Approaches and evaluation|IMCOM|2014
+S. Amer-Yahia, S. Basu Roy, A. Chawla, G. Das, C. Yu|Group recommendation: Semantics and efficiency|PVLDB|2009
+L. Baltrunas, T. Makcinskas, F. Ricci|Group recommendations with rank aggregation and collaborative filtering|RecSys|2010
+S. Berkovsky, J. Freyne|Group-based recipe recommendations: Analysis of data aggregation strategies|RecSys|2010
+S. Bourke, K. McCarthy, B. Smyth|Using social ties in group recommendation|Irish Conference on Artificial Intelligence andCognitive Science|2011
+A. J. Chaney, M. Gartrell, J. M. Hofman, J. Guiver, N. Koenigstein, P. Kohli, U. Paquet|A large-scale exploration of group viewing patterns|TVX|2014
+Y. Chen, L. Cheng, C. Chuang|A group recommendation system with consideration of interactions among group members|Expert. Syst. Appl.|2008
+I. A. Christensen, S. N. Schiaffino|Social influence in group recommender systems|Online Information Review|2014
+P. Cremonesi, P. Modica, R. Pagano, E. Rabosio, L. Tanca|Personalized and context-aware TV program recommendations based on implicit feedback|EC-Web|2015
+L. M. de Campos, J. M. Fernández-Luna, J. F. Huete, M. A.Rueda-Morales|Group recommending: A methodological approach based on bayesian networks|ICDE Workshops|2007
+T. De Pessemier, S. Dooms, L. Martens|Comparison of group recommendation algorithms|Multimedia Tools Appl.|2014
+T. G. Dietterich|Approximate statistical test for comparing supervised classification learning algorithms|Neural Computation|1998
+R. Fagin, R. Kumar, D. Sivakumar|Comparing top k lists|SIAM J. Discrete Math.|2003
+R. Fagin, A. Lotem, M. Naor|Optimal aggregation algorithms for middleware|PODS|2001
+M. Gartrell, X. Xing, Q. Lv, A. Beach, R. Han, S. Mishra, K. Seada|Enhancing group recommendation by incorporating social relationship interactions|GROUP|2010
+S. Ghazarian, M. Nematbakhsh|Enhancing memory based collaborative filtering for group recommender systems|Expert Syst. Appl.|2015
+J. Gorla, N. Lathia, S. Robertson, J. Wang|Probabilistic group recommendation via information matching|WWW|2013
+L. Hu, J. Cao, G. Xu, L. Cao, Z. Gu, W. Cao|Deep modeling of group preferences for group-based recommendation|AAAI|2014
+H. Kim, A. El-Saddik|A stochastic approach to group recommendations in social media systems|Inf. Syst.|2015
+N. Kim, J. Lee|Group recommendation system: Focusing on home group user in TV domain|SCIS|2014
+M. Kompan, M. Bieliková|Social structure and personality enhanced group recommendation|UMAP Workshops|2014
+X. Liu, Y. Tian, M. Ye, W. Lee|Exploring personal impact for group recommendation|CIKM|2012
+J. Masthoff|Group modeling: Selecting a sequence of television items to suit agroup of viewers|User Model. User-Adapt. Int.|2004
+J. Masthoff, A. Gatt|In pursuit of satisfaction and the prevention of embarrassment:Affective state in group recommender systems|User Model. User-Adapt. Int.|2006
+E. Ntoutsi, K. Stefanidis, K. Nørvåg, H. Kriegel|Fast group recommendations by applying user clustering|ER|2012
+M. O'Connor, D. Cosley, J. A. Konstan, J. Riedl|Polylens: A recommender system for groups of user|ECSCW|2001
+L. Quijano-Sánchez, J. A. Recio-García,B. Díaz-Agudo, G. Jiménez-Díaz|Social factors in group recommender systems|ACM TIST|2013
+S. Seko, T. Yagi, M. Motegi, S. Muto|Group recommendation using feature space representing behavioraltendency and power balance among members|RecSys|2011
+C. Senot, D. Kostadinov, M. Bouzid, J. Picault, A. Aghasaryan, C. Bernier|Analysis of strategies for building group profiles|UMAP|2010
+C. Shin, W. Woo|Socially aware TV program recommender for multiple viewers|IEEE Trans. Consumer Electronics|2009
+R. Sotelo, Y. Blanco-Fernández, M. López-Nores, A. Gil-Solla, J. J. Pazos-Arias|TV program recommendation for groups based on muldimensional tv-anytime classifications|IEEE Trans. Consumer Electronics|2009
+M. O. van Deventer, J. de Wit, J. Vanattenhoven, M. Guelbahar|Group recommendation in an hybrid broadcast broadband television context|UMAP Workshops|2013
+E. Vildjiounaite, V. Kyllönen, T. Hannula, P. Alahuhta|Unobtrusive dynamic modelling of TV programme preferences in a Finnish household|Multimedia Syst.|2009
+M. Ye, X. Liu, W. Lee|Exploring social influence for recommendation: a generative model approach|SIGIR|2012
+Z. Yu, X. Zhou, Y. Hao, J. Gu|TV program recommendation for multiple viewers based on user profile merging|User Model. User-Adapt. Int.|2006
+Q. Yuan, G. Cong, C. Lin|COM: A generative model for group recommendation|KDD|2014
+H. Zhu, B. A. Huberman, Y. Luon|To switch or not to switch: Understanding social influence in online choices|CHI|2012

@@ -1,0 +1,27 @@
+Expediting Exploration by Attribute-to-Feature Mapping for Cold-Start Recommendations
+Deborah Cohen, Google Research, Tel-Aviv, Israel|Michal Aharon, Yahoo Research, Haifa, Israel|Yehuda Koren, Yahoo Research, Haifa, Israel|Oren Somekh, Yahoo Research, Haifa, Israel
+The item cold-start problem is inherent to collaborative filtering (CF) recommenders where items and users are represented by vectors in a latent space. It emerges since CF recommenders rely solely on historical user interactions to characterize their item inventory. As a result, an effective serving of new and trendy items to users may be delayed until enough user feedback is received, thus, reducing both users' and content suppliers' satisfaction. To mitigate this problem, many commercial recommenders apply random exploration and devote a small portion of their traffic to explore new items and gather interactions from random users. Alternatively, content or context information is combined into the CF recommender, resulting in a hybrid system. Another hybrid approach is to learn a mapping between the item attribute space and the CF latent feature space, and use it to characterize the new items providing initial estimates for their latent vectors.In this paper, we adopt the attribute-to-feature mapping approach to expedite random exploration of new items and present LearnAROMA - an advanced algorithm for learning the mapping, previously proposed in the context of classification. In particular, LearnAROMA learns a Gaussian distribution over the mapping matrix. Numerical evaluation demonstrates that this learning technique achieves more accurate initial estimates than logistic regression methods. We then consider a random exploration setting, in which new items are further explored as user interactions arrive. To leverage the initial latent vector estimates with the incoming interactions, we propose DynamicBPR - an algorithm for updating the new item latent vectors without retraining the CF model. Numerical evaluation reveals that DynamicBPR achieves similar accuracy as a CF model trained on all the ratings, using 71% less exploring users than conventional random exploration.
+collaborative-filtering, random exploration, recommendation systems, item cold-start problem
+O. Anava, S. Golan, N. Golbandi, Z. Karnin, R. Lempel, O. Rokhlenko, O. Somekh|Budget-constrained item cold-start handling in collaborative filtering recommenders via optimal design|WWW|2015
+D. Argawal, B.-C. Chen|Regression-based Latent Factor Models|KDD|2009
+Olivier Chapelle, Lihong Li|An empirical evaluation of thompson sampling|Advances in neural information processing systems|2011
+K. Crammer, G. Chechik|Adaptive regularization of weight matrices|Int. Conf. on Machine Learning|2012
+K. Crammer, A. Kulesza, M. Dredze|Adaptive regularization of weight vectors|NIPS|2009
+D. Drachsler-Cohen, O. Somekh, S. Golan, M. Aharon, O. Anava, N. Avigdor-Elgrabli|ExcUseMe: asking users to help in item cold-start recommendations|RecSys|2015
+Tom Fawcett|An introduction to ROC analysis|Pattern recognition letters|2006
+Z. Gantner, L. Drumond, C. Freudenthaler, S. Rendle, L. Shmidt-Thieme|Learning Attribute-to-Feature Mappings for Cold-Start Recommendations|ICDM|2010
+Z. Gantner, S. Rendle, C. Freudenthaler, L. Shmidt-Thieme|MyMediaLite: a free recommender system library|ACM conference on Recommender systems|2011
+A. Gunawardana, C. Meek|Tied Boltzmann machines for cold starts recommendations|RecSys|2008
+A. Gunawardana, C. Meek|A unified approach to building hybrid recommender systems|RecSys|2009
+A. K. Gupta, D. K. Nagar|Matrix variate distributions|Chapman and Hall/CRC|1999
+Y. Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|KDD|2008
+Y. Koren, R. Bell|Advances in collaborative filtering|Recommender systems handbook|2010
+N. Liu, X. Meng, C. Liu, Q. Yang|Wisdom of the better few: cold start recommendation via representative based rating elicitation|RecSys|2011
+S.-T. Park, W. Chu|Pairwise preference regression for cold-start recommendation|RecSys|2009
+S.-T. Park, D. Pennock, O. Madani, N. Good, D. DeCoste|Naive filterbots for robust cold-start recommendations|ACM SIGKDD international conference on knowledge discovery and data mining|2006
+Michael J. Pazzani, Daniel Billsus|Content-based recommendation systems|The adaptive web|2007
+S. Rendle|Factorization machines with libFM|ACM|2012
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Shmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+Steffen Rendle, Lars Schmidt-Thieme|Online-updating regularized kernel matrix factorization models for large-scale recommender systems|ACM conference on Recommender systems|2008
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|NIPS|2008
+Martin Saveski, Amin Mantrach|Item cold-start recommendations: learning local collective embeddings|ACM Conference on Recommender systems|2014

@@ -1,0 +1,35 @@
+Overlapping Community Regularization for Rating Prediction in Social Recommender Systems
+Hui Li, The University of Hong Kong, Hong Kong, Hong Kong|Dingming Wu, The University of Hong Kong, Hong Kong, Hong Kong|Wenbin Tang, The University of Hong Kong, Hong Kong, Hong Kong|Nikos Mamoulis, The University of Hong Kong, Hong Kong, Hong Kong
+Recommender systems have become de facto tools for suggesting items that are of potential interest to users. Predicting a user's rating on an item is the fundamental recommendation task. Traditional methods that generate predictions by analyzing the user-item rating matrix perform poorly when the matrix is sparse. Recent approaches use data from social networks to improve accuracy. However, most of the social-network based recommender systems only consider direct friendships and they are less effective when the targeted user has few social connections. In this paper, we propose two alternative models that incorporate the overlapping community regularization into the matrix factorization framework. Our empirical study on four real datasets shows that our approaches outperform the state-of-the-art algorithms in both traditional and social-network based recommender systems regarding both cold-start users and normal users.
+rating prediction, matrix factorization, overlapping community regularization, social recommender systems
+E. Airoldi, D. M. Blei, S. E. Fienberg, E. P. Xing|Mixed membership stochastic blockmodels|NIPS|2008
+D. J. Crandall, D. Cosley, D. P. Huttenlocher, J. M. Kleinberg, S. Suri|Feedback effects between similarity and social influence in online communities|KDD|2008
+M. Deshpande, G. Karypis|Item-based top-phN recommendation algorithms|ACM Trans. Inf. Syst.|2004
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. Riedl| Evaluating collaborative filtering recommender systems|ACM Trans. Inf. Syst.|2004
+T. Hofmann|Collaborative filtering via gaussian probabilistic latent semantic analysis|SIGIR|2003
+M. Jamali, M. Ester|Trustwalker: a random walk model for combining trust-based and item-based recommendation|KDD|2009
+M. Jamali, M. Ester|A matrix factorization technique with trust propagation for recommendation in social networks| RecSys|2010
+M. Jamali, T. Huang, M. Ester|A generalized stochastic block model for recommendation in social rating networks|RecSys|2011
+R. Jin, J. Y. Chai, L. Si|An automatic weighting scheme for collaborative filtering|SIGIR|2004
+A. Kohrs, B. Mérialdo|Clustering for collaborative filtering applications|CIMCA|1999
+Y. Koren, R. M. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|IEEE Computer|2009
+H. Li, D. Wu, N. Mamoulis|A revisit to social network-based recommender systems|SIGIR|2014
+F. Liu, H. J. Lee|Use of social network information to enhance collaborative filtering performance|Expert Syst. Appl.|2010
+N. N. Liu, Q. Yang|Eigenrank: a ranking-oriented approach to collaborative filtering|SIGIR|2008
+H. Ma|An experimental study on implicit social recommendation|SIGIR|2013
+H. Ma, I. King, M. R. Lyu|Learning to recommend with social trust ensemble|SIGIR|2009
+H. Ma, H. Yang, M. R. Lyu, I. King|Sorec: social recommendation using probabilistic matrix factorization|CIKM|2008
+H. Ma, D. Zhou, C. Liu, M. R. Lyu, I. King|Recommender systems with social regularization|WSDM|2011
+P. Massa, P. Avesani|Trust-aware recommender systems| RecSys|2007
+G. Palla, I. Derényi, I. Farkas, T. Vicsek|Uncovering the overlapping community structure of complex networks in nature and society|Nature|2005
+F. Reid, A. F. McDaid, N. J. Hurley|Percolation computation in complex networks|ASONAM|2012
+P. Resnick, N. Iacovou, M. Suchak, P. Bergstrom, J. Riedl| Grouplens: An open architecture for collaborative filtering of netnews|CSCW|1994
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|NIPS|2007
+B. M. Sarwar, G. Karypis, J. A. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+Y. Shen, R. Jin|Learning personal+social latent factor model for social recommendation|KDD|2012
+L. Si, R. Jin|Flexible mixture model for collaborative filtering|ICML|2003
+S. Wasserman, K. Faust|Social Network Analysis|Cambridge Univ. Press|1994
+J. Yang, J. Leskovec|Overlapping community detection at scale: a nonnegative matrix factorization approach|WSDM|2013
+J. Yang, J. J. McAuley, J. Leskovec|Community detection in networks with node attributes|ICDM|2013
+X. Yang, H. Steck, Y. Liu|Circle-based recommendation in online social networks|KDD|2012
+Y. Zhang, J. Koren|Efficient Bayesian hierarchical user modeling for recommendation system|SIGIR|2007

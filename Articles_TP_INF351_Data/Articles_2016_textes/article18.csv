@@ -1,0 +1,29 @@
+Domain-Aware Grade Prediction and Top-n Course Recommendation
+Asmaa Elbadrawy, University of Minnesota, Minneapolis, USA|George Karypis, University of Minnesota, Minneapolis, USA
+Automated course recommendation can help deliver personalized and effective college advising and degree planning. Nearest neighbor and matrix factorization based collaborative filtering approaches have been applied to student-course grade data to help students select suitable courses. However, the student-course enrollment patterns exhibit grouping structures that are tied to the student and course academic features, which lead to grade data that are not missing at random (NMAR). Existing approaches for dealing with NMAR data, such as Response-aware and context-aware matrix factorization, do not model NMAR data in terms of the user and item features and are not designed with the characteristics of grade data in mind. In this work we investigate how the student and course academic features influence the enrollment patterns and we use these features to define student and course groups at various levels of granularity. We show how these groups can be used to design grade prediction and top-n course ranking models for neighborhood-based user collaborative filtering, matrix factorization and popularity-based ranking approaches. These methods give lower grade prediction error and more accurate top-n course rankings than the other methods that do not take domain knowledge into account.
+multi-granularity grouping, grade prediction, top-n course ranking
+G. Adomavicius, R. Sankaranarayanan, S. Sen, A. Tuzhilin|Incorporating contextual information in recommender systems using a multidimensional approach|ACM Trans. Inf. Syst.|2005
+D. Agarwal, B.-C. Chen|Regression-based latent factor models|ACM SIGKDD international conference on Knowledge discovery and data mining|2009
+D. Agarwal, B.-C. Chen, B. Long|Localized factor models for multi-context recommendation|SIGKDD|2011
+L. Baltrunas, B. Ludwig, F. Ricci|Matrix factorization techniques for context aware recommendation|ACM RecSys|2011
+N. Bendakir, E. Aimeur|Using association rules for course recommendation|AAAI Workshop on Educational Data Mining|2006
+W. Chen, T. yan Liu, Y. Lan, Z. ming Ma, H. Li|Ranking measures and loss functions in learning to rank|Advances in Neural Information Processing Systems|2009
+M. D. Ekstrand, J. T. Riedl, J. A. Konstan|Collaborative filtering recommender systems|Found. Trends Hum.-Comput. Interact.|2011
+A. Elbadrawy, G. Karypis|User-specific feature-based similarity models for top-n recommendation of new items|ACM Trans. Intell. Syst. Technol.|2015
+J. L. Herlocker, J. A. Konstan, A. Borchers, J. Riedl|An algorithmic framework for performing collaborative filtering|SIGIR|1999
+J. M. Hernández-Lobato, N. M. T. Houlsby, Z. Ghahramani|Probabilistic matrix factorization with non-random missing data|ICML|2014
+A. Karatzoglou, X. Amatriain, L. Baltrunas, N. Oliver|Multiverse recommendation: N-dimensional tensor factorization for context-aware collaborative filtering|ACM RecSys|2010
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+Y. Lee, J. Cho|An intelligent course recommendation system|Smart CR|2011
+G. Ling, H. Yang, M. R. Lyu, I. King|Response aware model-based collaborative filtering|CoRR|2012
+B. M. Marlin, R. S. Zemel|Collaborative prediction and ranking with non-random missing data|ACM RecSys|2009
+X. Ning, G. Karypis|Sparse linear methods with side information for top-n recommendations|ACM Conference on Recommender Systems|2012
+A. Parameswaran, P. Venetis, H. Garcia-Molina|Recommendation systems with complex constraints: A course recommendation perspective|ACM Trans. Inf. Syst.|2011
+A. G. Parameswaran, H. Garcia-Molina|Recommendations with prerequisites|ACM RecSys|2009
+A. G. Parameswaran, H. Garcia-Molina, J. D. Ullman|Evaluating, combining and generalizing recommendations with prerequisites|CIKM|2010
+A. G. Parameswaran, G. Koutrika, B. Bercovitz, H. Garcia-Molina|Recsplorer: Recommendation algorithms based on precedence mining|ACM SIGMOD|2010
+S. Ray, A. Sharma|A collaborative filtering based approach for recommending elective courses|CoRR|2013
+S. Rendle|Factorization machines with libFM|ACM Trans. Intell. Syst. Technol.|2012
+S. Rendle, Z. Gantner, C. Freudenthaler, L. Schmidt-Thieme|Fast context-aware recommendations with factorization machines|SIGIR| 2011
+N. ThaiNghe, T. Horváth, L. Schmidt-Thieme|Factorization models for forecasting student performance|International Conference on Educational Data|2011
+K. Yu, B. Zhang, H. Zhu, H. Cao, J. Tian|Towards personalized context-aware recommendation by mining context logs through topic models|PAKDD|2012

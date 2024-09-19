@@ -1,0 +1,28 @@
+Deep Neural Networks for YouTube Recommendations
+Paul Covington, Google, Mountain View, CA, USA|Jay Adams, Google, Mountain View, CA, USA|Emre Sargin, Google, Mountain View, CA, USA
+YouTube represents one of the largest scale and most sophisticated industrial recommendation systems in existence. In this paper, we describe the system at a high level and focus on the dramatic performance improvements brought by deep learning. The paper is split according to the classic two-stage information retrieval dichotomy: first, we detail a deep candidate generation model and then describe a separate deep ranking model. We also provide practical lessons and insights derived from designing, iterating and maintaining a massive recommendation system with enormous user-facing impact.
+scalability, recommender system, deep learning
+X. Amatriain|Building industrial-scale real-world recommender systems|ACM Conference on Recommender Systems|2012
+J. Davidson, B. Liebald, J. Liu, P. Nandy, T. Van Vleet, U. Gargi, S. Gupta, Y. He, M. Lambert, B. Livingston, D. Sampath|The youtube video recommendation system|ACM Conference on Recommender Systems|2010
+J. Dean, G. S. Corrado, R. Monga, K. Chen, M. Devin, Q. V. Le, M. Z. Mao, M. Ranzato, A. Senior, P. Tucker, K. Yang, A. Y. Ng|Large scale distributed deep networks|NIPS|2012
+A. M. Elkahky, Y. Song, X. He|A multi-view deep learning approach for cross domain user modeling in recommendation systems|International Conference on World Wide Web|2015
+X. Glorot, A. Bordes, Y. Bengio|Deep sparse rectifier neural networks|International Conference on Artificial Intelligence and Statistics|2011
+X. He, J. Pan, O. Jin, T. Xu, B. Liu, T. Xu, Y. Shi, A. Atallah, R. Herbrich, S. Bowers, J. Q. n. Candela| Practical lessons from predicting clicks on ads at facebook|International Workshop on Data Mining for Online Advertising|2014
+W. Huang, Z. Wu, L. Chen, P. Mitra, C. L. Giles|A neural probabilistic model for context based citation recommendation|AAAI|2015
+S. Ioffe, C. Szegedy|Batch normalization: Accelerating deep network training by reducing internal covariate shift|CoRR|2015
+S. Jean, K. Cho, R. Memisevic, Y. Bengio|On using very large target vocabulary for neural machine translation|CoRR|2014
+L. Jiang, Y. Miao, Y. Yang, Z. Lan, A. G. Hauptmann| Viral video style: A closer look at viral videos on youtube|International Conference on Multimedia Retrieval|2014
+T. Liu, A. W. Moore, A. Gray, K. Yang|An investigation of practical approximate nearest neighbor algorithms|MIT Press|2004
+E. Meyerson|Youtube now: Why we focus on watch time| http://youtubecreator.blogspot.com/2012/08/youtube-now-why-we-focus-on-watch-time.html|2016
+T. Mikolov, I. Sutskever, K. Chen, G. Corrado, J. Dean|Distributed representations of words and phrases and their compositionality|CoRR|2013
+F. Morin, Y. Bengio|Hierarchical probabilistic neural network language model|AISTATS|2005
+D. Oard, J. Kim|Implicit feedback for recommender systems|AAAI Workshop on Recommender Systems|1998
+K. J. Oh, W. J. Lee, C. G. Lim, H. J. Choi|Personalized news recommendation using classified keywords to capture user preference|International Conference on Advanced Communication Technology|2014
+S. Sedhain, A. K. Menon, S. Sanner, L. Xie|Autorec: Autoencoders meet collaborative filtering|International Conference on World Wide Web|2015
+X. Su, T. M. Khoshgoftaar|A survey of collaborative filtering techniques|Advances in artificial intelligence|2009
+D. Tang, B. Qin, T. Liu, Y. Yang|User modeling with neural network for review rating prediction|IJCAI|2015
+A. van den Oord, S. Dieleman, B. Schrauwen|Deep content-based music recommendation|Advances in Neural Information Processing Systems|2013
+H. Wang, N. Wang, D.-Y. Yeung|Collaborative deep learning for recommender systems|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+J. Weston, S. Bengio, N. Usunier|Wsabie: Scaling up to large vocabulary image annotation|International Joint Conference on Artificial Intelligence|2011
+J. Weston, A. Makadia, H. Yee|Label partitioning for sublinear ranking|International Conference on Machine Learning|2013
+X. Yi, L. Hong, E. Zhong, N. N. Liu, S. Rajan|Beyond clicks: Dwell time for personalization|ACM Conference on Recommender Systems|2014

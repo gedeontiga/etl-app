@@ -1,0 +1,44 @@
+Exploiting Socio-Economic Models for Lodging Recommendation in the Sharing Economy
+Raul Sanchez-Vazquez, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil|Jordan Silva, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil|Rodrygo L. T. Santos, Universidade Federal de Minas Gerais, Belo Horizonte, Brazil
+Recent years have witnessed the emergence of sharing economy marketplaces, which enable users to share goods and services in a peer-to-peer fashion. A prominent example in the travel industry is Airbnb, which connects guests with hosts, allowing both to exchange cultural experiences in addition to the economic transaction. Nonetheless, Airbnb guest profiles are typically sparse, which limits the applicability of traditional lodging recommendation approaches. Inspired by recent socio-economic analyses of repurchase intent behavior on Airbnb, we propose a context-aware learning-to-rank approach for lodging recommendation, aimed to infer the user's perception of several dimensions involved in choosing which lodging to book. In particular, we devise features aimed to capture the user's price sensitivity as well as their perceived value of a particular lodging, the risk involved in choosing it rather than other available options, the authenticity of the cultural experience it could provide, and its overall perception by other users through word of mouth. Through a comprehensive evaluation using publicly available Airbnb data, we demonstrate the effectiveness of our proposed approach compared to a number of alternative recommendation baselines, including a simulation of Airbnb's own recommender.
+context awareness, lodging recommendation, consumption behavior, learning to rank, the sharing economy
+Russell Belk|You are what you can access: Sharing and collaborative consumption online|Journal of Business Research|2014
+Jesús Bobadilla, Fernando Ortega, Antonio Hernando, Abraham Gutiérrez|Recommender systems survey|Knowledge-Based Systems|2013
+Joan Borras, Antonio Moreno, Aida Valls|Intelligent tourism recommender systems: A survey|Expert Systems with Applications|2014
+Raymond C. Browning, Emily A. Baker, Jessica A. Herron, Rodger Kram|Effects of obesity and sex on the energetic cost and preferred speed of walking|Journal of Applied Physiology|2006
+Dimitrios Buhalis, Peter O'Connor|Information communication technology revolutionizing tourism|Tourism recreation research|2005
+Robin Burke|Hybrid recommender systems: Survey and experiments|User modeling and user-adapted interaction|2002
+Jaime Carbonell, Jade Goldstein|The use of MMR, diversity-based reranking for reordering documents and producing summaries|annual international ACM SIGIR conference on Research and development in information retrieval|1998
+Olivier Chapelle, Yi Chang|Yahoo! learning to rank challenge overview|Yahoo! Learning to Rank Challenge|2011
+Alexandru M. Degeratu, Arvind Rangaswamy, Jianan Wu|Consumer choice behavior in online and traditional supermarkets: The effects of brand name, price, and other search attributes|International Journal of research in Marketing|2000
+Naveen Donthu, Adriana Garcia|The internet shopper|Journal of advertising research|1999
+A. Felfernig, S. Gordea, D. Jannach, E. Teppan, M. Zanker|A short survey of recommendation technologies in travel and tourism|OEGAI Journal|2007
+Samuel P. Fraiberger, Arun Sundararajan|Peer-to-peer rental markets in the sharing economy|NYU Stern School of Business Research Paper|2015
+Jerome H. Friedman|Greedy function approximation: a gradient boosting machine|Annals of statistics|2001
+Michael J. Gross, Graham Brown|An empirical structural model of tourists and places: Progressing involvement and place attachment into tourism|Tourism management|2008
+Juho Hamari, Mimmi Sjöklint, Antti Ukkonen|The sharing economy: Why people participate in collaborative consumption|Journal of the Association for Information Science and Technology|2015
+Clayton J. Hutto, Eric Gilbert|Vader: A parsimonious rule-based model for sentiment analysis of social media text|International AAAI Conference on Weblogs and Social Media|2014
+Jacob Jacoby, Leon B. Kaplan|The components of perceived risk|annual conference of the association for consumer research|1972
+Katerina Kabassi|Personalizing recommendations for tourists|Telematics and Informatics|2010
+Rob Law, Dimitrios Buhalis, Cihan Cobanoglu|Progress on information and communication technologies in hospitality and tourism|International Journal of Contemporary Hospitality Management|2014
+Bun Song Lee, John F. McDonald|Determinants of commuting time and distance for Seoul residents: The impact of family status on the commuting of women|Urban Studies|2003
+Asher Levi, Osnat Mokryn, Christophe Diot, Nina Taft| Finding a needle in a haystack of reviews: cold start context-based hotel recommender system|ACM conference on Recommender systems|2012
+Lena Jingen Liang|Understanding repurchase intention of Airbnb consumers: perceived authenticity, EWoM and price sensitivity|Ph.D. Dissertation|2015
+Tie-Yan Liu|Learning to rank for information retrieval|Foundations and Trends® in Information Retrieval|2009
+Claudio Lucchese, Franco Maria Nardini, Salvatore Orlando, Raffaele Perego, Nicola Tonellotto|Speeding up Document Ranking with Rank-based Features|International ACM SIGIR Conference on Research and Development in Information Retrieval|2015
+Mareike Möhlmann|Collaborative consumption: determinants of satisfaction and the likelihood of using a sharing economy option again|Journal of Consumer Behaviour|2015
+Mehrbakhsh Nilashi, Othman bin Ibrahim, Norafida Ithnin, Nor Haniza Sarmin|A multi-criteria collaborative filtering recommender system for the tourism domain using Expectation Maximization (EM) and PCA--ANFIS|Electronic Commerce Research and Applications|2015
+Andreas Papatheodorou|Why people travel to different places|Annals of tourism research|2001
+Jay M. Ponte, W. Bruce Croft|A language modeling approach to information retrieval|annual international ACM SIGIR conference on Research and development in information retrieval|1998
+Daniele Quercia, Joao Paulo Pesce, Virgilio Almeida, Jon Crowcroft|Psychological maps 2.0: a web engagement enterprise starting in London|international conference on World Wide Web|2013
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|conference on uncertainty in artificial intelligence|2009
+Ryosuke Saga, Yoshihiro Hayashi, Hiroshi Tsuji|Hotel recommender system based on user's preference transition|Systems, Man and Cybernetics|2008
+Raul Sanchez-Vazquez|Repurchase Intention for Lodging Recommendation|Master's thesis|2017
+Erika Sandow, Kerstin Westin|The persevering commuter - Duration of long-distance commuting|Transportation Research Part A: Policy and Practice|2010
+Venkatesh Shankar, Arvind Rangaswamy, Michael Pusateri|The online medium and customer price sensitivity|University Park: E-business Research Center|1999
+Beverley Sparks, John Bowen, Stefanie Klag|Restaurants and the tourist market|International Journal of Contemporary Hospitality Management|2003
+Inc TranSafety|Study compares older and younger pedestrian walking speeds|Road Management & Engineering Journal|1997
+Wen-Chin Tsao, Ming-Tsang Hsieh, Li-Wen Shih, Tom MY Lin|Compliance with eWOM: The influence of hotel reviews on booking intention from the perspective of consumer conformity|International Journal of Hospitality Management|2015
+Qiang Wu, Chris J. C. Burges, Krysta M. Svore, Jianfeng Gao|Ranking, boosting, and model adaptation|Technical Report|2008
+Georgios Zervas, Davide Proserpio, John Byers|The rise of the sharing economy: Estimating the impact of Airbnb on the hotel industry|Boston U. School of Management Research Paper|2016
+Kai Zhang, Keqiang Wang, Xiaoling Wang, Cheqing Jin, Aoying Zhou|Hotel recommendation based on user preference analysis|Data Engineering Workshops|2015

@@ -1,0 +1,44 @@
+Preference-oriented Social Networks: Group Recommendation and Inference
+Amirali Salehi-Abari, University of Toronto, ON, Canada|Craig Boutilier, University of Toronto, ON, Canada
+Social networks facilitate a variety of social, economic, and political interactions. Homophily---the tendency for people to associate or interact with similar peers---and social influence---the tendency to adopt certain characteristics of those with whom one interacts---suggest that preferences (e.g., over products, services, political parties) are likely to be correlated among people whom directly interact in a social network. We develop a model, preference-oriented social networks, that captures such correlations of individual preferences, where preferences take the form of rankings over a set of options. We develop probabilistic inference methods for predicting individual preferences given observed social connections and partial observations of the preferences of others in the network. We exploit these predictions in a social choice context to make group decisions or recommendations even when the preferences of some group members are unobserved. Experiments demonstrate the effectiveness of our algorithms and the improvements made possible by accounting for social ties.
+probabilistic models, group recommendation, preferences, social networks, probabilistic inference
+S. Amer-Yahia, S. B. Roy, A. Chawlat, G. Das, C. Yu|Group recommendation: Semantics and efficiency|VLDB Endow.|2009
+L. Baltrunas, T. Makcinskas, F. Ricci|Group recommendations with rank aggregation and collaborative filtering|ACM Conf. on RecommenderSystems|2010
+M. Barthélemy|Spatial networks|Physics Reports|2011.
+S. Berkovsky, J. Freyne|Group-based recipe recommendations: Analysis of data aggregation strategies|ACM Conf. on Recommender Systems|2010
+M. Bilgic, L. Mihalkova, L. Getoor|Active learning for networked data|Intl. Conf. on Mach. Learn.|2010
+M. Boguná, R. Pastor-Satorras|Class of correlated random networks with hidden variables|Physical Review|2003
+C. Boutilier, I. Caragiannis, S. Haber, T. Lu, A. D. Procaccia, O. Sheffet|Optimal social choice functions: A utilitarian view|ACM Conf. on Electronic Commerce|2012
+L. M. Busse, P. Orbanz, J. M. Buhmann|Cluster analysis of heterogeneous rank data|Intl. Conf. on Mach. Learn.|2007
+N. A. Christakis, J. H. Fowler|The spread of obesity in a large social network over 32 years|New England J. Medicine|2007
+J.-P. Doignon, A. Pekec, M. Regenwetter|The repeated insertion model for rankings: Missing link between two subset choice models|Psychometrika|2004
+M. Gartrell, X. Xing, Q. Lv, A. Beach, R. Han, S. Mishra, K. Seada|Enhancing group recommendation by incorporating social relationship interactions|Intl. Conf. on Supp. Group Work|2010
+M. Gladwell|The Tipping Point: How Little Things can Make a Big Difference|Little Brown|2000
+J. Golbeck, J. Hendler|Filmtrust: Movie recommendations using trust in web-based social networks|IEEE Consumer Communications and Networking Conf.|2006
+M. S. Granovetter|The strength of weak ties|American J. Sociology|1973
+P. D. Hoff, A. E. Raftery, M. S. Handcock|Latent space approaches to social network analysis|J. American Statistical Assoc.|2002
+M. Jamali, M. Ester|A matrix factorization technique with trust propagation for recommendation in social networks|ACM Conf. on Recommender Systems|2010
+M. Kim, J. Leskovec|Latent multi-group membership graph model|Intl. Conf. on Machine Learning|2012
+I. Konstas, V. Stathopoulos, J. Jose|On social networks and collaborative recommendation|Intl. Conf. onR&D in Info. Retr.|2009
+K. Lewis, M. Gonzalez, J. Kaufman|Social selection and peer influence in an online social network|PNAS|2012
+T. Lu, C. Boutilier|Learning mallows models with pairwise preferences|Intl. Conf. on Machine Learning|2011
+H. Ma, I. King, M. Lyu|Learning to recommend with social trust ensemble|Intl. Conf. onR&D in Info. Retr.|2009
+H. Ma, H. Yang, M. R. Lyu, I. King|SoRec: Social recommendation using probabilistic matrix factorization|ACM Conf. on Information and Knowledge Mgmt.|2008
+J. I. Marden|Analyzing and Modeling Rank Data|Chapman and Hall|1995
+P. Massa, P. Avesani|Controversial users demand local trust metrics: An experimental study on epinions.com community| National Conf. on Artificial Intelligence|2005
+J. Masthoff|Group modeling: Selecting a sequence of television items to suit a group of viewers|User Model. & User-Adapted Interact.|2004
+J. Masthoff, A. Gatt|In pursuit of satisfaction and the prevention of embarrassment: Affective state in group recommender systems|User Model. & User-Adapted Interact.|2006
+J. F. McCarthy, T. D. Anagnost|Musicfx: An arbiter of group preferences for computer supported collaborative workouts|ACM Conf. on Computer-supported Coop.|1998
+T. Murphy, D. Martin|Mixtures of distance-based models for ranking data|Comp. Stats. & Data Anal.|2003
+M. Newman|Networks: An Intro|Oxford|2010
+L. Quijano-Sanchez, J. Recio-Garcia, B. Diaz-Agudo, G. Jimenez-Diaz|Social factors in group recommender systems| ACM Trans. Intel. Sys. & Tech.|2013
+A. Salehi-Abari, C. Boutilier|Ranking networks|NIPS|2013
+A. Salehi-Abari, C. Boutilier|Empathetic social choice on social networks|Intl. Conf. onAutonomous Agents and Multiagent Systems|2014
+S. Seko, T. Yagi, M. Motegi, S. Muto|Group recommendation using feature space representing behavioral tendency and power balance among members|ACM Conf. on Recommender Systems|2011
+A. K. Sen|Collective Choice and Social Welfare|North-Holland|1970
+P. Sen, G. M. Namata, M. Bilgic, L. Getoor, B. Gallagher, T. Eliassi-Rad|Collective classification in network data| AI Magazine|2008
+M. A. Serrano, D. Krioukov, M. Boguná|Self-similarity of complex networks and hidden metric spaces|Physical Review Letters|2008
+B. M. Waxman|Routing of multipoint connections|IEEE J. Selected Areas in Communications|1988
+Y. Xiwang, Y. Guo, Y. Liu, H. Steck|A survey of collaborative filtering based social recommender systems| Computer Communications|2014
+X. Yang, H. Steck, Y. Liu|Circle-based recommendation in online social networks|Intl. Conf. on Knowl. Disc. and Data Mining|2012
+Z. Yu, X. Zhou, Y. Hao, J. Gu|TV program recommendation for multiple viewers based on user profile merging|User Model. & User-Adapted Interact.|2006

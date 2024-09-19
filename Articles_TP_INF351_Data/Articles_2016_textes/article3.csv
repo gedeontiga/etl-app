@@ -1,0 +1,30 @@
+A Coverage-Based Approach to Recommendation Diversity On Similarity Graph
+Shameem A Puthiya Parambath, Universite de technologie de Compiegne, Compiegne, France|Nicolas Usunier, Facebook, Paris, France|Yves Grandvalet, Universite de technologie de Compiegne, Compiegne, France
+We consider the problem of generating diverse, personalized recommendations such that a small set of recommended items covers a broad range of the user's interests. We represent items in a similarity graph, and we formulate the relevance/diversity trade-off as finding a small set of unrated items that best covers a subset of items positively rated by the user. In contrast to previous approaches, our method does not rely on an explicit trade-off between a relevance objective and a diversity objective, as the estimations of relevance and diversity are implicit in the coverage criterion. We show on several benchmark datasets that our approach compares favorably to the state-of-the-art diversification methods according to various relevance and diversity measures.
+coverage, diverse ranking, recommender systems, submodular function, diverse recommendation
+Rakesh Agrawal, Sreenivas Gollapudi, Alan Halverson, Samuel Ieong|Diversifying search results|WSDM|2009
+Azin Ashkan, Branislav Kveton, Shlomo Berkovsky, Zheng Wen|Optimal greedy diversity for recommendation|IJCAI|2015
+Allan Borodin, Hyun Chul Lee, Yuli Ye|Max-sum diversification, monotone submodular functions and dynamic updates|PODS|2012
+Jaime Carbonell, Jade Goldstein|The use of MMR, diversity-based reranking for reordering documents and producing summaries|SIGIR|1998
+Olivier Chapelle, Shihao Ji, Ciya Liao, Emre Velipasaoglu, Larry Lai, Su-Lin Wu|Intent-based diversification of web search results: metrics and algorithms|Information Retrieval|2011
+Paolo Cremonesi, Yehuda Koren, Roberto Turrin| Performance of recommender algorithms on top-n recommendation tasks|RecSys|2010
+Marguerite Frank, Philip Wolfe|An algorithm for quadratic programming|Naval research logistics quarterly|1956
+Sreenivas Gollapudi, Aneesh Sharma|An axiomatic approach for result diversification|WWW|2009
+Jingrui He, Hanghang Tong, Qiaozhu Mei, Boleslaw Szymanski|Gender: A generic diversified ranking algorithm|NIPS|2012
+Neil J Hurley|Personalised ranking with diversity|RecSys|2013
+Hui Lin, Jeff Bilmes|A class of submodular functions for document summarization|ACL|2011
+George L Nemhauser, Laurence A Wolsey, Marshall L Fisher| An analysis of approximations for maximizing submodular set functions|Mathematical Programming|1978
+Jinoh Oh, Sun Park, Hwanjo Yu, Min Song, Seung-Taek Park| Novel recommendation based on personal popularity tendency|ICDM|2011
+Bruno Pradel, Nicolas Usunier, Patrick Gallinari|Ranking with non-random missing ratings: influence of popularity and positivity on evaluation metrics|RecSys|2012
+Filip Radlinski, Robert Kleinberg, Thorsten Joachims| Learning diverse rankings with multi-armed bandits|ICML|2008
+Rodrygo LT Santos, Craig Macdonald, Iadh Ounis| Exploiting query reformulations for web search result diversification|WWW|2010
+Badrul Sarwar, George Karypis, Joseph Konstan, John Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+Harald Steck|Item popularity and recommendation accuracy|RecSys|2011
+Ruilong Su, Li'Ang Yin, Kailong Chen, Yong Yu|Set-oriented personalized ranking for diversified top-n recommendation|RecSys|2013
+Hanghang Tong, Jingrui He, Zhen Wen, Ravi Konuru, Ching-Yung Lin|Diversified ranking on large graphs: an optimization viewpoint|SIGKDD|2011
+S. Vargas, P. Castells|Rank and relevance in novelty and diversity metrics for recommender systems|RecSys|2011
+Saúl Vargas, Linas Baltrunas, Alexandros Karatzoglou, Pablo Castells|Coverage, redundancy and size-awareness in genre diversity for recommender systems|RecSys|2014
+Le Wu, Qi Liu, Enhong Chen, Nicholas Jing Yuan, Guangming Guo, Xing Xie|Relevance meets coverage: A unified framework to generate diversified recommendations|ACM Trans. Intell. Syst. Technol.|2016
+Benyu Zhang, Hua Li, Yi Liu, Lei Ji, Wensi Xi, Weiguo Fan, Zheng Chen, Wei-Ying Ma|Improving web search results using affinity graph|SIGIR|2005
+Mi Zhang, Neil Hurley|Avoiding monotony: improving the diversity of recommendation lists|RecSys|2008
+Xiaojin Zhu, Andrew B Goldberg, Jurgen Van Gael, David Andrzejewski|Improving diversity in ranking using absorbing random walks|HLT-NAACL|2007

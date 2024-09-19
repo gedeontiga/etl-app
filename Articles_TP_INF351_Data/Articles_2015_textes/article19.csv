@@ -1,0 +1,22 @@
+Learning Distributed Representations from Reviews for Collaborative Filtering
+Amjad Almahairi, Université de Montréal, PQ, Canada|Kyle Kastner, Université de Montréal, PQ, Canada|Kyunghyun Cho, Université de Montréal, PQ, Canada|Aaron C Courville, Université de Montréal, PQ, Canada
+Recent work has shown that collaborative filter-based recommender systems can be improved by incorporating side information, such as natural language reviews, as a way of regularizing the derived product representations. Motivated by the success of this approach, we introduce two different models of reviews and study their effect on collaborative filtering performance. While the previous state-of-the-art approach is based on a latent Dirichlet allocation (LDA) model of reviews, the models we explore are neural network based: a bag-of-words product-of-experts model and a recurrent neural network. We demonstrate that the increased flexibility offered by the product-of-experts model allowed it to achieve state-of-the-art performance on the Amazon review dataset, outperforming the LDA-based approach. However, interestingly, the greater modeling power offered by the recurrent neural network appears to undermine the model's ability to act as a regularizer of the product representations.
+recommender systems, deep learning, neural networks
+Y. Bao, H. Fang, J. Zhang|TopicMF: Simultaneously exploiting ratings and reviews for recommendation|AAAI|2014
+F. Bastien, P. Lamblin, R. Pascanu, J. Bergstra, I. J. Goodfellow, A. Bergeron, N. Bouchard, Y. Bengio|Theano: new features and speed improvements|Deep Learning and Unsupervised Feature Learning|2012
+J. Bergstra, F. Bastien, O. Breuleux, P. Lamblin, R. Pascanu, O. Delalleau, G. Desjardins, D. Warde-Farley, I. J. Goodfellow, A. Bergeron, Y. Bengio|Theano: Deep learning on gpus with python|NIPS|2011
+D. M. Blei, A. Y. Ng, M. I. Jordan|Latent dirichlet allocation|the Journal of machine Learning research|2003
+R. Caruana|Multitask learning|Machine learning|1997
+I. J. Goodfellow, D. Warde-Farley, P. Lamblin, V. Dumoulin, M. Mirza, R. Pascanu, J. Bergstra, F. Bastien, Y. Bengio| Pylearn2: a machine learning research library|arXiv preprint|2013
+A. Graves|Generating sequences with recurrent neural networks|Technical report|2013
+G. E. Hinton|Products of experts|International Conference on Artificial Neural Networks|1999
+S. Hochreiter, J. Schmidhuber|Long short-term memory|Neural Computation|1997
+A. Ilin, T. Raiko|Practical approaches to principal component analysis in the presence of missing values|The Journal of Machine Learning Research|2010
+Q. V. Le, T. Mikolov|Distributed representations of sentences and documents|CoRR|2014
+G. Ling, M. R. Lyu, I. King|Ratings meet reviews, a combined approach to recommend|ACM Conference on Recommender Systems|2014
+J. McAuley, J. Leskovec|Hidden factors and hidden topics: Understanding rating dimensions with review text|ACM Conference on Recommender Systems|2013
+T. Mikolov|Statistical Language Models based on Neural Networks|PhD thesis|2012
+T. Mikolov, K. Chen, G. Corrado, J. Dean|Efficient estimation of word representations in vector space| International Conference on Learning Representations: Workshops Track|2013
+A. Mnih, R. Salakhutdinov|Probabilistic matrix factorization|Advances in neural information processing systems|2007
+F. Ricci, L. Rokach, B. Shapira, P. B. Kantor|Recommender systems handbook|Springer|2011
+R. Salakhutdinov, A. Mnih|Bayesian probabilistic matrix factorization using markov chain monte carlo|international conference on Machine learning|2008

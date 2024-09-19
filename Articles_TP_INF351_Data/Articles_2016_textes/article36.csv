@@ -1,0 +1,32 @@
+Bayesian Low-Rank Determinantal Point Processes
+Mike Gartrell, Microsoft, Herzliya, Israel|Ulrich Paquet, Microsoft, Cambridge, United Kingdom|Noam Koenigstein, Microsoft, Herzliya, Israel
+Determinantal point processes (DPPs) are an emerging model for encoding probabilities over subsets, such as shopping baskets, selected from a ground set, such as an item catalog. They have recently proved to be appealing models for a number of machine learning tasks, including product recommendation. DPPs are parametrized by a positive semi-definite kernel matrix. Prior work has shown that using a low-rank factorization of this kernel provides scalability improvements that open the door to training on large-scale datasets and computing online recommendations, both of which are infeasible with standard DPP models that use a full-rank kernel. A low-rank DPP model can be trained using an optimization-based method, such as stochastic gradient ascent, to find a point estimate of the kernel parameters, which can be performed efficiently on large-scale datasets. However, this approach requires careful tuning of regularization parameters to prevent overfitting and provide good predictive performance, which can be computationally expensive. In this paper we present a Bayesian method for learning a low-rank factorization of this kernel, which provides automatic control of regularization. We show that our Bayesian low-rank DPP model can be trained efficiently using stochastic gradient Hamiltonian Monte Carlo (SGHMC). Our Bayesian model generally provides better predictive performance on several real-world product recommendation datasets than optimization-based low-rank DPP models trained using stochastic gradient ascent, and better performance than several state-of-the art recommendation methods in many cases.
+recommender systems, determinantal point processes, mcmc inference
+R. H. Affandi, E. Fox, R. Adams, B. Taskar|Learning the parameters of determinantal point process kernels|ICML|2014
+R. Agrawal, T. Imielinski, A. Swami|Mining association rules between sets of items in large databases|SIGMOD|1993
+T. Brijs|Retail market basket data set|Workshop on Frequent Itemset Mining Implementations|2003
+T. Brijs, G. Swinnen, K. Vanhoof, G. Wets|Using association rules for product assortment decisions: A case study|KDD|1999
+A. J. Chaney|Social Poisson factorization (SPF)|https://github.com/ajbc/spf|2015
+A. J. Chaney, D. M. Blei, T. Eliassi-Rad|A probabilistic model for using social networks in personalized item recommendation|RecSys|2015
+T. Chen, E. Fox, C. Guestrin|Stochastic gradient hamiltonian monte carlo|ICML|2014
+F. Coenen|TLUCS KDD implementation of CBA (classification based on associations)|http://www.csc.liv.ac.uk/ frans/KDD/Software/CMAR/cba.html|2004
+S. Duane, A. D. Kennedy, B. J. Pendleton, D. Roweth|Hybrid monte carlo|Physics letters B|1987
+M. Gartrell, U. Paquet, N. Koenigstein|Low-rank factorization of determinantal point processes for recommendation|arXiv preprint|2016
+J. Gillenwater|Approximate inference for determinantal point processes|PhD thesis|2014
+J. A. Gillenwater, A. Kulesza, E. Fox, B. Taskar|Expectation-maximization for learning determinantal point processes|NIPS|2014
+P. Gopalan, J. M. Hofman, D. M. Blei|Scalable recommendation with hierarchical Poisson factorization|UAI|2015
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+S. Kotsiantis, D. Kanellopoulos|Association rules mining: A recent overview|GESTS International Transactions on Computer Science and Engineering|2006
+A. Kulesza, B. Taskar|Structured determinantal point processes|NIPS|2010
+A. Kulesza, B. Taskar|Learning determinantal point processes|UAI|2011
+A. Kulesza, B. Taskar|Determinantal point processes for machine learning|Foundations and Trends in Machine Learning|2012
+J. T. Kwok, R. P. Adams|Priors for diversity in generative latent variable models|NIPS|2012
+J.-S. Lee, C.-H. Jun, J. Lee, S. Kim|Classification-based collaborative filtering using market basket data|Expert Systems with Applications|2005
+Y. Li, J. Hu, C. Zhai, Y. Chen|Improving one-class collaborative filtering by incorporating rich user information|CIKM|2010
+B. Liu, W. Hsu, Y. Ma|Integrating classification and association rule mining|KDD|1998
+O. Macchi|The coincidence approach to stochastic point processes|Advances in Applied Probability|1975
+Z. Mariet, S. Sra|Fixed-point algorithms for learning determinantal point processes|ICML|2015
+A. Mild, T. Reutterer|An improved collaborative filtering approach for predicting cross-category purchases based on binary market basket data|Journal of Retailing and Consumer Services|2003
+R. M. Neal|Mcmc using hamiltonian dynamics|Handbook of Markov Chain Monte Carlo|2011
+U. Paquet, N. Koenigstein|One-class collaborative filtering with random graphs|WWW|2013
+H. Steck|Item popularity and recommendation accuracy|RecSys|2011

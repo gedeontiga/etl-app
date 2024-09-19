@@ -1,0 +1,20 @@
+The Contextual Turn: from Context-Aware to Context-Driven Recommender Systems
+Roberto Pagano, Politecnico di Milano, Milano, Italy|Paolo Cremonesi, Politecnico di Milano, Milano, Italy|Martha Larson, Delft University of Technology & Radboud University, Nijmegen, Netherlands|Balázs Hidasi, Gravity R&D Inc, Budapest, Hungary
+A critical change has occurred in the status of context in recommender systems. In the past, context has been considered 'additional evidence'. This past picture is at odds with many present application domains, where user and item information is scarce. Such domains face continuous cold start conditions and must exploit session rather than user information. In this paper, we describe the `Contextual Turn?: the move towards context-driven recommendation algorithms for which context is critical, rather than additional. We cover application domains, algorithms that promise to address the challenges of context-driven recommendation, and the steps that the community has taken to tackle context-driven problems. Our goal is to point out the commonalities of context-driven problems, and urge the community to address the overarching challenges that context-driven recommendation poses.
+recommender systems, position paper, context
+L. Baltrunas, X. Amatriain|Towards time-dependant recommendation based on implicit feedback|CARS Workshop at ACM RecSys|2009
+P. Borlund|The concept of relevance in IR|JASIST|2003
+A. Condorelli, P. Cremonesi, R. Pagano, M. Quadrana, R. Turrin|Large scale music recommendation|LSRS Workshop at ACM RecSys|2015
+P. Cremonesi, F. Garzotto, R. Pagano, M. Quadrana|Recommending without short head|WWW|2014
+B. Hidasi, A. Karatzoglou, L. Baltrunas, D. Tikk|Session-based recommendations with recurrent neural networks|ICLR|2016
+B. Hidasi, D. Tikk|Approximate modeling of continuous context in factorization algorithms|ACM Workshop on CARR|2014
+B. Hidasi, D. Tikk|General factorization framework for context-aware recommendations|Data Min. Knowl. Disc.|2015
+A. Q. Macedo, L. B. Marinho, R. L. Santos|Context-aware event recommendation in event-based social networks|ACM RecSys|2015
+U. Panniello, A. Tuzhilin, M. Gorgoglione, C. Palmisano, A. Pedone|Experimental comparison of pre- vs. post-filtering approaches in context-aware recommender systems|ACM RecSys|2009
+E. Pariser|The filter bubble: What the Internet is hiding from you|Penguin|2011
+I. Pilászy, A. Serény, G. Dózsa, B. Hidasi, A. Sári, J. Gub|Neighbor methods vs matrix factorization -- case studies of real-life recommendations|LSRS Workshop at ACM RecSys|2015
+S. Rendle, Z. Gantner, C. Freudenthaler, L. Schmidt-Thieme|Fast context-aware recommendations with factorization machines|ACM SIGIR|2011
+R. L. Santos, C. Macdonald, I. Ounis|Exploiting query reformulations for web search result diversification|WWW|2010
+A. Sen, M. Larson|From sensors to songs: A learning-free novel music recommendation system using contextual sensor data|LocalRec Workshop at ACM RecSys|2015
+R. Turrin, A. Condorelli, P. Cremonesi, R. Pagano|Time-based TV programs prediction|RecSysTV Workshop at ACM RecSys|2014
+H. Werthner, F. Ricci|E-commerce and tourism|Commun. ACM|2004

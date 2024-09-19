@@ -1,0 +1,35 @@
+Folding: Why Good Models Sometimes Make Spurious Recommendations
+Doris Xin, University of Illinois at Urbana-Champaign, IL, USA|Nicolas Mayoraz, Google Research, CA, USA|Hubert Pham, Google Research, CA, USA|Karthik Lakshmanan, Google Research, CA, USA
+In recommender systems based on low-rank factorization of a partially observed user-item matrix, a common phenomenon that plagues many otherwise effective models is the interleaving of good and spurious recommendations in the top-K results. A single spurious recommendation can dramatically impact the perceived quality of a recommender system. Spurious recommendations do not result in serendipitous discoveries but rather cognitive dissonance. In this work, we investigate folding, a major contributing factor to spurious recommendations. Folding refers to the unintentional overlap of disparate groups of users and items in the low-rank embedding vector space, induced by improper handling of missing data. We formally define a metric that quantifies the severity of folding in a trained system, to assist in diagnosing its potential to make inappropriate recommendations. The folding metric complements existing information retrieval metrics that focus on the number of good recommendations and their ranks but ignore the impact of undesired recommendations. We motivate the folding metric definition on synthetic data and evaluate its effectiveness on both synthetic and real world datasets. In studying the relationship between the folding metric and other characteristics of recommender systems, we observe that optimizing for goodness metrics can lead to high folding and thus more spurious recommendations.
+evaluation metric, mnar, matrix factorization, collaborative filtering, folding
+Panagiotis Adamopoulos, Alexander Tuzhilin|On unexpectedness in recommender systems: Or how to better expect the unexpected|ACM Transactions on Intelligent Systems and Technology|2015
+Konstantina Christakopoulou, Arindam Banerjee| Collaborative Ranking with a Push at the Top|International World Wide Web Conference|2015
+Paolo Cremonesi, Yehuda Koren, Roberto Turrin|Performance of recommender algorithms on top-n recommendation tasks|RecSys|2010
+Mouzhi Ge, Carla Delgado-Battenfeld, Dietmar Jannach|Beyond accuracy: evaluating recommender systems by coverage and serendipity|RecSys|2010
+Quanquan Gu, Jie Zhou, Chris Ding|Collaborative filtering: Weighted nonnegative matrix factorization incorporating user and item graphs|International Conference on Data Mining|2010
+Asela Gunawardana, Guy Shani|A survey of accuracy evaluation metrics of recommendation tasks|Journal of Machine Learning Research|2009
+F. Maxwell Harper, Joseph A. Konstan|The MovieLens Datasets: History and Context|ACM Transactions on Interactive Intelligent Systems|2015
+Elad Hazan, Roi Livni, Yishay Mansour|Classification with Low Rank and Missing Data|ICML|2015
+Jonathan L. Herlocker, Joseph A. Konstan, John Riedl|Explaining collaborative filtering recommendations|CSCW|2000
+Jonathan L. Herlocker, Joseph A. Konstan, Loren G. Terveen, John T. Riedl|Evaluating collaborative filtering recommender systems|ACM Transactions on Information Systems|2004
+José Miguel Hernández-Lobato, Neil Houlsby, Zoubin Ghahramani|Probabilistic Matrix Factorization with Non-random Missing Data|ICML|2014
+Yifan Hu, Yehuda Koren, Chris Volinsky|Collaborative filtering for implicit feedback datasets|International Conference on Data Mining|2008
+Sébastien Jean, Kyunghyun Cho, Roland Memisevic, Yoshua Bengio|On Using Very Large Target Vocabulary for Neural Machine Translation|Association for Computational Linguistics|2015
+Noriaki Kawamae|Serendipitous recommendations via innovators|SIGIR|2010
+Bart P. Knijnenburg, Martijn C. Willemsen, Zeno Gantner, Hakan Soncu, Chris Newell|Explaining the user experience of recommender systems|User Modeling and User-Adapted Interaction|2012
+Joseph A. Konstan, John Riedl|Recommender systems: from algorithms to user experience|User Modeling and User-Adapted Interaction|2012
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix factorization techniques for recommender systems|IEEE Computer|2009
+Dawen Liang, Laurent Charlin, James McInerney, David M. Blei|Modeling user exposure in recommendation|International Conference on World Wide Web (WWW)|2016
+Roderick J. A. Little, Donald B. Rubin|Statistical analysis with missing data|John Wiley & Sons|2014
+Benjamin M. Marlin, Richard S. Zemel|Collaborative prediction and ranking with non-random missing data|RecSys|2009
+Benjamin M. Marlin, Richard S. Zemel, Sam Roweis, Malcolm Slaney|Collaborative Filtering and the Missing at Random Assumption|Uncertainty in Artificial Intelligence|2007
+Sean M. McNee, John Riedl, Joseph A. Konstan|Making recommendations better: an analytic model for human-recommender interaction|CHI extended abstracts on Human factors in computing systems|2006
+Andriy Mnih, Koray Kavukcuoglu|Learning word embeddings efficiently with noise-contrastive estimation|NIPS|2013
+Rong Pan, Martin Scholz|Mind the Gaps: Weighting the Unknown in Large-scale One-class Collaborative Filtering|KDD|2009
+Rong Pan, Yunhong Zhou, Bin Cao, Nathan N. Liu, Rajan Lukose, Martin Scholz, Qiang Yang|One-Class Collaborative Filtering|ICDM|2008
+Bruno Pradel, Nicolas Usunier, Patrick Gallinari|Ranking with non-random missing ratings: influence of popularity and positivity on evaluation metrics|RecSys|2012
+Tobias Schnabel, Adith Swaminathan, Ashudeep Singh, Navin Chandak, Thorsten Joachims|Recommendations as treatments: Debiasing learning and evaluation|arXiv preprint|2016
+Guy Shani, Asela Gunawardana|Evaluating recommendation systems. In Recommender systems handbook|Springer|2011
+Harald Steck|Training and testing of recommender systems on data missing not at random|KDD|2010
+Hsiang-Fu Yu, Mikhail Bilenko, Chih-Jen Lin|Selection of Negative Samples for One-class Matrix Factorization|SDM|2017
+Yin Zheng, Bangsheng Tang, Wenkui Ding, Hanning Zhou|A Neural Autoregressive Approach to Collaborative Filtering|ICML|2016

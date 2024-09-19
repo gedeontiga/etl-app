@@ -1,0 +1,34 @@
+Parallel Recurrent Neural Network Architectures for Feature-rich Session-based Recommendations
+Balázs Hidasi, Gravity R&D, Budapest, Hungary|Massimo Quadrana, Politecnico di Milano, Milan, Italy|Alexandros Karatzoglou, Telefonica Research, Barcelona, Spain|Domonkos Tikk, Gravity R&D, Budapest, Hungary
+Real-life recommender systems often face the daunting task of providing recommendations based only on the clicks of a user session. Methods that rely on user profiles -- such as matrix factorization -- perform very poorly in this setting, thus item-to-item recommendations are used most of the time. However the items typically have rich feature representations such as pictures and text descriptions that can be used to model the sessions. Here we investigate how these features can be exploited in Recurrent Neural Network based session models using deep learning. We show that obvious approaches do not leverage these data sources. We thus introduce a number of parallel RNN (p-RNN) architectures to model sessions based on the clicks and the features (images and text) of the clicked items. We also propose alternative training strategies for p-RNNs that suit them better than standard training. We show that p-RNN architectures with proper training have significant performance improvements over feature-less session models while all session-based models outperform the item-to-item type baseline.
+recommender systems, deep learning, training strategies, gated recurrent units, recurrent neural networks
+A. Bellogin, P. Castells, I. Cantador|Precision-oriented evaluation of recommender systems: An algorithmic comparison|ACM Conf. on Recommender Systems|2011
+K. Cho, B. van Merriënboer, D. Bahdanau, Y. Bengio|On the properties of neural machine translation: Encoder--decoder approaches|Workshop on Syntax, Semantics and Structure in Statistical Translation|2014
+J. Donahue, Y. Jia, O. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, T. Darrell|DeCAF: A deep convolutional activation feature for generic visual recognition|ICML|2014
+A. M. Elkahky, Y. Song, X. He|A multi-view deep learning approach for cross domain user modeling in recommendation systems|WWW|2015
+K. He, X. Zhang, S. Ren, J. Sun|Deep residual learning for image recognition|arXiv preprint|2015
+R. He, J. McAuley|VBPR: Visual Bayesian Personalized Ranking from implicit feedback|CoRR|2015
+B. Hidasi, A. Karatzoglou, L. Baltrunas, D. Tikk|Session-based recommendations with recurrent neural networks| International Conference on Learning Representations|2016
+B. Hidasi, D. Tikk|Fast ALS-based tensor factorization for context-aware recommendation from implicit feedback|ECML-PKDD|2012
+B. Hidasi, D. Tikk|General factorization framework for context-aware recommendations|Data Mining and Knowledge Discovery|2015
+G. Hinton, L. Deng, D. Yu, G. E. Dahl, A.-R. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. N. Sainath|Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups|Signal Processing Magazine|2012
+S. Hochreiter, J. Schmidhuber|Long short-term memory|Neural computation|1997
+Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, T. Darrell|Caffe: Convolutional architecture for fast feature embedding|ACM Int. Conf. on Multimedia|2014
+A. Krizhevsky, I. Sutskever, G. E. Hinton|ImageNet classification with deep convolutional neural networks|Annual Conf. on Neural Information Processing Systems|2012
+G. Linden, B. Smith, J. York|Amazon.com recommendations: Item-to-item collaborative filtering|Internet Computing|2003
+Z. C. Lipton, J. Berkowitz, C. Elkan|A critical review of recurrent neural networks for sequence learning|CoRR|2015
+J. McAuley, C. Targett, Q. Shi, A. van den Hengel|Image-based recommendations on styles and substitutes|ACM SIGIR Conf. on Research and Development in Information Retrieval|2015
+T. Mikolov, M. Karafiát, L. Burget, J.vCernocký, S. Khudanpur|Recurrent neural network based language model|Ann. Conf. of the Int. Speech Communication Association|2010
+T. Mikolov, I. Sutskever, K. Chen, G. Corrado, J. Dean|Distributed representations of words and phrases and their compositionality|CoRR|2013
+O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, L. Fei-Fei|ImageNet large scale visual recognition challenge|Int. Journal of Computer Vision|2015
+O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. S. Bernstein, A. C. Berg, F. Li|ImageNet large scale visual recognition challenge|CoRR|2014
+H. Sak, O. Vinyals, G. Heigold, A. Senior, E. McDermott, R. Monga, M. Mao|Sequence discriminative distributed training of long short-term memory recurrent neural networks|Entropy|2014
+R. Salakhutdinov, A. Mnih, G. Hinton|Restricted boltzmann machines for collaborative filtering|ICML|2007
+G. Salton, C. Buckley|Term-weighting approaches in automatic text retrieval|Inf. Process. Manage.|1988
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+G. Shani, R. I. Brafman, D. Heckerman|An MDP-based recommender system|Conf. on Uncertainty in Artificial Intelligence|2002
+A. Sharif Razavian, H. Azizpour, J. Sullivan, S. Carlsson|CNN features off-the-shelf: An astounding baseline for recognition|Conf. on Computer Vision and Pattern Recognition Workshops|2014
+C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. E. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, A. Rabinovich|Going deeper with convolutions|CoRR|2014
+A. Van den Oord, S. Dieleman, B. Schrauwen|Deep content-based music recommendation|Advances in Neural Information Processing Systems|2013
+H. Wang, N. Wang, D.-Y. Yeung|Collaborative deep learning for recommender systems|ACM SIGKDD Int. Conf. on Knowledge Discovery and Data Mining|2015
+Y. Wu, C. DuBois, A. X. Zheng, M. Ester|Collaborative denoising auto-encoders for top-N recommender systems|ACM Int. Conf. on Web Search and Data Mining|2016

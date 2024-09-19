@@ -1,0 +1,20 @@
+Local Item-Item Models For Top-N Recommendation
+Evangelia Christakopoulou, University of Minnesota, MN, USA|George Karypis, University of Minnesota, MN, USA
+Item-based approaches based on SLIM (Sparse LInear Methods) have demonstrated very good performance for top-N recommendation; however they only estimate a single model for all the users. This work is based on the intuition that not all users behave in the same way -- instead there exist subsets of like-minded users. By using different item-item models for these user subsets, we can capture differences in their preferences and this can lead to improved performance for top-N recommendations. In this work, we extend SLIM by combining global and local SLIM models. We present a method that computes the prediction scores as a user-specific combination of the predictions derived by a global and local item-item models. We present an approach in which the global model, the local models, their user-specific combination, and the assignment of users to the local models are jointly optimized to improve the top-N recommendation performance. Our experiments show that the proposed method improves upon the standard SLIM model and outperforms competing top-N recommendation approaches.
+collaborative filtering, top-n recommendation, slim, local models
+G. Adomavicius, A. Tuzhilin|Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions|Knowledge and Data Engineering|2005
+F. Aiolli|A preliminary study on a recommender system for the million songs dataset challenge|PREFERENCE LEARNING: PROBLEMS AND APPLICATIONS IN AI|2012
+J. Bennett, S. Lanning|The netflix prize|KDD cup and workshop|2007
+M. Connor, J. Herlocker|Clustering items for collaborative filtering|ACM SIGIR workshop on recommender systems|1999
+P. Cremonesi, Y. Koren, R. Turrin|Performance of recommender algorithms on top-n recommendation tasks|ACM conference on Recommender systems|2010
+M. Deshpande, G. Karypis|Item-based top-n recommendation algorithms|ACM Transactions on Information Systems|2004
+J. Friedman, T. Hastie, R. Tibshirani|Regularization paths for generalized linear models via coordinate descent|Journal of statistical software|2010
+K. Goldberg, T. Roeder, D. Gupta, C. Perkins|Eigentaste: A constant time collaborative filtering algorithm| Information Retrieval|2001
+G. Guo, J. Zhang, Z. Sun, N. Yorke-Smith|Librec: A java library for recommender systems| International Conference on User Modeling, Adaptation and Personalization|2015
+J. L. Herlocker, J. A. Konstan, A. Borchers, J. Riedl|An algorithmic framework for performing collaborative filtering|annual international ACM SIGIR conference on Research and development in information retrieval|1999
+J. Lee, S. Bengio, S. Kim, G. Lebanon, Y. Singer|Local collaborative ranking|international conference on World wide web|2014
+J. Lee, S. Kim, G. Lebanon, Y. Singer|Local low-rank matrix approximation|International Conference on Machine Learning|2013
+X. Ning, G. Karypis|Slim: Sparse linear methods for top-n recommender systems|ICDM|2011
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| Bpr: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+F. Ricci, B. Shapira|Recommender systems handbook|Springer|2011
+B. Xu, J. Bu, C. Chen, D. Cai|An exploration of improving collaborative recommender systems via user-item subgroups|international conference on World Wide Web|2012

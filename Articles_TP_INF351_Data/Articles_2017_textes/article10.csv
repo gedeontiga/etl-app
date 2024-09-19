@@ -1,0 +1,43 @@
+Recommending Personalized News in Short User Sessions
+Elena Viorica Epure, Panthéon-Sorbonne, Paris, France|Benjamin Kille, Technische Universität Berlin, Berlin, Germany|Jon Espen Ingvaldsen, NTNU, Trondheim, Norway|Rébecca Deneckère, Panthéon-Sorbonne, Paris, France
+News organizations employ personalized recommenders to target news articles to specific readers and thus foster engagement. Existing approaches rely on extensive user profiles. However frequently possible, readers rarely authenticate themselves on news publishers' websites. This paper proposes an approach for such cases. It provides a basic degree of personalization while complying with the key characteristics of news recommendation including news popularity, recency, and the dynamics of reading behavior. We extend existing research on the dynamics of news reading behavior by focusing both on the progress of reading interests over time and their relations. Reading interests are considered in three levels: short-, medium-, and long-term. Combinations of these are evaluated in terms of added value to the recommendation's performance and ensured news variety. Experiments with 17-month worth of logs from a German news publisher show that most frequent relations between news reading interests are constant in time but their probabilities change. Recommendations based on combined short-term and long-term interests result in increased accuracy while recommendations based on combined short-term and medium-term interests yield higher news variety.
+stationarity analysis, personalization, news reading behavior, markov processes, recommender system, news reading interests
+Gediminas Adomavicius, Alexander Tuzhilin|Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions|Transactions on Knowledge and Data Engineering|2005
+Amr Ahmed, Choon Hui Teo, S. V. N. Vishwanathan, Alex Smola|Fair and Balanced: Learning to Present News Stories|WSDM|2012
+F. Bickenbach, E. Bode|Evaluating the Markov Property in Studies of Economic Convergence|International Regional Science Review|2003
+Daniel Billsus, Michael J. Pazzani|Adaptive News Access|The Adaptive Web|2007
+Michel Capelle, Alexander Hogenboom, Alexander Hogenboom, Flavius Frasincar|Semantic News Recommendation Using WordNet and Bing Similarities Categories and Subject Descriptors|Symposium on Applied Computing|2013
+Abhinandan Das, Mayur Datar, Ashutosh Garg, Shyam Rajaram|Google News Personalization: Scalable Online|WWW|2007
+Gianmarco De Francisci Morales, Aristides Gionis, Claudio Lucchese|From Chatter to Headlines: Harnessing the Real-timeWeb for Personalized News Recommendation|ACM International Conference on Web Search and Data Mining|2012
+Marco de Gemmis, Pasquale Lops, Cataldo Musto, Fedelucio Narducci, Giovanni Semeraro|Semantics-Aware Content-Based Recommender Systems|Springer|2015
+Doychin Doychev, Aonghus Lawlor, Rachael Rafter, Barry Smyth|An Analysis of Recommender Algorithms for Online News|CLEF|2014
+E. V. Epure, J. E. Ingvaldsen, R. Deneckere, C. Salinesi|Process Mining for Recommender Strategies Support in News Media|International Conference on Research Challenges in Information Science|2016
+Cagdas Esiyok, Benjamin Kille, Brijnesh-Johannes Jain, Frank Hopfgartner, Sahin Albayrak|Users' Reading Habits in Online News Portals|Information Interaction in Context Symposium|2014
+Anna Frankfort-Nachmias, ChavaLeon-Guerrero|Social Statistics for a Diverse Society|Pine Forge Press|2006
+Qi Gao, Fabian Abel, Geert-Jan Houben, Ke Tao|Interweaving Trend and User Modeling for Personalized News Recommendation|IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology|2011
+Florent Garcin, Kai Zhou, Boi Faltings, Vincent Schickel|Personalized News Recommendation Based on Collaborative Filtering|IEEE/WIC/ACM International Joint Conferences on Web Intelligence and Intelligent Agent Technology|2012
+Jon Atle Gulla, Bei Yu, Özlem Özgöbek, Nafiseh Shabib|Third International Workshop on News Recommendation and Analytics|ACM Conference on Recommender Systems|2015
+Anat Hashavit, Roy Levin, Ido Guy, Gilad Kutie| Effective Trend Detection within a Dynamic Search Context|International ACM SIGIR conference on Research and Development in Information Retrieval|2016
+Balázs Hidasi, Alexandros Karatzoglou, Linas Baltrunas, Domonkos Tikk|Session-based Recommendations with Recurrent Neural Networks|International Conference on Learning Representations|2015
+Wenxing Hong, Lei Li, Tao Li|Product Recommendation with Temporal Dynamics|Expert systems with applications|2012
+Amin Javari, Mahdi Jalili|A Probabilistic Model to Resolve Diversity - Accuracy Challenge of Recommendation Systems|Knowledge and Information Systems|2015
+Nirmal Jonnalagedda, Susan Gauch, Kevin Labille, Sultan Alfarhood|Incorporating Popularity in a Personalized News Recommender System|PeerJ Computer Science|2016
+J. G. Kemény, J. L. Snell|Finite Markov Chains|Van Nostrand|1960
+Yong Kiam Tan, Xinxing Xu, Yong Liu|Improved Recurrent Neural Networks for Session-based Recommendations|arXiv preprint|2016
+Lihong Li, Wei Chu, John Langford, Robert E. Schapire|A Contextual-Bandit Approach to Personalized News Article Recommendation|International Conference on World Wide Web|2010
+Lei Li, Li Zheng, Fan Yang, Tao Li|Modeling and Broadening Temporal User Interest in Personalized News Recommendation|Expert Systems with Applications|2014
+Ting-Peng Liang, Hung-Jen Lai|Discovering User Interests from Web Browsing Behavior: An Application to Internet News Services|HICSS|2002
+Jiahui Liu, Peter Dolan, Elin Rønby Pedersen|Personalized News Recommendation Based on Click Behavior|International Conference on Intelligent User Interfaces|2010
+Andreas Lommatzsch|Real-Time News Recommendation Using Context- Aware Ensembles|European Conference on IR Research|2014
+Nic Newman|Overview and Key Findings of the 2016 Report|http://digitalnewsreport.org/survey/2016/overview-key-findings-2016/|2017
+Rasmus Kleis Nielsen|People Want Personalised Recommendations (Even as they Worry about the Consequences)|Digital News Report|2016
+Owen Phelan, Kevin McCarthy, Barry Smyth|Using Twitter to Recommend Real-time Topical News|Conference on Recommender Systems|2009
+Nachiketa Sahoo, Param Vir Singh, Tridas Mukhopadhyay|A Hidden Markov Model for Collaborative Filtering|MIS Q.|2012
+Guy Shani, David Heckerman, Ronen I. Brafman|An MDP-Based Recommender System|Journal of Machine Learning research|2005
+Mark Thompson|The Challenging New Economics of Journalism|Digital News Report|2016
+Emily Thorson|Changing Patterns of News Consumption and Participation|Information, Communication and Society|2008
+Giang Tran, Mohammad Alrifai, Eelco Herder|Timeline summarization from relevant headlines|European Conference on Information Retrieval|2015
+David Vallet, Shlomo Berkovsky, Sebastien Ardon, Anirban Mahanti, Mohamed Ali Kafaar|Characterizing and Predicting Viral-and-Popular Video Content|ACM International on Conference on Information and Knowledge Management|2015
+X. Wu, F. Xie, G. Wu, W. Ding|Personalized News Filtering and Summarization on the Web|International Conference on Tools with Artificial Intelligence|2011
+Diyi Yang, Tianqi Chen, Weinan Zhang, Qiuxia Lu, Yong Yu|Local Implicit Feedback Mining for Music Recommendation|ACM conference on Recommender systems|2012
+Qingyan Yang, Ju Fan, Jianyong Wang, Lizhu Zhou| Personalizing Web Page Recommendation via Collaborative Filtering and Topic-Aware Markov Model|International Conference on Data Mining|2010

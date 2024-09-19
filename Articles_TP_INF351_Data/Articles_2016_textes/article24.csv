@@ -1,0 +1,28 @@
+Convolutional Matrix Factorization for Document Context-Aware Recommendation
+Donghyun Kim, POSTECH, Pohang, South Korea|Chanyoung Park, POSTECH, Pohang, South Korea|Jinoh Oh, POSTECH, Pohang, South Korea|Sungyoung Lee, Kyung Hee University, Seoul, South Korea|Jinoh Oh, POSTECH, Pohang, South Korea|Hwanjo Yu, POSTECH, Pohang, South Korea
+Sparseness of user-to-item rating data is one of the major factors that deteriorate the quality of recommender system. To handle the sparsity problem, several recommendation techniques have been proposed that additionally consider auxiliary information to improve rating prediction accuracy. In particular, when rating data is sparse, document modeling-based approaches have improved the accuracy by additionally utilizing textual data such as reviews, abstracts, or synopses. However, due to the inherent limitation of the bag-of-words model, they have difficulties in effectively utilizing contextual information of the documents, which leads to shallow understanding of the documents. This paper proposes a novel context-aware recommendation model, convolutional matrix factorization (ConvMF) that integrates convolutional neural network (CNN) into probabilistic matrix factorization (PMF). Consequently, ConvMF captures contextual information of documents and further enhances the rating prediction accuracy. Our extensive evaluations on three real-world datasets show that ConvMF significantly outperforms the state-of-the-art recommendation models even when the rating data is extremely sparse. We also demonstrate that ConvMF successfully captures subtle contextual difference of a word in a document. Our implementation and datasets are available at http://dm.postech.ac.kr/ConvMF.
+neural network' context-aware recommendation, document modeling, recommender system, deep learning, contexual information, collaborative filtering
+F. Chollet|Keras|https://github.com/fchollet/keras|2015
+R. Collobert, J. Weston, L. Bottou, M. Karlen, K. Kavukcuoglu, P. Kuksa|Natural language processing (almost) from scratch|Journal of Machine Learning Research|2011
+M. Deshpande, G. Karypis|Item-based top-n recommendation algorithms|ACM Transactions on Information Systems|2004
+J. Gao, P. Pantel, M. Gamon, X. He, L. Deng|Modeling interestingness with deep neural networks|Empirical Methods in Natural Language Processing|2014
+A. T. Gediminas Adomavicius|Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions|IEEE Transactions on Knowledge and Data Engineering|2005
+X. Glorot, A. Bordes, Y. Bengio|Deep sparse rectifier neural networks|International Conference on Artificial Intelligence and Statistics|2011
+J. L. Herlocker, J. A. Konstan, A. Borchers, J. Riedl|An algorithmic framework for performing collaborative filtering|Annual International ACM SIGIR Conference on Research and Development in Information Retrieval|1999
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl|Evaluating collaborative filtering recommender systems|ACM Transactions on Information Systems|2004
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|IEEE International Conference on Data Mining|2008
+N. Kalchbrenner, E. Grefenstette, P. Blunsom|A convolutional neural network for modelling sentences|Annual Meeting of the Association for Computational Linguistics|2014
+Y. Kim|Convolutional neural networks for sentence classification|Empirical Methods in Natural Language Processing|2014
+Y. Koren|Factorization meets the neighborhood: A multifaceted collaborative filtering model|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2008
+Y. LeCun, L. Bottou, Y. Bengio, P. Haffner|Gradient-based learning applied to document recognition|Intelligent Signal Processing|2001
+S. Li, J. Kawale, Y. Fu|Deep collaborative filtering via marginalized denoising auto-encoder|ACM International on Conference on Information and Knowledge Management|2015
+G. Ling, M. R. Lyu, I. King|Ratings meet reviews, a combined approach to recommend|ACM Conference on Recommender Systems|2014
+A. L. Maas, A. Y. Hannun, A. Y. Ng|Rectifier nonlinearities improve neural network acoustic models|International Conference on Machine Learning Workshop on Deep Learning for Audio, Speech, and Language Processing|2013
+J. McAuley, J. Leskovec|Hidden factors and hidden topics: Understanding rating dimensionswith review text|ACM Conference on Recommender Systems|2013
+J. Pennington, R. Socher, C. D. Manning|Glove: Global vectors for word representation|Empirical Methods in Natural Language Processing|2014
+S. Purushotham, Y. Liu, C.-C. J. Kuo|Collaborative topic regression with social matrix factorization for recommendation systems|International Conference on Machine Learning|2012
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|Advances in Neural Information Processing Systems|2008
+Y. Shen, X. He, J. Gao, L. Deng, G. Mesnil|A latent semantic model with convolutional-pooling structure for information retrieval|ACM International Conference on Conference on Information and Knowledge Management|2014
+A. van den Oord, S. Dieleman, B. Schrauwen|Deep content-based music recommendation|Advances in Neural Information Processing Systems|2013
+C. Wang, D. M. Blei|Collaborative topic modeling for recommending scientific articles|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2011
+H. Wang, N. Wang, D.-Y. Yeung|Collaborative deep learning for recommender systems|ACM SIGKDD International Conferenceon Knowledge Discovery and Data Mining|2015

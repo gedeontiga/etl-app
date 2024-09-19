@@ -1,0 +1,37 @@
+Human-Recommender Systems: From Benchmark Data to Benchmark Cognitive Models
+Patrick Shafto, Rutgers University - Newark, NJ, USA|Olfa Nasraoui, University of Louisville, KY, USA
+We bring to the fore of the recommender system research community, an inconvenient truth about the current state of understanding how recommender system algorithms and humans influence one another, both computationally and cognitively. Unlike the great variety of supervised machine learning algorithms which traditionally rely on expert input labels and are typically used for decision making by an expert, recommender systems specifically rely on data input from non-expert or casual users and are meant to be used directly by these same non-expert users on an every day basis. Furthermore, the advances in online machine learning, data generation, and predictive model learning have become increasingly interdependent, such that each one feeds on the other in an iterative cycle. Research in psychology suggests that people's choices are (1) contextually dependent, and (2) dependent on interaction history. Thus, while standard methods of training and assessing performance of recommender systems rely on benchmark datasets, we suggest that a critical step in the evolution of recommender systems is the development of benchmark models of human behavior that capture contextual and dynamic aspects of human behavior. It is important to emphasize that even extensive real life user-tests may not be sufficient to make up for this gap in benchmarking validity because user tests are typically done with either a focus on user satisfaction or engagement (clicks, sales, likes, etc) with whatever the recommender algorithm suggests to the user, and thus ignore the human cognitive aspect. We conclude by highlighting the interdisciplinary implications of this endeavor.
+machine learning, human learning, recommender systems
+F. G. Ashby, L. A. Alfonso-Reese, E. M. Waldron|a neuropsychological theory of multiple systems in category learning|Psychological Review|1998
+F. G. Ashby, W. T. Maddox, C. J. Bohil|Observational versus feedback training in rule-based and information-integration category learning|Memory and Cognition|2002
+F. G. Ashby, S. Queller, P. T. Berretty|On the dominance of unidimensional rules in unsupervised categorization|Perception and Psychophysics|1999
+C. L. Baker, R. Saxe, J. B. Tenenbaum|Action understanding as inverse planning|Cognition|2009
+C. L. Baker, R. Saxe, J. B. Tenenbaum|Bayesian theory of mind: Modeling joint belief-desire attribution|Annual Conference of the Cognitive Science Society|2011
+C. Basu, H. Hirsh, W. Cohen|Recommendation as classification: Using social and content-based information in recommendation|AAAI/IAAI|1998
+A. Beppu, T. L. Griffiths|Iterated learning and the cultural ratchet|Annual Conference of the Cognitive Science Society|2009
+C. M. Bishop|Pattern recognition and machine learning| Springer|2006
+J. Bruner|The art of discovery|Harvard Educational Review|1961
+J. R. Bruner, J. J. Goodnow, G. A. Austin|A study of thinking|Wiley|1956
+J. C. Caicedo, J. BenAbdallah, F. A. González, O. Nasraoui|Multimodal representation, indexing, automated annotation and retrieval of image collections via non-negative matrix factorization|Neurocomputing|2012
+B. S. Eaves, P. Shafto|Unifying pedagogical reasoning and epistemic trust|Advances in Child Development and Behavior|2012
+N. D. Goodman, C. L. Baker, E. B. Bonawitz, V. K. Mansinghka, A. Gopnik, H. Wellman, L. E. Schulz, J. B. Tenenbaum|Intuitive theories of mind: A rational approach to false belief|Annual Conference of the Cognitive Science Society|2006
+T. L. Griffiths, M. L. Kalish|A Bayesian view of language evolution by iterated learning|Cognitive Science|2007
+S. Kirby|Spontaneous evolution of linguistic structure: An iterated learning model of the emergence of regularity and irregularity|IEEE Journal of Evolutionary Computation|2001
+S. Kirby, M. Dowman, T. L. Griffiths|Innateness and culture in the evolution of language|National Academy of Sciences|2007
+S. B. Y. J. Linden|Amazon.com recommendations: Item-to-item collaborative filtering|Internet Computing|2003
+R. D. Luce|Individual choice behavior|John Wiley|1959
+D. Markant, T. Gureckis|Is it better to select or to receive? Learning via active and passive hypothesis testing|Journal of Experimental Psychology: General|2014
+D. McFadden|Quantal choice analysis: A survey|Annals of Economic and Social Measurement|1977
+R. S. Michalski|Pattern recognition as rule-guided inductive inference|IEEE Transactions on Pattern Analysis and Machine Intelligence|1980
+R. S. Michalski, I. Bratko, A. Bratko|Machine learning and data mining|methods and applications|1998
+T. M. Mitchell|Machine Learning|McGraw-Hill|1997
+O. Nasraoui, J. Cerwinske, C. Rojas, F. A. González|Performance of recommendation systems in dynamic streaming environments|SIAM Data Mining|2007
+P. Shafto, N. D. Goodman|Teaching games: Statistical sampling assumptions for pedagogical situations|annual conference of the Cognitive Science Society|2008
+P. Shafto, N. D. Goodman, M. C. Frank|Learning from others: The consequences of psychological reasoning for human learning|Perspectives on Psychological Science|2012
+I. Simonson, A. Tversky|Choice in context: Tradeoff contrast and extremeness aversion|Journal of Marketing Research|1992
+K. Sparck Jones|Some thoughts on classification for retrieval|Journal of Documentation|1970
+R. S. Sutton, A. G. Barto|Reinforcement learning: An introduction|MIT Press|1998
+M. Tomasello|The Cultural Origins of Human Cognition|Harvard University Press|1999
+K. Train|Discrete choice models with simulation|Cambridge University Press|2003
+A. Tversky|Elimination by aspects: A theory of choice|Psychological Review|1972
+J. I. Yellot|The relationship between luce's choice axiom, thurstone's theory of comparative judgement, and the double exponential distribution|Journal of Mathematical Psychology|1977

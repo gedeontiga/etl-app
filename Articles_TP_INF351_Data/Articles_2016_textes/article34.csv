@@ -1,0 +1,32 @@
+Personalized Recommendations using Knowledge Graphs: A Probabilistic Logic Programming Approach
+Rose Catherine, Carnegie Mellon University, PA, USA|William Weston Cohen, Carnegie Mellon University, PA, USA
+Improving the performance of recommender systems using knowledge graphs is an important task. There have been many hybrid systems proposed in the past that use a mix of content-based and collaborative filtering techniques to boost the performance. More recently, some work has focused on recommendations that use external knowledge graphs (KGs) to supplement content-based recommendation. In this paper, we investigate three methods for making KG based recommendations using a general-purpose probabilistic logic system called ProPPR. The simplest of the models, EntitySim, uses only the links of the graph. We then extend the model to TypeSim that also uses the types of the entities to boost its generalization capabilities. Next, we develop a graph based latent factor model, GraphLF, which combines the strengths of latent factorization with graphs. We compare our approaches to a recently proposed state-of-the-art graph recommendation method on two large datasets, Yelp and MovieLens-100K. The experiments illustrate that our approaches can give large performance improvements. Additionally, we demonstrate that knowledge graphs give maximum advantage when the dataset is sparse, and gradually become redundant as more training data becomes available, and hence are most useful in cold-start settings.
+graph based matrix factorization, knowledge graph based recommendations, probabilistic logic programming
+A. Azaria, J. Hong|Recommender system with personality|RecSys|2016
+S. H. Bach, M. Broecheler, B. Huang, L. Getoor|Hinge-loss markov random fields and probabilistic soft logic|arXiv|2015
+L. Backstrom, J. Leskovec|Supervised random walks: Predicting and recommending links in social networks|WSDM|2011
+M. Brand|A random walks perspective on maximizing satisfaction and profit|SDM|2005
+A. S. Das, M. Datar, A. Garg, S. Rajaram|Google news personalization: Scalable online collaborative filtering|WWW|2007
+L. de Campos, J. Fernández-Luna, J. Huete, M. Rueda-Morales|Combining content-based and collaborative recommendations: A hybrid approach based on bayesian networks|Int. J. Approx. Reasoning|2010
+C. Ding, T. Li, M. Jordan|Convex and semi-nonnegative matrix factorizations|IEEE TPAMI|2010
+J. Duchi, E. Hazan, Y. Singer|Adaptive subgradient methods for online learning and stochastic optimization|JMLR|2011
+I. Guy, N. Zwerdling, D. Carmel, I. Ronen, E. Uziel, S. Yogev, S. Ofek-Koifman|Personalized recommendation of social software items based on social relations|RecSys|2009
+T. H. Haveliwala|Topic-sensitive pagerank|WWW|2002
+J. Hoxha, A. Rettinger|First-order probabilistic model for hybrid recommendations|ICMLA|2013
+M. Jamali, M. Ester|Trustwalker: A random walk model for combining trust-based and item-based recommendation|KDD|2009
+T. Joachims|Optimizing search engines using clickthrough data|SIGKDD|2002
+I. Konstas, V. Stathopoulos, J. M. Jose|On social networks and collaborative recommendation|SIGIR|2009
+Y. Koren|Factorization meets the neighborhood: A multifaceted collaborative filtering model|KDD|2008
+P. Kouki, S. Fakhraei, J. Foulds, M. Eirinaki, L. Getoor|Hyper: A flexible and extensible probabilistic framework for hybrid recommender systems|RecSys|2015
+T. Lin, Mausam, O. Etzioni|Entity linking at web scale|AKBC-WEKEX|2012
+J. W. Lloyd|Foundations of Logic Programming|Springer-Verlag|1984
+C. D. Manning, P. Raghavan, H. Schütze|Introduction to Information Retrieval|Cambridge University Press|2008
+A. K. McCallum|Mallet: A machine learning for language toolkit|http://mallet.cs.umass.edu|2002
+T. Mitchell, W. Cohen, E. H. Jr., P. Talukdar, J. Betteridge, A. Carlson, B. Mishra, M. Gardner, B. Kisiel, J. Krishnamurthy, N. Lao, K. Mazaitis, T. Mohamed, N. Nakashole, E. Platanios, A. Ritter, M. Samadi, B. Settles, R. Wang, D. Wijaya, A. Gupta, X. Chen, A. Saparov, M. Greaves, J. Welling|Never-ending learning|AAAI|2015
+M. Pazzani, D. Billsus|Learning and revising user profiles: The identification ofinteresting web sites|Mach. Learn.|1997
+F. M. Suchanek, G. Kasneci, G. Weikum|Yago: A core of semantic knowledge|WWW|2007
+Y. Sun, J. Han, X. Yan, P. S. Yu, T. Wu|Pathsim: Meta path-based top-k similarity search in heterogeneous information networks|PVLDB|2011
+W. Y. Wang, W. W. Cohen|Joint information extraction and reasoning: A scalable statistical relational learning approach|ACL|2015
+W. Y. Wang, K. Mazaitis, W. W. Cohen|Programming with personalized pagerank: A locally groundable first-order probabilistic logic|CIKM|2013
+X. Yu, X. Ren, Y. Sun, Q. Gu, B. Sturt, U. Khandelwal, B. Norick, J. Han|Personalized entity recommendation: A heterogeneous information network approach|WSDM|2014
+X. Yu, X. Ren, Y. Sun, B. Sturt, U. Khandelwal, Q. Gu, B. Norick, J. Han|Recommendation in heterogeneous information networks with implicit user feedback|RecSys|2013

@@ -1,0 +1,34 @@
+Translation-based Recommendation
+Ruining He, University of California, CA, USA|Wangcheng Kang, University of California, CA, USA|Julian John McAuley, University of California, CA, USA
+Modeling the complex interactions between users and items as well as amongst items themselves is at the core of designing successful recommender systems. One classical setting is predicting users' personalized sequential behavior (or 'next-item' recommendation), where the challenges mainly lie in modeling 'third-order' interactions between a user, her previously visited item(s), and the next item to consume. Existing methods typically decompose these higher-order interactions into a combination of pairwise relationships, by way of which user preferences (user-item interactions) and sequential patterns (item-item interactions) are captured by separate components. In this paper, we propose a unified method, TransRec, to model such third-order relationships for large-scale sequential prediction. Methodologically, we embed items into a 'transition space' where users are modeled as translation vectors operating on item sequences. Empirically, this approach outperforms the state-of-the-art on a wide spectrum of real-world datasets. Data and code are available at https://sites.google.com/a/eng.ucsd.edu/ruining-he/.
+recommender systems, relation, sequential behavior, translation
+Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko|Translating embeddings for modeling multi-relational data|the Advances in Neural Information Processing Systems|2013
+Shuo Chen, Josh L. Moore, Douglas Turnbull, Thorsten Joachims|Playlist prediction via metric embedding|ACM SIGKDD Conferences on Knowledge Discovery and Data Mining|2012
+Yi Ding, Xue Li|Time weight collaborative filtering|ACM International Conference on Information and Knowledge Management|2005
+Shanshan Feng, Xutao Li, Yifeng Zeng, Gao Cong, Yeow Meng Chee, Quan Yuan|Personalized ranking metric embedding for next new POI recommendation|International Joint Conference on Artificial Intelligence|2015
+Ruining He, Charles Packer, Julian McAuley|Learning compatibility across categories for heterogeneous item recommendation|IEEE International Conference on Data Mining|2016
+Yifan Hu, Yehuda Koren, Chris Volinsky|Collaborative filtering for implicit feedback datasets|IEEE International Conference on Data Mining|2008
+Yehuda Koren|Collaborative filtering with temporal dynamics|Commun. ACM|2010
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix Factorization techniques for recommender systems|Computer|2009
+Justin J. Levandoski, Mohamed Sarwat, Ahmed Eldawy, Mohamed F. Mokbel|LARS: A location-aware recommender system|IEEE International Conference on Data Engineering|2012
+Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, Xuan Zhu|Learning entity and relation embeddings for knowledge graph completion|AAAI Conference on Artificial Intelligence|2015
+Julian J. McAuley, Christopher Targett, Qinfeng Shi, Anton van den Hengel|Image-based recommendations on styles and substitutes|International ACM SIGIR Conference on Research and Development in Information Retrieval|2013
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S Corrado, Jeff Dean|Distributed representations of words and phrases and their compositionality|the Advances in Neural Information Processing Systems|2013
+Joshua L. Moore, Shuo Chen, Douglas Turnbull, Thorsten Joachims|Taste over time: the temporal dynamics of user preferences|International Society for Music Information Retrieval Conference|2013
+Maximilian Nickel, Volker Tresp, Hans-Peter Kriegel|A three-way model for collective learning on multi-relational data|International Conference on Machine Learning|2011
+Maximilian Nickel, Volker Tresp, Hans-Peter Kriegel|Factorizing yago: scalable machine learning for linked data|International Conference on World Wide Web|2012
+Xia Ning, George Karypis|SLIM: Sparse linear methods for top-n recommender systems|IEEE International Conference on Data Mining|2011
+Rong Pan, Yunhong Zhou, Bin Cao, Nathan N. Liu, Rajan Lukose, Martin Scholz, Qiang Yang|One-class collaborative filtering|IEEE International Conference on Data Mining|2008
+Steffen Rendle, Christoph Freudenthaler|Improving pairwise learning for item recommendation from implicit feedback|ACM International Conference on Web Search and Data Mining|2014
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+Steffen Rendle, Christoph Freudenthaler, Lars Schmidt-Thieme|Factorizing personalized markov chains for next-basket recommendation|International Conference on World Wide Web|2010
+Steffen Rendle, Lars Schmidt-Thieme|Pairwise interaction tensor factorization for personalized tag recommendation|ACM International Conference on Web Search and Data Mining|2014
+Francesco Ricci, Lior Rokach, Bracha Shapira, Paul Kantor|Recommender systems handbook|Springer|2011
+Richard Serfozo|Basics of applied stochastic processes|Springer Science & Business Media|2009
+Ajit P. Singh, Geoffrey J. Gordon|Relational learning via collective matrix factorization|ACM SIGKDD Conferences on Knowledge Discovery and Data Mining|2008
+Théo Trouillon, Johannes Welbl, Sebastian Riedel, Èric Gaussier, Guillaume Bouchard.|Complex embeddings for simple link prediction|International Conference on Machine Learning|2016
+Pengfei Wang, Jiafeng Guo, Yanyan Lan, Jun Xu, Shengxian Wan, Xueqi Cheng|Learning hierarchical representation model for nextbasket recommendation|International ACM SIGIR Conference on Research and Development in Information Retrieval|2015
+Zhen Wang, Jianwen Zhang, Jianlin Feng, Zheng Chen|Knowledge graph embedding by translating on hyperplanes|AAAI Conference on Artificial Intelligence|2014
+Xiang Wu, Qi Liu, Enhong Chen, Liang He, Jingsong Lv, Can Cao, and Guoping Hu|Personalized next-song recommendation in online karaokes|ACM Conference on Recommender Systems|2013
+Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, Li Deng|Embedding entities and relations for learning and inference in knowledge bases|International Conference on Learning Representations|2015
+Tong Zhao, Julian McAuley, Irwin King|Leveraging social connections to improve personalized ranking for collaborative filtering|ACM International Conference on Information and Knowledge Management|2014

@@ -1,0 +1,58 @@
+Sequential User-based Recurrent Neural Network Recommendations
+Tim Donkers, University of Duisburg-Essen, Duisburg, Germany|Benedikt Loepp, University of Duisburg-Essen, Duisburg, Germany|Jürgen E Ziegler, University of Duisburg-Essen, Duisburg, Germany
+Recurrent Neural Networks are powerful tools for modeling sequences. They are flexibly extensible and can incorporate various kinds of information including temporal order. These properties make them well suited for generating sequential recommendations. In this paper, we extend Recurrent Neural Networks by considering unique characteristics of the Recommender Systems domain. One of these characteristics is the explicit notion of the user recommendations are specifically generated for. We show how individual users can be represented in addition to sequences of consumed items in a new type of Gated Recurrent Unit to effectively produce personalized next item recommendations. Offline experiments on two real-world datasets indicate that our extensions clearly improve objective performance when compared to state-of-the-art recommender algorithms and to a conventional Recurrent Neural Network.
+deep learning, recommender systems, neural networks, sequential recommendations, recurrent neural networks
+L. Baltrunas, X. Amatriain|Towards time-dependant recommendation based on implicit feedback|CARS|2009
+Y. Bengio, P. Frasconi, P. Simard|The problem of learning long-term dependencies in recurrent networks|ICNN|1993
+G. Bonnin, D. Jannach|Automated generation of music playlists: Survey and experiments|ACM Comput Surv|2015
+P. G. Campos, F. Díez, I. Cantador|Time-aware recommender systems: A comprehensive survey and analysis of existing evaluation protocols|User Model User-Adap|2014
+K. Cho, B. Van Merriënboer, D. Bahdanau, Y. Bengio|On the properties of neural machine translation: Encoder-decoder approaches|SSST|2014
+J. Chung, C. Gulcehre, K. Cho, Y. Bengio|Empirical evaluation of gated recurrent neural networks on sequence modeling|Deep Learning Workshop at NIPS|2014
+Y. Ding, X. Li|Time weight collaborative filtering|CIKM|2005
+S. El Hihi, Y. Bengio|Hierarchical recurrent neural networks for long-term dependencies|NIPS|1995
+F. Gers|Long short-term memory in recurrent neural networks|Ph.D|2001
+I. Goodfellow, Y. Bengio, A. Courville|Deep learning|MIT Press|2016
+A. Graves, A. Mohamed, G. Hinton|Speech recognition with deep recurrent neural networks|ICASSP|2013
+A. Greenstein-Messica, L. Rokach, M. Friedman|Session-based recommendations using item embedding|IUI|2017
+A. Gunawardana, G. Shani|A survey of accuracy evaluation metrics of recommendation tasks|J Mach Learn Res|2009
+K. He, X. Zhang, S. Ren, J. Sun|Delving deep into rectifiers: Surpassing human-level performance on imagenet classification|ICCV|2015
+K. He, X. Zhang, S. Ren, J. Sun|Deep residual learning for image recognition|CVPR|2016
+C. Hermann|Time-based recommendations for lecture materials|EdMedia|2010
+B. Hidasi, A. Karatzoglou, L. Baltrunas, D. Tikk|Session-based recommendations with recurrent neural networks|ICLR|2016
+B. Hidasi, M. Quadrana, A. Karatzoglou, D. Tikk|Parallel recurrent neural network architectures for feature-rich session-based recommendations|RecSys|2016
+S. Hochreiter, J. Schmidhuber|Long short-term memory|Neural Comput|1997
+T. Hofmann|Unsupervised learning by probabilistic latent semantic analysis|Mach Learn|2001
+T. Hussein, T. Linder, W. Gaulke, J. Ziegler|Hybreed: A software framework for developing context-aware hybrid recommender systems|User Model User-Adap|2014
+A. Karatzoglou|Collaborative temporal order modeling|RecSys|2011
+A. Karatzoglou, X. Amatriain, L. Baltrunas, N. Oliver|Multiverse recommendation: N-dimensional tensor factorization for context-aware collaborative filtering|RecSys|2010
+D. Kingma, J. Ba|Adam: A method for stochastic optimization|ICLR|2015
+R. Klinkenberg, T. Joachims|Detecting concept drift with support vector machines|ICML|2000
+Y. Koren|Collaborative filtering with temporal dynamics|Commun ACM|2010
+Y. Koren, R. Bell|Recommender systems handbook|Springer|2015
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|IEEE Computer|2009
+A. Krizhevsky, I. Sutskever, G. E. Hinton|Imagenet classification with deep convolutional neural networks|NIPS|2012
+T. Mikolov, K. Chen, G. Corrado, J. Dean|Efficient estimation of word representations in vector space|Workshop at ICLR|2013
+T. Mikolov, I. Sutskever, K. Chen, G. S. Corrado, J. Dean|Distributed representations of words and phrases and their compositionality|NIPS|2013
+T. Mikolov, G. Zweig|Context dependent recurrent neural network language model|SLT|2012
+O. Nasraoui, J. Cerwinske, C. Rojas, F. Gonzalez|Performance of recommendation systems in dynamic streaming environments|SDM|2007
+R. Pascanu, C. Gulcehre, K. Cho, Y. Bengio|How to construct deep recurrent neural networks|ICLR|2014
+D. M. Powers|Evaluation: From precision, recall and Fmeasure to ROC, informedness, markedness and correlation|J Mach Learn Tech|2011
+S. Rallapalli, L. Qiu, Y. Zhang, Y.-C. Chen|Exploiting temporal stability and low-rank structure for localization in mobile networks|MobiCom|2010
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+S. Rendle, C. Freudenthaler, L. Schmidt-Thieme|Factorizing personalized Markov chains for next-basket recommendation|WWW|2010
+F. Ricci, L. Rokach, B. Shapira|Recommender systems handbook|Springer|2015
+N. Sahoo, P. V. Singh, T. Mukhopadhyay|A hidden Markov model for collaborative filtering|MIS Quarterly|2012
+R. Salakhutdinov, A. Mnih, G. E. Hinton|Restricted Boltzmann machines for collaborative filtering|ICML|2007
+J. Schmidhuber|Learning complex, extended sequences using the principle of history compression|Neural Comput|1992
+J. Schmidhuber|Deep learning in neural networks: An overview|Neural Networks|2015
+H. Soh, S. Sanner, M. White, G. Jamieson|Deep sequential recommendation for personalized adaptive user interfaces|IUI|2017
+C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, A. Rabinovich|Going deeper with convolutions|CVPR|2015
+Y. K. Tan, X. Xu, Y. Liu|Improved recurrent neural networks for session-based recommendations|DLRS|2016
+A. van den Oord, S. Dieleman, B. Schrauwen|Deep content-based music recommendation|NIPS|2013
+J. Vinagre, A. M. Jorge, J. Gama|An overview on the exploitation of time in collaborative filtering|Data Min Knowl Disc|2015
+E. M. Voorhees|The TREC-8 question answering track report|TREC|1999
+H. Wang, N. Wang, D.-Y. Yeung|Collaborative deep learning for recommender systems|KDD|2015
+C. Wu, J. Wang, J. Liu, W. Liu|Recurrent neural network based recommendation for time heterogenous feedback|Knowl-Based Syst|2016
+C.-Y. Wu, A. Ahmed, A. Beutel, A. J. Smola, H. Jing|Recurrent recommender networks|WSDM|2017
+L. Xiong, X. Chen, T.-K. Huang, J. Schneider, J. Carbonell|Temporal collaborative filtering with bayesian probabilistic tensor factorization|SDM|2010
+Z. Xu, C. Chen, T. Lukasiewicz, Y. Miao, X. Meng|Tag-aware personalized recommendation using a deep-semantic similarity model with negative sampling|CIKM|2016

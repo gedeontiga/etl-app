@@ -1,0 +1,29 @@
+HCI for Recommender Systems: the Past, the Present and the Future
+André Calero Valdez, RWTH Aachen University, Aachen, Germany|Martina Ziefle, RWTH Aachen University, Aachen, Germany|Katrien Verbert, KU Leuven, Leuven, Belgium
+How can you discover something new, that matches your interest? Recommender Systems have been studied since the 90ies. Their benefit comes from guiding a user through the density of the information jungle to useful knowledge clearings. Early research on recommender systems focuses on algorithms and their evaluation to improve recommendation accuracy using F-measures and other methodologies from signal-detection theory. Present research includes other aspects such as human factors that affect the user experience and interactive visualization techniques to support transparency of results and user control. In this paper, we analyze all publications on recommender systems from the scopus database, and particularly also papers with such an HCI focus. Based on an analysis of these papers, future topics for recommender systems research are identified, which include more advanced support for user control, adaptive interfaces, affective computing and applications in high risk domains.
+recommender systems, human-computer interaction, uncertainty, risk
+G. Adomavicius, A. Tuzhilin|Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions|Knowledge and Data Engineering|2005
+F. Bakalov, M.-J. Meurs, B. König-Ries, B. Sateli, R. Witte, G. Butler, A. Tsang|An approach to controlling user models and personalization effects in recommender systems|int. conf. on Intelligent user interfaces|2013
+S. Bostandjiev, J. O'Donovan, T. Höllerer|Tasteweights: a visual interactive hybrid recommender system|ACM conference on Recommender systems|2012
+D. Bouneffouf, A. Bouzeghoub, A. L. Ganarski|Risk-aware recommender systems|Neural Information Processing|2013
+R. Burke|Hybrid recommender systems: Survey and experiments|User modeling and user-adapted interaction|2002
+R. Conforti, M. de Leoni, M. La Rosa, W. M. van der Aalst, A. H. ter Hofstede|A recommendation system for predicting risks across multiple business process instances|Decision Support Systems|2015
+P. Domingos|A few useful things to know about machine learning|Communications of the ACM|2012
+D. Goldberg, D. Nichols, B. M. Oki, D. Terry|Using collaborative filtering to weave an information tapestry| Communications of the ACM|1992
+B. Gretarsson, J. O'Donovan, S. Bostandjiev, C. Hall, T. Höllerer|Smallworlds: visualizing social recommendations|Computer Graphics Forum|2010
+C. He, D. Parra, K. Verbert|Interactive recommender systems: A survey of the state of the art and future research challenges and opportunities|Expert Systems with Applications|2016
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl|Evaluating collaborative filtering recommender systems|ACM Transactions on Information Systems|2004
+Y. Hijikata, Y. Kai, S. Nishida|The relation between user intervention and user satisfaction for information recommendation|Annual ACM Symposium on Applied Computing|2012
+D. Hrabal|Emotion Classification in Human-computer Interaction on the Basis of Physiological Data|PhD thesi|2013
+B. P. Knijnenburg, N. J. Reijmer, M. C. Willemsen|Each to his own: How different users call for different interaction methods in recommender systems|RecSys|2011
+J. A. Konstan, J. Riedl|Recommender systems: from algorithms to user experience|User Modeling and User-Adapted Interaction|2012
+S. M. McNee, J. Riedl, J. A. Konstan|Being accurate is not enough: how accuracy metrics have hurt recommender systems|CHI|2006
+S. Meudt, F. Schwenker|Enhanced autocorrelation in real world emotion recognition|International Conference on Multimodal Interaction|2014
+G. Naik, H. Ahmed, A. G. Edwards|Communicating risk to patients and the public|Br J Gen Pract|2012
+J. O'Donovan, B. Smyth, B. Gretarsson, S. Bostandjiev, T. Höllerer|Peerchooser: visual interactive recommendation|SIGCHI|2008
+M. Ouwerkerk|Unobtrusive emotions sensing in daily life|Sensing Emotions|2011
+D. H. Park, H. K. Kim, I. Y. Choi, J. K. Kim|A literature review and classification of recommender systems research|Expert Systems with Applications|2012
+D. Parra, P. Brusilovsky|User-controllable personalization: A case study with setfusion| International Journal of Human-Computer Studies|2015
+R. W. Picard, S. Papert, W. Bender, B. Blumberg, C. Breazeal, D. Cavallo, T. Machover, M. Resnick, D. Roy, C. Strohecker|Affective learning - a manifesto|BT Technology Journal|2004
+P. Pu, L. Chen, R. Hu|Evaluating recommender systems from the user's perspective: survey of the state of the art| User Modeling and User-Adapted Interaction|2012
+P. Resnick, H. R. Varian|Recommender systems| Communications of the ACM|1997

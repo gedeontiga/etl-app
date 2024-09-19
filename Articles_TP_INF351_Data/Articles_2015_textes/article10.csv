@@ -1,0 +1,30 @@
+Risk-Hedged Venture Capital Investment Recommendation
+Xiaoxue Zhao, University College London, London, United Kingdom|Weinan Zhang, University College London, London, United Kingdom|Jun Wang, University College London, London, United Kingdom
+With the increasing accessibility of transactional data in venture finance, venture capital firms (VCs) face great challenges in developing quantitative tools to identify new investment opportunities. Recommendation techniques have the possibility of helping VCs making data-driven investment decisions by providing an automatic screening process of a large number of startups across different domains on the basis of their past investment data. A previous study has shown the potential advantage of using collaborative filtering to catch and predict the VCs' investment behaviours. However, two fundamental challenges in venture finance make conventional recommendation techniques difficult to apply. First, risk factors should be cautiously considered when making investments: for a potential startup, a VC needs to specifically estimate how well this new investment can fit into its holding investment portfolio in such a way that investment risk can be hedged. Second, The investment behaviours are much sparser than conventional recommendation applications and a VC's investments are usually limited to a few industry categories, making it impossible to use a topic-diversification method to hedge the risk. In this paper, we solve the startup recommendation problem from a risk management perspective. We propose 5 risk-aware startup selection and ranking algorithms to catch the VCs' investment behaviours and predict their new investments. Apart from the contribution on the new risk-aware recommendation model, our experiments on the collected CrunchBase dataset show significant performance improvements over strong baselines.
+recommendation diversification, recommender systems, portfolio theory, venture finance
+O. T. Alexy, J. H. Block, P. Sandner, A. L. Ter Wal|Social capital of venture capitalists and start-up funding|Small Business Economics|2012
+T. Bhaskar, G. Subramanian|Loan recommender system for microfinance loans: Increasing efficiency to assist growth| Journal of Financial Services Marketing|2011
+D. Bouneffouf|R-ucb: a contextual bandit algorithm for risk-aware recommender systems|arXiv:1408.2195|2014
+E. J. Elton, M. J. Gruber|Modern portfolio theory and investment analysis|J. Wiley and Sons|2006
+B. Flyvbjerg|Quality control and due diligence in project management: Getting decisions right by taking the outside view|International Journal of Project Management|2013
+V. H. Fried, R. D. Hisrich|Toward a Model of Venture Capital Investment Decision Making|Financial Management|1994
+R. Hu, P. Pu|Enhancing recommendation diversity with organization interfaces|IUI|2011
+J. Hull|Risk Management and Financial Institutions|John Wiley and Sons|2012
+K. Jarvelin, J. Kekalainen|Cumulated gain-based evaluation of ir techniques|TOIS|2002
+N. Lathia, S. Hailes, L. Capra, X. Amatriain|Temporal diversity in recommender systems|SIGIR|2010
+H. Markowitz|Portfolio selection|The journal of finance|1952
+A. Metrick, A. Yasuda|Venture capital and the finance of innovation,2nd Edition|John Wiley and Sons|2010
+A. Mnih, R. Salakhutdinov|Probabilistic matrix factorization|NIPS|2007
+R. Pan, Y. Zhou, B. Cao, N. N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|ICDM|2008
+Y. Shi, X. Zhao, J. Wang, M. Larson, A. Hanjalic|Adaptive diversification of recommendation results via latent factor portfolio.|SIGIR|2012
+T. Stone, W. Zhang, X. Zhao|An empirical study of top-n recommendation for venture finance|CIKM|2013
+T. T. Tyebjee, A. V. Bruno|A Model of Venture Capitalist Investment Activity|Management Science|1984
+S. Vargas, P. Castells|Rank and relevance in novelty and diversity metrics for recommender systems|RecSys|2011
+E. M. Voorhees|The trec-8 question answering track report|TREC|1999
+J. Wang, J. Zhu|Portfolio theory of information retrieval|SIGIR|2009
+M. Zhang, N. Hurley|Avoiding monotony: improving the diversity of recommendation lists|RecSys|2008
+W. Zhang, T. Chen, J. Wang, Y. Yu|Optimizing top-n collaborative filtering via dynamic negative item sampling|SIGIR|2013
+W. Zhang, J. Wang, B. Chen, X. Zhao|To personalize or not: A risk management perspective|RecSys|2013
+H. Zhao, L. Wu, Q. Liu, Y. Ge, E. Chen|Investment recommendation in p2p lending: A portfolio perspective with risk management|ICDM|2014
+X. Zhao, W. Zhang, J. Wang|Interactive collaborative filtering|CIKM|2013
+C.-N. Ziegler, S. M. McNee, J. A. Konstan, G. Lausen| Improving recommendation lists through topic diversification|WWW|2005

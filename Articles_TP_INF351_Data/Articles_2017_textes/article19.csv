@@ -1,0 +1,24 @@
+Fewer Flops at the Top: Accuracy, Diversity, and Regularization in Two-Class Collaborative Filtering
+Bibek Paudel, University of Zurich, Zurich, Switzerland|Thilo Haas, University of Zurich, Zurich, Switzerland|Abraham Bernstein, University of Zurich, Zurich, Switzerland
+In most existing recommender systems, implicit or explicit interactions are treated as positive links and all unknown interactions are treated as negative links. The goal is to suggest new links that will be perceived as positive by users. However, as signed social networks and newer content services become common, it is important to distinguish between positive and negative preferences. Even in existing applications, the cost of a negative recommendation could be high when people are looking for new jobs, friends, or places to live.In this work, we develop novel probabilistic latent factor models to recommend positive links and compare them with existing methods on five different openly available datasets. Our models are able to produce better ranking lists and are effective in the task of ranking positive links at the top, with fewer negative links (flops). Moreover, we find that modeling signed social networks and user preferences this way has the advantage of increasing the diversity of recommendations. We also investigate the effect of regularization on the quality of recommendations, a matter that has not received enough attention in the literature. We find that regularization parameter heavily affects the quality of recommendations in terms of both accuracy and diversity.
+collaborative filtering, matrix factorization, positive and negative recommendations, diverse recommendations
+Gediminas Adomavicius, YoungOk Kwon|Improving aggregate recommendation diversity using ranking-based techniques|IEEE Transactions on Knowledge and Data Engineering|2012
+John S. Breese, David Heckerman, Carl Kadie|Empirical analysis of predictive algorithms for collaborative filtering|conference on Uncertainty in artificial intelligence|1998
+Moira Burke, Robert Kraut|Mopping up: modeling wikipedia promotion decisions|ACM conference on Computer supported cooperative work|2008
+Pablo Castells, Neil J. Hurley, Saul Vargas|Novelty and diversity in recommender systems|Recommender Systems Handbook|2015
+John Duchi, Elad Hazan, Yoram Singer|Adaptive subgradient methods for online learning and stochastic optimization|Journal of Machine Learning Research|2011
+David Goldberg, David Nichols, Brian M. Oki, Douglas Terry|Using collaborative filtering to weave an information tapestry|Commun. ACM|1992
+James A. Hanley, Barbara J. McNeil|A method of comparing the areas under receiver operating characteristic curves derived from the same cases|Radiology|1983
+Yifan Hu, Yehuda Koren, Chris Volinsky|Collaborative filtering for implicit feedback datasets|IEEE International Conference on Data Mining|2008
+Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani|An Introduction to Statistical Learning: With Applications in R|Springer Publishing Company, Incorporated|2014
+Christopher C. Johnson|Logistic matrix factorization for implicit feedback data|Workshop on Distributed Machine Learning and Matrix Computations|2014
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+Cliff AC Lampe, Erik Johnston, Paul Resnick|Follow the reader: filtering comments on slashdot|SIGCHI conference on Human factors in computing systems|2007
+Rong Pan, Yunhong Zhou, Bin Cao, Nathan N. Liu, Rajan Lukose, Martin Scholz, Qiang Yang|One-class collaborative filtering|IEEE International Conference on Data Mining|2008
+Bibek Paudel, Fabian Christoffel, Chris Newell, Abraham Bernstein|Updatable, Accurate, Diverse, and Scalable Recommendations for Interactive Applications|ACM Trans. Interact. Intell. Syst.|2016
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|conference on uncertainty in artificial intelligence|2009
+Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, John Riedl|GroupLens: an open architecture for collaborative filtering of netnews|ACM conference on Computer supported cooperative work|1994
+Ruslan Salakhutdinov, Andriy Mnih|Bayesian probabilistic matrix factorization using Markov chain Monte Carlo|international conference on Machine learning|2008
+Ruslan Salakhutdinov, Andriy Mnih|Probabilistic matrix factorization|Citeseer|2011
+Dongjin Song and David A. Meyer|Recommending Positive Links in Signed Social Networks by Optimizing a Generalized AUC|AAAI|2015
+Cai-Nicolas Ziegler, Sean M. McNee, Joseph A. Konstan, Georg Lausen|Improving recommendation lists through topic diversification|international conference on World Wide Web|2005

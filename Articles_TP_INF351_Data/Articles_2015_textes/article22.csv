@@ -1,0 +1,40 @@
+Fast Differentially Private Matrix Factorization
+Ziqi Liu, Xi'an Jiaotong University, Xi'an, China|Yuxiang Wang, Carnegie Mellon University, PA, USA|Alexander Smola, Carnegie Mellon University, PA, USA
+Differentially private collaborative filtering is a challenging task, both in terms of accuracy and speed. We present a simple algorithm that is provably differentially private, while offering good performance, using a novel connection of differential privacy to Bayesian posterior sampling via Stochastic Gradient Langevin Dynamics. Due to its simplicity the algorithm lends itself to efficient implementation. By careful systems design and by exploiting the power law behavior of the data to maximize CPU cache bandwidth we are able to generate 1024 dimensional models at a rate of 8.5 million recommendations per second on a single PC
+scalable matrix factorization, collaborative filtering, differential privacy
+A. Ahmed, M. Aly, J. Gonzalez, S. Narayanamurthy, A. Smola|Scalable Inference in Latent Variable Models|WSDM|2012
+S. Ahn, A. Korattikara, M. Welling|Bayesian posterior sampling via stochastic gradient fisher scoring|ICML|2012
+S. Ahn, A. Korattikara, N. Liu, S. Rajan, M. Welling|Large scale distributed bayesian matrix factorization using stochastic gradient|MCMC|2015
+C. Dimitrakakis, B. Nelson, A. Mitrokotsa, B. I. Rubinstein|Robust and private bayesian inference|Algorithmic Learning Theory|2014
+N. Ding, C. Chen, R. D. Skeel, R. Babbush|Bayesian Sampling Using Stochastic Gradient Thermostats|NIPS|2014
+C. Dwork|Differential privacy|Automata, Languages and Programming|2006
+C. Dwork, A. Roth|The Algorithmic Foundations of Differential Privacy|Foundations and Trends in Theoretical Computer Science|2013
+C. Dwork, F. McSherry, K. Nissim, A. Smith|Calibrating noise to sensitivity in private data analysis|Theory of cryptography|2006
+H. Ebadi, D. Sands, G. Schneider|Differential privacy: Now it's getting personal|ACM Symposium on Principles of Programming Languages|2015
+A. Hartstein, V. Srinivasan, T. Puzak, P. Emma|On the nature of cache miss behavior: Is it p2?|The Journal of Instruction-Level Parallelism|2008
+R. Keshavan, A. Montanari, S. Oh|Matrix completion from noisy entries|NIPS|2009
+Y. Koren|Collaborative Filtering with Temporal Dynamics| KDD|2009
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|IEEE Computer Society|2009
+A. Kyrola, G. Blelloch, C. Guestrin|GraphChi : Large-Scale Graph Computation on Just a PC Disk-based Graph Computation|OSDI|2012
+Z. Liu, Y.-X. Wang, A. J. Smola|Fast differentially private matrix factorization|arXiv:1505.01419|2015
+Y. Low, J. E. Gonzalez, A. Kyrola, D. Bickson, C. E. Guestrin, J. Hellerstein|Graphlab: A new framework for parallel machine learning|arXiv:1408.2041|2014
+G. Marsaglia, W. W. Tsang, J. Wang|Fast Generation of Discrete Random Variables|Journal of Statistical Software|2004
+F. Mcsherry, I. Mironov|Differentially Private Recommender Systems : Building Privacy into the Netflix Prize Contenders|KDD|2009
+F. McSherry, K. Talwar|Mechanism design via differential privacy|Foundations of Computer Science|2007
+R. Meka, P. Jain, I. S. Dhillon|Matrix completion from power-law distributed samples|NIPS|2009
+D. J. Mir|Differential privacy: an exploration of the privacy-utility landscape|PhD thesis|2013
+B. Mobasher, R. Burke, R. Bhaumik, C. Williams|Toward trustworthy recommender systems: An analysis of attack models and algorithm robustness|ACM Transactions on Internet Technology|2007
+A. Narayanan, V. Shmatikov|Robust de-anonymization of large sparse datasets|IEEE Symposium|2008
+R. M. Neal|Mcmc using hamiltonian dynamics|Handbook of Markov Chain|2011
+F. Niu, B. Recht, R. Christopher, S. J. Wright|Hogwild ! : A Lock-Free Approach to Parallelizing Stochastic Gradient Descent|NIPS|2011
+R. Salakhutdinov, A. Mnih, G. Hinton|Restricted Boltzmann Machines for Collaborative Filtering|ICML|2007
+I. Sato, H. Nakagawa|Approximation analysis of stochastic gradient langevin dynamics by using fokker-planck equation and ito process|ICML|2014
+N. Srebro, R. R. Salakhutdinov|Collaborative filtering in a non-uniform world: Learning with the weighted trace norm|NIPS|2010
+Y. W. Teh, A. Thiéry, S. Vollmer|Consistency and fluctuations for stochastic gradient langevin dynamics| arXiv preprint|2014
+Y. W. Teh, S. J. Vollmer, K. C. Zygalakis|(Non-) asymptotic properties of Stochastic Gradient Langevin Dynamics|arXiv preprint|2015
+Y.-X. Wang, H. Xu|Stability of matrix factorization for collaborative filtering|ICML|2012
+Y.-X. Wang, S. E. Fienberg, A. Smola|Privacy for free: Posterior sampling and stochastic gradient monte carlo|ICML|2015
+M. Welling, Y. W. Teh|Bayesian Learning via Stochastic Gradient Langevin Dynamics|ICML|2011
+Y. Xin, T. Jaakkola|Controlling privacy in recommender systems|NIPS|2014
+A. Zhang, N. Fawaz, S. Ioannidis, A. Montanari|Guess who rated this movie: Identifying users through subspace clustering|arXiv preprint arXiv|2012
+H. Zhao, J. F. Canny|High Performance Machine Learning through Codesign and Rooflining|PhD thesis|2014

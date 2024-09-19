@@ -1,0 +1,30 @@
+Using Navigation to Improve Recommendations in Real-Time
+Chaoyuan Wu, UT Austin, TX, USA|Christopher V Alvino, Netflix, CA, USA|Alexander Smola, Carnegie Mellon University, PA, USA|Justin Basilico, Netflix, CA, USA
+Implicit feedback is a key source of information for many recommendation and personalization approaches. However, using it typically requires multiple episodes of interaction and roundtrips to a recommendation engine. This adds latency and neglects the opportunity of immediate personalization for a user while the user is navigating recommendations.We propose a novel strategy to address the above problem in a principled manner. The key insight is that as we observe a user's interactions, it reveals much more information about her desires. We exploit this by inferring the within-session user intent on-the-fly based on navigation interactions, since they offer valuable clues into a user's current state of mind. Using navigation patterns and adapting recommendations in real-time creates an opportunity to provide more accurate recommendations. By prefetching a larger amount of content, this can be carried out entirely in the client (such as a browser) without added latency. We define a new Bayesian model with an efficient inference algorithm. We demonstrate significant improvements with this novel approach on a real-world, large-scale dataset from Netflix on the problem of adapting the recommendations on a user's homepage.
+latent variable models, probabilistic graphical models, real-time recommendations, user modeling, online inference, personalization, user navigation modeling, recommender systems
+D. Agarwal, B.-C. Chen|Regression-based latent factor models|KDD|2009
+D. Agarwal, B.-C. Chen|FLDA: matrix factorization through latent Dirichlet allocation|WSDM|2010
+D. Agarwal, B.-C. Chen, P. Elango|Spatio-temporal models for estimating click-through rate|WWW|2009
+D. Agarwal, B.-C. Chen, P. Elango, N. Motgi, S.-T. Park, R. Ramakrishnan, S. Roy, J. Zachariah|Online models for content optimization|NIPS|2009
+A. Ahmed, C.-H. Teo, S.V.N. Vishwanathan, A. J. Smola|Fair and balanced: Learning to present news stories|WSDM|2012
+. Alvino, J. Basilico|Netflix tech blog: Learning a personalized homepage|http://techblog.netflix.com/2015/04/learning-personalized-homepage.html|2015
+P. Boldi, F. Bonchi, C. Castillo, D. Donato, A. Gionis, S. Vigna|The query-flow graph: model and applications|CIKM|2008
+A. Das, M. Datar, A. Garg, S. Rajaram|Google news personalization: scalable online collaborative filtering|WWW|2007
+Q. Diao, M. Qiu, C.-Y. Wu, A.J. Smola, J. Jiang, C. Wang|Jointly modeling aspects, ratings and sentiments for movie recommendation (JMARS)|KDD|2014
+K. El-Arini, G. Veda, D. Shahaf, C. Guestrin|Turning down the noise in the blogosphere|KDD|2009
+C.A. Gomez-Uribe, N. Hunt|The Netflix recommender system: Algorithms, business value, and innovation|ACM TMIS|2015
+F. Guo, C. Liu, A. Kannan, T. Minka, M. Taylor, Y.-M. Wang, C. Faloutsos|Click chain model in web search|WWW|2009
+Q. Guo, E. Agichtein|Beyond dwell time: estimating document relevance from cursor movements and other post-click searcher behavior|WWW|2012
+Qi Guo, H. Jin, D. Lagun, S. Yuan, E. Agichtein|Mining touch interaction data on mobile devices to predict web search result relevance|SIGIR|2013
+J. Huang, R. White, G. Buscher|User see, user point: gaze and cursor alignment in web search|SIGCHI|2012
+J. Huang, R. White, S. Dumais|No clicks, no problem: using cursor movements to understand and improve search|SIGCHI|2011
+J.Y. Kim, M. Cramer, J. Teevan, D. Lagun|Understanding how people interact with web search results that change in real-time using implicit feedback|CIKM|2013
+J.A. Konstan, J. Riedl|Recommender systems: from algorithms to user experience|User Model. User-Adapt. Interact.|2012
+D. Lagun, M. Ageev, Q. Guo, E. Agichtein|Discovering common motifs in cursor movement data for improving web search|WSDM|2014
+H. Lieberman, T. Selker|Out of context: Computer systems that adapt to, and learn from, context|IBM Systems Journal|2000
+S. Rendle|Factorization machines|ICDM|2010
+S. Rendle|Factorization Machines with libFM|Trans. Intell. Syst. Technol.|2012
+K. Rodden, X. Fu, A. Aula, I. Spiro|Eye-mouse coordination patterns on web search results pages|CHI|2008
+R. Salakhutdinov, A. Mnih|Bayesian probabilistic matrix factorization using markov chain monte carlo|ICML|2008
+J. Teevan, E. Adar, R. Jones, M.A. Potts|Information re-retrieval: repeat queries in yahoo's logs|SIGIR|2007
+R.W. White, G. Buscher|Text selections as implicit relevance feedback|SIGIR|2012

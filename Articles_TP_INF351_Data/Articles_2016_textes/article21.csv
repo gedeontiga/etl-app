@@ -1,0 +1,35 @@
+Past, Present, and Future of Recommender Systems: An Industry Perspective
+Xavier Amatriain, Quora, CA, USA|Justin Basilico, Netflix, CA, USA
+When the Netflix Prize launched in 2006, it put a spotlight on the importance and use of recommender systems in real-world applications. The competition provided many lessons, and many more have been learned since the Grand Prize was awarded in 2009. The use of recommender systems in industry has continued to grow driven by the availability of many kinds of user data and the continued interest for the area within the research community. In this paper, we will describe what we see as the past, present, and future of recommender systems from an industry perspective.
+recommender systems, machine learning
+A. Ahmed, C. Teo, S.V.N. Vishwanathan, A. Smola|Fair and balanced: Learning to present news stories|WSDM|2012
+X. Amatriain, J. M. Pujol, N. Oliver|I Like It... I Like It Not: Evaluating User Ratings Noise in Recommender Systems|UMAP|2009
+R. M. Bell, Y. Koren|Lessons from the Netflix Prize Challenge|SIGKDD Explor. Newsl.|2007
+A. S. Das, M. Datar, A. Garg, S. Rajaram|Google news personalization: Scalable online collaborative filtering|WWW|2007
+J. Davidson|The youtube video recommendation system|RecSys|2010
+C. Gomez-Uribe, N. Hunt|The Netflix recommender system: Algorithms, business value, and innovation|ACM Trans. Manage|Inf. Syst.|2015
+M. Gorgoglione, U. Panniello, A. Tuzhilin|The effect of context-aware recommendations on customer purchasing behavior and trust|RecSys|2011
+P. Gupta, Goel, Lin, Sharma, Wang, Zadeh|WTF: The Who to Follow Service at Twitter|WWW|2013
+M. Jamali, M. Ester|Trustwalker: a random walk model for combining trust-based and item-based recommendation|KDD|2009
+Y. Koren|Collaborative filtering with temporal dynamics|KDD|2009
+Y. Koren, R. Bell, C. Volinsky|Matrix Factorization Techniques for Recommender Systems|Computer|2009
+P. Lamere|I've got 10 million songs in my pocket: Now what?|RecSys|2012
+G. Linden, B. Smith, J. York|Amazon.com recommendations: Item-to-item collaborative filtering|IEEE Internet Computing|2003
+V. Navalpakkam, L. Jentzsch, R. Sayres, S. Ravi, A. Ahmed, A. Smola|Measurement and modeling of eye-mouse behavior in presence of nonlinear page layouts|WWW|2013
+W. Oremus|Who controls your Facebook feed|Slate|2016
+D. Parra, A. Karatzoglou, X. Amatriain, I. Yavuz|Implicit feedback recommendation via implicit-to-explicit ordinal logistic regression mapping|CARS Workshop|2011
+L. Pizzato, T. Rej, T. Chung, I. Koprinska, J. Kay|Recon: A reciprocal recommender for online dating|RecSys|2010
+F. Radlinski, M. Kurup, T. Joachims|How does clickthrough data reflect retrieval quality?|CIKM|2008
+A. Reda, Y. Park, M. Tiwari, C. Posse, S. Shah|Metaphor: A system for related search recommendations|CIKM|2012
+S. Rendle, C. Freudenthaler, Z. Gantner, L. S. Thieme| BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+R. Salakhutdinov, Mnih, Hinton|Restricted Boltzmann machines for collaborative filtering|ICML|2007
+O. Sar Shalom, N. Koenigstein, U. Paquet, H. Vanchinathan|Beyond collaborative filtering: The list recommendation problem|WWW|2016
+Science|Rockin' to the Music Genome|Science|2006
+Y. Shi, A. Karatzoglou, L. Baltrunas, M. Larson, N. Oliver, A. Hanjalic|CLiMF: learning to maximize reciprocal rank with collaborative less-is-more filtering|RecSys|12
+H. Steck|Training and testing of recommender systems on data missing not at random|KDD|2010
+D. H. Stern, R. Herbrich, T. Graepel|Matchbox: large scale online bayesian recommendations|WWW|2009
+G. Takács, D. Tikk|Alternating least squares for personalized ranking|RecSys|2012
+J. Wang, B. Sarwar, N. Sundaresan|Utilizing related products for post-purchase recommendation in e-commerce|RecSys|2011
+Y. Wang, D. Yin, L. Jie, P. Wang, M. Yamada, Y. Chang, Q. Mei|Beyond ranking: Optimizing whole-page presentation|WSDM|2016
+S.H. Yang, B. Long, A.J. Smola, H. Zha, Z. Zheng|Collaborative competitive filtering: learning recommender using context of user choice|SIGIR|2011
+Y. Zhang, Q. Zhao, Y. Zhang, D. Friedman, M Zhang, Y. Liu, S. Ma|Economic recommendation with surplus maximization|WWW|2016

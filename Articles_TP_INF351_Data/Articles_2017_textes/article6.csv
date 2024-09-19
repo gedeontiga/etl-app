@@ -1,0 +1,44 @@
+Effective User Interface Designs to Increase Energy-efficient Behavior in a Rasch-based Energy Recommender System
+Alain D Starke, Eindhoven University of Technology, Eindhoven, Netherlands|Martijn C. Willemsen, Eindhoven University of Technology, Eindhoven, Netherlands|Chris Snijders, Eindhoven University of Technology, Eindhoven, Netherlands
+People often struggle to find appropriate energy-saving measures to take in the household. Although recommender studies show that tailoring a system's interaction method to the domain knowledge of the user can increase energy savings, they did not actually tailor the conservation advice itself. We present two large user studies in which we support users to make an energy-efficient behavioral change by presenting tailored energy-saving advice. Both systems use a one-dimensional, ordinal Rasch scale, which orders 79 energy-saving measures on their behavioral difficulty and link this to a user's energy-saving ability for tailored advice. We established that recommending Rasch-based advice can reduce a user's effort, increase system support and, in turn, increase choice satisfaction and lead to the adoption of more energy-saving measures. Moreover, follow-up surveys administered four weeks later point out that tailoring advice on its feasibility can support behavioral change.
+rasch model, energy conservation, user experience, behavioral change, recommender systems
+Abrahamse W., Steg L., Vlek C., Rothengatter T.|A review of intervention studies aimed at household energy conservation|Journal of Environmental Psychology|2005
+Abrahamse W., Steg L., Vlek C., Rothengatter T.|The effect of tailored information, goal setting, and tailored feedback on household energy use, energy-related behaviors, and behavioral antecedents|Journal of Environmental Psychology|2007
+Benders R. M. J., Kok R., Moll H. C., Wiersma G., Noorman K. J.|New approaches for household energy conservation - In search of personal household energy budgets and energy reduction options|Energy Policy|2006
+Berkovsky S., Freyne J., Oinas-Kukkonen H.|Influencing Individually: Fusing Personalization and Persuasion|ACM Trans. Interact. Intell. Syst.|2012
+Bond T. G., Fox C. M.|Applying the Rasch Model: Fundamental Measurement in the Human Sciences, Second Edition|Psychology Press|2006
+Boudet H. S., Flora J. A., Armel K. C.|Clustering household energy-saving behaviours by behavioural attribute|Energy Policy.|2016
+Cialdini R. B.|Influence: the psychology of persuasion| Collins|2007
+Cialdini R. B., Trost M. R.|Social influence: Social norms, conformity and compliance|The handbook of social psychology|1998
+Cosley D., Lam S. K., Albert I., Konstan J. A., Riedl J.|Is Seeing Believing? How Recommender System Interfaces Affect Users' Opinions|SIGCHI Conference on Human Factors in Computing Systems|2003
+Costanzo M., Archer D., Aronson E., Pettigrew T.|Energy conservation behavior: The difficult path from information to action|American Psychologist.|1986
+Darby S.|Energy advice - what is it worth|European Council for an Energy-Efficient Economy Summer Study|1999
+Dietz T., Gardner G. T., Gilligan J., Stern P. C., Vandenbergh M. P.|Household actions can provide a behavioral wedge to rapidly reduce US carbon emissions|National Academy of Sciences|2009
+Ekstrand M. D., Harper F. M., Willemsen M. C., Konstan J. A.|User Perception of Differences in Recommender Algorithms|ACM Conference on Recommender Systems|2014
+Ekstrand M. D., Willemsen M. C.|Behaviorism is Not Enough: Better Recommendations Through Listening to Users|ACM Conference on Recommender Systems|2016
+Embretson S. E., Reise S. P.|Item Response Theory for Psychologists|Psychology Press|2000
+Fogg B. J.|Persuasive Technology: Using Computers to Change What We Think and Do|Morgan Kaufmann|2002
+Gardner G. T., Stern P. C.|The short list: The most effective actions US households can take to curb climate change|Environment: science and policy for sustainable development|2008
+Harper F. M., Li X., Chen Y., Konstan J. A.|An Economic Model of User Rating in an Online Recommender System|SpringerLink|2005
+Kaiser F. G., Byrka K., Hartig T.|Reviving Campbell's Paradigm for Attitude Research|Personality and Social Psychology Review|2010
+Kaiser F. G., Wilson M.|Goal-directed conservation behavior: the specific composition of a general performance|Personality and Individual Differences|2004
+Kaptein M., Markopoulos P., de Ruyter B., Aarts E.|Personalizing persuasive technologies: Explicit and implicit personalization using persuasion profiles|International Journal of Human-Computer Studies|2015
+Karlin B., Davis N., Sanguinetti A., Gamble K., Kirkby D., Stokols D.|Dimensions of Conservation Exploring Differences Among Energy Behaviors|Environment and Behavior|2014
+Knijnenburg B. P., Sivakumar S., Wilkinson D.|Recommender Systems for Self-Actualization|ACM Conference on Recommender Systems|2016
+Knijnenburg B. P., Willemsen M., Broeders R.|Smart sustainability through system satisfaction: Tailored preference elicitation for energy-saving recommenders|Americas Conference on Information Systems|2014
+Knijnenburg B. P., Willemsen M. C.|Evaluating recommender systems with user experiments|Recommender Systems Handbook|2016
+Knijnenburg B. P., Willemsen M. C., Gantner Z., Soncu H., Newell C.|Explaining the user experience of recommender systems|User Modeling and User-Adapted Interaction|2012
+Mankoff J., Matthews D., Fussell S. R., Johnson M.|Leveraging Social Networks To Motivate Individuals to Reduce Their Ecological Footprints|Annual Hawaii International Conference on System Sciences|2007
+McKenzie-Mohr D.|Fostering sustainable behavior through community-based social marketing|American Psychologist.|2000
+McMakin A. H., Malone E. L., Lundgren R. E.|Motivating Residents to Conserve Energy without Financial Incentives|Environment and Behavior|2002
+Petkov P., Goswami S., Köbler F., Krcmar H.|Personalised Eco-feedback As a Design Technique for Motivating Energy Saving Behaviour at Home|Nordic Conference on Human-Computer Interaction: Making Sense Through Design|2012
+Petkov P., Köbler F., Foth M., Medland R., Krcmar H.|Engaging energy saving through motivation-specific social comparison|CHI|2011
+Radha M., Willemsen M. C., Boerhof M., IJsselsteijn W. A.| Lifestyle Recommendations for Hypertension Through Rasch-based Feasibility Modeling|Conference on User Modeling Adaptation and Personalization|2016
+Rashid A. M., Albert I., Cosley D., Lam S. K., McNee S. M., Konstan J. A., Riedl J.|Getting to Know You: Learning New User Preferences in Recommender Systems|International Conference on Intelligent User Interfaces|2002
+Schultz P. W.|Strategies for promoting proenvironmental behavior: Lots of tools but few instructions|European Psychologist|2014
+Starke A., Willemsen M. C., Snijders C.|Saving Energy in 1-D: Tailoring Energy-saving Advice Using a Rasch-based Energy Recommender System|Int. Workshop on Decision Making and Rec. Sys.|2015
+Steg L.|Promoting household energy conservation|Energy policy|2008
+Tintarev N., Masthoff J.|A Survey of Explanations in Recommender Systems|International Conference on Data Engineering Workshop|2007
+Urban J., Ščasny M.|Structure of Domestic Energy Saving: How Many Dimensions?|Environment and Behavior|2014
+Wilson C., Dowlatabadi H.|Models of Decision Making and Residential Energy Use|Annual Review of Environment and Resources|2007
+Winett R. A., Love S. Q., Kidd C.|Effectiveness of an energy specialist and extension agents in promoting summer energy conservation by home visits|J. Environ. Syst.|1982

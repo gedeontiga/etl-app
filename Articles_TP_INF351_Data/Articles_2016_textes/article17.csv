@@ -1,0 +1,26 @@
+Crowd-Based Personalized Natural Language Explanations for Recommendations
+Shuo Chang, University of Minnesota, MN, USA|Maxwell Harper, University of Minnesota, MN, USA|Loren Terveen, University of Minnesota, MN, USA
+Explanations are important for users to make decisions on whether to take recommendations. However, algorithm generated explanations can be overly simplistic and unconvincing. We believe that humans can overcome these limitations. Inspired by how people explain word-of-mouth recommendations, we designed a process, combining crowdsourcing and computation, that generates personalized natural language explanations. We modeled key topical aspects of movies, asked crowdworkers to write explanations based on quotes from online movie reviews, and personalized the explanations presented to users based on their rating history. We evaluated the explanations by surveying 220 MovieLens users, finding that compared to personalized tag-based explanations, natural language explanations: 1) contain a more appropriate amount of information, 2) earn more trust from users, and 3) make users more satisfied. This paper contributes to the research literature by describing a scalable process for generating high quality and personalized natural language explanations, improving on state-of-the-art content-based explanations, and showing the feasibility and advantages of approaches that combine human wisdom with algorithmic processes.
+natural language processing, recommendation explanations, word2vec, clustering, crowdsourcing
+S. Bedathur, K. Berberich, J. Dittrich, N. Mamoulis, G. Weikum|Interesting-phrase mining for ad-hoc text analytics|VLDB Endowment|2010
+M. S. Bernstein, G. Little, R. C. Miller, B. Hartmann, M. S. Ackerman, D. R. Karger, D. Crowell, K. Panovich|Soylent: a word processor with a crowd inside|UIST|2010
+S. Bostandjiev, J. O'Donovan, T. Höllerer|TasteWeights: a visual interactive hybrid recommender system|RecSys|2012
+S. Chang, P. Dai, J. Chen, E. H. Chi|Got Many Labels?: Deriving Topic Labels from Multiple Sources for Social Media Posts using Crowdsourcing and Ensemble Learning|WWW|2015
+S. Chang, P. Dai, L. Hong, S. Cheng, Z. Tianjiao, C. Ed|AppGrouper: Knowledge-based Interactive Clustering Tool for App Search Results|IUI|2016
+S. Chang, M. F. Harper, L. He, L. G. Terveen|CrowdLens: Experimenting with Crowd-Powered Recommendation and Explanation|ICWSM|2016
+J. Cheng, M. S. Bernstein|Flock: Hybrid crowd-machine learning classifiers|CSCW|2015
+A. El-Kishky, Y. Song, C. Wang, C. R. Voss, J. Han|Scalable topical phrase mining from text corpora|VLDB Endowment|2014
+B. J. Frey, D. Dueck|Clustering by passing messages between data points|Science|2007
+F. M. Harper, D. Raban, S. Rafaeli, J. A. Konstan|Predictors of answer quality in online Q&A sites|CHI|2008
+J. L. Herlocker, J. A. Konstan, J. Riedl|Explaining collaborative filtering recommendations|CSCW|2000
+A. Kittur, B. Smus, S. Khamkar, R. Kraut|Crowdforge: Crowdsourcing complex work|UIST|2011
+S. M. McNee, J. Riedl, J. A. Konstan|Being accurate is not enough|CHI EA|2006
+T. Mikolov, I. Sutskever, K. Chen, G. S. Corrado, J. Dean|Distributed representations of words and phrases and their compositionality|Advances in neural information processing systems|2013
+P. Organisciak, J. Teevan, S. Dumais, R. C. Miller, A. T. Kalai|A Crowd of Your Own: Crowdsourcing for On-Demand Personalization|HCOMP|2014
+R. Sinha, K. Swearingen|The role of transparency in recommender systems|CHI EA|2002
+C. A. Thompson, M. H. Göker, P. Langley|A personalized system for conversational recommendations|Journal of Artificial Intelligence Research|2004
+N. Tintarev, J. Masthoff|Evaluating the effectiveness of explanations for recommender systems|User Modeling and User-Adapted Interaction|2012
+J. Vig, S. Sen, J. Riedl|Tagsplanations|IUI|2008
+J. Vig, S. Sen, J. Riedl|The Tag Genome|ACM Trans. on Interactive Intelligent Systems|2012
+W. Wang, I. Benbasat|Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs|J. Manage. Inf. Syst.|2007
+S.-H. Yang, A. Kolcz, A. Schlaikjer, P. Gupta|Large-scale high-precision topic modeling on twitter|KDD|2014

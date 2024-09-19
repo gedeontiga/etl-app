@@ -1,0 +1,46 @@
+Gaze Prediction for Recommender Systems
+Qian Zhao, University of Minnesota, MN, USA|Shuo Chang, University of Minnesota, MN, USA|F. Maxwell Harper, University of Minnesota, MN, USA|Joseph A. Konstan, University of Minnesota, MN, USA
+As users browse a recommender system, they systematically consider or skip over much of the displayed content. It seems obvious that these eye gaze patterns contain a rich signal concerning these users' preferences. However, because eye tracking data is not available to most recommender systems, these signals are not widely incorporated into personalization models. In this work, we show that it is possible to predict gaze by combining easily-collected user browsing data with eye tracking data from a small number of users in a grid-based recommender interface. Our technique is able to leverage a small amount of eye tracking data to infer gaze patterns for other users. We evaluate our prediction models in MovieLens -- an online movie recommender system. Our results show that incorporating eye tracking data from a small number of users significantly boosts accuracy as compared with only using browsing data, even though the eye-tracked users are different from the testing users (e.g. AUC=0.823 vs. 0.693 in predicting whether a user will fixate on an item). We also demonstrate that Hidden Markov Models (HMMs) can be applied in this setting; they are better than linear models in predicting fixation probability and capturing the interface regularity through Bayesian inference (AUC=0.823 vs. 0.757).
+hidden Markov models, eye tracking, grid-based interface
+E. Agichtein, E. Brill, S. Dumais|Improving web search ranking by incorporating user behavior information|SIGIR|2006
+G. Buscher, E. Cutrell, M. R. Morris|What do you see when you're surfing?: using eye tracking to predict salient regions of web pages|CHI|2009
+G. Buscher, L. van Elst, A. Dengel|Segment-level display time as implicit feedback: a comparison to eye tracking|SIGIR|2009
+T. J. Buschman, E. K. Miller|Top-down versus bottom-up control of attention in the prefrontal and posterior parietal cortices|Science|2007
+S. Castagnos, N. Jones, P. Pu|Eye-tracking product recommenders' usage|RecSys|2010
+M. Cerf, J. Harel, W. Einhauser, C. Koch|Predicting human gaze using low-level saliency combined with face detection|NIPS|2008
+O. Chapelle, Y. Zhang|A dynamic bayesian network click model for web search ranking|WWW|2009
+Y. Chen, T. W. Yan|Position-normalized click prediction in search advertising|KDD|2012
+N. Craswell, O. Zoeter, M. Taylor, B. Ramsey|An experimental comparison of click position-bias models|WSDM|2008
+A. P. Dempster, N. M. Laird, D. B. Rubin|Maximum likelihood from incomplete data via the em algorithm|Journal of the royal statistical society|1977
+S. Djamasbi, M. Siegel, T. Tullis|Visual hierarchy and viewing behavior: An eye tracking study|Human-Computer Interaction|2011
+A. T. Duchowski, N. Cournia, H. Murph|Gaze-contingent displays: A review|CyberPsychology and Behavior|2004
+G. E. Dupret, B. Piwowarski|A user browsing model to predict search engine click data from past observations|SIGIR|2008
+S. R. Ellis, L. Stark|Statistical dependency in visual scanning|Human Factors: The Journal of the Human Factors and Ergonomics Society|1986
+J. D. Ferguson|Variable duration models for speech|Symposium on the Application of HMMs to Text and Speech|1980
+M. G. Glaholt, E. M. Reingold|Eye movement monitoring as a process tracing methodology in decision making research| Journal of Neuroscience, Psychology, and Economics|2011
+L. A. Granka, T. Joachims, G. Gay|Eye-tracking analysis of user behavior in www search|SIGIR|2004
+Q. Guo, E. Agichtein|Towards predicting web searcher gaze position from mouse movements|CHI EA|2010
+S. S. Hacisalihzade, L. W. Stark, J. S. Allen|Visual perception and sequences of eye movement fixations: A stochastic modeling approach|IEEE Transactions|1992
+A. Haji-Abolhassani, J. J. Clark|A computational model for task inference in visual search|Journal of vision|2013
+J. M. Henderson, S. V. Shinkareva, J. Wang, S. G. Luke, J. Olejarczyk|Predicting cognitive state from eye movements|PloS one|2013
+J. L. Herlocker, J. A. Konstan, L. G. Terveen, J. T. Riedl|Evaluating collaborative filtering recommender systems|ACM TOIS|2004
+K. Hofmann, A. Schuth, A. Bellogin, M. De Rijke|Effects of position bias on click-based recommender evaluation|ECIR|2014
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+J. Huang, R. White, G. Buscher|User see, user point: gaze and cursor alignment in web search|CHI|2012
+L. Itti, C. Koch, E. Niebur|A model of saliency-based visual attention for rapid scene analysis|TPAMI|1998
+T. Joachims, L. Granka, B. Pan, H. Hembrooke, G. Gay|Accurately interpreting clickthrough data as implicit feedback|SIGIR|2005
+T. Judd, K. Ehinger, F. Durand, A. Torralba|Learning to predict where humans look|ICCV|2009
+D. Marr, T. Poggio, E. C. Hildreth, W. E. L. Grimson|A computational theory of human stereo vision|Springer|1991
+S. M. McNee, J. Riedl, J. A. Konstan|Being accurate is not enough: how accuracy metrics have hurt recommender systems|CHI EA|2006
+J. Mullahy|Specification and testing of some modified count data models|Journal of econometrics|1986
+R. Pan, Y. Zhou, B. Cao, N. N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|ICDM|2008
+K. Puolam, J. Salojarvi, E. Savia, J. Simola, S. Kaski|Combining eye movements and collaborative filtering for proactive information retrieval|SIGIR|2005
+L. R. Rabiner|A tutorial on hidden markov models and selected applications in speech recognition|IEEE|1989
+P. Resnick, N. Iacovou, M. Suchak, P. Bergstrom, J. Riedl|Grouplens: an open architecture for collaborative filtering of netnews|CSCW|1994
+C. Roda|Human attention and its implications for human-computer interaction|Human Attention in Digital Environments|2011
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|WWW|2001
+R. Srikant, S. Basu, N. Wang, D. Pregibon|User browsing models: relevance versus examination|KDD|2010
+B. W. Tatler|The central fixation bias in scene viewing: Selecting an optimal viewing position independently of motor biases and image feature distributions|Journal of Vision|2007
+B. W. Tatler, M. M. Hayhoe, M. F. Land, D. H. Ballard|Eye guidance in natural vision: Reinterpreting salience|Journal of vision|2011
+B. W. Tatler, B. T. Vincent|The prominence of behavioural biases in eye guidance|Visual Cognition|2009
+S. Xu, H. Jiang, F. Lau|Personalized online document, image and video recommendation via commodity eye-tracking|RecSys|2008

@@ -1,0 +1,39 @@
+E-commerce Recommendation with Personalized Promotion
+Qi Zhao, University of California, CA, USA|Yi Zhang, University of California, CA, USA|Daniel Friedman, University of California, CA, USA|Fangfang Tan, University of California, CA, USA
+Most existing e-commerce recommender systems aim to recommend the right products to a consumer, assuming the properties of each product are fixed. However, some properties, including price discount, can be personalized to respond to each consumer's preference. This paper studies how to automatically set the price discount when recommending a product, in light of the fact that the price will often alter a consumer's purchase decision. The key to optimizing the discount is to predict consumer's willingness-to-pay (WTP), namely, the highest price a consumer is willing to pay for a product. Purchase data used by traditional e-commerce recommender systems provide points below or above the decision boundary. In this paper we collected training data to better predict the decision boundary. We implement a new e-commerce mechanism adapted from laboratory lottery and auction experiments that elicit a rational customer's exact WTP for a small subset of products, and use a machine learning algorithm to predict the customer's WTP for other products. The mechanism is implemented on our own e-commerce website that leverages Amazon's data and subjects recruited via Mechanical Turk. The experimental results suggest that this approach can help predict WTP, and boost consumer satisfaction as well as seller profit.
+consumer, e-commerce, recommender system, crowdsourcing, promotion
+J. Abrams|A new method for testing pricing decisions|The Journal of Marketing|1964
+G. M. Allenby, N. Arora, J. L. Ginter|Incorporating prior knowledge into the analysis of conjoint studies|Journal of Marketing Research|1995
+G. M. Allenby, N. Arora, J. L. Ginter|On the heterogeneity of demand|Journal of Marketing Research|1998
+N. Arora, G. M. Allenby, J. L. Ginter|A hierarchical bayes model of primary and secondary demand|Marketing Science|1998
+N. Arora, J. Huber|Improving parameter estimates and model prediction by aggregate customization in choice experiments|Journal of Consumer Research|2001
+K. Backhaus, J. Becker, D. Beverungen, M. Frohs, O. Müller, M. Weddeling, R. Knackstedt, M. Steiner|Enabling individualized recommendations and dynamic pricing of value-added services through willingness-to-pay data|Electronic Markets|2010
+J. Basilico, T. Hofmann|A joint framework for collaborative and content filtering|Annual International ACM SIGIR Conference|2004
+G. M. Becker, M. H. DeGroot, J. Marschak|Measuring utility by a single-response sequential method|Behavioral science|1964
+C. Breidert, M. Hahsler, T. Reutterer|A review of methods for measuring willingness-to-pay|Innovative Marketing|2006
+J. Canny|Collaborative filtering with privacy via factor analysis|SIGIR|2002
+J. Chen, Q. Jin, S. Zhao, S. Bao, L. Zhang, Z. Su, Y. Yu| Does product recommendation meet its waterloo in unexplored categories?: No, price comes to help|International ACM SIGIR Conference on Research & Development in Information Retrieval|2014
+M. Ding|An incentive-aligned mechanism for conjoint analysis|Journal of Marketing Research|2007
+S. Dong, M. Ding, J. Huber|A simple mechanism to incentive-align conjoint experiments|International Journal of Research in Marketing|2010
+A. Gabor, C. W. Granger, A. P. Sowter|Real and hypothetical shop situations in market research|Journal of Marketing Research|1970
+D. Goldberg, D. Nichols, B. M. Oki, D. Terry|Using collaborative filtering to weave an information tapestry| Commun. ACM|1992
+S. Gupta|Impact of sales promotions on when, what, and how much to buy|Journal of Marketing research|1988
+T. Hofmann, J. Puzicha|Latent class models for collaborative filtering|International Joint Conference in Artificial Intelligence|1999
+T. Kamishima, S. Akaho|Personalized pricing recommender system: Multi-stage epsilon-greedy approach|International Workshop on Information Heterogeneity and Fusion in Recommender Systems|2011
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+Y. J. Lim, Y. W. Teh|Variational Bayesian approach to movie rating prediction|KDD Cup and Workshop|2007
+J. J. Louviere, G. Woodworth|Design and analysis of simulated consumer choice or allocation experiments: an approach based on aggregate data|Journal of marketing research|1983
+Y. Marbeau|What value pricing research today|Journal of the Market Research Society|1987
+P. McNamee, C. Piatko, J. Mayfield|Experiments in filtering and arabic retrieval|Text REtrieval Conference|2002
+K. M. Miller, R. Hofstetter, H. Krohmer, Z. J. Zhang|How should consumers' willingness to pay be measured? an empirical comparison of state-of-the-art approaches| Journal of Marketing Research|2011
+A. Paterek|Improving regularized singular value decomposition for collaborative filtering|KDD Cup and Workshop|2007
+E. Rich|User modeling via stereotypes|Cognitive Science|1979
+S. Robertson, I. Soboroff|The TREC-10 filtering track final report|Text REtrieval Conference|2002
+M. Srikanth, X. Wu, R. Srihari|UB at TREC 11: Batch and adaptive filtering|Text REtrieval Conference|2002
+R. G. Stout|Developing data to estimate price-quantity relationships|The Journal of Marketing|1969
+H. R. Varian, W. Norton|Microeconomic analysis|Norton|1992
+W. Vickrey|Counterspeculation, auctions, and competitive sealed tenders|The Journal of finance|1961
+J. Wang, Y. Zhang|Utilizing marginal net utility for recommendation in e-commerce|SIGIR|2011
+L. Wu, X. Huang, J. Niu, Y. Xia, Z. Feng, Y. Zhou|FDU at TREC 2002: Filtering, Q&A, web and video tasks|Text REtrieval Conference|2002
+Y. Yang, S. Yoo, J. Zhang, B. Kisiel|Robustness of adaptive filtering methods in a cross-benchmark evaluation|Annual International ACM SIGIR Conference on Research and Development in Information Retrieval|2005
+Y. Zhang|Using bayesian priors to combine classifiers for adaptive filtering|SIGIR|2004

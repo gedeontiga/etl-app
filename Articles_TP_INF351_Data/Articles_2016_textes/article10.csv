@@ -1,0 +1,32 @@
+Latent Factor Representations for Cold-Start Video Recommendation
+Sujoy Roy, SAP Innovation Center Network, Singapore, Singapore|Sharath Chandra Guntuku, Nanyang Technological University, Singapore, Singapore
+Recommending items that have rarely/never been viewed by users is a bottleneck for collaborative filtering (CF) based recommendation algorithms. To alleviate this problem, item content representation (mostly in textual form) has been used as auxiliary information for learning latent factor representations. In this work we present a novel method for learning latent factor representation for videos based on modelling the emotional connection between user and item. First of all we present a comparative analysis of state-of-the art emotion modelling approaches that brings out a surprising finding regarding the efficacy of latent factor representations in modelling emotion in video content. Based on this finding we present a method visual-CLiMF for learning latent factor representations for cold start videos based on implicit feedback. Visual-CLiMF is based on the popular collaborative less-is-more approach but demonstrates how emotional aspects of items could be used as auxiliary information to improve MRR performance. Experiments on a new data set and the Amazon products data set demonstrate the effectiveness of visual-CLiMF which outperforms existing CF methods with or without content information.
+videos, emotion prediction, likes, personality, affective computing
+L. Baltrunas, B. Ludwig, F. Ricci|Matrix factorization techniques for context aware recommendation|ACM Conference on Recommender Systems|2011
+D. Borth, T. Chen, R. Ji, S.-F. Chang|Sentibank: large-scale ontology and classifiers for detecting sentiment and emotions in visual content|ACM international conference on Multimedia|2013
+E. Cambria, J. Fu, F. Bisio, S. Poria|Affectivespace 2: Enabling affective intuition for concept-level sentiment analysis|AAAI|2015
+A. K. Elshenawy, S. Carter, D. Braga|It's not just what you say, but how you say it: Muiltimodal sentiment analysis via crowdsourcing|AAAI Conference on Human Computation and Crowdsourcing|2016
+P. Forbes, M. Zhu|Content-boosted matrix factorization for recommender systems: Experiments with recipe recommendation|ACM Conference on Recommender Systems|2011
+S. C. Guntuku, M. J. Scott, G. Ghinea, W. Lin| Personality, culture, and system factors-impact on affective response to multimedia|arXiv preprint|2016
+R. He, J. McAuley|Vbpr: Visual bayesian personalized ranking from implicit feedback|arXiv preprint|2015
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|ICDM|2008
+Y.-G. Jiang, B. Xu, X. Xue|Predicting emotions in user-generated videos|AAAI Conference on Artificial Intelligence|2014
+J. Kim, J.-B. Yoo, H. Lim, H. Qiu, Z. Kozareva, A. Galstyan|Sentiment prediction using collaborative filtering|ICWSM|2013
+F. Li, S. Wang, S. Liu, M. Zhang|Suit: A supervised user-item based topic model for sentiment analysis|AAAI|2014
+J. Machajdik, A. Hanbury|Affective image classification using features inspired by psychology and art theory|international conference on Multimedia|2010
+J. McAuley, R. Pandey, J. Leskovec|Inferring networks of substitutable and complementary products|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+K.-C. Peng, T. Chen, A. Sadovnik, A. C. Gallagher|A mixed bag of emotions: Model, predict, and transfer emotion distributions|IEEE Conference on Computer Vision and Pattern Recognition|2015
+R. Plutchik|The emotions|University Press of America|1991
+A. Razavian, H. Azizpour, J. Sullivan, S. Carlsson|Cnn features off-the-shelf: an astounding baseline for recognition|IEEE Conference on Computer Vision and Pattern Recognition Workshops|2014
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|conference on uncertainty in artificial intelligence|2009
+R. Ronen, N. Koenigstein, E. Ziklik, N. Nice|Selecting content-based features for collaborative filtering recommenders|ACM conference on Recommender systems|2013
+M. Sakaki, K. Niki, M. Mather|Beyond arousal and valence: The importance of the biological versus social relevance of emotional stimuli|Cognitive, Affective, and Behavioral Neuroscience|2012
+K. R. Scherer|What are emotions? and how can they be measured?|Social science information|2005
+Y. Shi, A. Karatzoglou, L. Baltrunas, M. Larson, N. Oliver, A. Hanjalic|Climf: learning to maximize reciprocal rank with collaborative less-is-more filtering|ACM conference on Recommender systems|2012
+Y. Shi, M. Larson, A. Hanjalic|Collaborative filtering beyond the user-item matrix: A survey of the state of the art and future challenges|ACM Computing Surveys|2014
+M. Soleymani, M. Larson, T. Pun, A. Hanjalic|Corpus development for affective video indexing|Multimedia, IEEE Transactions on|2014
+M. Soleymani, M. Pantic, T. Pun|Multimodal emotion recognition in response to videos|Affective Computing, IEEE Transactions on|2012
+C. Wang, D. M. Blei|Collaborative topic modeling for recommending scientific articles|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2011
+H. Wang, N. Wang, D. Yeung|Collaborative deep learning for recommender systems|CoRR|2014
+S. Wang, Q. Ji|Video affective content analysis: a survey of state-of-the-art methods|IEEE Transactions on Affective Computing|2015
+B. Zhou, A. Lapedriza, J. Xiao, A. Torralba, A. Oliva|Learning deep features for scene recognition using places database|Advances in neural information processing systems|2014

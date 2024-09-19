@@ -1,0 +1,22 @@
+Field-aware Factorization Machines for CTR Prediction
+Yuchin Juan, Criteo, Palo Alto, USA|Yong Zhuang, Carnegie Mellon Univ., Pittsburgh, USA|Weisheng Chin, National Taiwan University, Taipei, Taiwan Roc|Chih-Jen Lin, National Taiwan University, Taipei, Taiwan Roc
+Click-through rate (CTR) prediction plays an important role in computational advertising. Models based on degree-2 polynomial mappings and factorization machines (FMs) are widely used for this task. Recently, a variant of FMs, field-aware factorization machines (FFMs), outperforms existing models in some world-wide CTR-prediction competitions. Based on our experiences in winning two of them, in this paper we establish FFMs as an effective method for classifying large sparse data including those from CTR prediction. First, we propose efficient implementations for training FFMs. Then we comprehensively analyze FFMs and compare this approach with competing models. Experiments show that FFMs are very useful for certain classification problems. Finally, we have released a package of FFMs for public use.
+factorization machines, computational advertising, machine learning, click-through rate prediction
+O. Chapelle, E. Manavoglu, R. Rosales|Simple and scalable response prediction for display advertising|ACM Transactions on Intelligent Systems and Technology|201
+H. B. McMahan, G. Holt, D. Sculley, M. Young, D. Ebner, J. Grady, L. Nie, T. Phillips, E. Davydov, D. Golovin, S. Chikkerur, D. Liu, M. Wattenberg, A. M. Hrafnkelsson, T. Boulos, J. Kubica|Ad click prediction: a view from the trenches|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2013
+M. Richardson, E. Dominowska, R. Ragno|Predicting clicks: estimating the click-through rate for new ADs|international conference on World Wide Web|2007
+Y.-W. Chang, C.-J. Hsieh, K.-W. Chang, M. Ringgaard, C.-J. Lin|Training and testing low-degree polynomial data mappings via linear SVM|Journal of Machine Learning Research|2010
+T. Kudo, Y. Matsumoto|Fast methods for kernel-based text analysis|Annual Meeting of the Association of Computational Linguistics|2003
+S. Rendle|Factorization machines|IEEE International Conference on Data Mining|2010
+S. Rendle, L. Schmidt-Thieme|Pairwise interaction tensor factorization for personalized tag recommendation|ACM International Conference on Web Search and Data Mining|2010
+M. Jahrer, A. Töscher, J.-Y. Lee, J. Deng, H. Zhang, J. Spoelstra|Ensemble of collaborative filtering and feature engineered model for click through rate prediction|KDD Cup Workshop|2012
+J. Duchi, E. Hazan, Y. Singer|Adaptive subgradient methods for online learning and stochastic optimization|Journal of Machine Learning Research|2011
+H. B. McMahan|Follow-the-regularized-leader and mirror descent: Equivalence theorems and l1 regularization|International Conference on Artificial Intelligence and Statistics|2011
+W.-S. Chin, Y. Zhuang, Y.-C. Juan, C.-J. Lin|A learning-rate schedule for stochastic gradient methods to matrix factorization|Pacific-Asia Conference on Knowledge Discovery and Data Mining|2015
+F. Niu, B. Recht, C. Ré, S. J. Wright|HOGWILD!: a lock-free approach to parallelizing stochastic gradient descent| Advances in Neural Information Processing Systems|2011
+R.-E. Fan, K.-W. Chang, C.-J. Hsieh, X.-R. Wang, C.-J. Lin|LIBLINEAR: a library for large linear classification|Journal of Machine Learning Research|2008
+S. Rendle|Factorization machines with libFM|ACM Transactions on Intelligent Systems and Technology|2012
+L. Dagum, R. Menon|OpenMP: an industry standard API for shared-memory programming|IEEE Computational Science and Engineering|1998
+C. M. Bishop, Pattern Recognition|Machine Learning| Springer-Verlag|2006
+G. Raskutti, M. J. Wainwright, B. Yu|Early stopping and non-parametric regression: An optimal data-dependent stopping rule|Journal of Machine Learning Research|2014
+T. Zhang, B. Yu|Boosting with early stopping: convergence and consistency|The Annals of Statistics|2005

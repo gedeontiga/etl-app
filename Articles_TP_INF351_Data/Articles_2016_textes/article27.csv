@@ -1,0 +1,39 @@
+Discovering What You're Known For: A Contextual Poisson Factorization Approach
+Haokai Lu, Texas A&M University, College Station, TX, USA|James A Caverlee, Texas A&M University, College Station, TX, USA|Wei Niu, Texas A&M University, College Station, TX, USA
+Discovering what people are known for is valuable to many important applications such as recommender systems. Unlike an individual's personal interests, what a user is known for is reflected by the views of others, and is often not easily discerned for a long-tail of the vast majority of users. In this paper, we tackle the problem of discovering what users are known for through a probabilistic model called Bayesian Contextual Poisson Factorization. Moving beyond just modeling user's content, it naturally models and integrates additional contextual factors, concretely, user's geo-spatial footprints and social influence, to overcome noisy online activities and social relations. Through GPS-tagged social media datasets, we find that the proposed method can improve known-for prediction performance by 17.5% in precision and 20.9% in recall on average, and that it can capture the implicit relationships between a user's known-for profile and her content, geo-spatial and social influence.
+contextual modeling, GPS-tagged social media, user profile
+A. Ahmed, Y. Low, M. Aly, V. Josifovski, A. J. Smola|Scalable distributed inference of dynamic user interests for behavioral targeting|SIGKDD|2011
+X. Amatriain, N. Lathia, J. M. Pujol, H. Kwak, N. Oliver|The wisdom of the few: a collaborative filtering approach based on expert opinions from the web|SIGIR|2009
+P. Bhattacharya, S. Ghosh, J. Kulshrestha, M. Mondal, M. B. Zafar, N. Ganguly, K. P. Gummadi|Deep twitter diving: Exploring topical groups in microblogs at scale|CSCW|2014
+C. M. Bishop|Pattern Recognition and Machine Learning|Springer-Verlag|2006
+D. M. Blei, A. Y. Ng, M. I. Jordan|Latent dirichlet allocation|JMLR|2003
+J. Chen, R. Nairn, E. Chi|Speak little and well: recommending conversations in online social streams|SIGCHI|2011
+Z. Dou, R. Song, J.-R. Wen|A large-scale evaluation and analysis of personalized search strategies|WWW|2007
+S. Ghosh, N. Sharma, F. Benevenuto, N. Ganguly, K. Gummadi|Cognos: crowdsourcing search for topic experts in microblogs|SIGIR|2012
+P. Gopalan, J. M. Hofman, D. M. Blei|Scalable recommendation with poisson factorization|arXiv preprint|2013
+P. K. Gopalan, L. Charlin, D. Blei|Content-based recommendations with poisson factorization|NIPS|2014
+M. D. Hoffman, D. M. Blei, C. Wang, J. Paisley|Stochastic variational inference|JMLR|2013
+L. Hu, A. Sun, Y. Liu|Your neighbors affect your ratings: on geographical neighborhood influence to rating prediction|SIGIR|2014
+M. Jamali, L. Lakshmanan|Heteromf: recommendation in heterogeneous information networks using context dependent factor models|WWW|2013
+N. Johnson, A. Kemp, S. Kotz|Univariate Discrete Distributions|John Wiley and Sons|2005
+M. I. Jordan, Z. Ghahramani, T. S. Jaakkola, L. K. Saul|An introduction to variational methods for graphical models|Machine learning|1999
+J. Li, A. Ritter, E. H. Hovy|Weakly supervised user profile extraction from twitter|ACL|2014
+R. Li, C. Wang, K. C.-C. Chang|User profiling in an ego network: co-profiling attributes and relationships|WWW|2014
+B. Liu, Y. Fu, Z. Yao, H. Xiong|Learning geographical preferences for point-of-interest recommendation|SIGKDD|2013
+X. Liu, K. Aberer|Soco: a social network aided context-aware recommender system|WWW|2013
+H. Lu, J. Caverlee|Exploiting geo-spatial preference for personalized expert recommendation|RecSys|2015
+H. Ma, H. Yang, M. R. Lyu, I. King|Sorec: social recommendation using probabilistic matrix factorization|CIKM|2008
+M. McPherson, L. Smith-Lovin, J. M. Cook|Birds of a feather: Homophily in social networks|Annual review of sociology|2001
+A. Mislove, B. Viswanath, K. P. Gummadi, P. Druschel|You are who you know: inferring user profiles in online social networks|WSDM|2010
+F. Qiu, J. Cho|Automatic identification of user interest for personalized search|WWW|2006
+E. Shmueli, A. Kagian, Y. Koren, R. Lempel|Care to comment?: recommendations for commenting on news stories|WWW|2012
+A. P. Singh, G. J. Gordon|Relational learning via collective matrix factorization|SIGKDD|2008
+B. Wang, C. Wang, J. Bu, C. Chen, W. V. Zhang, D. Cai, X. He|Whom to mention: expand the diffusion of tweets by@ recommendation on micro-blogging systems|WWW|2013
+C. Wang, D. M. Blei|Collaborative topic modeling for recommending scientific articles|SIGKDD|2011
+J. Weston, S. Bengio, N. Usunier|Wsabie: Scaling up to large vocabulary image annotation|IJCAI|2011
+M. Ye, P. Yin, W.-C. Lee, D.-L. Lee|Exploiting geographical influence for collaborative point-of-interest recommendation|SIGIR|2011
+H. Yin, B. Cui, L. Chen, Z. Hu, Z. Huang|A temporal context-aware model for user behavior modeling in social media systems|SIGMOD|2014
+W. Zhang, J. Wang, W. Feng|Combining latent factor model with location features for event-based group recommendation|SIGKDD|2013
+X. Zhang, J. Cheng, T. Yuan, B. Niu, H. Lu|Toprec: domain-specific recommendation through community topic mining in social network|WWW|2013
+Z. Zhao, Z. Cheng, L. Hong, E. H. Chi|Improving user topic interest profiles by behavior factorization|WWW|2015
+V. W. Zheng, Y. Zheng, X. Xie, Q. Yang|Collaborative location and activity recommendations with gps history data|WWW|2010

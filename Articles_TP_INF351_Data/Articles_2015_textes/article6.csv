@@ -1,0 +1,40 @@
+A Probabilistic Model for Using Social Networks in Personalized Item Recommendation
+Allison J B Chaney, Princeton University, Princeton, USA|David Meir Blei, Columbia University, New York City, USA|Tina Eliassi-Rad, Rutgers University, Piscataway, USA
+Preference-based recommendation systems have transformed how we consume media. By analyzing usage data, these methods uncover our latent preferences for items (such as articles or movies) and form recommendations based on the behavior of others with similar tastes. But traditional preference-based recommendations do not account for the social aspect of consumption, where a trusted friend might point us to an interesting item that does not match our typical preferences. In this work, we aim to bridge the gap between preference- and social-based recommendations. We develop social Poisson factorization (SPF), a probabilistic model that incorporates social network information into a traditional factorization method; SPF introduces the social aspect to algorithmic recommendation. We develop a scalable algorithm for analyzing data with SPF, and demonstrate that it outperforms competing methods on six real-world datasets; data sources include a social reader and Etsy.
+social networks, recommender systems, probabilistic models
+X. Amatriain, P. Castells, A. de Vries, C. Posse|Workshop on recommendation utility evaluation: Beyond RMSE|RecSys|2012
+R. Andersen, C. Borgs, J. Chayes, U. Feige, A. Flaxman, A. Kalai, V. Mirrokni, M. Tennenholtz|Trust-based recommendation systems: an axiomatic approach|WWW|2008
+B. C. Arnold, E. Castillo, J. M. Sarabia|Conditional specification of statistical models|Springer|1999
+C. Bishop|Pattern Recognition and Machine Learning| Springer|2006
+J. Canny|GaP: a factor model for discrete data|SIGIR|2004
+D. Crandall, D. Cosley, D. Huttenlocher, J. Kleinberg, S. Suri|Feedback effects between similarity and social influence in online communities|KDD|2008
+P. Cremonesi, Y. Koren, R. Turrin|Performance of recommender algorithms on top-n recommendation tasks| RecSys|2010
+N. Du, L. Song, H. Woo, H. Zha|Uncover topic-sensitive information diffusion networks|AISTATS|2013
+S. Fazeli, B. Loni, A. Bellogin, H. Drachsler, P. Sloep| Implicit vs. explicit trust in social matrix factorization|RecSys|2014
+J. Golbeck, J. Hendler|FilmTrust: Movie recommendations using trust in web-based social networks|TOIT|2006
+P. Gopalan, J. M. Hofman, D. M. Blei|Scalable recommendation with hierarchical Poisson factorization|UAI|2015
+A. Guille, H. Hacid, C. Favre, D. A. Zighed|Information diffusion in online social networks: A survey|SIGMOD Record|2013
+G. Guo, J. Zhang, D. Thalmann, N. Yorke-Smith|Etaf: An extended trust antecedents framework for trust prediction|ASONAM|2014
+G. Guo, J. Zhang, N. Yorke-Smith|TrustSVD: Collaborative filtering with both the explicit and implicit influence of user trust and of item ratings|AAAI|2015
+J. L. Herlocker, J. A. Konstan, J. Riedl|Explaining collaborative filtering recommendations|CSCW|2000
+M. Hoffman, D. Blei, C. Wang, J. Paisley|Stochastic variational inference|Journal of Machine Learning Research|2013
+M. Jamali, M. Ester|A matrix factorization technique with trust propagation for recommendation in social networks|RecSys|2010
+J. Johnstone, E. Katz|Youth and popular music: A study in the sociology of taste|Journal of Sociology|1957
+M. I. Jordan, Z. Ghahramani, T. S. Jaakkola, L. K. Saul|An introduction to variational methods for graphical models|Machine Learning|1999
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|IEEE Computer|2009
+D. D. Lee, H. S. Seung|Algorithms for non-negative matrix factorization|NIPS|2000
+J. Leskovec, A. Singh, J. Kleinberg|Patterns of influence in a recommendation network|PAKDD|2006
+D. Loiacono, A. Lommatzsch, R. Turrin|An analysis of the 2014 recsys challenge|RecSysChallenge|2014
+H. Ma, I. King, M. R. Lyu|Learning to recommend with social trust ensemble|SIGIR|2009
+H. Ma, H. Yang, M. R. Lyu, I. King|SoRec: Social recommendation using probabilistic matrix factorization|CIKM|2008
+H. Ma, D. Zhou, C. Liu, M. R. Lyu, I. King|Recommender systems with social regularization|WSDM|2011
+P. Massa, P. Avesani|Trust-aware recommender systems|RecSys|2007
+S. Purushotham, Y. Liu, C.-C. J. Kuo|Collaborative topic regression with social matrix factorization for recommendation systems|CoRR, abs/1206.4684|2012
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|NIPS|2007
+S. Shang, P. Hui, S. R. Kulkarni, P. W. Cuff|Wisdom of the crowd: Incorporating social influence in recommendation models|ICPADS|2011
+P. Singh, G. Singh, A. Bhardwaj|Ranking approach to recsys challenge|RecSysChallenge|2014
+X. Su, T. M. Khoshgoftaar|A survey of collaborative filtering techniques|Advances in Artificial Intelligence|2009
+I. P. Volz|The impact of online music services on the demand for stars in the music industry|WWW|2006
+B. Yang, Y. Lei, D. Liu, J. Liu|Social collaborative filtering by trust|IJCAI|2013
+M. Ye, X. Liu, W.-C. Lee|Exploring social influence for recommendation: A generative model approach|SIGIR|2012
+T. Zhao, J. McAuley, I. King|Leveraging social connections to improve personalized ranking for collaborative filtering|CIKM|2014

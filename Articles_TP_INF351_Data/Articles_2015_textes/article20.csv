@@ -1,0 +1,24 @@
+Dynamic Poisson Factorization
+Laurent Charlin, Columbia University, New York, USA|Rajesh Ranganath, Princeton University, Princeton, USA|James McInerney, Columbia University, New York, USA|David Meir Blei, Columbia University, New York, USA
+Models for recommender systems use latent factors to explain the preferences and behaviors of users with respect to a set of items (e.g., movies, books, academic papers). Typically, the latent factors are assumed to be static and, given these factors, the observed pref- erences and behaviors of users are assumed to be generated without order. These assumptions limit the explorative and predictive capabilities of such models, since users' interests and item popularity may evolve over time. To address this, we propose dPF, a dynamic matrix factorization model based on the recent Poisson factorization model for recommendations. dPF models the time evolving latent factors with a Kalman filter and the actions with Poisson distributions. We derive a scalable variational inference algorithm to infer the latent factors. Finally, we demonstrate dPF on 10 years of user click data from arXiv.org, one of the largest repository of scientific papers and a formidable source of information about the behavior of scientists. Empirically we show performance improvement over both static and, more recently proposed, dynamic recommendation models. We also provide a thorough exploration of the inferred posteriors over the latent variables.
+variational inference, probabilistic models, collaborative filtering, dynamic models, matrix factorization, state space models
+A. Acharya, J. Ghosh, M. Zhou|Nonparametric bayesian factor analysis for dynamic count matrices|Conference on Artificial Intelligence and Statistics|2015
+C. M. Bishop|Pattern Recognition and Machine Learning| Springer|2006
+D. M. Blei|Build, compute, critique, repeat: Data analysis with latent variable models|Annual Review of Statistics and Its Application|2014
+S. Chatzis|Dynamic bayesian probabilistic matrix factorization|AAAI Conference on Artificial Intelligence|2014
+M. D. Ekstrand, J. T. Riedl, J. A. Konstan|Collaborative filtering recommender systems|Foundations and Trends in Human-Computer Interaction|2011
+P. Gopalan, J. Hofman, D. Blei|Scalable recommendation with hierarchical poisson factorization|Conference Annual Conference on Uncertainty in Artificial Intelligence|2015
+S. Gultekin, J. Paisley|A collaborative kalman filter for time-evolving dyadic processes|IEEE International Conference on Data Mining|2014
+B. Hidasi, D. Tikk|General factorization framework for context-aware recommendations|Data Mining and Knowledge Discovery|2015
+M. I. Jordan|Learning in Graphical Models|MIT Press, Cambridge|1999
+A. Karatzoglou, X. Amatriain, L. Baltrunas, N. Oliver| Multiverse recommendation: n-dimensional tensor factorization for context-aware collaborative filtering|ACM conference on Recommender systems|2010
+Y. Koren|Collaborative filtering with temporal dynamics| Commun. ACM|2010
+Y. Koren, J. Sill|Ordrec: an ordinal model for predicting personalized item rating distributions|ACM conference on Recommender systems|2011
+D. D. Lee, H. S. Seung|Learning the parts of objects by non-negative matrix factorization|Nature|1999
+B. Li, X. Zhu, R. Li, C. Zhang, X. Xue, X. Wu|Cross-domain collaborative filtering over time|International Joint Conference on Artificial Intelligence|2011
+S. Rendle|Factorization machines|IEEE International Conference on Data Mining|IEEE Computer Society|2010
+N. Sahoo, P. V. Singh, T. Mukhopadhyay|A hidden markov model for collaborative filtering|MIS Q.|2012
+R. Salakhutdinov, A. Mnih|Bayesian probabilistic matrix factorization using Markov chain Monte Carlo|International Conference on Machine Learning|2008
+C. Wang, D. Blei|Variational inference in nonconjugate models|Journal of Machine Learning Research|2013
+L. Xiong, X. Chen, T.-K. Huang, J. Schneider, J. G. Carbonell|Temporal collaborative filtering with bayesian probabilistic tensor factorization|SIAM Data Mining|2010
+X. Yi, L. Hong, E. Zhong, N. N. Liu, S. Rajan|Beyond clicks: dwell time for personalization| ACM Conference on Recommender systems|2014

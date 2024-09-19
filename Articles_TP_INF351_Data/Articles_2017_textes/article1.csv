@@ -1,0 +1,37 @@
+Learning to Rank with Trust and Distrust in Recommender Systems
+Dimitrios Rafailidis, University of Mons, Mons, Belgium|Fabio Crestani, Università della Svizzera italiana, Lugano, Switzerland
+The sparsity of users' preferences can significantly degrade the quality of recommendations in the collaborative filtering strategy. To account for the fact that the selections of social friends and foes may improve the recommendation accuracy, we propose a learning to rank model that exploits users' trust and distrust relationships. Our learning to rank model focusses on the performance at the top of the list, with the recommended items that end-users will actually see. In our model, we try to push the relevant items of users and their friends at the top of the list, while ranking low those of their foes. Furthermore, we propose a weighting strategy to capture the correlations of users' preferences with friends' trust and foes' distrust degrees in two intermediate trust- and distrust-preference user latent spaces, respectively. Our experiments on the Epinions dataset show that the proposed learning to rank model significantly outperforms other state-of-the-art methods in the presence of sparsity in users' preferences and when a part of trust and distrust relationships is not available. Furthermore, we demonstrate the crucial role of our weighting strategy in our model, to balance well the influences of friends and foes on users' preferences.
+collaborative filtering, social relationships, learning to rank
+Charu C., Aggarwal.|Recommender Systems|The Textbook|2016
+Yi Cen, Rentao Gu, Yuefeng Ji.|Sign Inference for Dynamic Signed Networks via Dictionary Learning|J. Applied Mathematics|2013
+Allison June-Barlow Chaney, David M. Blei, Tina Eliassi-Rad|A Probabilistic Model for Using Social Networks in Personalized Item Recommendation|RecSys|2015
+Konstantina Christakopoulou, Arindam Banerjee|Collaborative Ranking with a Push at the Top|WWW|2015
+Rana Forsati, Iman Barjasteh, Farzan Masrour, Abdol-Hossein Esfahanian, Hayder Radha|PushTrust: An Efficient Recommendation Algorithm by Leveraging Trust and Distrust Relations|RecSys|2015
+Rana Forsati, Mehrdad Mahdavi, Mehrnoush Shamsfard, Mohamed Sarwat|Matrix Factorization with Explicit Trust and Distrust Side Information for Improved Social Recommendation|ACM Trans. Inf. Syst.|2014
+Ramanathan V. Guha, Ravi Kumar, Prabhakar Raghavan, Andrew Tomkins|Propagation of trust and distrust|WWW|2004
+Guibing Guo, Jie Zhang, Neil Yorke-Smith|TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings|AAAI|2015
+Prateek Jain, Praneeth Netrapalli, Sujay Sanghavi|Low-rank Matrix Completion Using Alternating Minimization.|STOC.|2013
+Mohsen Jamali, Martin Ester|TrustWalker: a random walk model for combining trust-based and item-based recommendation|KDD|2009
+Mohsen Jamali, Martin Ester|Using a trust network to improve top-N recommendation|RecSys|2009
+Mohsen Jamali, Martin Ester|A matrix factorization technique with trust propagation for recommendation in social networks|RecSys|2010
+Yehuda Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|KDD|2008
+Yehuda Koren|Collaborative filtering with temporal dynamics|Commun. ACM|2010
+Artus Krohn-Grimberghe, Lucas Drumond, Christoph Freudenthaler, Lars Schmidt-Thieme|Multi-relational Matrix Factorization Using Bayesian Personalized Ranking for Social Network Data|WSDM|2012
+Hao Ma, Irwin King, Michael R. Lyu|Learning to recommend with social trust ensemble|SIGIR|2009
+Hao Ma, Michael R. Lyu, Irwin King|Learning to recommend with trust and distrust relationships|RecSys|2009
+Hao Ma, Haixuan Yang, Michael R. Lyu, Irwin King|SoRec: social recommendation using probabilistic matrix factorization|CIKM|2009
+Dimitrios Rafailidis|Modeling trust and distrust information in recommender systems via joint matrix factorization with signed graphs|SAC.|2016
+Dimitrios Rafailidis, Fabio Crestani|Collaborative Ranking with Social Relationships for Top-N Recommendations|SIGIR|2016
+Dimitrios Rafailidis, Fabio Crestani|Joint Collaborative Ranking with Social Relationships in Top-N Recommendation|CIKM|2016
+Dimitrios Rafailidis and Alexandros Nanopoulos|Modeling the dynamics of user preferences in coupled tensor factorization|RecSys|2014
+Dimitrios Rafailidis, Alexandros Nanopoulos|Modeling Users Preference Dynamics and Side Information in Recommender Systems|IEEE Trans. Systems, Man, and Cybernetics: Systems|2016
+Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme|BPR: Bayesian Personalized Ranking from Implicit Feedback|UAI|2009
+Yue Shi, Alexandros Karatzoglou, Linas Baltrunas, Martha Larson, Nuria Oliver, Alan Hanjalic|CLiMF: Learning to Maximize Reciprocal Rank with Collaborative Less-is-more Filtering|RecSys|2012
+Jiliang Tang, Charu C. Aggarwal, Huan Liu|Recommendations in Signed Social Networks|WWW|2016
+Jiliang Tang, Yi Chang, Charu Aggarwal, Huan Liu|A Survey of Signed Network Mining in Social Media|ACM Comput. Surv.|2016
+Jiliang Tang, Xia Hu, Yi Chang, Huan Liu|Predictability of Distrust with Interaction Data|CIKM|2014
+Patricia Victor, Chris Cornelis, Martine De Cock, Ankur Teredesai|Trust- and Distrust-Based Recommendations for Controversial Reviews|IEEE Intelligent Systems|2011
+Markus Weimer, Alexandros Karatzoglou,Thoc V. Le, Alexander J. Smola|COFI RANK - Maximum Margin Matrix Factorization for Collaborative Ranking|NIPS|2007
+Liang Xiong, Xi Chen, Tzu-Kuo Huang, Jeff G. Schneider, Jaime G. Carbonell|Temporal Collaborative Filtering with Bayesian Probabilistic Tensor Factorization|SDM|2010
+Xiwang Yang, Harald Steck, Yang Guo, Yong Liu|On Top-k Recommendation Using Social Networks|RecSys|2012
+Tong Zhao, Julian McAuley, Irwin King|Leveraging Social Connections to Improve Personalized Ranking for Collaborative Filtering|CIKM|2014

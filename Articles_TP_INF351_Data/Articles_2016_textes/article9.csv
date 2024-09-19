@@ -1,0 +1,22 @@
+Fifty Shades of Ratings: How to Benefit from a Negative Feedback in Top-N Recommendations Tasks
+Evgeny Frolov, Skolkovo Institute of Science and Technology, Moscow, Russian Fed|Ivan V Oseledets, Skolkovo Institute of Science and Technology and Institute of Numerical Mathematics of the Russian Academy of Sciences, Moscow, Russian Fed.
+Conventional collaborative filtering techniques treat a top-n recommendations problem as a task of generating a list of the most relevant items. This formulation, however, disregards an opposite -- avoiding recommendations with completely irrelevant items. Due to that bias, standard algorithms, as well as commonly used evaluation metrics, become insensitive to negative feedback. In order to resolve this problem we propose to treat user feedback as a categorical variable and model it with users and items in a ternary way. We employ a third-order tensor factorization technique and implement a higher order folding-in method to support online recommendations. The method is equally sensitive to entire spectrum of user ratings and is able to accurately predict relevant items even from a negative only feedback. Our method may partially eliminate the need for complicated rating elicitation process as it provides means for personalized recommendations from the very beginning of an interaction with a recommender system. We also propose a modification of standard metrics which helps to reveal unwanted biases and account for sensitivity to a negative feedback. Our model achieves state-of-the-art quality in standard recommendation tasks while significantly outperforming other methods in the cold-start "no-positive-feedback" scenarios.
+tensor factorization, collaborative filtering, recommender systems, cold-start, explicit feedback
+G. Adomavicius, B. Mobasher, F. Ricci, A. Tuzhilin|Context-Aware Recommender Systems|AI Mag.|2011
+G. Adomavicius, A. Tuzhilin|Toward the Next Generation of Recommender Systems: a Survey of the State of the Art and Possible Extensions|IEEE Trans. Knowl. Data Eng.|2005
+X. Amatriain, J. M. Pujol, N. Oliver|I Like It... I Like It Not: Evaluating User Ratings Noise in Recommender Systems|Int. Conf. User Model. Adapt. Pers. Former. UM AH|2009
+D. L. Chao, J. Balthrop, S. Forrest|Adaptive radio: achieving consensus using negative preferences|Int. ACM Siggr. Conf. Support. Gr. Work|2005
+P. Cremonesi, Y. Koren, R. Turrin|Performance of recommender algorithms on top-n recommendation tasks|ACM Conf. Recomm. Syst.|2010
+L. De Lathauwer, B. De Moor, J. Vandewalle|On the best rank-1 and rank-(r 1, r 2,..., r n) approximation of higher-order tensors|SIAM J. Matrix Anal. Appl.|2000
+V. De Silva, L.-H. Lim|Tensor rank and the ill-posedness of the best low-rank approximation problem|SIAM J. Matrix Anal. Appl.|2008
+M. D. Ekstrand, J. T. Riedl, J. A. Konstan|Collaborative filtering recommender systems|Found. Trends Human-Computer Interact.|2011
+G. H. Golub, C. Reinsch|Singular value decomposition and least squares solutions|Numer. Math.|1970
+E. A. Kensinger|Remembering the details: Effects of emotion|Emot. Rev.|2009
+T. G. Kolda, B. W. Bade|Tensor Decompositions and Applications|SIAM Rev.|2009
+J. Lee, D. Lee, Y.-C. Lee, W.-S. Hwang, S.-W. Kim| Improving the Accuracy of Top-N Recommendation using a Preference Model|Inf. Sci.|2016
+X. Ning, G. Karypis|Slim: Sparse linear methods for top-n recommender systems|ICDM|2011
+R. Pan, Y. Zhou, B. Cao, N. N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|ICDM|2008
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-thieme| BPR : Bayesian Personalized Ranking from Implicit Feedback|Conf. Uncertain. Artif. Intell.|2009
+S. Rendle, Z. Gantner, C. Freudenthaler, L. Schmidt-Thieme| Fast context-aware recommendations with factorization machines|Int. ACM SIGIR Conf. Res. Dev. Inf. Retr.|2011
+P. Rozin, E. B. Royzman|Negativity bias, negativity dominance, and contagion|Personal. Soc. Psychol. Rev.|2001
+G. Shani, A. Gunawardana|Evaluating recommendation systems| Recomm. syst. handbook|2011

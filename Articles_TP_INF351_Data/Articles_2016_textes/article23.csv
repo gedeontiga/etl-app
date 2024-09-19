@@ -1,0 +1,35 @@
+Meta-Prod2Vec: Product Embeddings Using Side-Information for Recommendation
+Flavian Vasile, Criteo, Paris, France|Elena Smirnova, Criteo, Paris, France|Alexis Conneau, Facebook, Paris, France
+We propose Meta-Prod2vec, a novel method to compute item similarities for recommendation that leverages existing item metadata. Such scenarios are frequently encountered in applications such as content recommendation, ad targeting and web search. Our method leverages past user interactions with items and their attributes to compute low-dimensional embeddings of items. Specifically, the item metadata is injected into the model as side information to regularize the item embeddings. We show that the new item representations lead to better performance on recommendation tasks on an open music dataset.
+neural networks, recommender systems, embeddings, word2vec
+Recsys|Making meaningful restaurant recommendations at opentable|http://tinyurl.com/zs9at2t|2015
+D. Agarwal, B.-C. Chen|Regression-based latent factor models|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2009
+Y. Bengio, H. Schwenk, J.-S. Senécal, F. Morin, J.-L. Gauvain|Neural probabilistic language models|Innovations in Machine Learning|2006
+B. Chandramouli, J. J. Levandoski, A. Eldawy, M. F. Mokbel|Streamrec: a real-time recommender system|ACM SIGMOD International Conference on Management of data|2011
+H.-T. Cheng, L. Koc, J. Harmsen, T. Shaked, T. Chandra, H. Aradhye, G. Anderson, G. Corrado, W. Chai, M. Ispir|Wide and deep learning for recommender systems|arXiv preprint|2016
+N. Djuric, H. Wu, V. Radosavljevic, M. Grbovic, N. Bhamidipati|Hierarchical neural language models for joint representation of streaming documents and their content|International Conference on World Wide Web|201
+Y. Fang, L. Si|Matrix co-factorization for recommendation with rich side information and implicit feedback|International Workshop on Information Heterogeneity and Fusion in Recommender Systems|2011
+M. Grbovic, V. Radosavljevic, N. Djuric, N. Bhamidipati, J. Savla, V. Bhagwan, D. Sharp|E-commerce in your inbox: Product recommendations at scale|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+A. Gunawardana, C. Meek|A unified approach to building hybrid recommender systems|ACM Conference on Recommender Systems|2009
+C. C. Johnson|Logistic matrix factorization for implicit feedback data|Distributed Machine Learning and Matrix Computations|2014
+A. Karatzoglou, X. Amatriain, L. Baltrunas, N. Oliver|Multiverse recommendation: N-dimensional tensor factorization for context-aware collaborative filtering|ACM Conference on Recommender Systems|2010
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+M. Kula|Metadata embeddings for user and item cold-start recommendations|ACM Conference on Recommender Systems|2015
+Q. V. Le, T. Mikolov|Distributed representations of sentences and documents|arXiv preprint|2014
+O. Levy, Y. Goldberg|Neural word embedding as implicit matrix factorization|Advances in Neural Information Processing Systems|2014
+Y. Li, J. Hu, C. Zhai, Y. Chen|Improving one-class collaborative filtering by incorporating rich user information|ACM International Conference on Information and Knowledge Management|2010
+T. Mikolov, K. Chen, G. Corrado, J. Dean|Efficient estimation of word representations in vector space|arXiv preprint|2013
+T. Mikolov, I. Sutskever, K. Chen, G. S. Corrado, J. Dean|Distributed representations of words and phrases and their compositionality|Advances in neural information processing systems|2013
+A. Mnih, K. Kavukcuoglu|Learning word embeddings efficiently with noise-contrastive estimation|Advances in Neural Information Processing Systems|2013
+X. Ning, G. Karypis|SLIM: sparse linear methods for top-n recommender systems|IEEE International Conference on Data Mining|2011
+R. Pan, Y. Zhou, B. Cao, N. N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|IEEE International Conference on Data Mining|2008
+J. Pennington, R. Socher, C. D. Manning|Glove: Global vectors for word representation|EMNLP|2014
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|Bpr: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+S. Rendle, Z. Gantner, C. Freudenthaler, L. Schmidt-Thieme|Fast context-aware recommendations with factorization machines|International ACM SIGIR Conference on Research and Development in Information Retrieval|2011
+P. Romov, E. Sokolov|Recsys challenge 2015: ensemble learning with categorical features|International ACM Recommender Systems Challenge|2015
+M. Sahlgren|The distributional hypothesis|Italian Journal of Linguistics|2008
+R. Salakhutdinov, A. Mnih, G. Hinton|Restricted boltzmann machines for collaborative filtering|International Conference on Machine Learning|2007
+A. I. Schein, A. Popescul, L. H. Ungar, D. M. Pennock|Methods and metrics for cold-start recommendations|international ACM SIGIR conference on Research and development in information retrieval|2002
+R. Turrin, M. Quadrana, A. Condorelli, R. Pagano, P. Cremonesi|30music listening and playlists dataset|ACM Conference on Recommender Systems|2015
+A. Veit, B. Kovacs, S. Bell, J. McAuley, K. Bala, S. Belongie|Learning visual clothing style with heterogeneous dyadic co-occurrences|IEEE International Conference on Computer Vision|2015
+S.-H. Yang, B. Long, A. Smola, N. Sadagopan, Z. Zheng, H. Zha|Like like alike: Joint friendship and interest propagation in social networks|International Conference on World Wide Web|2011

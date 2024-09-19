@@ -1,0 +1,25 @@
+Recommending Product Sizes to Customers
+Vivek Sembium, Amazon Development Center India, Bangalore, India|R. Rastogi, Amazon Development Center India, Bangalore, India|Atul Saroop, Amazon Development Center India, Bangalore, India|Srujana Merugu, Independent, Bangalore, India
+We propose a novel latent factor model for recommending product size fits {Small, Fit, Large} to customers. Latent factors for customers and products in our model correspond to their physical true size, and are learnt from past product purchase and returns data. The outcome for a customer, product pair is predicted based on the difference between customer and product true sizes, and efficient algorithms are proposed for computing customer and product true size values that minimize two loss function variants. In experiments with Amazon shoe datasets, we show that our latent factor models incorporating personas, and leveraging return codes show a 17-21% AUC improvement compared to baselines. In an online A/B test, our algorithms show an improvement of 0.49% in percentage of Fit transactions over control.
+personalization, hinge loss, recommendation, latent factors, ordinal loss
+Ruslan Salakhutdinov, Andriy Mnih|Probablistic Matrix Factorization|NIPS|2008
+Yehuda Koren, Robert Bell, Chris Volinsky|Matrix Factorization Techniques for Recommender Systems|IEEE Computer|2009
+P. K. Gopalan, L. Charlin, D. Blei|Content-based recommendations with Poisson factorization|sayIn Advances in Neural Information Processing Systems|2014
+Laurent Charlin, Rajesh Ranganath, James McInerney, David M. Blei|Dynamic Poisson Factorization|ACM Conference on Recommender Systems|2015
+Josef Bauer, Alexandros Nanopoulos|A Framework for Matrix Factorization based on General Distributions|ACM Conference on Recommender Systems|2014
+Dimitrios Rafailidis, Alexandros Nanopoulos|Modeling the Dynamics of User Preferences in Coupled Tensor Factorization|ACM Conference on Recommender Systems|2014
+Wei Chu, Seung-Taek Park|Personalized Recommendation on Dynamic Content Using Predictive Bilinear Models|WWW|2009
+Deepak Agarwal, Bee-Chung Chen|Regression based Latent Factor Models|KDD|2009
+Morgan Harvey|Bayesian latent variable models for collaborative item rating prediction|ACM International Conference on Information and Knowledge Management|2011
+Monte Carlo, Ruslan Salakhutdinov, Andriy Mnih|Bayesian probabilistic matrix factorization using Markov chain|International Conference on Machine Learning|2008
+Ling Li, Hsuan-Tien Lin|Ordinal Regression by Extended Binary Classification|Neural Information Processing Systems|2006
+J. McAuley, J. Leskovec|Hidden factors and hiddentopics: understanding rating dimensions with review text|ACM Conference on Recommender Systems|2013
+Flavian Vasile, Elena Smirnova, Alexis Conneau|Meta-Prod2Vec - Product Embeddings Using Side-Information for Recommendation|ACM Conference on Recommender Systems|2016
+Bikash Joshi, Franck Iutzeler, Massih-Reza Amini|Asynchronous Distributed Matrix Factorization with Similar User and Item Based Regularization|ACM Conference on Recommender Systems|2016
+Alexandros Karatzoglou, Xavier Amatriain, Linas Baltrunas, Nuria Oliver|Multiverse recommendation: n-dimensional tensor factorization for context-aware collaborative filtering|ACM conference on Recommender systems|2010
+Atsuhiro Narita, Kohei Hayashi, Ryota Tomioka, Hisashi Kashima|Tensor factorization using auxiliary information|European conference on Machine learning and knowledge discovery in databases|2011
+Panniello Umberto|Experimental comparison of pre-vs. post-filtering approaches in context-aware recommender systems|ACM conference on Recommender systems|2009
+Adomavicius Gediminas, Alexander Tuzhilin|Context-aware recommender systems|Recommender systems handbook|2015
+Karen Church, Barry Smyth, Paul Cotter, Keith Bradley|Mobile information access: A study of emerging search behavior on the mobile Internet|ACM Trans. Web|2007
+Bradley R. A., Terry M. E.|Rank analysis of incomplete block designs, I. the method of paired comparisons|Biometrika|1952
+Thurstone L. L.|The Measurement of Values|Chicago: The University of Chicago Press|1959

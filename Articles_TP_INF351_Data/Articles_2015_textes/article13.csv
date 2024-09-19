@@ -1,0 +1,38 @@
+HyPER: A Flexible and Extensible Probabilistic Framework for Hybrid Recommender Systems
+Pigi Kouki, University of California Santa Cruz, CA, USA|Shobeir M Fakhraei, University of Maryland, MD, USA|James R Foulds, University of California Santa Cruz, CA, USA|Magdalini Eirinaki, San Jose State University, CA, USA|Lise Carol Getoor, University of California Santa Cruz, CA, USA
+As the amount of recorded digital information increases, there is a growing need for flexible recommender systems which can incorporate richly structured data sources to improve recommendations. In this paper, we show how a recently introduced statistical relational learning framework can be used to develop a generic and extensible hybrid recommender system. Our hybrid approach, HyPER (HYbrid Probabilistic Extensible Recommender), incorporates and reasons over a wide range of information sources. Such sources include multiple user-user and item-item similarity measures, content, and social information. HyPER automatically learns to balance these different information signals when making predictions. We build our system using a powerful and intuitive probabilistic programming language called probabilistic soft logic, which enables efficient and accurate prediction by formulating our custom recommender systems with a scalable class of graphical models known as hinge-loss Markov random fields. We experimentally evaluate our approach on two popular recommendation datasets, showing that HyPER can effectively combine multiple information types for improved performance, and can significantly outperform existing state-of-the-art approaches.
+probabilistic programming, hybrid recommender systems, graphical models, probabilistic soft logic
+S.H. Bach, M. Broecheler, B. Huang, L. Getoor|Hinge-loss markov random fields and probabilistic soft logic|ArXiv:1505.04406|2015
+G. Adomavicius, A. Tuzhilin|Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions|Transactions on Knowledge and Data Engineering|2005
+L. de Campos, J. Fernandez-Luna, J. Huete, M. Rueda-Morales|Combining content-based and collaborative recommendations: A hybrid approach based on Bayesian networks|International Journal of Approximate Reasoning|2010
+C. Desrosiers, G. Karypis|A comprehensive survey of neighborhood-based recommendation methods|Recommender Systems Handbook|2011
+J. Liu, C. Wu, W. Liu|Bayesian probabilistic matrix factorization with social relations and item contents for recommendation|Decision Support Systems|2013
+H. Ma, D. Zhou, C. Liu, M. R. Lyu, I. King|Recommender systems with social regularization|WSDM|2011
+N. Goodman, V. Mansinghka, D.M. Roy, K. Bonawitz, J. Tenenbaum|Church: a language for generative models with non-parametric memoization and approximate inference|UAI|2008
+L. Getoor, B. Taskar|Introduction to statistical relational learning|MIT press|2007
+S. H. Bach, B. Huang, B. London, L. Getoor|Hinge-loss Markov random fields: Convex inference for structured prediction|UAI|2013
+M. Broecheler, L. Mihalkova, L. Getoor|Probabilistic similarity logic|UAI|2010
+P. Lops, M. Gemmis, G. Semeraro|Content-based recommender systems: State of the art and trends|Recommender Systems Handbook|2011
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|IEEE Computer|2009
+S. Fakhraei, B. Huang, L. Raschid, L. Getoor|Network-based drug-target interaction prediction with probabilistic soft logic|Transactions on Computational Biology and Bioinformatics|2014
+P. D. Hoff, A. E. Raftery, M. S. Handcock|Latent space approaches to social network analysis|Journal of the American Statistical Association|2001
+R. Salakhutdinov, A. Mnih|Bayesian probabilistic matrix factorization using Markov chain Monte Carlo|ICML|2008
+F. Ricci, L. Rokach, B. Shapira, P. B. Kantor|Recommender Systems Handbook|Springer|2011
+R. Burke|Hybrid web recommender systems|The Adaptive Web|2007
+A. Gunawardana, C. Meek|A unified approach to building hybrid recommender systems|RecSys|2009
+P. Forbes, M. Zhu|Content-boosted matrix factorization for recommender systems: Experiments with recipe recommendation|RecSys|2011
+Y. Koren|Factorization meets the neighborhood: A multifaceted collaborative filtering model|KDD|2008
+M. Jahrer, A. Toscher, R. Legenstein|Combining predictions for accurate recommender systems|KDD|2010
+S. Rendle|Factorization machines with libFM|ACM Transactions on Intelligent Systems and Technology|2012
+J. McAuley, J. Leskovec|Hidden factors and hidden topics: Understanding rating dimensions with review text|RecSys|2013
+G. Ling, M. R. Lyu, I. King|Ratings meet reviews, a combined approach to recommend|RecSys|2014
+I. Guy, N. Zwerdling, I. Ronen, D. Carmel, E. Uziel|Social media recommendation based on people and tags|SIGIR|2010
+S. Sedhain, S. Sanner, D. Braziunas, L. Xie, J. Christensen|Social collaborative filtering for cold-start recommendations|RecSys|2014
+Z. Gantner, L. Drumond, C. Freudenthaler, S. Rendle, L. Schmidt-Thieme|Learning attribute-to-feature mappings for cold-start recommendations|ICDM|2010
+S. Dooms|Dynamic generation of personalized hybrid recommender systems|RecSys|2013
+J. Chen, G. Chen, H. Zhang, J. Huang, G. Zhao|Social recommendation based on multi-relational analysis|WI-IAT|2012
+R. Burke, F. Vahedian, B. Mobasher|Hybrid recommendation in heterogeneous networks|User Modeling, Adaptation, and Personalization|2014
+J. Gemmell, T. S., B. Mobasher, R. Burke|Resource recommendation in social annotation systems: A linear-weighted hybrid approach|Journal of Computer and System Sciences|2012
+X. Yu, X. Ren, Y. Sun, Q. Gu, B. Sturt, U. Khandelwal, B. Norick, J. Han|Personalized entity recommendation: A heterogeneous information network approach|WSDM|2014
+J. Hoxha, A. Rettinger|First-order probabilistic model for hybrid recommendations|ICMLA|2013
+M. Richardson, P. Domingos|Markov logic networks|Machine Learning|2006

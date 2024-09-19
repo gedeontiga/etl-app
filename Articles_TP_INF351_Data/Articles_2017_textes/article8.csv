@@ -1,0 +1,34 @@
+Modeling the Assimilation-Contrast Effects in Online Product Rating Systems: Debiasing and Recommendations
+Xiaoying Zhang, The Chinese University of Hong Kong, Hong Kong, Hong Kong|Junzhou Zhao, The Chinese University of Hong Kong, Hong Kong, Hong Kong|John Chi Shing Lui, The Chinese University of Hong Kong, Hong Kong, Hong Kong
+The unbiasedness of online product ratings, an important property to ensure that users' ratings indeed reflect their true evaluations to products, is vital both in shaping consumer purchase decisions and providing reliable recommendations. Recent experimental studies showed that distortions from historical ratings would ruin the unbiasedness of subsequent ratings. How to "discover" the distortions from historical ratings in each single rating (or at the micro-level), and perform the "debiasing operations" in real rating systems are the main objectives of this work.Using 42 million real customer ratings, we first show that users either "assimilate" or "contrast" to historical ratings under different scenarios: users conform to historical ratings if historical ratings are not far from the product quality (assimilation), while users deviate from historical ratings if historical ratings are significantly different from the product quality (contrast). This phenomenon can be explained by the well-known psychological argument: the "Assimilate-Contrast" theory. However, none of the existing works on modeling historical ratings' influence have taken this into account, and this motivates us to propose the Historical Influence Aware Latent Factor Model (HIALF), the first model for real rating systems to capture and mitigate historical distortions in each single rating. HIALF also allows us to study the influence patterns of historical ratings from a modeling perspective, and it perfectly matches the assimilation and contrast effects we previously observed. Also, HIALF achieves significant improvements in predicting subsequent ratings, and accurately predicts the relationships revealed in previous empirical measurements on real ratings. Finally, we show that HIALF can contribute to better recommendations by decoupling users' real preference from distorted ratings, and reveal the intrinsic product quality for wiser consumer purchase decisions.
+modeling and debiasing historical ratings' influence, recommender systems
+Gediminas Adomavicius, Jesse Bockstedt, Shawn Curley, Jingjing Zhang|De-biasing user preference ratings in recommender systems|IntRS Workshop|2014
+Gediminas Adomavicius, Jesse Bockstedt, Shawn P. Curley, Jingjing Zhang|Understanding Effects of Personalized vs. Aggregate Ratings on User Preferences|IntRS Workshop|2016
+Rolph E. Anderson|Consumer dissatisfaction: The effect of disconfirmed expectancy on perceived product performance|Journal of marketing research|1973
+Abhimanyu Das, Sreenivas Gollapudi, Rina Panigrahy, Mahyar Salek|Debiasing social wisdom|ACM SIGKDD international conference on Knowledge discovery and data mining|2013
+Anirban Dasgupta, Ravi Kumar, D Sivakumar|Social sampling|ACM SIGKDD international conference on Knowledge discovery and data mining|2012
+James Davidson, Benjamin Liebald, Junning Liu, Palash Nandy, Taylor Van Vleet, Ullas Gargi, Sujoy Gupta, Yu He, Mike Lambert, Blake Livingston|The YouTube video recommendation system|ACM conference on Recommender systems|2010
+Rana Forsati, Iman Barjasteh, Farzan Masrour, Abdol-Hossein Esfahanian, Hayder Radha|Pushtrust: An efficient recommendation algorithm by leveraging trust and distrust relations|ACM Conference on Recommender Systems|2015
+Fangjian Guo, David B. Dunson|Uncovering Systematic Bias in Ratings across Categories: a Bayesian Approach|ACM Conference on Recommender Systems|2015
+Yehuda Koren|Factorization meets the neighborhood: a multifaceted collaborative filtering model|ACM SIGKDD international conference on Knowledge discovery and data mining|2008
+Yehuda Koren|Collaborative filtering with temporal dynamics|ACM SIGKDD international conference on Knowledge discovery and data mining|2009
+Sanjay Krishnan, Jay Patel, Michael Franklin, Ken Goldberg|Social influence bias in recommender systems: a methodology for learning, analyzing, and mitigating bias in ratings|ACM Conference on Recommender systems|2014
+Bibb Latané|The psychology of social impact|American psychologist|1981
+Ee-Peng Lim, Viet-An Nguyen, Nitin Jindal, Bing Liu, Hady Wirawan Lauw|Detecting product review spammers using rating behaviors|ACM international conference on Information and knowledge management|2010
+Guang Ling, Michael R. Lyu, Irwin King|Ratings meet reviews, a combined approach to recommend|ACM Conference on Recommender systems|2014
+Julian McAuley, Jure Leskovec|From Amateurs to Connoisseurs: Modeling the Evolution of User Expertise through Online Reviews|WWW|2013
+Julian McAuley, Rahul Pandey, Jure Leskovec|Inferring networks of substitutable and complementary products|ACM SIGKDD International Conference on Knowledge Discovery and Data Mining|2015
+Lev Muchnik, Sinan Aral, Sean J. Taylor|Social influence bias: A randomized experiment|Science|2013
+Richard L. Oliver|Satisfaction: A behavioral perspective on the consumer|Routledge|2014
+Francesco Ricci, Lior Rokach, Bracha Shapira|Introduction to recommender systems handbook|Springer|2011
+Matthew J. Salganik, Peter Sheridan Dodds, Duncan J. Watts|Experimental study of inequality and unpredictability in an artificial cultural market|science|2006
+Franklin E. Satterthwaite|An approximate distribution of estimates of variance components|Biometrics bulletin|1946
+Patrick Shafto, Olfa Nasraoui|Human-Recommender Systems: From Benchmark Data to Benchmark Cognitive Models|ACM Conference on Recommender Systems|2016
+James Surowiecki, Mark P. Silverman|The wisdom of crowds|American Journal of Physics|2007
+Hongning Wang, Yue Lu, ChengXiang Zhai|Latent aspect rating analysis without aspect keyword supervision|ACM SIGKDD international conference on Knowledge discovery and data mining|2011
+Jian Wang, Yi Zhang|Opportunity Models for E-commerce Recommendation: Right Product, Right Time|SIGIR|2013
+Ting Wang, Dashun Wang, Fei Wang|Quantifying herding effects in crowd wisdom|ACM SIGKDD international conference on Knowledge discovery and data mining|2014
+Larry Wasserman|All of statistics: a concise course in statistical inference|Springer Science & Business Media|2013
+Tim Weninger, Thomas James Johnston, Maria Glenski|Random voting effects in social-digital spaces: A case study of reddit post submissions|ACM conference on hypertext & social media|2015
+Ming Yan, Jitao Sang, Changsheng Xu|Unified YouTube Video Recommendation via Cross-network Collaboration|ICMR|2015
+Haiyi Zhu, Bernardo A. Huberman|To switch or not to switch: understanding social influence in online choices|American Behavioral Scientist|2014

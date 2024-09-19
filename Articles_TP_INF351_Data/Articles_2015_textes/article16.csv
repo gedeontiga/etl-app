@@ -1,0 +1,23 @@
+Context-Aware Event Recommendation in Event-based Social Networks
+Augusto Q Macedo, Federal University of Campina Grande, Campina Grande, Brazil|Leandro Balby Marinho, Federal University of Campina Grande, Campina Grande, Brazil|Rodrygo L. T. Santos, Federal University of Minas Gerais, Belo Horizonte, Brazil
+The Web has grown into one of the most important channels to communicate social events nowadays. However, the sheer volume of events available in event-based social networks (EBSNs) often undermines the users' ability to choose the events that best fit their interests. Recommender systems appear as a natural solution for this problem, but differently from classic recommendation scenarios (e.g. movies, books), the event recommendation problem is intrinsically cold-start. Indeed, events published in EBSNs are typically short-lived and, by definition, are always in the future, having little or no trace of historical attendance. To overcome this limitation, we propose to exploit several contextual signals available from EBSNs. In particular, besides content-based signals based on the events' description and collaborative signals derived from users' RSVPs, we exploit social signals based on group memberships, location signals based on the users' geographical preferences, and temporal signals derived from the users' time preferences. Moreover, we combine the proposed signals for learning to rank events for personalized recommendation. Thorough experiments using a large crawl of Meetup.com demonstrate the effectiveness of our proposed contextual learning approach in contrast to state-of-the-art event recommenders from the literature.
+algorithms, recommender systems, experimentation, event-based social networks
+G. Adomavicius, A. Tuzhilin|Context-aware recommender systems|Proc. of RecSys|2008
+J. Bao, Y. Zheng, M. F. Mokbel|Location-based and preference-aware recommendation using sparse geo-social networking data|Proc. of SIGSPATIAL/GIS|2012
+D. M. Blei, A. Y. Ng, M. I. Jordan|Latent dirichlet allocation|J. Mach. Learn. Res.|2003
+C. Cheng, H. Yang, I. King, M. R. Lyu|Fused matrix factorization with geographical and social influence in location-based social networks|Proc. of AAAI|2012
+H. Gao, J. Tang, X. Hu, H. Liu|Exploring temporal effects for location recommendation on location-based social networks|Proc. of RecSys|2013
+B. Hu, M. Ester|Spatial topic modeling in online social media for location recommendation|Proc. of RecSys|2013
+H. Khrouf, R. Troncy|Hybrid event recommendation using linked data and user diversity|Proc. of RecSys|2013
+A. Krohn-Grimberghe, L. Drumond, C. Freudenthaler, and L. Schmidt-Thieme|Multi-relational matrix factorization using bayesian personalized ranking for social network data|WSDM|2012
+X. Liu, Q. He, Y. Tian, W.-C. Lee, J. McPherson, J. Han| Event-based social networks: linking the online and offline social worlds|SIGKDD|2012
+X. Liu, Y. Liu, K. Aberer, C. Miao|Personalized point-of-interest recommendation by mining users' preference transition|CIKM|2013
+A. Q. Macedo, L. B. Marinho|Event recommendation in event-based social networks|Proc. of Int. Work. on Social Personalization|2014
+D. Metzler, W. Bruce Croft|Linear feature-based models for information retrieval|Inf. Retr.|2007
+E. Minkov, B. Charrow, J. Ledlie, S. Teller, T. Jaakkola| Collaborative future event recommendation|CIKM|2010
+S.-T. Park, W. Chu|Pairwise preference regression for cold-start recommendation|Proc. of RecSys|2009
+Z. Qiao, P. Zhang, C. Zhou, Y. Cao, L. Guo, Y. Zhang|Event recommendation in event-based social networks|Proc. of AAAI|2014
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme| BPR: Bayesian personalized ranking from implicit feedback|UAI|2009
+T. Sandholm, H. Ung|Real-time, location-aware collaborative filtering of web content|Proc. of CaRR|2011
+M. Ye, P. Yin, W.-C. Lee, D. L. Lee|Exploiting geographical influence for collaborative point-of-interest recommendation|SIGIR|2011
+W. Zhang, J. Wang, W. Feng|Combining latent factor model with location features for event-based group recommendation|SIGKDD|2013

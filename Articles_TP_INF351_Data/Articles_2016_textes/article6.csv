@@ -1,0 +1,30 @@
+Factorization Meets the Item Embedding: Regularizing Matrix Factorization with Item Co-occurrence
+Dawen Liang, Netflix Inc., CA, USA|Jaan Altosaar, Princeton University, NJ, USA|Laurent Charlin, HEC Montréal, PQ, Canada|David Meir Blei, Columbia University, NY, USA
+Matrix factorization (MF) models and their extensions are standard in modern recommender systems. MF models decompose the observed user-item interaction matrix into user and item latent factors. In this paper, we propose a co-factorization model, CoFactor, which jointly decomposes the user-item interaction matrix and the item-item co-occurrence matrix with shared item latent factors. For each pair of items, the co-occurrence matrix encodes the number of users that have consumed both items. CoFactor is inspired by the recent success of word embedding models (e.g., word2vec) which can be interpreted as factorizing the word co-occurrence matrix. We show that this model significantly improves the performance over MF models on several datasets with little additional computational overhead. We provide qualitative results that explain how CoFactor improves the quality of the inferred factors and characterize the circumstances where it provides the most significant improvements.
+collaborative filtering, item embedding, implicit feedback, matrix factorization
+D. Agarwal, B.-C. Chen|Regression-based latent factor models|ACM SIGKDD|2009
+A. Almahairi, K. Kastner, K. Cho, A. Courville|Learning distributed representations from reviews for collaborative filtering|ACM Conference on Recommender Systems|2015
+T. Bertin-Mahieux, D. P. W. Ellis, B. Whitman, P. Lamere| The million song dataset|International Society for Music Information Retrieval Conference|2011
+P. K. Gopalan, L. Charlin, D. Blei|Content-based recommendations with Poisson factorization|Advances in Neural Information Processing Systems|2014
+E. Guàrdia-Sebaoun, V. Guigue, P. Gallinari|Latent trajectory modeling: A light and efficient way to introduce time in recommender systems|ACM Conference on Recommender Systems|2015
+F. M. Harper, J. A. Konstan|The MovieLens datasets: History and context|ACM Transactions on Interactive Intelligent Systems|2015
+R. He, J. McAuley|VBPR: Visual Bayesian personalized ranking from implicit feedback|AAAI Conference on Artificial Intelligence|2016
+J. Herlocker, J. A. Konstan, J. Riedl|An empirical analysis of design choices in neighborhood-based collaborative filtering algorithms|Information retrieval|2002
+Y. Hu, Y. Koren, C. Volinsky|Collaborative filtering for implicit feedback datasets|Data Mining, IEEE International Conference|2008
+Y. Koren, R. Bell, C. Volinsky|Matrix factorization techniques for recommender systems|Computer|2009
+O. Levy, Y. Goldberg|Neural word embedding as implicit matrix factorization|Advances in Neural Information Processing Systems|2014
+D. Liang, M. Zhan, D. P. W. Ellis|Content-aware collaborative music recommendation using pre-trained neural networks|International Society for Music Information Retrieval Conference|2015
+J. McAuley, J. Leskovec|Hidden factors and hidden topics: understanding rating dimensions with review text| Recommender Systems|2013
+T. Mikolov, I. Sutskever, K. Chen, G. S. Corrado, J. Dean| Distributed representations of words and phrases and their compositionality|Advances in Neural Information Processing Systems|2013
+X. Ning, G. Karypis|SLIM: Sparse linear methods for top-n recommender systems|ICDM|2011
+R. Pan, Y. Zhou, B. Cao, N. N. Liu, R. Lukose, M. Scholz, Q. Yang|One-class collaborative filtering|Data Mining, IEEE International Conference|2008
+R. Ranganath, L. Tang, L. Charlin, D. M. Blei|Deep exponential families|International Conference on Artificial Intelligence and Statistics|2015.
+S. Rendle|Factorization machines|IEEE International Conference on Data Mining|2010
+S. Rendle, C. Freudenthaler, Z. Gantner, L. Schmidt-Thieme|BPR: Bayesian personalized ranking from implicit feedback|Conference on Uncertainty in Artificial Intelligence|2009
+R. Salakhutdinov, A. Mnih|Probabilistic matrix factorization|Advances in Neural Information Processing Systems|2008
+R. Salakhutdinov, A. Mnih, G. Hinton|Restricted Boltzmann machines for collaborative filtering|international conference on Machine learning|2007
+B. Sarwar, G. Karypis, J. Konstan, J. Riedl|Item-based collaborative filtering recommendation algorithms|international conference on World Wide Web|2001
+H. Shan, A. Banerjee|Generalized probabilistic matrix factorizations for collaborative filtering|ICDM|2010
+G. Shani, D. Heckerman, R. I. Brafman|An MDP-based recommender system|Journal of Machine Learning Research|2005
+A. P. Singh, G. J. Gordon|Relational learning via collective matrix factorization|ACM SIGKDD international conference on Knowledge discovery and data mining|2008
+C. Wang, D. Blei|Collaborative topic modeling for recommending scientific articles|Knowledge Discovery and Data Mining|2011
